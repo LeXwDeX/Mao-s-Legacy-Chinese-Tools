@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON 汉化辅助工具</title>
+  <style>
+    body {
+      font-family: "微软雅黑", Arial, sans-serif;
+      background: #fafafa;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1650px;
+      margin: 40px auto;
+      background: #f5f5f5;
+      border: 2px solid #bbb;
+      border-radius: 6px;
+      padding: 36px 36px 48px 36px;
+      box-sizing: border-box;
+      min-height: 700px;
+    }
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 32px;
+    }
+    .left-btns {
+      display: flex;
+      gap: 24px;
+    }
+    .right-btns {
+      display: flex;
+      gap: 24px;
+    }
+    .btn {
+      padding: 14px 32px;
+      font-size: 18px;
+      background: #fff;
+      color: #222;
+      border: 2px solid #222;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+      margin: 0;
+      outline: none;
+    }
+    .btn:active, .btn:focus {
+      background: #e0e0e0;
+    }
+    .btn[disabled] {
+      color: #aaa;
+      border-color: #aaa;
+      background: #f5f5f5;
+      cursor: not-allowed;
+    }
+    #file-input {
+      display: none;
+    }
+    .table-wrap {
+      margin-top: 12px;
+      overflow-x: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      background: #fff;
+      border: 2px solid #222;
+      min-width: 1080px;
+    }
+    th, td {
+      border: 1px solid #222;
+      padding: 10px 8px;
+      text-align: left;
+      font-size: 16px;
+      vertical-align: top;
+    }
+    th {
+      background: #f0f0f0;
+      font-weight: bold;
+      text-align: center;
+    }
+    .cell-content {
+      word-break: break-all;
+      white-space: pre-wrap;
+      max-height: 360px;
+      overflow-y: auto;
+      line-height: 1.5;
+      padding: 0;
+      margin: 0;
+    }
+    textarea.zh-textarea {
+      width: 100%;
+      font-size: 16px;
+      padding: 6px 8px;
+      border: 1px solid #888;
+      border-radius: 2px;
+      box-sizing: border-box;
+      background: #fafafa;
+      min-height: 36px;
+      max-height: 360px;
+      line-height: 1.5;
+      word-break: break-all;
+      white-space: pre-wrap;
+      overflow-y: auto;
+      resize: none;
+      transition: height 0.1s;
+    }
+    .action-btn {
+      width: 100%;
+      padding: 8px 0;
+      font-size: 15px;
+      background: #fff;
+      color: #222;
+      border: 1.5px solid #222;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+    }
+    .action-btn:active, .action-btn:focus {
+      background: #e0e0e0;
+    }
+    #status {
+      margin: 18px 0 0 0;
+      color: #d32f2f;
+      font-size: 16px;
+      min-height: 24px;
+    }
+    @media (max-width: 900px) {
+      .container { padding: 10px; }
+      table { min-width: 600px; }
+      .btn { font-size: 15px; padding: 10px 16px; }
+      .cell-content, textarea.zh-textarea { max-height: 80px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <div class="left-btns">
+        <label for="file-input" class="btn" tabindex="0">打开JSON文件</label>
+        <label style="display:flex;align-items:center;gap:6px;font-size:16px;">
+          <input type="checkbox" id="xml-mode-checkbox" style="width:18px;height:18px;vertical-align:middle;margin:0;">
+          尝试对内容进行XML方式解析
+        </label>
+        <button class="btn" id="save-btn" disabled>保存翻译结果</button>
+      </div>
+      <div class="right-btns">
+        <button class="btn" id="gpt-all-btn" disabled>GPT全部翻译</button>
+        <span id="filename-display" style="font-weight:bold;color:#888;margin-right:18px;font-size:16px;min-width:120px;display:inline-block;"></span>
+        <span id="status" style="font-weight:bold;color:#d32f2f;margin-left:0;font-size:17px;min-width:120px;display:inline-block;"></span>
+      </div>
+    </div>
+    <input type="file" id="file-input" accept=".json">
+    <div class="table-wrap">
+      <!-- 原底部状态栏已移至顶部 -->
+      <table id="lines-table" style="display:none;">
+        <thead>
+          <tr>
+            <th style="width:40%;">原文</th>
+            <th style="width:40%;">中文</th>
+            <th style="width:20%;">操作</th>
+          </tr>
+        </thead>
+        <tbody id="lines-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+  <script>
+    const STORAGE_KEY = "json_translate_state";
+    let filename = '';
+    let lines = [];
+    let zhLines = [];
+
+    // 恢复本地缓存
+    window.onload = function() {
+      const state = localStorage.getItem(STORAGE_KEY);
+      if (state) {
+        try {
+          const obj = JSON.parse(state);
+          if (obj.filename && Array.isArray(obj.lines) && Array.isArray(obj.zhLines) && obj.lines.length === obj.zhLines.length) {
+            filename = obj.filename;
+            lines = obj.lines;
+            zhLines = obj.zhLines;
+            renderLines();
+            setStatus('已恢复上次进度，共 ' + lines.length + ' 行');
+            document.getElementById('filename-display').textContent = filename;
+            document.getElementById('lines-table').style.display = '';
+            document.getElementById('save-btn').disabled = false;
+            document.getElementById('gpt-all-btn').disabled = false;
+          }
+        } catch(e) {}
+      }
+    };
+
+    function saveState() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        filename,
+        lines,
+        zhLines
+      }));
+    }
+
+    document.getElementById('file-input').onchange = function() {
+      if (this.files.length) {
+        uploadFile(this.files[0]);
+      }
+    };
+
+    document.getElementById('save-btn').onclick = async function() {
+      if (!filename || !lines.length) return;
+      const zhArr = [];
+      for (let i = 0; i < lines.length; ++i) {
+        const val = document.getElementById('zh_' + i).value.trim();
+        zhArr.push(val || lines[i]);
+      }
+      setStatus('正在保存...');
+      this.disabled = true;
+      const resp = await fetch('/save', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ filename, lines: zhArr })
+      });
+      const data = await resp.json();
+      this.disabled = false;
+      if (data.error) {
+        setStatus('保存失败：' + data.error);
+        return;
+      }
+      setStatus('保存成功！');
+      // 自动触发下载
+      const a = document.createElement('a');
+      a.href = data.download;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      setTimeout(() => document.body.removeChild(a), 100);
+      // 保存最新翻译结果
+      zhLines = zhArr.slice();
+      saveState();
+    };
+
+    document.getElementById('gpt-all-btn').onclick = async function() {
+      if (!lines.length) return;
+      // 只统计未翻译的行
+      const untransIdxs = [];
+      for (let i = 0; i < lines.length; ++i) {
+        const val = document.getElementById('zh_' + i).value.trim();
+        if (!val) untransIdxs.push(i);
+      }
+      if (untransIdxs.length === 0) {
+        setStatus('所有内容均已翻译，无需重复翻译');
+        return;
+      }
+      this.disabled = true;
+      setStatus('正在批量调用GPT翻译...');
+      const batchSize = 50;
+      let total = untransIdxs.length;
+      let done = 0;
+      for (let start = 0; start < total; start += batchSize) {
+        const tasks = [];
+        for (let j = start; j < Math.min(start + batchSize, total); ++j) {
+          const i = untransIdxs[j];
+          tasks.push(
+            fetch('/gpt_translate', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ text: lines[i] })
+            })
+            .then(resp => resp.json())
+            .then(data => {
+              if (data.result) {
+                document.getElementById('zh_' + i).value = data.result;
+                zhLines[i] = data.result;
+                saveState();
+              }
+            })
+            .catch(() => {})
+            .finally(() => {
+              done++;
+              setStatus(`已翻译 ${done}/${total} 行`);
+            })
+          );
+        }
+        await Promise.all(tasks);
+        saveState();
+      }
+      setStatus('全部未翻译内容已翻译完成');
+      this.disabled = false;
+      // 批量翻译后统一自适应高度
+      setTimeout(resizeAllTextareas, 0);
+    };
+
+    async function uploadFile(file) {
+      setStatus('正在上传并解析...');
+      document.getElementById('save-btn').disabled = true;
+      document.getElementById('gpt-all-btn').disabled = true;
+      const formData = new FormData();
+      formData.append('file', file);
+      // 新增：上传xml模式参数
+      const xmlMode = document.getElementById('xml-mode-checkbox').checked ? '1' : '0';
+      formData.append('xml_mode', xmlMode);
+      const resp = await fetch('/upload', { method: 'POST', body: formData });
+      const data = await resp.json();
+      if (data.error) {
+        setStatus('上传失败：' + data.error);
+        return;
+      }
+      filename = data.filename;
+      lines = data.lines;
+      zhLines = Array(lines.length).fill('');
+      renderLines();
+      setStatus('解析成功，共 ' + lines.length + ' 行');
+      document.getElementById('filename-display').textContent = filename;
+      document.getElementById('lines-table').style.display = '';
+      document.getElementById('save-btn').disabled = false;
+      document.getElementById('gpt-all-btn').disabled = false;
+      saveState();
+    }
+
+    function renderLines() {
+      const tbody = document.getElementById('lines-tbody');
+      tbody.innerHTML = '';
+      for (let i = 0; i < lines.length; ++i) {
+        const tr = document.createElement('tr');
+        // 原文
+        const td1 = document.createElement('td');
+        const div = document.createElement('div');
+        div.className = 'cell-content';
+        div.textContent = lines[i];
+        td1.appendChild(div);
+        tr.appendChild(td1);
+        // 中文输入
+        const td2 = document.createElement('td');
+        const textarea = document.createElement('textarea');
+        textarea.className = 'zh-textarea';
+        textarea.id = 'zh_' + i;
+        textarea.value = zhLines[i] || '';
+        textarea.placeholder = '输入中文翻译';
+        textarea.setAttribute('aria-label', '第' + (i + 1) + '行翻译');
+        textarea.oninput = function() {
+          zhLines[i] = this.value;
+          autoResizeTextarea(this);
+          saveState();
+        };
+        td2.appendChild(textarea);
+        tr.appendChild(td2);
+        // 操作
+        const td3 = document.createElement('td');
+        const gptBtn = document.createElement('button');
+        gptBtn.textContent = 'GPT翻译';
+        gptBtn.type = 'button';
+        gptBtn.className = 'action-btn';
+        gptBtn.onclick = () => gptTranslate(i, lines[i]);
+        td3.appendChild(gptBtn);
+        tr.appendChild(td3);
+        tbody.appendChild(tr);
+      }
+      // 渲染后统一自适应高度
+      setTimeout(resizeAllTextareas, 0);
+    }
+
+    // 自适应高度函数
+    function autoResizeTextarea(textarea) {
+      textarea.style.height = '36px';
+      const max = 360;
+      textarea.style.height = Math.min(textarea.scrollHeight, max) + 'px';
+    }
+    function resizeAllTextareas() {
+      document.querySelectorAll('textarea.zh-textarea').forEach(autoResizeTextarea);
+    }
+
+    async function gptTranslate(idx, text) {
+      const btn = document.querySelectorAll('.action-btn')[idx];
+      btn.disabled = true;
+      btn.textContent = '翻译中...';
+      setStatus('正在调用GPT翻译...');
+      try {
+        const resp = await fetch('/gpt_translate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text })
+        });
+        const data = await resp.json();
+        if (data.result) {
+          const textarea = document.getElementById('zh_' + idx);
+          textarea.value = data.result;
+          zhLines[idx] = data.result;
+          setStatus('第' + (idx + 1) + '行翻译完成');
+          autoResizeTextarea(textarea);
+          saveState();
+        } else {
+          setStatus('翻译失败：' + (data.error || '未知错误'));
+        }
+      } catch (e) {
+        setStatus('翻译请求异常');
+      }
+      btn.disabled = false;
+      btn.textContent = 'GPT翻译';
+    }
+
+    function setStatus(msg) {
+      const el = document.getElementById('status');
+      if (el) el.textContent = msg;
+    }
+  </script>
+</body>
+</html>
