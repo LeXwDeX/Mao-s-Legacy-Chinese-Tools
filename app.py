@@ -8,6 +8,27 @@ import time
 from dotenv import load_dotenv
 import re
 
+def protect_tags(text):
+    """
+    替换所有 <...> 标签为占位符，返回新文本和标签列表
+    """
+    tag_pattern = re.compile(r'<[^>]+>')
+    tags = []
+    def repl(m):
+        idx = len(tags)
+        tags.append(m.group())
+        return f'__TAG{idx}__'
+    new_text = tag_pattern.sub(repl, text)
+    return new_text, tags
+
+def restore_tags(text, tags):
+    """
+    将占位符还原为原始标签
+    """
+    for i, tag in enumerate(tags):
+        text = text.replace(f'__TAG{i}__', tag)
+    return text
+
 def parse_pseudo_xml(script: str):
     """
     解析伪XML结构文本，返回结构化列表，每项为：
@@ -170,6 +191,9 @@ def gpt_translate():
     if not text:
         return jsonify({'error': '缺少待翻译内容'}), 400
 
+    # 标签保护：翻译前先替换标签为占位符
+    protected_text, tags = protect_tags(text)
+
     # GPT API参数（从环境变量读取）
     api_url = os.getenv("OPENAI_API_URL", "")
     api_key = os.getenv("OPENAI_API_KEY", "")
@@ -181,7 +205,7 @@ def gpt_translate():
     prompt = (
         "你是一个历史政治类游戏的文本汉化助手。请将下列外语内容翻译为简明中文，保留所有格式、符号、标签、引号、特殊字符，不要翻译或更改任何标签、尖括号、引号、换行、缩进。"
         "翻译结果不要有多余解释，只返回翻译后的文本：\n"
-        "需要翻译的内容如下: \n" + text
+        "需要翻译的内容如下: \n" + protected_text
     )
     headers = {
         "Authorization": f"Bearer {api_key}",
@@ -203,7 +227,9 @@ def gpt_translate():
             result = resp.json()
             if "choices" in result and result["choices"]:
                 content = result["choices"][0]["message"].get("content", "")
-                return jsonify({'result': content.strip()})
+                # 翻译后还原标签
+                restored = restore_tags(content.strip(), tags)
+                return jsonify({'result': restored})
             time.sleep(2)
         return jsonify({'error': 'GPT接口无响应'}), 500
     except Exception as e:
