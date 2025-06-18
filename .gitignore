@@ -3,3 +3,4 @@
 
 # 忽略 upload 文件夹及其所有内容
 upload/
+uploads/
