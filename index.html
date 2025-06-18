@@ -4,169 +4,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JSON 汉化辅助工具</title>
-  <style>
-    body {
-      font-family: "微软雅黑", Arial, sans-serif;
-      background: #fafafa;
-      margin: 0;
-      padding: 0;
+  <!-- Tailwind CSS 本地 -->
+  <script src="/static/js/tailwind.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#4A90E2',
+            secondary: '#50E3C2',
+            bg: '#F7F9FC',
+            text: '#333333'
+          }
+        }
+      }
     }
-    .container {
-      max-width: 1650px;
-      margin: 40px auto;
-      background: #f5f5f5;
-      border: 2px solid #bbb;
-      border-radius: 6px;
-      padding: 36px 36px 48px 36px;
-      box-sizing: border-box;
-      min-height: 700px;
-    }
-    .top-bar {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 32px;
-    }
-    .left-btns {
-      display: flex;
-      gap: 24px;
-    }
-    .right-btns {
-      display: flex;
-      gap: 24px;
-    }
-    .btn {
-      padding: 14px 32px;
-      font-size: 18px;
-      background: #fff;
-      color: #222;
-      border: 2px solid #222;
-      border-radius: 4px;
-      cursor: pointer;
-      transition: background 0.2s, color 0.2s;
-      margin: 0;
-      outline: none;
-    }
-    .btn:active, .btn:focus {
-      background: #e0e0e0;
-    }
-    .btn[disabled] {
-      color: #aaa;
-      border-color: #aaa;
-      background: #f5f5f5;
-      cursor: not-allowed;
-    }
-    #file-input {
-      display: none;
-    }
-    .table-wrap {
-      margin-top: 12px;
-      overflow-x: auto;
-    }
-    table {
-      width: 100%;
-      border-collapse: separate;
-      border-spacing: 0;
-      background: #fff;
-      border: 2px solid #222;
-      min-width: 1080px;
-    }
-    th, td {
-      border: 1px solid #222;
-      padding: 10px 8px;
-      text-align: left;
-      font-size: 16px;
-      vertical-align: top;
-    }
-    th {
-      background: #f0f0f0;
-      font-weight: bold;
-      text-align: center;
-    }
-    .cell-content {
-      word-break: break-all;
-      white-space: pre-wrap;
-      max-height: 360px;
-      overflow-y: auto;
-      line-height: 1.5;
-      padding: 0;
-      margin: 0;
-    }
-    textarea.zh-textarea {
-      width: 100%;
-      font-size: 16px;
-      padding: 6px 8px;
-      border: 1px solid #888;
-      border-radius: 2px;
-      box-sizing: border-box;
-      background: #fafafa;
-      min-height: 36px;
-      max-height: 360px;
-      line-height: 1.5;
-      word-break: break-all;
-      white-space: pre-wrap;
-      overflow-y: auto;
-      resize: none;
-      transition: height 0.1s;
-    }
-    .action-btn {
-      width: 100%;
-      padding: 8px 0;
-      font-size: 15px;
-      background: #fff;
-      color: #222;
-      border: 1.5px solid #222;
-      border-radius: 3px;
-      cursor: pointer;
-      transition: background 0.2s, color 0.2s;
-    }
-    .action-btn:active, .action-btn:focus {
-      background: #e0e0e0;
-    }
-    #status {
-      margin: 18px 0 0 0;
-      color: #d32f2f;
-      font-size: 16px;
-      min-height: 24px;
-    }
-    @media (max-width: 900px) {
-      .container { padding: 10px; }
-      table { min-width: 600px; }
-      .btn { font-size: 15px; padding: 10px 16px; }
-      .cell-content, textarea.zh-textarea { max-height: 80px; }
-    }
-  </style>
+  </script>
 </head>
-<body>
-  <div class="container">
-    <div class="top-bar">
-      <div class="left-btns">
-        <label for="file-input" class="btn" tabindex="0">打开JSON文件</label>
-        <label style="display:flex;align-items:center;gap:6px;font-size:16px;">
-          <input type="checkbox" id="xml-mode-checkbox" style="width:18px;height:18px;vertical-align:middle;margin:0;">
-          尝试对内容进行XML方式解析
+<body class="bg-bg min-h-screen font-sans text-text">
+  <div class="w-full max-w-screen-2xl mx-auto mt-10 bg-white rounded-xl shadow-lg border border-gray-200 px-4 py-10 min-h-[700px] flex flex-col">
+    <!-- 顶部操作区 -->
+    <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-6 mb-8">
+      <!-- 左侧按钮 -->
+      <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+        <label for="file-input" class="inline-block cursor-pointer px-6 py-2.5 bg-primary text-white font-semibold rounded-md shadow-sm hover:bg-blue-600 transition">
+          打开JSON文件
         </label>
-        <button class="btn" id="save-btn" disabled>保存翻译结果</button>
+        <input type="file" id="file-input" accept=".json" class="hidden">
+        <label class="flex items-center gap-2 text-base text-gray-700 select-none">
+          <input type="checkbox" id="xml-mode-checkbox" class="w-5 h-5 accent-primary">
+          XML方式解析
+        </label>
+        <button id="save-btn" disabled class="px-6 py-2.5 bg-secondary text-white font-semibold rounded-md shadow-sm hover:bg-teal-500 transition disabled:opacity-50 disabled:cursor-not-allowed">
+          保存翻译结果
+        </button>
       </div>
-      <div class="right-btns">
-        <button class="btn" id="gpt-all-btn" disabled>GPT全部翻译</button>
-        <span id="filename-display" style="font-weight:bold;color:#888;margin-right:18px;font-size:16px;min-width:120px;display:inline-block;"></span>
-        <span id="status" style="font-weight:bold;color:#d32f2f;margin-left:0;font-size:17px;min-width:120px;display:inline-block;"></span>
+      <!-- 右侧按钮 -->
+      <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+        <button id="gpt-all-btn" disabled class="px-6 py-2.5 bg-primary text-white font-semibold rounded-md shadow-sm hover:bg-blue-600 transition disabled:opacity-50 disabled:cursor-not-allowed">
+          GPT全部翻译
+        </button>
+        <span id="filename-display" class="font-bold text-gray-500 text-base min-w-[120px]"></span>
+        <span id="status" class="font-bold text-red-600 text-base min-w-[120px]"></span>
       </div>
     </div>
-    <input type="file" id="file-input" accept=".json">
-    <div class="table-wrap">
-      <!-- 原底部状态栏已移至顶部 -->
-      <table id="lines-table" style="display:none;">
-        <thead>
-          <tr>
-            <th style="width:40%;">原文</th>
-            <th style="width:40%;">中文</th>
-            <th style="width:20%;">操作</th>
-          </tr>
-        </thead>
-        <tbody id="lines-tbody"></tbody>
-      </table>
+    <!-- 主内容区 -->
+    <div class="flex-1 overflow-x-auto">
+      <div class="rounded-lg shadow border border-gray-200 bg-bg p-2">
+        <table id="lines-table" class="w-full min-w-[900px] bg-white rounded-lg overflow-hidden" style="display:none;">
+          <thead>
+            <tr>
+<th class="bg-gray-100 text-gray-700 font-semibold text-center py-3 px-2 w-[40%] border-b border-gray-200">原文</th>
+<th class="bg-gray-100 text-gray-700 font-semibold text-center py-3 px-2 w-[40%] border-b border-gray-200">中文</th>
+<th class="bg-gray-100 text-gray-700 font-semibold text-center py-3 px-2 w-[20%] border-b border-gray-200">操作</th>
+            </tr>
+          </thead>
+          <tbody id="lines-tbody"></tbody>
+        </table>
+      </div>
     </div>
   </div>
   <script>
@@ -257,7 +152,7 @@
       }
       this.disabled = true;
       setStatus('正在批量调用GPT翻译...');
-      const batchSize = 50;
+      const batchSize = 8;
       let total = untransIdxs.length;
       let done = 0;
       for (let start = 0; start < total; start += batchSize) {
@@ -273,8 +168,10 @@
             .then(resp => resp.json())
             .then(data => {
               if (data.result) {
-                document.getElementById('zh_' + i).value = data.result;
+                const textarea = document.getElementById('zh_' + i);
+                textarea.value = data.result;
                 zhLines[i] = data.result;
+                autoResizeTextarea(textarea);
                 saveState();
               }
             })
@@ -324,50 +221,76 @@
     function renderLines() {
       const tbody = document.getElementById('lines-tbody');
       tbody.innerHTML = '';
+      const frag = document.createDocumentFragment();
       for (let i = 0; i < lines.length; ++i) {
         const tr = document.createElement('tr');
         // 原文
         const td1 = document.createElement('td');
+        td1.className = 'border-b border-gray-200';
         const div = document.createElement('div');
-        div.className = 'cell-content';
+        div.className = 'whitespace-pre-wrap break-all max-h-60 overflow-y-auto leading-relaxed text-gray-800 px-2 py-1';
         div.textContent = lines[i];
+        div.id = 'en_' + i;
         td1.appendChild(div);
         tr.appendChild(td1);
         // 中文输入
         const td2 = document.createElement('td');
+        td2.className = 'border-b border-gray-200';
         const textarea = document.createElement('textarea');
-        textarea.className = 'zh-textarea';
+        textarea.className = 'zh-textarea w-full text-base px-2 py-1 border border-gray-300 rounded-md bg-bg min-h-[36px] max-h-60 overflow-y-auto leading-relaxed break-all whitespace-pre-wrap resize-none focus:ring-2 focus:ring-primary focus:border-primary transition';
         textarea.id = 'zh_' + i;
         textarea.value = zhLines[i] || '';
         textarea.placeholder = '输入中文翻译';
         textarea.setAttribute('aria-label', '第' + (i + 1) + '行翻译');
+        let rafId = null;
         textarea.oninput = function() {
           zhLines[i] = this.value;
-          autoResizeTextarea(this);
+          if (rafId) cancelAnimationFrame(rafId);
+          const self = this;
+          rafId = requestAnimationFrame(() => {
+            autoResizeTextarea(self);
+            rafId = null;
+          });
           saveState();
         };
         td2.appendChild(textarea);
         tr.appendChild(td2);
         // 操作
         const td3 = document.createElement('td');
+        td3.className = 'border-b border-gray-200';
         const gptBtn = document.createElement('button');
         gptBtn.textContent = 'GPT翻译';
         gptBtn.type = 'button';
-        gptBtn.className = 'action-btn';
+        gptBtn.className = 'action-btn w-full px-2 py-1 bg-primary text-white rounded-md font-medium shadow-sm hover:bg-blue-600 transition';
         gptBtn.onclick = () => gptTranslate(i, lines[i]);
         td3.appendChild(gptBtn);
         tr.appendChild(td3);
-        tbody.appendChild(tr);
+        frag.appendChild(tr);
       }
-      // 渲染后统一自适应高度
-      setTimeout(resizeAllTextareas, 0);
+      tbody.appendChild(frag);
+      // 已移除初始批量自适应高度，提升初始渲染性能
     }
 
     // 自适应高度函数
     function autoResizeTextarea(textarea) {
       textarea.style.height = '36px';
-      const max = 360;
-      textarea.style.height = Math.min(textarea.scrollHeight, max) + 'px';
+      const max = 240;
+      const idx = textarea.id && textarea.id.startsWith('zh_') ? textarea.id.slice(3) : null;
+      let enDiv = null;
+      let enDivScroll = 36;
+      if (idx !== null) {
+        enDiv = document.getElementById('en_' + idx);
+        if (enDiv) {
+          enDiv.style.height = '36px';
+          enDivScroll = enDiv.scrollHeight;
+        }
+      }
+      const taScroll = textarea.scrollHeight;
+      const maxHeight = Math.min(Math.max(taScroll, enDivScroll), max);
+      textarea.style.height = maxHeight + 'px';
+      if (enDiv) {
+        enDiv.style.height = maxHeight + 'px';
+      }
     }
     function resizeAllTextareas() {
       document.querySelectorAll('textarea.zh-textarea').forEach(autoResizeTextarea);
