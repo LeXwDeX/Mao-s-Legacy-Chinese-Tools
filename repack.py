@@ -2,7 +2,7 @@
 """
 repack.py
 将 1.8.5/resources.assets.chinese/ 中的汉化 JSON 回写进
-1.8.5_Resources/Data/resources.assets，输出到 output/ 目录。
+1.8.5_Resources/Data/resources.assets，输出到 1.8.5_output/ 目录。
 
 用法：
     uv run --with UnityPy repack.py
@@ -12,7 +12,7 @@ import UnityPy
 
 SRC    = "1.8.5_Resources/Data/resources.assets"
 ZH_DIR = "1.8.5/resources.assets.chinese"
-OUT    = "output"
+OUT    = "1.8.5_output"
 
 def main():
     if not os.path.exists(SRC):
