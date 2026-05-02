@@ -4,3 +4,6 @@
 # 忽略 upload 文件夹及其所有内容
 upload/
 uploads/
+
+# 忽略游戏原始资源（体积过大，约 946MB）
+1.8.5_Resources/
