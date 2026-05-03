@@ -1,0 +1,522 @@
+{
+  "generated": "2026-05-03T18:53:59.548553",
+  "source": "1.8.5_Resources/Data/resources.assets",
+  "assets": [
+    {
+      "asset_name": "Country_data_1",
+      "path_id": 272,
+      "size_bytes": 4437,
+      "total_lines": 197,
+      "translatable": false
+    },
+    {
+      "asset_name": "Country_data_21",
+      "path_id": 294,
+      "size_bytes": 4392,
+      "total_lines": 195,
+      "translatable": false
+    },
+    {
+      "asset_name": "Country_data_7",
+      "path_id": 298,
+      "size_bytes": 4392,
+      "total_lines": 195,
+      "translatable": false
+    },
+    {
+      "asset_name": "Country_en",
+      "path_id": 327,
+      "size_bytes": 1051,
+      "total_lines": 112,
+      "translatable": true
+    },
+    {
+      "asset_name": "Country_ru",
+      "path_id": 292,
+      "size_bytes": 1874,
+      "total_lines": 112,
+      "translatable": false
+    },
+    {
+      "asset_name": "Data1",
+      "path_id": 267,
+      "size_bytes": 691,
+      "total_lines": 149,
+      "translatable": false
+    },
+    {
+      "asset_name": "Data21",
+      "path_id": 278,
+      "size_bytes": 697,
+      "total_lines": 149,
+      "translatable": false
+    },
+    {
+      "asset_name": "Data7",
+      "path_id": 289,
+      "size_bytes": 693,
+      "total_lines": 149,
+      "translatable": false
+    },
+    {
+      "asset_name": "Doctr_en",
+      "path_id": 325,
+      "size_bytes": 662,
+      "total_lines": 1,
+      "translatable": true
+    },
+    {
+      "asset_name": "Doctr_ru",
+      "path_id": 280,
+      "size_bytes": 1413,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "Events_en_1",
+      "path_id": 265,
+      "size_bytes": 548,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "Events_ru_1",
+      "path_id": 295,
+      "size_bytes": 500,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "Events_ru_21",
+      "path_id": 297,
+      "size_bytes": 500,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "Events_text_en",
+      "path_id": 331,
+      "size_bytes": 495158,
+      "total_lines": 1664,
+      "translatable": true
+    },
+    {
+      "asset_name": "Events_text_ru",
+      "path_id": 309,
+      "size_bytes": 881258,
+      "total_lines": 1710,
+      "translatable": false
+    },
+    {
+      "asset_name": "LineBreaking Following Characters",
+      "path_id": 335,
+      "size_bytes": 266,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "LineBreaking Leading Characters",
+      "path_id": 319,
+      "size_bytes": 104,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "Opis_en",
+      "path_id": 284,
+      "size_bytes": 1906,
+      "total_lines": 1,
+      "translatable": true
+    },
+    {
+      "asset_name": "Opis_ru",
+      "path_id": 314,
+      "size_bytes": 2814,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "Part1_en",
+      "path_id": 302,
+      "size_bytes": 236,
+      "total_lines": 1,
+      "translatable": true
+    },
+    {
+      "asset_name": "Part1_ru",
+      "path_id": 276,
+      "size_bytes": 487,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "Part21_ru",
+      "path_id": 268,
+      "size_bytes": 432,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "Part7_en",
+      "path_id": 273,
+      "size_bytes": 236,
+      "total_lines": 1,
+      "translatable": true
+    },
+    {
+      "asset_name": "Part7_ru",
+      "path_id": 329,
+      "size_bytes": 487,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "Party_data_1",
+      "path_id": 282,
+      "size_bytes": 56,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "Party_data_21",
+      "path_id": 306,
+      "size_bytes": 56,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "Party_data_7",
+      "path_id": 304,
+      "size_bytes": 56,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "Politics_inf1",
+      "path_id": 337,
+      "size_bytes": 338,
+      "total_lines": 18,
+      "translatable": false
+    },
+    {
+      "asset_name": "Politics_inf21",
+      "path_id": 281,
+      "size_bytes": 367,
+      "total_lines": 18,
+      "translatable": false
+    },
+    {
+      "asset_name": "Politics_inf7",
+      "path_id": 287,
+      "size_bytes": 338,
+      "total_lines": 18,
+      "translatable": false
+    },
+    {
+      "asset_name": "Politics_leader1",
+      "path_id": 266,
+      "size_bytes": 13,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "Politics_leader21",
+      "path_id": 310,
+      "size_bytes": 14,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "Politics_leader7",
+      "path_id": 299,
+      "size_bytes": 13,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "Science_1",
+      "path_id": 308,
+      "size_bytes": 19,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "Science_21",
+      "path_id": 301,
+      "size_bytes": 19,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "Science_7",
+      "path_id": 317,
+      "size_bytes": 19,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "South_data",
+      "path_id": 330,
+      "size_bytes": 750,
+      "total_lines": 13,
+      "translatable": false
+    },
+    {
+      "asset_name": "StartModiefs1",
+      "path_id": 316,
+      "size_bytes": 22,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "StartModiefs21",
+      "path_id": 328,
+      "size_bytes": 19,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "StartModiefs7",
+      "path_id": 293,
+      "size_bytes": 19,
+      "total_lines": 1,
+      "translatable": false
+    },
+    {
+      "asset_name": "Traits1_en",
+      "path_id": 322,
+      "size_bytes": 191,
+      "total_lines": 20,
+      "translatable": true
+    },
+    {
+      "asset_name": "Traits1_ru",
+      "path_id": 318,
+      "size_bytes": 346,
+      "total_lines": 20,
+      "translatable": false
+    },
+    {
+      "asset_name": "Traits21_en",
+      "path_id": 283,
+      "size_bytes": 191,
+      "total_lines": 20,
+      "translatable": true
+    },
+    {
+      "asset_name": "Traits21_ru",
+      "path_id": 285,
+      "size_bytes": 444,
+      "total_lines": 25,
+      "translatable": false
+    },
+    {
+      "asset_name": "Traits7_en",
+      "path_id": 286,
+      "size_bytes": 191,
+      "total_lines": 20,
+      "translatable": true
+    },
+    {
+      "asset_name": "Traits7_ru",
+      "path_id": 336,
+      "size_bytes": 346,
+      "total_lines": 20,
+      "translatable": false
+    },
+    {
+      "asset_name": "new_event_text_en",
+      "path_id": 271,
+      "size_bytes": 4097,
+      "total_lines": 69,
+      "translatable": true
+    },
+    {
+      "asset_name": "new_focuses_texts_en",
+      "path_id": 291,
+      "size_bytes": 12476,
+      "total_lines": 349,
+      "translatable": true
+    },
+    {
+      "asset_name": "new_focuses_texts_ru",
+      "path_id": 313,
+      "size_bytes": 17747,
+      "total_lines": 350,
+      "translatable": false
+    },
+    {
+      "asset_name": "new_modify_opis_en",
+      "path_id": 311,
+      "size_bytes": 2787,
+      "total_lines": 27,
+      "translatable": true
+    },
+    {
+      "asset_name": "new_modify_opis_ru",
+      "path_id": 303,
+      "size_bytes": 4086,
+      "total_lines": 27,
+      "translatable": false
+    },
+    {
+      "asset_name": "new_modify_texts_en",
+      "path_id": 269,
+      "size_bytes": 646,
+      "total_lines": 27,
+      "translatable": true
+    },
+    {
+      "asset_name": "new_modify_texts_ru",
+      "path_id": 321,
+      "size_bytes": 1081,
+      "total_lines": 27,
+      "translatable": false
+    },
+    {
+      "asset_name": "new_texts_en",
+      "path_id": 315,
+      "size_bytes": 405309,
+      "total_lines": 1098,
+      "translatable": true
+    },
+    {
+      "asset_name": "new_texts_ru",
+      "path_id": 312,
+      "size_bytes": 713652,
+      "total_lines": 1098,
+      "translatable": false
+    },
+    {
+      "asset_name": "old_modify_opis_en",
+      "path_id": 300,
+      "size_bytes": 10900,
+      "total_lines": 67,
+      "translatable": true
+    },
+    {
+      "asset_name": "old_modify_opis_ru",
+      "path_id": 288,
+      "size_bytes": 15956,
+      "total_lines": 67,
+      "translatable": false
+    },
+    {
+      "asset_name": "old_modify_text_en",
+      "path_id": 332,
+      "size_bytes": 1741,
+      "total_lines": 67,
+      "translatable": true
+    },
+    {
+      "asset_name": "old_modify_text_ru",
+      "path_id": 305,
+      "size_bytes": 3049,
+      "total_lines": 67,
+      "translatable": false
+    },
+    {
+      "asset_name": "other_text_en",
+      "path_id": 323,
+      "size_bytes": 26315,
+      "total_lines": 598,
+      "translatable": true
+    },
+    {
+      "asset_name": "other_text_ru",
+      "path_id": 320,
+      "size_bytes": 45486,
+      "total_lines": 598,
+      "translatable": false
+    },
+    {
+      "asset_name": "polit_names1_en",
+      "path_id": 274,
+      "size_bytes": 251,
+      "total_lines": 45,
+      "translatable": true
+    },
+    {
+      "asset_name": "polit_names1_ru",
+      "path_id": 324,
+      "size_bytes": 368,
+      "total_lines": 45,
+      "translatable": false
+    },
+    {
+      "asset_name": "polit_names21_en",
+      "path_id": 275,
+      "size_bytes": 478,
+      "total_lines": 43,
+      "translatable": true
+    },
+    {
+      "asset_name": "polit_names21_ru",
+      "path_id": 307,
+      "size_bytes": 484,
+      "total_lines": 43,
+      "translatable": false
+    },
+    {
+      "asset_name": "polit_names7_en",
+      "path_id": 326,
+      "size_bytes": 236,
+      "total_lines": 43,
+      "translatable": true
+    },
+    {
+      "asset_name": "polit_names7_ru",
+      "path_id": 270,
+      "size_bytes": 342,
+      "total_lines": 43,
+      "translatable": false
+    },
+    {
+      "asset_name": "polit_surnames1_en",
+      "path_id": 279,
+      "size_bytes": 362,
+      "total_lines": 50,
+      "translatable": true
+    },
+    {
+      "asset_name": "polit_surnames1_ru",
+      "path_id": 334,
+      "size_bytes": 576,
+      "total_lines": 50,
+      "translatable": false
+    },
+    {
+      "asset_name": "polit_surnames21_en",
+      "path_id": 290,
+      "size_bytes": 352,
+      "total_lines": 48,
+      "translatable": true
+    },
+    {
+      "asset_name": "polit_surnames21_ru",
+      "path_id": 296,
+      "size_bytes": 689,
+      "total_lines": 48,
+      "translatable": false
+    },
+    {
+      "asset_name": "polit_surnames7_en",
+      "path_id": 277,
+      "size_bytes": 352,
+      "total_lines": 48,
+      "translatable": true
+    },
+    {
+      "asset_name": "polit_surnames7_ru",
+      "path_id": 333,
+      "size_bytes": 562,
+      "total_lines": 48,
+      "translatable": false
+    }
+  ],
+  "summary": {
+    "total_text_assets": 73,
+    "en_assets": 23,
+    "en_total_lines": 4419
+  }
+}
