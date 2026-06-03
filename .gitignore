@@ -7,3 +7,9 @@ uploads/
 
 # 忽略游戏原始资源（体积过大，约 946MB）
 1.8.5_Resources/
+
+# 忽略 Python 字节码缓存
+__pycache__/
+
+# 忽略任务状态台账（每次工作会话重新生成）
+.task_state/

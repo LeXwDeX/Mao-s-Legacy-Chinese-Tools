@@ -14,6 +14,8 @@ patch_levels.py
 """
 
 import math, struct, shutil, os, argparse
+from level_translations import ALL_LEVEL_PATCHES, NEW_OFFSET_EXCLUDES
+from level_translations_level17 import LEVEL17_PATCHES
 
 INPUT_DIR  = "1.8.5_Resources/Data"
 OUTPUT_DIR = "1.8.5_output"
@@ -154,6 +156,7 @@ FILE_PATCHES: dict[str, list[tuple[str, str]]] = {
     "level8": [
         ("Science points", "科学技术点"),  # 14B→15B,blk=16（DOCTRINES面板）
     ],
+    "level17": LEVEL17_PATCHES,  # 教程翻译 (31 段长文本, 从 level_translations_level17 导入)
 }
 
 # 排除特定（文件, 英文字符串）对——避免命中场景层级名等非显示字符串
@@ -173,7 +176,15 @@ OFFSET_EXCLUDES: dict[str, set] = {
 }
 
 # 处理的 level 文件列表
-TARGET_LEVELS = ["level3", "level6", "level7", "level8", "level9", "level15", "level23"]
+TARGET_LEVELS = [
+    # 原有 7 个
+    "level3", "level6", "level7", "level8", "level9", "level15", "level23",
+    # 新增 10 个
+    "level2", "level5", "level11", "level12", "level13",
+    "level14", "level16", "level20", "level21", "level24",
+    # level17: 游戏教程 (31 段翻译文本)
+    "level17",
+]
 
 
 def build_patch_plan(level_name: str) -> list[tuple[str, str]]:
@@ -230,6 +241,12 @@ def main():
 
     if args.dry_run:
         print("=== DRY RUN 模式（不写文件）===\n")
+
+    # 加载新增 level 的翻译和路由键排除
+    for lv, patches in ALL_LEVEL_PATCHES.items():
+        FILE_PATCHES[lv] = patches
+    for lv, excludes in NEW_OFFSET_EXCLUDES.items():
+        OFFSET_EXCLUDES.setdefault(lv, set()).update(excludes)
 
     grand_total = 0
     for lv in TARGET_LEVELS:

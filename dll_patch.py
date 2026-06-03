@@ -73,6 +73,9 @@ DENY_OFFSETS: set[int] = {
 # 允许绕过 MIN_SAFE_CHARS 限制（目前 MIN_SAFE_CHARS 已降至 8，此白名单保留备用）。
 APPROVED_OFFSETS: set[int] = {
     0x1F877B,   # 'Five "no"' (avail=9) → 五个"不"  展示标题，紧邻正文描述块
+    0x1ECAB9,   # '\nDate: '  (avail=7) → 日期：     展示用日期标签
+    0x2D41B0,   # ' or in '   (avail=7) → 或者在     展示用连词
+    0x355813,   # 'New old'   (avail=7) → 新的旧物   展示用名词短语
 }
 
 
