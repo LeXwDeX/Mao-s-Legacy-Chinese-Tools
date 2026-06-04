@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "/mnt/d/mao's legacy-chinese-tools/rebuild-v2/Assembly-CSharp.csproj": {}
+  },
+  "projects": {
+    "/mnt/d/mao's legacy-chinese-tools/rebuild-v2/Assembly-CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/d/mao's legacy-chinese-tools/rebuild-v2/Assembly-CSharp.csproj",
+        "projectName": "Assembly-CSharp",
+        "projectPath": "/mnt/d/mao's legacy-chinese-tools/rebuild-v2/Assembly-CSharp.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/mnt/d/mao's legacy-chinese-tools/rebuild-v2/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.127/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

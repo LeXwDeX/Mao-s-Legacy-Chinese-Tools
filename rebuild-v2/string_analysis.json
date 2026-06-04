@@ -1,0 +1,183 @@
+{
+  "total": 10078,
+  "categories": {
+    "API参数": 1321,
+    "其他": 7262,
+    "UI文本": 684,
+    "标识符": 808,
+    "日志": 3
+  },
+  "samples": {
+    "API参数": [
+      {
+        "content": "SteamManager",
+        "line": 24,
+        "context": "\tprivate void OnEnable()\n\t{\n\t\tif (GameObject.Find(\"SteamManager\").GetComponent<SteamManager>().achivki_sosut)\n\t\t{\n",
+        "file": "achievements.cs",
+        "category": "API参数"
+      },
+      {
+        "content": "------------ACHIVKI ACTIVIROVANI-------------------",
+        "line": 32,
+        "context": "\tif (SteamManager.Initialized)\n\t\t\t{\n\t\t\t\tDebug.Log(\"------------ACHIVKI ACTIVIROVANI-------------------\");\n\t\t\t\tm_GameID = new CGameID(SteamUtils.GetAppID(",
+        "file": "achievements.cs",
+        "category": "API参数"
+      },
+      {
+        "content": "------------OSHIBKA PRO ACRIVACCI-------------------",
+        "line": 43,
+        "context": "sValid = false;\n\t\t\t}\n\t\t}\n\t\tcatch\n\t\t{\n\t\t\tDebug.Log(\"------------OSHIBKA PRO ACRIVACCI-------------------\");\n\t\t}\n\t}\n\n\tpublic void Set(int number)\n\t{\n\t\tif (G",
+        "file": "achievements.cs",
+        "category": "API参数"
+      },
+      {
+        "content": "------------SET VISVAN-------------------",
+        "line": 51,
+        "context": "t.inst.gameState.iron_and_blood)\n\t\t{\n\t\t\tDebug.Log(\"------------SET VISVAN-------------------\");\n\t\t\tach_this[number] = true;\n\t\t}\n\t}\n\n\tprivate vo",
+        "file": "achievements.cs",
+        "category": "API参数"
+      },
+      {
+        "content": "SteamManager",
+        "line": 58,
+        "context": "(string ach, bool clear)\n\t{\n\t\tif (GameObject.Find(\"SteamManager\").GetComponent<SteamManager>().achivki_sosut)\n\t\t{\n",
+        "file": "achievements.cs",
+        "category": "API参数"
+      }
+    ],
+    "其他": [
+      {
+        "content": "ACH_",
+        "line": 113,
+        "context": "\n\t\t\t\t\tach_this[i] = false;\n\t\t\t\t\tUnlockAchievement(\"ACH_\" + i, clear: false);\n\t\t\t\t}\n\t\t\t}\n\t\t\tif (m_bStoreSta",
+        "file": "achievements.cs",
+        "category": "其他"
+      },
+      {
+        "content": " unlocked!------",
+        "line": 172,
+        "context": "Achievement \" + pCallback.m_rgchAchievementName + \" unlocked!------\");\n\t\t}\n\t}\n}\n",
+        "file": "achievements.cs",
+        "category": "其他"
+      },
+      {
+        "content": " ",
+        "line": 41,
+        "context": "mes1[GlobalScript.inst.gameState.leader.name_1] + \" \" + GlobalScript.inst.gameState.names2[GlobalScript",
+        "file": "BeurocratsScript.cs",
+        "category": "其他"
+      },
+      {
+        "content": " ",
+        "line": 49,
+        "context": "cript.inst.gameState.politics[array[0]].name_1] + \" \" + GlobalScript.inst.gameState.names2[GlobalScript",
+        "file": "BeurocratsScript.cs",
+        "category": "其他"
+      },
+      {
+        "content": " ",
+        "line": 54,
+        "context": "mes1[GlobalScript.inst.gameState.leader.name_1] + \" \" + GlobalScript.inst.gameState.names2[GlobalScript",
+        "file": "BeurocratsScript.cs",
+        "category": "其他"
+      }
+    ],
+    "UI文本": [
+      {
+        "content": "<size=20><b>China: Mao's Legacy</b></size>",
+        "line": 17,
+        "context": "refs.GetInt(\"language\") == 0)\n\t\t{\n\t\t\ttext1.text = \"<size=20><b>China: Mao's Legacy</b></size>\";\n\t\t\ttext4.text = \"<size=20>Vasiliy Vladimirovich ",
+        "file": "authores.cs",
+        "category": "UI文本"
+      },
+      {
+        "content": "<size=20>Vasiliy Vladimirovich Kostilev\\nMaxim Olegovich Chornobuk</size>",
+        "line": 18,
+        "context": ">China: Mao's Legacy</b></size>\";\n\t\t\ttext4.text = \"<size=20>Vasiliy Vladimirovich Kostilev\\nMaxim Olegovich Chornobuk</size>\";\n\t\t\ttext4.text += \"\\n\\n<size=22>Also in the devel",
+        "file": "authores.cs",
+        "category": "UI文本"
+      },
+      {
+        "content": "\\n\\n<size=22>Also in the development took part:\\nMaxim Kositsyn\\nIllarion Soldaev\\nVladimir Gridasov\\n\\nAuthor's music:\\nNikita Mishkevich\\nIn blessed memory of Nikita Mishkevich (27.02.1993-22.01.2023)</size>",
+        "line": 19,
+        "context": "xim Olegovich Chornobuk</size>\";\n\t\t\ttext4.text += \"\\n\\n<size=22>Also in the development took part:\\nMaxim Kositsyn\\nIllarion Soldaev\\nVladimir Gridasov\\n\\nAuthor's music:\\nNikita Mishkevich\\nIn blessed memory of Nikita Mishkevich (27.02.1993-22.01.2023)</size>\";\n\t\t\ttext4.text += \"\\n\\n<size=20>https://nostal.ga",
+        "file": "authores.cs",
+        "category": "UI文本"
+      },
+      {
+        "content": "\\n\\n<size=20>https://nostal.games</size>",
+        "line": 20,
+        "context": "(27.02.1993-22.01.2023)</size>\";\n\t\t\ttext4.text += \"\\n\\n<size=20>https://nostal.games</size>\";\n\t\t\ttext3.text = \"Александр Егоров: stihi.ru/avto",
+        "file": "authores.cs",
+        "category": "UI文本"
+      },
+      {
+        "content": "Александр Егоров: stihi.ru/avtor/hhypest; Антон Максимов: vk.com/mash2525\\nЛейба: vk.com/leiba_anninsky и Дегтерёв: mayor-dgt.diary.ru\\nДанил Чемулов: vk.com/niceguy1331 и Денис Роев: vk.com/id252659138\\nNikolai Aamand: Comrade Nikolai#0370; Югослав: vk.com/yugoslav1943\\nMattia Tuccelli: GattoNero#0161; Валентин Потоцкий: vk.com/zerosensey\\nВлад Фомин: vk.com/vologodsky_pyotr_vasilevich; Anthony Cawdrey\\nИван Елисеев: steamcommunity.com/id/eliseev999/\\nАнатолий Garlic AAZ: youtube.com/user/AAZspb\\nЛеонид Чижиков: leonid.chizhikov@gmail.com; Роман Мальков\\nВасилий Андреев: vk.com/brutalpin; Максим Юрченко: vk.com/kiberhelim",
+        "line": 21,
+        "context": "=20>https://nostal.games</size>\";\n\t\t\ttext3.text = \"Александр Егоров: stihi.ru/avtor/hhypest; Антон Максимов: vk.com/mash2525\\nЛейба: vk.com/leiba_anninsky и Дегтерёв: mayor-dgt.diary.ru\\nДанил Чемулов: vk.com/niceguy1331 и Денис Роев: vk.com/id252659138\\nNikolai Aamand: Comrade Nikolai#0370; Югослав: vk.com/yugoslav1943\\nMattia Tuccelli: GattoNero#0161; Валентин Потоцкий: vk.com/zerosensey\\nВлад Фомин: vk.com/vologodsky_pyotr_vasilevich; Anthony Cawdrey\\nИван Елисеев: steamcommunity.com/id/eliseev999/\\nАнатолий Garlic AAZ: youtube.com/user/AAZspb\\nЛеонид Чижиков: leonid.chizhikov@gmail.com; Роман Мальков\\nВасилий Андреев: vk.com/brutalpin; Максим Юрченко: vk.com/kiberhelim\";\n\t\t\ttext2.text = \"Special thanks: Кузнецов Илья -",
+        "file": "authores.cs",
+        "category": "UI文本"
+      }
+    ],
+    "标识符": [
+      {
+        "content": "Moderate",
+        "line": 544,
+        "context": "yTrait.Moderate => translateScript.GetTranslation(\"Moderate\", \"Умеренный\"), \n\t\t\tPrimaryTrait.Reformist => tran",
+        "file": "CitizenManager.cs",
+        "category": "标识符"
+      },
+      {
+        "content": "Reformist",
+        "line": 545,
+        "context": "Trait.Reformist => translateScript.GetTranslation(\"Reformist\", \"Реформист\"), \n\t\t\tPrimaryTrait.Liberal => transl",
+        "file": "CitizenManager.cs",
+        "category": "标识符"
+      },
+      {
+        "content": "Liberal",
+        "line": 546,
+        "context": "ryTrait.Liberal => translateScript.GetTranslation(\"Liberal\", \"Либерал\"), \n\t\t\t_ => \"Отсутствует\", \n\t\t};\n\t}\n\n\tp",
+        "file": "CitizenManager.cs",
+        "category": "标识符"
+      },
+      {
+        "content": "Firm",
+        "line": 555,
+        "context": "ndaryTrait.Firm => translateScript.GetTranslation(\"Firm\", \"Твёрдый\"), \n\t\t\tSecondaryTrait.Pragmatic => tran",
+        "file": "CitizenManager.cs",
+        "category": "标识符"
+      },
+      {
+        "content": "Pragmatic",
+        "line": 556,
+        "context": "Trait.Pragmatic => translateScript.GetTranslation(\"Pragmatic\", \"Прагматик\"), \n\t\t\tSecondaryTrait.Soft => transla",
+        "file": "CitizenManager.cs",
+        "category": "标识符"
+      }
+    ],
+    "日志": [
+      {
+        "content": "Данные о гражданине отсутствуют.\\n",
+        "line": 179,
+        "context": " += (isEnglish ? \"No citizen data available.\\n\" : \"Данные о гражданине отсутствуют.\\n\");\n\t\t}\n\t\ttext = text2.Replace(\"\\n\", \"|\");\n\t\tDebug.",
+        "file": "Ending41.cs",
+        "category": "日志"
+      },
+      {
+        "content": "Данные о гражданине отсутствуют.\\n",
+        "line": 179,
+        "context": " += (isEnglish ? \"No citizen data available.\\n\" : \"Данные о гражданине отсутствуют.\\n\");\n\t\t}\n\t\ttext = text2.Replace(\"\\n\", \"|\");\n\t\tDebug.",
+        "file": "Ending42.cs",
+        "category": "日志"
+      },
+      {
+        "content": "Данные о гражданине отсутствуют.\\n",
+        "line": 179,
+        "context": " += (isEnglish ? \"No citizen data available.\\n\" : \"Данные о гражданине отсутствуют.\\n\");\n\t\t}\n\t\ttext = text2.Replace(\"\\n\", \"|\");\n\t\tDebug.",
+        "file": "Ending43.cs",
+        "category": "日志"
+      }
+    ]
+  }
+}

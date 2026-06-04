@@ -1,0 +1,1926 @@
+{
+  "modified_files": 13,
+  "total_changes": 320,
+  "changes": [
+    {
+      "file": "achievements.cs",
+      "line": 154,
+      "old": "------------YA NE ZNA U CHE ETO  NO  IZ STORESTST VIZIVAEM ON USERSTATSRECIVED C",
+      "new": "------------YA NE ZNA U CHE ETO  NO  IZ STORESTST VIZIVAEM ON USERSTATSRECIVED C"
+    },
+    {
+      "file": "DiploButtonScript.cs",
+      "line": 1116,
+      "old": "Hold a referendum on joining the country in the PRC",
+      "new": "Hold a referendum on joining the country in the 中华人民共和国"
+    },
+    {
+      "file": "DiploButtonScript.cs",
+      "line": 1531,
+      "old": "Put money on a secret CCP account",
+      "new": "Put money on a secret 中共 account"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 283,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 294,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 300,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 306,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 312,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 318,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 324,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 330,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 336,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 342,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 348,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 354,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 360,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 366,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 372,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 378,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 384,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 390,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 396,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 402,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 408,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 414,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 420,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 426,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 432,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 438,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 444,
+      "old": "Our alliance has more than 66% of seats in the NPC",
+      "new": "Our alliance has more than 66% of seats in the 全国人大"
+    },
+    {
+      "file": "Doctrine_button_script.cs",
+      "line": 1329,
+      "old": "Criticize Confucius and Lin Biao! As Chairman Mao said so!",
+      "new": "Criticize 孔子 and 林彪! As Chairman Mao said so!"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 277,
+      "old": "People do not need another Cultural Revolution",
+      "new": "People do not need another 文化大革命"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 328,
+      "old": "People do not need another Cultural Revolution",
+      "new": "People do not need another 文化大革命"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 760,
+      "old": "Do nothing. Jiang Qing and Xiaoping each other stand",
+      "new": "Do nothing. 江青 and 小平 each other stand"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 761,
+      "old": "Join Xiaoping's persecution",
+      "new": "Join 小平's persecution"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 762,
+      "old": "Stand up for Xiaoping",
+      "new": "Stand up for 小平"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 814,
+      "old": "We continue the work of Mao, phasing out the Cultural Revolution",
+      "new": "We continue the work of Mao, phasing out the 文化大革命"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 817,
+      "old": "The Cultural Revolution without excesses and the fight against revisionism accor",
+      "new": "The 文化大革命 without excesses and the fight against revisionism according to the pr"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 822,
+      "old": "The Cultural Revolution has already bothered everyone",
+      "new": "The 文化大革命 has already bothered everyone"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 826,
+      "old": "Phase out the Cultural Revolution, and we need to do something with the economy.",
+      "new": "Phase out the 文化大革命, and we need to do something with the economy..."
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 835,
+      "old": "Let's phase out the Cultural Revolution and start developing large-scale reforms",
+      "new": "Let's phase out the 文化大革命 and start developing large-scale reforms with access t"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 847,
+      "old": "Arrest Wang Hongwen and Jiang Qing and find a compromise with the rest of the ra",
+      "new": "Arrest 王洪文 and 江青 and find a compromise with the rest of the radicals"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 865,
+      "old": "Arrest only Wang Hongwen and Jiang Qing",
+      "new": "Arrest only 王洪文 and 江青"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 879,
+      "old": "Require full integration of colonies in the PRC while preserving the property ri",
+      "new": "Require full integration of colonies in the 中华人民共和国 while preserving the propert"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 1091,
+      "old": "We will entrust the work to Deng Xiaoping and pragmatic reformers. They will giv",
+      "new": "We will entrust the work to 邓小平 and pragmatic reformers. They will give a balanc"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 1094,
+      "old": "Comrades Peng Zhen and Zhao Ziyang will reveal all the mistakes and expose them!",
+      "new": "Comrades Peng Zhen and 赵紫阳 will reveal all the mistakes and expose them!"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 1235,
+      "old": "Delay the meeting in order to arrest the reformers during the break by the force",
+      "new": "Delay the meeting in order to arrest the reformers during the break by the force"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 1305,
+      "old": "Let the MSS and the Human Resources Officer in the CCP address these issues",
+      "new": "Let the 国家安全部 and the Human Resources Officer in the 中共 address these issues"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 1471,
+      "old": "Hold a meeting and negotiations of PRC and Vietnam",
+      "new": "Hold a meeting and negotiations of 中华人民共和国 and Vietnam"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 1589,
+      "old": "No recurrence of the Cultural Revolution!",
+      "new": "No recurrence of the 文化大革命!"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 1621,
+      "old": "This is not in line with the national politic of the CPC!",
+      "new": "This is not in line with the national politic of the 中共!"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 1630,
+      "old": "This is not in line with the national politic of the CPC!",
+      "new": "This is not in line with the national politic of the 中共!"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 1868,
+      "old": "Attack conservatives at the CPC plenum and promote active reformers",
+      "new": "Attack conservatives at the 中共 plenum and promote active reformers"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 1873,
+      "old": "CPC will not let you just mix manpower",
+      "new": "中共 will not let you just mix manpower"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 1877,
+      "old": "Attack conservatives at the CPC plenum",
+      "new": "Attack conservatives at the 中共 plenum"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 1882,
+      "old": "CPC will not let you eliminate them so easily",
+      "new": "中共 will not let you eliminate them so easily"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 1905,
+      "old": "Attack reformers and moderates at the CPC plenum",
+      "new": "Attack reformers and moderates at the 中共 plenum"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 2018,
+      "old": "This issue is too important for the CCP to remove it from the agenda.",
+      "new": "This issue is too important for the 中共 to remove it from the agenda."
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 2230,
+      "old": "Through diplomatic offices, agree with part of the Politburo to repay the loan i",
+      "new": "Through diplomatic offices, agree with part of the 政治局 to repay the loan in exch"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 2480,
+      "old": "We are preparing free elections in the NPC, as much as possible limiting other p",
+      "new": "We are preparing free elections in the 全国人大, as much as possible limiting other "
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 2776,
+      "old": "MSS will not support us!",
+      "new": "国家安全部 will not support us!"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5824,
+      "old": "A terrible thing happened. After 2 transferred heart attacks on September 9 at 0",
+      "new": "A terrible thing happened. After 2 transferred heart attacks on September 9 at 0"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5858,
+      "old": "Encouraged by liberals and nationalists, residents of the Tibet Autonomous Regio",
+      "new": "Encouraged by liberals and nationalists, residents of the Tibet Autonomous Regio"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5863,
+      "old": "Encouraged by liberals and nationalists, residents of the Xinjiang Uygur Autonom",
+      "new": "Encouraged by liberals and nationalists, residents of the Xinjiang Uygur Autonom"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5917,
+      "old": "Congratulations on your appointment to the post of Premier of the State Council ",
+      "new": "Congratulations on your appointment to the post of Premier of the State Council "
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5922,
+      "old": "The death of Zhou Enlai seriously affected the position of his protege Deng Xiao",
+      "new": "The death of 周恩来 seriously affected the position of his protege 邓小平, who was lef"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5927,
+      "old": "On March 25, 1976, the Shanghai newspaper «Wenhuibao» printed an article calling",
+      "new": "On March 25, 1976, the Shanghai newspaper «Wenhuibao» printed an article calling"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5932,
+      "old": "Numerous attempts by the CCP to discredit the late Zhou Enlai have caused only d",
+      "new": "Numerous attempts by the 中共 to discredit the late 周恩来 have caused only disconten"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5942,
+      "old": "After Mao died, and you finally concentrated power in your hands, it is time to ",
+      "new": "After Mao died, and you finally concentrated power in your hands, it is time to "
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5947,
+      "old": "Now that our Chairman, Mao Zedong, has passed away, the internal party struggle ",
+      "new": "Now that our Chairman, 毛泽东, has passed away, the internal party struggle again f"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5952,
+      "old": "The wobbly compromise between the Guofeng and the radical left is cracking at th",
+      "new": "The wobbly compromise between the Guofeng and the radical left is cracking at th"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5957,
+      "old": "It is the day of the national elections in the NPC. And since we occupy a domina",
+      "new": "It is the day of the national elections in the 全国人大. And since we occupy a domin"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5997,
+      "old": "After the defeat of the Gang of four, power nominally passed to you, but in fact",
+      "new": "After the defeat of the Gang of four, power nominally passed to you, but in fact"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6002,
+      "old": "After the death of Mao, you took the course of curtailing the Cultural Revolutio",
+      "new": "After the death of Mao, you took the course of curtailing the 文化大革命, and achieve"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6017,
+      "old": "In the early 1960s, in order to cope with the devastating effects of the Great L",
+      "new": "In the early 1960s, in order to cope with the devastating effects of the 大跃进, in"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6022,
+      "old": "The death of Comrade Mao Zedong, the beginning of the inner-party struggle in th",
+      "new": "The death of Comrade 毛泽东, the beginning of the inner-party struggle in the 中共 an"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6027,
+      "old": "Comrade Chairman, a letter from a large group of Tibetan clergy has come to the ",
+      "new": "Comrade Chairman, a letter from a large group of Tibetan clergy has come to the "
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6032,
+      "old": "Former Indian Prime Minister since 1966, Indira Gandhi, the head of the INC, dur",
+      "new": "Former Indian Prime Minister since 1966, Indira Gandhi, the head of the INC, dur"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6048,
+      "old": " at the current plenum of the CPC Central Committee says to you, with which the ",
+      "new": " at the current plenum of the 中共 Central Committee says to you, with which the m"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6048,
+      "old": "Your desire to pursue a conservative policy that is completely inconsistent with",
+      "new": "Your desire to pursue a conservative policy that is completely inconsistent with"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6053,
+      "old": "After announcing a course on market reforms, our economists developed a plan for",
+      "new": "After announcing a course on market reforms, our economists developed a plan for"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6063,
+      "old": "From the middle of this year, the stormy activity of students and intellectuals ",
+      "new": "From the middle of this year, the stormy activity of students and intellectuals "
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6068,
+      "old": "Urgent news! On April 27, in Afghanistan, as a result of the instability of powe",
+      "new": "Urgent news! On April 27, in Afghanistan, as a result of the instability of powe"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6073,
+      "old": "After the April revolution, the PDPA faced many difficulties, and in the rapidly",
+      "new": "After the April revolution, the PDPA faced many difficulties, and in the rapidly"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6098,
+      "old": "During the Great Leap, almost all of China’s agriculture was organized into agri",
+      "new": "During the 大跃进, almost all of China’s agriculture was organized into agricultura"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6113,
+      "old": "Recently, neighboring Vietnam is increasingly moving closer to the USSR, and thi",
+      "new": "Recently, neighboring Vietnam is increasingly moving closer to the USSR, and thi"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6128,
+      "old": "Comrade Chairman! In connection with the current situation in the international ",
+      "new": "Comrade Chairman! In connection with the current situation in the international "
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6138,
+      "old": "! As you know, the anthem of our country since 1949 has been the \\\"March of the ",
+      "new": "! As you know, the anthem of our country since 1949 has been the \\\"March of the "
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6143,
+      "old": "After the victory over the Kuomintang in 1949, the regions of China inhabited by",
+      "new": "After the victory over the Kuomintang in 1949, the regions of China inhabited by"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6181,
+      "old": ", thanks to your efforts, we were able to put an end to the remnants of the Cult",
+      "new": ", thanks to your efforts, we were able to put an end to the remnants of the 文化大革"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6185,
+      "old": "The problems of Zhou Enlai's heirs",
+      "new": "The problems of 周恩来's heirs"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6191,
+      "old": "Thanks to our support, the Maoist rebels in eastern India, known as the Naxalite",
+      "new": "Thanks to our support, the Maoist rebels in eastern India, known as the Naxalite"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6205,
+      "old": "The decision on some questions of the history of the CPC",
+      "new": "The decision on some questions of the history of the 中共"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6206,
+      "old": "So, comrade Chairman, the work on this important document, which we began in 197",
+      "new": "So, comrade Chairman, the work on this important document, which we began in 197"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6209,
+      "old": "|In \\\"Decision\\\" the path we have followed from 1949 is fully approven and the p",
+      "new": "|In \\\"Decision\\\" the path we have followed from 1949 is fully approven and the p"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6213,
+      "old": "|In \\\"Decision\\\" the path we have followed from 1949 is fully approven, but \\\"ev",
+      "new": "|In \\\"Decision\\\" the path we have followed from 1949 is fully approven, but \\\"ev"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6217,
+      "old": "|In \\\"Decision\\\" the path we have followed from 1949 is  critisized and the pers",
+      "new": "|In \\\"Decision\\\" the path we have followed from 1949 is  critisized and the pers"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6236,
+      "old": "Besides, he is a supporter of an alliance with the PRC and will clearly be happy",
+      "new": "Besides, he is a supporter of an alliance with the 中华人民共和国 and will clearly be h"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6242,
+      "old": "According to our information, first presidential elections will take place in Ju",
+      "new": "According to our information, first presidential elections will take place in Ju"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6251,
+      "old": "XII Congress of the CPC",
+      "new": "XII Congress of the 中共"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6252,
+      "old": "The next, XII, congress of the Chinese Communist Party begins its work in the Pa",
+      "new": "The next, XII, congress of the Chinese Communist Party begins its work in the Pa"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6370,
+      "old": "The policy of large-scale reforms in all spheres of life, the flourishing of cor",
+      "new": "The policy of large-scale reforms in all spheres of life, the flourishing of cor"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6374,
+      "old": "New beginning for CPC",
+      "new": "New beginning for 中共"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6375,
+      "old": ". On the agenda is the issue of large-scale policy deepening \\\"reform and openin",
+      "new": ". On the agenda is the issue of large-scale policy deepening \\\"reform and openin"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6375,
+      "old": "So, the situation in Beijing was brought under control, and the power in the cou",
+      "new": "So, the situation in Beijing was brought under control, and the power in the cou"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6380,
+      "old": "So, the organizational issues are over and now we need to fulfill the promises g",
+      "new": "So, the organizational issues are over and now we need to fulfill the promises g"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6409,
+      "old": "GOVERNMENT CRISIS",
+      "new": "政府 CRISIS"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6415,
+      "old": "Urgent news from the USSR! March 10, 1985 at 19 hours 20 minutes, General Secret",
+      "new": "Urgent news from the USSR! March 10, 1985 at 19 hours 20 minutes, General Secret"
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6475,
+      "old": "As you know, after the CPC's victory in the civil war, the Kuomintang fled to th",
+      "new": "As you know, after the 中共's victory in the civil war, the Kuomintang fled to the"
+    },
+    {
+      "file": "ElectScript.cs",
+      "line": 100,
+      "old": "Parties of NPC",
+      "new": "Parties of 全国人大"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 108,
+      "old": "Without democracy there is no socialism, without socialism there is no democracy",
+      "new": "Without democracy there is no socialism, without socialism there is no democracy"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 117,
+      "old": " and the political Bureau's confident leadership of the country ensured China's ",
+      "new": " and the political Bureau's confident leadership of the country ensured China's "
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 130,
+      "old": " and faithful party members led the country along the path that was indicated by",
+      "new": " and faithful party members led the country along the path that was indicated by"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 150,
+      "old": "|We went to deepen cooperation with the United States, founded by Zhou Enlai, an",
+      "new": "|We went to deepen cooperation with the United States, founded by 周恩来, and opene"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 178,
+      "old": " and firm leadership of the Politburo members closest to the person of the leade",
+      "new": " and firm leadership of the 政治局 members closest to the person of the leader ensu"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 205,
+      "old": "\\n\\n Not deviating far from the policies of Zhou Enlai, we have managed to creat",
+      "new": "\\n\\n Not deviating far from the policies of 周恩来, we have managed to create a goo"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 209,
+      "old": "\\n\\n The ideas of Chen Yun have triumphed. Because of the economic reforms, we h",
+      "new": "\\n\\n The ideas of 陈云 have triumphed. Because of the economic reforms, we have gi"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 586,
+      "old": "The Xinjiang Uygur Autonomous Region continues to be an integral part of China, ",
+      "new": "The Xinjiang Uygur Autonomous Region continues to be an integral part of China, "
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 616,
+      "old": " put forward an important theory \\\"One country - two systems\\\", according to whi",
+      "new": " put forward an important theory \\\"One country - two systems\\\", according to whi"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 624,
+      "old": ", despite the fierce resistance of many conservatives and hardliners, he neverth",
+      "new": ", despite the fierce resistance of many conservatives and hardliners, he neverth"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 641,
+      "old": " Comrade and the NPC put forward an important theory \\\"One country - two systems",
+      "new": " Comrade and the 全国人大 put forward an important theory \\\"One country - two system"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 649,
+      "old": "The skill of our diplomats and our reputation in the world allowed, despite seri",
+      "new": "The skill of our diplomats and our reputation in the world allowed, despite seri"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 709,
+      "old": "Shcherbitsky|Replaced Brezhnev, Vladimir Shcherbitskiy began his reign with clea",
+      "new": "Shcherbitsky|Replaced Brezhnev, Vladimir Shcherbitskiy began his reign with clea"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 831,
+      "old": "The entry of the PRC into the CMEA and the Warsaw Pact and the growth of its inf",
+      "new": "The entry of the 中华人民共和国 into the CMEA and the Warsaw Pact and the growth of its"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 880,
+      "old": "After Gorbachev came to power in the USSR, the social camp began to slowly fall ",
+      "new": "After Gorbachev came to power in the USSR, the social camp began to slowly fall "
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 989,
+      "old": "The Cold War is nearing its end, and it seems that the USSR will prevail in this",
+      "new": "The Cold War is nearing its end, and it seems that the USSR will prevail in this"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 993,
+      "old": "The last few years have not been in vain for the USSR - its influence on the wor",
+      "new": "The last few years have not been in vain for the USSR - its influence on the wor"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 997,
+      "old": "The last few years have not been in vain for the United States - their influence",
+      "new": "The last few years have not been in vain for the United States - their influence"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1001,
+      "old": "The Cold War is nearing its end, and it seems that the United States will prevai",
+      "new": "The Cold War is nearing its end, and it seems that the United States will prevai"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1013,
+      "old": "Once having among its supporters only scattered partisans-Maoists, China neverth",
+      "new": "Once having among its supporters only scattered partisans-Maoists, China neverth"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1127,
+      "old": "Nothing much has changed on the Korean peninsula - the confrontation of two Kore",
+      "new": "Nothing much has changed on the Korean peninsula - the confrontation of two Kore"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1135,
+      "old": "Nothing much has changed on the Korean peninsula - the confrontation of two Kore",
+      "new": "Nothing much has changed on the Korean peninsula - the confrontation of two Kore"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1915,
+      "old": " decided to avoid possible bloodshed and voluntarily resigned for health reasons",
+      "new": " decided to avoid possible bloodshed and voluntarily resigned for health reasons"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1931,
+      "old": "The elections in the NPC did not bring success to the CPC, and radical Communist",
+      "new": "The elections in the 全国人大 did not bring success to the 中共, and radical Communist"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1935,
+      "old": "The past elections in the NPC did not bring success to the CPC, and the victory ",
+      "new": "The past elections in the 全国人大 did not bring success to the 中共, and the victory "
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1949,
+      "old": "The CCP, which lost the election, was able to maintain the support of part of th",
+      "new": "The 中共, which lost the election, was able to maintain the support of part of the"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1953,
+      "old": "Lost the election, the CPC was able to retain the support of the population and ",
+      "new": "Lost the election, the 中共 was able to retain the support of the population and t"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1957,
+      "old": "The CCP, which lost the elections, was unable to maintain unity in its ranks, bu",
+      "new": "The 中共, which lost the elections, was unable to maintain unity in its ranks, but"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1964,
+      "old": "The new social-Patriotic government of the PRC declared its primary and most imp",
+      "new": "The new social-Patriotic government of the 中华人民共和国 declared its primary and most"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1968,
+      "old": "The new social-Patriotic government of the PRC declared its primary and most imp",
+      "new": "The new social-Patriotic government of the 中华人民共和国 declared its primary and most"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1972,
+      "old": "The CCP, which lost the elections, was able to maintain the support of a part of",
+      "new": "The 中共, which lost the elections, was able to maintain the support of a part of "
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1976,
+      "old": "The CCP, which lost the elections, was able to maintain the support of a part of",
+      "new": "The 中共, which lost the elections, was able to maintain the support of a part of "
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1980,
+      "old": "The CCP, which had lost the elections, had failed to maintain unity among its me",
+      "new": "The 中共, which had lost the elections, had failed to maintain unity among its mem"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1987,
+      "old": "The new government of the PRC, which came to power through promises of stable pr",
+      "new": "The new government of the 中华人民共和国, which came to power through promises of stabl"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1991,
+      "old": "The new social-Patriotic government of the PRC declared its primary and most imp",
+      "new": "The new social-Patriotic government of the 中华人民共和国 declared its primary and most"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1995,
+      "old": "The CCP, which lost the elections , was able to maintain the support of a large ",
+      "new": "The 中共, which lost the elections , was able to maintain the support of a large p"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 1999,
+      "old": "The CCP, which lost the elections, was able to maintain the support of part of t",
+      "new": "The 中共, which lost the elections, was able to maintain the support of part of th"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 2003,
+      "old": "The CCP, which lost the elections, was unable to maintain unity in its ranks, bu",
+      "new": "The 中共, which lost the elections, was unable to maintain unity in its ranks, but"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 2014,
+      "old": "China's new government announced that its primary and most important purpose of ",
+      "new": "China's new government announced that its primary and most important purpose of "
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 2022,
+      "old": "The CCP, which lost the elections, was able to maintain the support of a large p",
+      "new": "The 中共, which lost the elections, was able to maintain the support of a large pa"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 2026,
+      "old": "The CCP, which lost the elections, was able to maintain the support of a part of",
+      "new": "The 中共, which lost the elections, was able to maintain the support of a part of "
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 2030,
+      "old": "The CCP, which lost the elections, was unable to maintain unity in its ranks, bu",
+      "new": "The 中共, which lost the elections, was unable to maintain unity in its ranks, but"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 2037,
+      "old": "China's new government announced that its primary and most important purpose of ",
+      "new": "China's new government announced that its primary and most important purpose of "
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 2045,
+      "old": "The CCP, which lost the elections, was able to maintain the support of a large p",
+      "new": "The 中共, which lost the elections, was able to maintain the support of a large pa"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 2049,
+      "old": "The CCP, which lost the elections, was able to maintain the support of a part of",
+      "new": "The 中共, which lost the elections, was able to maintain the support of a part of "
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 2053,
+      "old": "The CCP, which lost the elections, was unable to maintain unity in its ranks, bu",
+      "new": "The 中共, which lost the elections, was unable to maintain unity in its ranks, but"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 2068,
+      "old": "The CCP, which lost the election, was able to maintain the support of part of th",
+      "new": "The 中共, which lost the election, was able to maintain the support of part of the"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 2072,
+      "old": "Lost the election, the CPC was able to retain the support of the population and ",
+      "new": "Lost the election, the 中共 was able to retain the support of the population and t"
+    },
+    {
+      "file": "EndingScript.cs",
+      "line": 2076,
+      "old": "The CCP, which lost the elections, was unable to maintain unity in its ranks, bu",
+      "new": "The 中共, which lost the elections, was unable to maintain unity in its ranks, but"
+    },
+    {
+      "file": "LoadInScript.cs",
+      "line": 53,
+      "old": "Cultural Revolution",
+      "new": "文化大革命"
+    },
+    {
+      "file": "LoadListController.cs",
+      "line": 280,
+      "old": "Cultural Revolution",
+      "new": "文化大革命"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 206,
+      "old": "We won with a devastating result, taking the majority of seats in the NPC and pr",
+      "new": "We won with a devastating result, taking the majority of seats in the 全国人大 and p"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 213,
+      "old": "Our alliance of parties won the elections to the NPC and proved to China and the",
+      "new": "Our alliance of parties won the elections to the 全国人大 and proved to China and th"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 217,
+      "old": "We have lost not only the majority, we no longer even occupy 50% of the seats in",
+      "new": "We have lost not only the majority, we no longer even occupy 50% of the seats in"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 266,
+      "old": "We won with a devastating result, taking the majority of seats in the NPC and pr",
+      "new": "We won with a devastating result, taking the majority of seats in the 全国人大 and p"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 273,
+      "old": "Our alliance of parties won the elections to the NPC and proved to China and the",
+      "new": "Our alliance of parties won the elections to the 全国人大 and proved to China and th"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 277,
+      "old": "We have lost not only the majority, we no longer even occupy 50% of the seats in",
+      "new": "We have lost not only the majority, we no longer even occupy 50% of the seats in"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 338,
+      "old": "We won with a devastating result, taking the majority of seats in the NPC and pr",
+      "new": "We won with a devastating result, taking the majority of seats in the 全国人大 and p"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 345,
+      "old": "Our alliance of parties won the elections to the NPC and proved to China and the",
+      "new": "Our alliance of parties won the elections to the 全国人大 and proved to China and th"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 349,
+      "old": "We have lost not only the majority, we no longer even occupy 50% of the seats in",
+      "new": "We have lost not only the majority, we no longer even occupy 50% of the seats in"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 382,
+      "old": "After Mao’s death was announced, his body was placed in the House of People’s Co",
+      "new": "After Mao’s death was announced, his body was placed in the House of People’s Co"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 396,
+      "old": "After Mao’s death was announced, his body was placed in the House of People’s Co",
+      "new": "After Mao’s death was announced, his body was placed in the House of People’s Co"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 413,
+      "old": "Guofeng decided not to participate directly in the organization of the funeral, ",
+      "new": "Guofeng decided not to participate directly in the organization of the funeral, "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 524,
+      "old": "Even before the start of the congress, you appealed through the media to the peo",
+      "new": "Even before the start of the congress, you appealed through the media to the peo"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 728,
+      "old": "The MSS was engaged in the usual business - they bribed someone, they eliminated",
+      "new": "The 国家安全部 was engaged in the usual business - they bribed someone, they eliminat"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1335,
+      "old": "Rumor had it Mao Zedong himself started the Five \\\"no\\\" campaign, though no one ",
+      "new": "Rumor had it 毛泽东 himself started the Five \\\"no\\\" campaign, though no one was cer"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1342,
+      "old": "Rumor had it Mao Zedong himself started the Five \\\"no\\\" campaign, though no one ",
+      "new": "Rumor had it 毛泽东 himself started the Five \\\"no\\\" campaign, though no one was cer"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1358,
+      "old": "Rumor had it Mao Zedong himself started the Five \\\"no\\\" campaign, though no one ",
+      "new": "Rumor had it 毛泽东 himself started the Five \\\"no\\\" campaign, though no one was cer"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1375,
+      "old": "Rumor had it Mao Zedong himself started the Five \\\"no\\\" campaign, though no one ",
+      "new": "Rumor had it 毛泽东 himself started the Five \\\"no\\\" campaign, though no one was cer"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1403,
+      "old": "In the media controlled by Jiang Qing's group, active persecution of Deng Xiaopi",
+      "new": "In the media controlled by 江青's group, active persecution of 邓小平 and his ideas b"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1411,
+      "old": "In the media controlled by Jiang Qing's group, active persecution of Deng Xiaopi",
+      "new": "In the media controlled by 江青's group, active persecution of 邓小平 and his ideas b"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1436,
+      "old": "In the media controlled by Jiang Qing's group, active persecution of Deng Xiaopi",
+      "new": "In the media controlled by 江青's group, active persecution of 邓小平 and his ideas b"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1473,
+      "old": "An obscure article sparked rumors: some say it attacks Zhou Enlai, others whispe",
+      "new": "An obscure article sparked rumors: some say it attacks 周恩来, others whisper it ta"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1479,
+      "old": "The article’s exact target remained murky: some saw a swipe at Zhou Enlai, other",
+      "new": "The article’s exact target remained murky: some saw a swipe at 周恩来, others insis"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1529,
+      "old": "Following Jiang Qing and Zhang Chunqiao’s line, we first used radio appeals to s",
+      "new": "Following 江青 and 张春桥’s line, we first used radio appeals to separate mourners fr"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1554,
+      "old": "At half past six in the evening, Wu De spoke over loudspeakers urging the crowd ",
+      "new": "At half past six in the evening, 吴德 spoke over loudspeakers urging the crowd to "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1573,
+      "old": "At half past six in the evening, Wu De spoke over loudspeakers urging the crowd ",
+      "new": "At half past six in the evening, 吴德 spoke over loudspeakers urging the crowd to "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1595,
+      "old": "Funds from the PRC budget were immediately allocated to carry out rescue and res",
+      "new": "Funds from the 中华人民共和国 budget were immediately allocated to carry out rescue and"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1610,
+      "old": "Funds from the PRC budget were immediately allocated to carry out rescue and res",
+      "new": "Funds from the 中华人民共和国 budget were immediately allocated to carry out rescue and"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1632,
+      "old": "You and Wang Dongxing coined the slogan of the 'Two Whatevers'—'We will resolute",
+      "new": "You and 汪东兴 coined the slogan of the 'Two Whatevers'—'We will resolutely uphold "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1665,
+      "old": "Relying on loyal radicals, you and Wang Dongxing elevated your own 'Two Whatever",
+      "new": "Relying on loyal radicals, you and 汪东兴 elevated your own 'Two Whatevers' formula"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1692,
+      "old": "You and Wang Dongxing reminded cadres of your authorship of the 'Two Whatevers' ",
+      "new": "You and 汪东兴 reminded cadres of your authorship of the 'Two Whatevers' to legitim"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1717,
+      "old": "You and Wang Dongxing asserted the 'Two Whatevers'—your own formula—as a strict ",
+      "new": "You and 汪东兴 asserted the 'Two Whatevers'—your own formula—as a strict obligatory"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1768,
+      "old": "Enlisting the support of Special Regiment 8341, as well as the highest generals,",
+      "new": "Enlisting the support of Special Regiment 8341, as well as the highest generals,"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1810,
+      "old": "Unwilling to take risks, Hua Guofeng decided to arrest only Wang Hongwen and Jia",
+      "new": "Unwilling to take risks, 华国锋 decided to arrest only 王洪文 and 江青, who represented "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1854,
+      "old": "The growing influence of reformers in the wake of Mao’s death scared not only Gu",
+      "new": "The growing influence of reformers in the wake of Mao’s death scared not only Gu"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1912,
+      "old": "Enlisting the support of Special Regiment 8341, as well as the highest generals,",
+      "new": "Enlisting the support of Special Regiment 8341, as well as the highest generals,"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1955,
+      "old": "Unwilling to take risks, Hua Guofeng decided to arrest only Wang Hongwen and Jia",
+      "new": "Unwilling to take risks, 华国锋 decided to arrest only 王洪文 and 江青, who represented "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2000,
+      "old": "Fearing to go into open conflict with ever-increasing radicals, Guofeng made fur",
+      "new": "Fearing to go into open conflict with ever-increasing radicals, Guofeng made fur"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2122,
+      "old": "After long negotiations, you finally signed an agreement with the representative",
+      "new": "After long negotiations, you finally signed an agreement with the representative"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2134,
+      "old": "After long negotiations, you finally signed an agreement with the representative",
+      "new": "After long negotiations, you finally signed an agreement with the representative"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2155,
+      "old": "After long negotiations, you finally signed an agreement with the representative",
+      "new": "After long negotiations, you finally signed an agreement with the representative"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2484,
+      "old": "Thanks to our warning, Bhutto managed to hide from the rebels and put up loyal u",
+      "new": "Thanks to our warning, Bhutto managed to hide from the rebels and put up loyal u"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2518,
+      "old": "At the next meeting of the politburo of the CPC Central Committee, Comrade Guofe",
+      "new": "At the next meeting of the politburo of the 中共 Central Committee, Comrade Guofen"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2567,
+      "old": "Having enlisted the support of a moderately conservative majority, you criticize",
+      "new": "Having enlisted the support of a moderately conservative majority, you criticize"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2597,
+      "old": "At the next meeting of the politburo, Comrade Guofeng said it was necessary to c",
+      "new": "At the next meeting of the politburo, Comrade Guofeng said it was necessary to c"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2627,
+      "old": "In the Politburo and the rest of the CPC, reformist-liberal sentiments are rapid",
+      "new": "In the 政治局 and the rest of the 中共, reformist-liberal sentiments are rapidly grow"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2647,
+      "old": "Despite the completed folding of the Cultural Revolution, there seems to be no f",
+      "new": "Despite the completed folding of the 文化大革命, there seems to be no further movemen"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2662,
+      "old": "As part of the continuation of the struggle with the excesses of the Cultural Re",
+      "new": "As part of the continuation of the struggle with the excesses of the 文化大革命, the "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2687,
+      "old": "As part of the continuation of the struggle with the excesses of the Cultural Re",
+      "new": "As part of the continuation of the struggle with the excesses of the 文化大革命, the "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2715,
+      "old": "As part of the continuation of the struggle with the excesses of the Cultural Re",
+      "new": "As part of the continuation of the struggle with the excesses of the 文化大革命, the "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2796,
+      "old": "Not daring to intervene directly, we went the other way and began to act through",
+      "new": "Not daring to intervene directly, we went the other way and began to act through"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2815,
+      "old": "Not daring to intervene directly, we went the other way and began to act through",
+      "new": "Not daring to intervene directly, we went the other way and began to act through"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2837,
+      "old": "At the next meeting of the Political Bureau of the CPC Central Committee, a deci",
+      "new": "At the next meeting of the Political Bureau of the 中共 Central Committee, a decis"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2871,
+      "old": "In accordance with the previously proclaimed course of changing socio-economic l",
+      "new": "In accordance with the previously proclaimed course of changing socio-economic l"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2913,
+      "old": " as his deputy. In its assessment, the commission focuses on the work of Mao Zed",
+      "new": " as his deputy. In its assessment, the commission focuses on the work of 毛泽东 sin"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2913,
+      "old": " made a decision to personally head the commission for drafting \\\"Resolution on ",
+      "new": " made a decision to personally head the commission for drafting \\\"Resolution on "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2953,
+      "old": "In accordance with the decision of the Politburo, the commission was headed by t",
+      "new": "In accordance with the decision of the 政治局, the commission was headed by the old"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2995,
+      "old": "Hua Guofeng, despite objections from both the right and left wing of the CCP, ap",
+      "new": "华国锋, despite objections from both the right and left wing of the 中共, appointed t"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2998,
+      "old": "|On the night after the document was adopted, Mao was removed from the Mausoleum",
+      "new": "|On the night after the document was adopted, Mao was removed from the Mausoleum"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3061,
+      "old": ", that, in general, he approves of our state’s policy regarding the Tibetan cler",
+      "new": ", that, in general, he approves of our state’s policy regarding the Tibetan cler"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3115,
+      "old": "On October 28, 1977, the guards of the Jincheng Prison found Panchen-Lamu X on t",
+      "new": "On October 28, 1977, the guards of the Jincheng Prison found Panchen-Lamu X on t"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3133,
+      "old": "Due to the fall in the popularity of Gandhi and the INC, and also because the fi",
+      "new": "Due to the fall in the popularity of Gandhi and the INC, and also because the fi"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3141,
+      "old": "Due to the fall in the popularity of Gandhi and the INC, our active support and ",
+      "new": "Due to the fall in the popularity of Gandhi and the INC, our active support and "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3218,
+      "old": "In November 1978, Vietnam joined the CMEA, which led to a further deterioration ",
+      "new": "In November 1978, Vietnam joined the CMEA, which led to a further deterioration "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3238,
+      "old": "At the current plenary session of the CPC Central Committee, with  almost univer",
+      "new": "At the current plenary session of the 中共 Central Committee, with  almost univers"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3378,
+      "old": "While you were delay the meeting with demagogy, the staff of the MSS, arrived at",
+      "new": "While you were delay the meeting with demagogy, the staff of the 国家安全部, arrived "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3388,
+      "old": "At the current plenary session of the CPC Central Committee, with your support a",
+      "new": "At the current plenary session of the 中共 Central Committee, with your support an"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3607,
+      "old": "In the old manner, the MS and the police began to tear big-character poster and ",
+      "new": "In the old manner, the MS and the police began to tear big-character poster and "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3627,
+      "old": "The media controlled by us engaged in the active release of our articles refutin",
+      "new": "The media controlled by us engaged in the active release of our articles refutin"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3684,
+      "old": "Being dissatisfied with such an expansion of Soviet influence, the leadership of",
+      "new": "Being dissatisfied with such an expansion of Soviet influence, the leadership of"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3794,
+      "old": "Thanks to our timely warning, Amin managed to bring his loyal parts to combat re",
+      "new": "Thanks to our timely warning, Amin managed to bring his loyal parts to combat re"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3921,
+      "old": "After long discussions in the Politburo, where individual party members stubborn",
+      "new": "After long discussions in the 政治局, where individual party members stubbornly pro"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3984,
+      "old": "Later, the summit between the United States and the PRC unexpectedly quickly too",
+      "new": "Later, the summit between the United States and the 中华人民共和国 unexpectedly quickly"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4165,
+      "old": "After long discussions with the conservative and even moderate part of Politburo",
+      "new": "After long discussions with the conservative and even moderate part of 政治局, the "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4396,
+      "old": "A meeting was held between representatives of the PRC and Burma, where a number ",
+      "new": "A meeting was held between representatives of the 中华人民共和国 and Burma, where a num"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4405,
+      "old": "Thanks to the intervention of our intelligence services, the left wing of the BS",
+      "new": "Thanks to the intervention of our intelligence services, the left wing of the BS"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4422,
+      "old": "You managed to calm the CPC, though not without discontent. Everything is going ",
+      "new": "You managed to calm the 中共, though not without discontent. Everything is going a"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4544,
+      "old": "Today, at the initiative of the PRC, a closed economic meeting was convened in B",
+      "new": "Today, at the initiative of the 中华人民共和国, a closed economic meeting was convened "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4593,
+      "old": "Continuing the line on «resetting relations with the USSR», China has applied fo",
+      "new": "Continuing the line on «resetting relations with the USSR», China has applied fo"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4672,
+      "old": "Today in Shanghai, an agreement was signed on the creation of the Collective Sec",
+      "new": "Today in Shanghai, an agreement was signed on the creation of the Collective Sec"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4777,
+      "old": ". The USSR and the United States reacted negatively to the expansion of Chinese ",
+      "new": ". The USSR and the United States reacted negatively to the expansion of Chinese "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4813,
+      "old": "The Resolution of the NPC Standing Committee on the Restoration of the \\\"March o",
+      "new": "The Resolution of the 全国人大 Standing Committee on the Restoration of the \\\"March "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4834,
+      "old": "Today, \\\" Radio Peking\\\" started broadcasting, like 10 years ago, with the song ",
+      "new": "Today, \\\" Radio Peking\\\" started broadcasting, like 10 years ago, with the song "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4854,
+      "old": "Today, the broadcast of \\\"Radio Peking\\\" began with \\\"March of the Volunteers\\\",",
+      "new": "Today, the broadcast of \\\"Radio Peking\\\" began with \\\"March of the Volunteers\\\","
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4866,
+      "old": "Today, a joint decision of the NPC Standing Committee and the CPC Central Commit",
+      "new": "Today, a joint decision of the 全国人大 Standing Committee and the 中共 Central Commit"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4912,
+      "old": ", stunned by the revealed truth about the state of affairs in Inner Mongolia, de",
+      "new": ", stunned by the revealed truth about the state of affairs in Inner Mongolia, de"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5021,
+      "old": "While the USSR and the United States exchanged threats and complained about each",
+      "new": "While the USSR and the United States exchanged threats and complained about each"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5040,
+      "old": "China joined the American boycott of the Olympic Games in Moscow, although not w",
+      "new": "China joined the American boycott of the Olympic Games in Moscow, although not w"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5061,
+      "old": "China joined the American boycott of the Olympic Games in Moscow, although not w",
+      "new": "China joined the American boycott of the Olympic Games in Moscow, although not w"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5078,
+      "old": "The idea of the party members was supported by both Hua Guofeng and the head of ",
+      "new": "The idea of the party members was supported by both 华国锋 and the head of the 中华人民"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5122,
+      "old": "On May 7, more than 200 foreign delegations arrived at the Assembly of the SFRY ",
+      "new": "On May 7, more than 200 foreign delegations arrived at the Assembly of the SFRY "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5132,
+      "old": "But, as was to be expected, the Albanian leadership immediately accused us of \\\"",
+      "new": "But, as was to be expected, the Albanian leadership immediately accused us of \\\""
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5139,
+      "old": "On May 7, more than 200 foreign delegations arrived at the Assembly of the SFRY ",
+      "new": "On May 7, more than 200 foreign delegations arrived at the Assembly of the SFRY "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5169,
+      "old": "Understanding that in the current situation only the Polish Army could somehow i",
+      "new": "Understanding that in the current situation only the Polish Army could somehow i"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5185,
+      "old": "MSS agents through the underground Communist Party of Kazimierz Mijal came to th",
+      "new": "国家安全部 agents through the underground Communist Party of Kazimierz Mijal came to "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5208,
+      "old": "The news of Gierek’s resignation made a very negative impression on you. At 23 o",
+      "new": "The news of Gierek’s resignation made a very negative impression on you. At 23 o"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5331,
+      "old": "Conservatives continue to hold their posts, undermining your reforms and with th",
+      "new": "Conservatives continue to hold their posts, undermining your reforms and with th"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5361,
+      "old": "At the V Plenum of the CPC Central Committee in February, Wang Dongxing, Ji Deng",
+      "new": "At the V Plenum of the 中共 Central Committee in February, 汪东兴, Ji Dengkui, Chen X"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5401,
+      "old": "At the V Plenum of the CPC Central Committee in February, Wang Dongxing, Ji Deng",
+      "new": "At the V Plenum of the 中共 Central Committee in February, 汪东兴, Ji Dengkui, Chen X"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5442,
+      "old": "The problems of Zhou Enlai's heirs",
+      "new": "The problems of 周恩来's heirs"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5445,
+      "old": "Reformers continue to hold their posts, undermining your undertakings and your r",
+      "new": "Reformers continue to hold their posts, undermining your undertakings and your r"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5467,
+      "old": "At the 5th Plenum of the CPC Central Committee in February, the old reformers, s",
+      "new": "At the 5th Plenum of the 中共 Central Committee in February, the old reformers, su"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5511,
+      "old": "At the 5th Plenum of the CPC Central Committee in February, the old reformers, s",
+      "new": "At the 5th Plenum of the 中共 Central Committee in February, the old reformers, su"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5544,
+      "old": "According to your order, the leaders of the reformers were arrested on trumped u",
+      "new": "According to your order, the leaders of the reformers were arrested on trumped u"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5656,
+      "old": "The decision on some questions of the history of the CPC",
+      "new": "The decision on some questions of the history of the 中共"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5659,
+      "old": "From 27 to 29 June 1981, Beijing hosted the 6th Plenum of the Central Committee ",
+      "new": "From 27 to 29 June 1981, Beijing hosted the 6th Plenum of the Central Committee "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5706,
+      "old": "From 27 to 29 June 1981, Beijing hosted the 6th Plenum of the Central Committee ",
+      "new": "From 27 to 29 June 1981, Beijing hosted the 6th Plenum of the Central Committee "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5747,
+      "old": "From 27 to 29 June 1981, Beijing hosted the 6th Plenum of the Central Committee ",
+      "new": "From 27 to 29 June 1981, Beijing hosted the 6th Plenum of the Central Committee "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5792,
+      "old": "From 27 to 29 June 1981, Beijing hosted the 6th Plenum of the Central Committee ",
+      "new": "From 27 to 29 June 1981, Beijing hosted the 6th Plenum of the Central Committee "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5879,
+      "old": "The Commission corrected the excesses in the text, focusing on Khrushchev's 1956",
+      "new": "The Commission corrected the excesses in the text, focusing on Khrushchev's 1956"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5920,
+      "old": "From 27 to 28 June 1981, Beijing hosted the 6th Plenum of the Central Committee ",
+      "new": "From 27 to 28 June 1981, Beijing hosted the 6th Plenum of the Central Committee "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6014,
+      "old": "The Ministry of foreign affairs of the PRC issued a communiqué in which it offic",
+      "new": "The Ministry of foreign affairs of the 中华人民共和国 issued a communiqué in which it o"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6019,
+      "old": "At a closed meeting of the Politburo, it was decided to take advantage of the pr",
+      "new": "At a closed meeting of the 政治局, it was decided to take advantage of the problems"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6029,
+      "old": "They agreed to our help. In Albania there has arrived group of employees of the ",
+      "new": "They agreed to our help. In Albania there has arrived group of employees of the "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6145,
+      "old": "XII Congress of the CPC",
+      "new": "XII Congress of the 中共"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6148,
+      "old": " declared the aim of the party to cleanse the socialist system of the right and ",
+      "new": " declared the aim of the party to cleanse the socialist system of the right and "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6156,
+      "old": " focused on the results of the VI Plenum of the Central Committee of the CPC 11 ",
+      "new": " focused on the results of the VI Plenum of the Central Committee of the 中共 11 c"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6156,
+      "old": "In the Report of the Central Committee of the CPC Congress, comrade ",
+      "new": "In the Report of the Central Committee of the 中共 Congress, comrade "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6182,
+      "old": " asked the delegates to stay for another meeting - this time closed. At this mee",
+      "new": " asked the delegates to stay for another meeting - this time closed. At this mee"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6182,
+      "old": "On the last day of the XII Congress of the CPC, comrade ",
+      "new": "On the last day of the XII Congress of the 中共, comrade "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6254,
+      "old": "This morning, the Chinese ambassador in Budapest came to Janos Kadar and on our ",
+      "new": "This morning, the Chinese ambassador in Budapest came to Janos Kadar and on our "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6265,
+      "old": " called the Ambassador of the HPR in Beijing and gave him a letter to Janos Kada",
+      "new": " called the Ambassador of the HPR in Beijing and gave him a letter to Janos Kada"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6291,
+      "old": "By negotiating with a certain part of the Politburo behind the scenes, we were a",
+      "new": "By negotiating with a certain part of the 政治局 behind the scenes, we were able to"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6324,
+      "old": "Today's number in the \\\"Jenmin Jibao\\\" was out with an article, \\\"the Reformer i",
+      "new": "Today's number in the \\\"Jenmin Jibao\\\" was out with an article, \\\"the Reformer i"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6335,
+      "old": "We organized a large-scale campaign to denigrate Kulakov in the media. He was br",
+      "new": "We organized a large-scale campaign to denigrate Kulakov in the media. He was br"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6344,
+      "old": "We organized a large-scale campaign to denigrate Kulakov in the media. He was br",
+      "new": "We organized a large-scale campaign to denigrate Kulakov in the media. He was br"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6390,
+      "old": "On June 16 in the cities of Tselinograd, Kokchetav and Karaganda began mass prot",
+      "new": "On June 16 in the cities of Tselinograd, Kokchetav and Karaganda began mass prot"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6615,
+      "old": "We have established contacts with the three largest syndicates of the Triads - «",
+      "new": "We have established contacts with the three largest syndicates of the Triads - «"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6622,
+      "old": "We have established contacts with the three largest syndicates of the Triads - «",
+      "new": "We have established contacts with the three largest syndicates of the Triads - «"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6643,
+      "old": "«Either the Communist Party will win corruption, or corruption will win the Comm",
+      "new": "«Either the Communist Party will win corruption, or corruption will win the Comm"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6751,
+      "old": " and his supporters were removed from their posts and expelled from the CPC, arr",
+      "new": " and his supporters were removed from their posts and expelled from the 中共, arre"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6751,
+      "old": "At an emergency meeting of the Politburo of the Central Committee of the CPC, th",
+      "new": "At an emergency meeting of the 政治局 of the Central Committee of the 中共, the event"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6770,
+      "old": "Fearing looting, the mayor of Beijing ordered the introduction of reinforced arm",
+      "new": "Fearing looting, the mayor of Beijing ordered the introduction of reinforced arm"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6880,
+      "old": "At an emergency meeting of the Politburo of the Central Committee of the CPC, vi",
+      "new": "At an emergency meeting of the 政治局 of the Central Committee of the 中共, violent d"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7080,
+      "old": "New beginning for CPC",
+      "new": "New beginning for 中共"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7084,
+      "old": "At the extraordinary Plenum of the CPC Central Committee, by a majority of votes",
+      "new": "At the extraordinary Plenum of the 中共 Central Committee, by a majority of votes,"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7110,
+      "old": "At the extraordinary Plenum of the CPC Central Committee, after long disputes, i",
+      "new": "At the extraordinary Plenum of the 中共 Central Committee, after long disputes, it"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7141,
+      "old": "At the extraordinary Plenum of the CPC Central Committee, a group of party membe",
+      "new": "At the extraordinary Plenum of the 中共 Central Committee, a group of party member"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7176,
+      "old": "At the extraordinary Plenum of the CPC Central Committee, supporters of the pres",
+      "new": "At the extraordinary Plenum of the 中共 Central Committee, supporters of the prese"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7210,
+      "old": "\\\"National Revolution United Front\\\"  was dissolved, and we began to create elec",
+      "new": "\\\"National Revolution United Front\\\"  was dissolved, and we began to create elec"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7936,
+      "old": "GOVERNMENT CRISIS",
+      "new": "政府 CRISIS"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7976,
+      "old": "Absolutely unexpected news from Tirana! In the most seemingly unshakable ideolog",
+      "new": "Absolutely unexpected news from Tirana! In the most seemingly unshakable ideolog"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7984,
+      "old": "The Chinese leader sent a letter of condolences to the Albanian Foreign Ministry",
+      "new": "The Chinese leader sent a letter of condolences to the Albanian Foreign Ministry"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8124,
+      "old": "As a result, Mikhail Gorbachev was elected General Secretary of the CPSU Central",
+      "new": "As a result, Mikhail Gorbachev was elected General Secretary of the CPSU Central"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8151,
+      "old": "Despite numerous debates, in the end, Mikhail Gorbachev was elected General Secr",
+      "new": "Despite numerous debates, in the end, Mikhail Gorbachev was elected General Secr"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8177,
+      "old": "Glory to the chairman! Glory to the CPС! This day will go down in the history of",
+      "new": "Glory to the chairman! Glory to the CPС! This day will go down in the history of"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8186,
+      "old": "Glory to the chairman! Glory to the CPС! This day will go down in the history of",
+      "new": "Glory to the chairman! Glory to the CPС! This day will go down in the history of"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8200,
+      "old": "Glory to the chairman! Glory to the CPС! This day will go down in the history of",
+      "new": "Glory to the chairman! Glory to the CPС! This day will go down in the history of"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8263,
+      "old": ". Nevertheless, the enemies of the working class are defeated, this is our grand",
+      "new": ". Nevertheless, the enemies of the working class are defeated, this is our grand"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8332,
+      "old": "Our Chairman personally called Petar Stambolic (Serb), Milka Planinc (Croatian) ",
+      "new": "Our Chairman personally called Petar Stambolic (Serb), Milka Planinc (Croatian) "
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8434,
+      "old": "Despite the protests of principled party members who learned about the agreement",
+      "new": "Despite the protests of principled party members who learned about the agreement"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8454,
+      "old": "At our meeting of representatives of the PRC, Laos, Burma and Thailand, a progra",
+      "new": "At our meeting of representatives of the 中华人民共和国, Laos, Burma and Thailand, a pr"
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8574,
+      "old": "Today, our Leader at the head of the Chinese delegation paid a historic visit to",
+      "new": "Today, our Leader at the head of the Chinese delegation paid a historic visit to"
+    },
+    {
+      "file": "SaveListController.cs",
+      "line": 498,
+      "old": "Cultural Revolution",
+      "new": "文化大革命"
+    },
+    {
+      "file": "Savescript.cs",
+      "line": 51,
+      "old": "Cultural Revolution",
+      "new": "文化大革命"
+    },
+    {
+      "file": "Savescript.cs",
+      "line": 100,
+      "old": "SAVED",
+      "new": "存档D"
+    },
+    {
+      "file": "Show_diplomacy_data_script.cs",
+      "line": 421,
+      "old": " or in ",
+      "new": "或者在"
+    },
+    {
+      "file": "Show_diplomacy_data_script.cs",
+      "line": 421,
+      "old": " or in ",
+      "new": "或者在"
+    },
+    {
+      "file": "USSRFocuses.cs",
+      "line": 13,
+      "old": "New old",
+      "new": "新旧"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+MSBuild version 17.8.49+7806cbf7b for .NET
+  Determining projects to restore...
+  Restored /mnt/d/mao's legacy-chinese-tools/rebuild-v2/Assembly-CSharp.csproj (in 2.07 sec).
+  Assembly-CSharp -> /mnt/d/mao's legacy-chinese-tools/rebuild-v2/bin/Release/net472/Assembly-CSharp.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:08.51

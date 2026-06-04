@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wZACUw+lQAnCofH6OiztfmXtT6l74BrjB3PRS6W9IUIiI+MrPzF1llDSHtTl4ftdGTExXHrznmBkbRO/mgW9vA==",
+  "success": true,
+  "projectFilePath": "/mnt/d/mao's legacy-chinese-tools/rebuild-v2/Assembly-CSharp.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.3/microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
