@@ -1113,7 +1113,7 @@ public class DiploButtonScript : MonoBehaviour
 			}
 			else if (this_type == 79)
 			{
-				this_opis = "Hold a referendum on joining the country in the 中华人民共和国";
+				this_opis = "Hold a referendum on joining the country in the PRC";
 				this_opis = this_opis + "|Our influence: " + a.allcountries[selected_country].dev + "%";
 				number_uslovie = 3;
 				uslovie_bool[0] = a.allcountries[selected_country].proprc;
@@ -1528,7 +1528,7 @@ public class DiploButtonScript : MonoBehaviour
 			}
 			else if (this_type == 49)
 			{
-				this_opis = "Put money on a secret 中共 account";
+				this_opis = "Put money on a secret CCP account";
 				number_uslovie = 2;
 				if (!a.allcountries[selected_country].proprc)
 				{

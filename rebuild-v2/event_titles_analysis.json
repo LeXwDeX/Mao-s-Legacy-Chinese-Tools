@@ -1,0 +1,4210 @@
+{
+  "total": 467,
+  "with_translation": 224,
+  "without_translation": 243,
+  "titles": [
+    {
+      "file": "doneventscript.cs",
+      "line": 5823,
+      "var": "text2",
+      "raw": "Death of helmsman",
+      "text": "Death of helmsman",
+      "translated": "掌舵者逝世",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5828,
+      "var": "text2",
+      "raw": "Conspiracy",
+      "text": "Conspiracy",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5833,
+      "var": "text2",
+      "raw": "Popular discontent",
+      "text": "Popular discontent",
+      "translated": "群众不满",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5838,
+      "var": "text2",
+      "raw": "Low standard of living",
+      "text": "Low standard of living",
+      "translated": "生活水平偏低",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5847,
+      "var": "text2",
+      "raw": "Diplomatic crisis",
+      "text": "Diplomatic crisis",
+      "translated": "外交危机",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5852,
+      "var": "text2",
+      "raw": "Diplomatic crisis",
+      "text": "Diplomatic crisis",
+      "translated": "外交危机",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5857,
+      "var": "text2",
+      "raw": "Separatism in Tibet",
+      "text": "Separatism in Tibet",
+      "translated": "西藏分裂主义",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5862,
+      "var": "text2",
+      "raw": "Separatism in Xinjiang",
+      "text": "Separatism in Xinjiang",
+      "translated": "新疆分裂主义",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5867,
+      "var": "text2",
+      "raw": "The decline of industry",
+      "text": "The decline of industry",
+      "translated": "工业衰退",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5872,
+      "var": "text2",
+      "raw": "The decline of agriculture",
+      "text": "The decline of agriculture",
+      "translated": "农业衰退",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5877,
+      "var": "text2",
+      "raw": "The decline of service sector",
+      "text": "The decline of service sector",
+      "translated": "服务业衰退",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5882,
+      "var": "text2",
+      "raw": "We have no money, but you hang in there!",
+      "text": "We have no money, but you hang in there!",
+      "translated": "我们没钱，但你们要挺住！",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5887,
+      "var": "text2",
+      "raw": "Cambodian-Vietnamese war",
+      "text": "Cambodian-Vietnamese war",
+      "translated": "柬越战争",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5892,
+      "var": "text2",
+      "raw": "Elections in Thailand",
+      "text": "Elections in Thailand",
+      "translated": "泰国选举",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5897,
+      "var": "text2",
+      "raw": "Instability in Thailand",
+      "text": "Instability in Thailand",
+      "translated": "泰国局势不稳",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5904,
+      "var": "text2",
+      "raw": "War is over",
+      "text": "War is over",
+      "translated": "战争结束了",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5909,
+      "var": "text2",
+      "raw": "War is over",
+      "text": "War is over",
+      "translated": "战争结束了",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5916,
+      "var": "text2",
+      "raw": "Five \\\"no\\\"",
+      "text": "Five \"no\"",
+      "translated": "五个“不”",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5921,
+      "var": "text2",
+      "raw": "Criticize Deng and fight with right!",
+      "text": "Criticize Deng and fight with right!",
+      "translated": "批邓反右！",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5926,
+      "var": "text2",
+      "raw": "Mystery article about Zhou",
+      "text": "Mystery article about Zhou",
+      "translated": "关于周的神秘文章",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5931,
+      "var": "text2",
+      "raw": "Tiananmen incident",
+      "text": "Tiananmen incident",
+      "translated": "天安门事件",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5936,
+      "var": "text2",
+      "raw": "Tangshan earthquake",
+      "text": "Tangshan earthquake",
+      "translated": "唐山地震",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5941,
+      "var": "text2",
+      "raw": "Wind of change?",
+      "text": "Wind of change?",
+      "translated": "变革的风？",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5946,
+      "var": "text2",
+      "raw": "Gang of four",
+      "text": "Gang of four",
+      "translated": "四人帮",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5951,
+      "var": "text2",
+      "raw": "Weak alliance",
+      "text": "Weak alliance",
+      "translated": "弱联盟",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5956,
+      "var": "text2",
+      "raw": "Elections, Elections, Candidates are...",
+      "text": "Elections, Elections, Candidates are...",
+      "translated": "选举、选举、候选人是……",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5961,
+      "var": "text2",
+      "raw": "The fate of Hong Kong and Macau",
+      "text": "The fate of Hong Kong and Macau",
+      "translated": "香港和澳门的命运",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5966,
+      "var": "text2",
+      "raw": "The end of the Asian Pinochet",
+      "text": "The end of the Asian Pinochet",
+      "translated": "亚洲皮诺切特的终结",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5971,
+      "var": "text2",
+      "raw": "Chinese imperialism",
+      "text": "Chinese imperialism",
+      "translated": "中国帝国主义",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5976,
+      "var": "text2",
+      "raw": "End of conflict?",
+      "text": "End of conflict?",
+      "translated": "冲突的终结？",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5981,
+      "var": "text2",
+      "raw": "Correct democracy",
+      "text": "Correct democracy",
+      "translated": "正确的民主",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5986,
+      "var": "text2",
+      "raw": "Ulaanbaatar Spring?",
+      "text": "Ulaanbaatar Spring?",
+      "translated": "乌兰巴托之春？",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5991,
+      "var": "text2",
+      "raw": "Crescent in the eyes",
+      "text": "Crescent in the eyes",
+      "translated": "眼中的新月",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 5996,
+      "var": "text2",
+      "raw": "Enemies of my enemies",
+      "text": "Enemies of my enemies",
+      "translated": "我敌人的敌人",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6001,
+      "var": "text2",
+      "raw": "End of revolution",
+      "text": "End of revolution",
+      "translated": "革命的终结",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6006,
+      "var": "text2",
+      "raw": "Coalition collapse?",
+      "text": "Coalition collapse?",
+      "translated": "联盟崩溃？",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6011,
+      "var": "text2",
+      "raw": "The end of the Egyptian pasha",
+      "text": "The end of the Egyptian pasha",
+      "translated": "埃及帕夏的终结",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6016,
+      "var": "text2",
+      "raw": "Back to the roots",
+      "text": "Back to the roots",
+      "translated": "回归根源",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6021,
+      "var": "text2",
+      "raw": "Commission on \\\"Solution...\\\"",
+      "text": "Commission on \"Solution...\"",
+      "translated": "关于“解决……问题”的委员会",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6026,
+      "var": "text2",
+      "raw": "The fate of the Panchen Lama",
+      "text": "The fate of the Panchen Lama",
+      "translated": "班禅喇嘛的命运",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6031,
+      "var": "text2",
+      "raw": "Indian Elections",
+      "text": "Indian Elections",
+      "translated": "印度选举",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6036,
+      "var": "text2",
+      "raw": "Iranian revolution",
+      "text": "Iranian revolution",
+      "translated": "伊朗革命",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6041,
+      "var": "text2",
+      "raw": "Expansion of the CMEA",
+      "text": "Expansion of the CMEA",
+      "translated": "经互会扩展",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6047,
+      "var": "text2",
+      "raw": "It doesn't matter if a cat is black or white...",
+      "text": "It doesn't matter if a cat is black or white...",
+      "translated": "不管黑猫白猫，抓到老鼠就是好猫……",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6052,
+      "var": "text2",
+      "raw": "Reform and openness: the beginning",
+      "text": "Reform and openness: the beginning",
+      "translated": "改革开放：开端",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6057,
+      "var": "text2",
+      "raw": "New 1956?",
+      "text": "New 1956?",
+      "translated": "新的 1956？",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6062,
+      "var": "text2",
+      "raw": "Beijing Spring",
+      "text": "Beijing Spring",
+      "translated": "北京之春",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6067,
+      "var": "text2",
+      "raw": "April revolution",
+      "text": "April revolution",
+      "translated": "四月革命",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6072,
+      "var": "text2",
+      "raw": "Coups continue",
+      "text": "Coups continue",
+      "translated": "政变仍在继续",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6077,
+      "var": "text2",
+      "raw": "Against all tyrants",
+      "text": "Against all tyrants",
+      "translated": "反对一切暴君",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6082,
+      "var": "text2",
+      "raw": "Cursed Mountain Wild Edge...",
+      "text": "Cursed Mountain Wild Edge...",
+      "translated": "诅咒之山，荒野之隅……",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6087,
+      "var": "text2",
+      "raw": "Just hold and then leave...",
+      "text": "Just hold and then leave...",
+      "translated": "先顶住，然后撤……",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6092,
+      "var": "text2",
+      "raw": "Difficult neighborhood",
+      "text": "Difficult neighborhood",
+      "translated": "难缠的邻居",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6097,
+      "var": "text2",
+      "raw": "Agricultural reform",
+      "text": "Agricultural reform",
+      "translated": "农业改革",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6102,
+      "var": "text2",
+      "raw": "Reforms and openness: investments",
+      "text": "Reforms and openness: investments",
+      "translated": "改革开放：投资",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6107,
+      "var": "text2",
+      "raw": "Burmese road to socialism",
+      "text": "Burmese road to socialism",
+      "translated": "缅甸式通往社会主义的道路",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6112,
+      "var": "text2",
+      "raw": "Teach Vietnam a lesson?",
+      "text": "Teach Vietnam a lesson?",
+      "translated": "要不要给越南一个教训？",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6117,
+      "var": "text2",
+      "raw": "Red rising sun",
+      "text": "Red rising sun",
+      "translated": "红日东升",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6122,
+      "var": "text2",
+      "raw": "Iranian Revolution: Endgame",
+      "text": "Iranian Revolution: Endgame",
+      "translated": "伊朗革命：终局",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6127,
+      "var": "text2",
+      "raw": "Economic union",
+      "text": "Economic union",
+      "translated": "经济联盟",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6132,
+      "var": "text2",
+      "raw": "Military alliance",
+      "text": "Military alliance",
+      "translated": "军事联盟",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6137,
+      "var": "text2",
+      "raw": "Anthem problem",
+      "text": "Anthem problem",
+      "translated": "国歌问题",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6142,
+      "var": "text2",
+      "raw": "The problems of the heirs of Genghis Khan",
+      "text": "The problems of the heirs of Genghis Khan",
+      "translated": "成吉思汗的继承者们的问题",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6147,
+      "var": "text2",
+      "raw": "Pan-Arabism",
+      "text": "Pan-Arabism",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6152,
+      "var": "text2",
+      "raw": "Goodbye, our sweet Mishka...",
+      "text": "Goodbye, our sweet Mishka...",
+      "translated": "再见了，我们亲爱的米什卡……",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6161,
+      "var": "text2",
+      "raw": "And after Tito - Tito!",
+      "text": "And after Tito - Tito!",
+      "translated": "而后是铁托——铁托！",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6170,
+      "var": "text2",
+      "raw": "Poland has not died yet?",
+      "text": "Poland has not died yet?",
+      "translated": "波兰还没死呢？",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6175,
+      "var": "text2",
+      "raw": "Rise in Gwangju",
+      "text": "Rise in Gwangju",
+      "translated": "光州起义",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6180,
+      "var": "text2",
+      "raw": "Another gang?",
+      "text": "Another gang?",
+      "translated": "又是一个帮派？",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6185,
+      "var": "text2",
+      "raw": "The problems of Zhou Enlai's heirs",
+      "text": "The problems of Zhou Enlai's heirs",
+      "translated": "周恩来继承人的问题",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6190,
+      "var": "text2",
+      "raw": "The East Is Red...",
+      "text": "The East Is Red...",
+      "translated": "东方红……",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6195,
+      "var": "text2",
+      "raw": "Rescue drowning",
+      "text": "Rescue drowning",
+      "translated": "救起溺水者",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6200,
+      "var": "text2",
+      "raw": "Iran-Iraq war",
+      "text": "Iran-Iraq war",
+      "translated": "伊朗—伊拉克战争",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6205,
+      "var": "text2",
+      "raw": "The decision on some questions of the history of the CPC",
+      "text": "The decision on some questions of the history of the CPC",
+      "translated": "关于中共历史若干问题的决议",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6222,
+      "var": "text2",
+      "raw": "Problems of the Iraqi Atom",
+      "text": "Problems of the Iraqi Atom",
+      "translated": "伊拉克原子问题",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6227,
+      "var": "text2",
+      "raw": "Push the falling man!",
+      "text": "Push the falling man!",
+      "translated": "推倒那个跌倒的人！",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6232,
+      "var": "text2",
+      "raw": "Spittle in the face, punch in the jaw and a bullet in the head",
+      "text": "Spittle in the face, punch in the jaw and a bullet in the head",
+      "translated": "唾沫糊脸、拳头打下巴、子弹打脑袋",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6241,
+      "var": "text2",
+      "raw": "Eternal president",
+      "text": "Eternal president",
+      "translated": "永远的总统",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6246,
+      "var": "text2",
+      "raw": "Austerity policy",
+      "text": "Austerity policy",
+      "translated": "紧缩政策",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6251,
+      "var": "text2",
+      "raw": "XII Congress of the CPC",
+      "text": "XII Congress of the CPC",
+      "translated": "中共十二大",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6256,
+      "var": "text2",
+      "raw": "Hungarian Rhapsody",
+      "text": "Hungarian Rhapsody",
+      "translated": "匈牙利狂想曲",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6261,
+      "var": "text2",
+      "raw": "Falklands War",
+      "text": "Falklands War",
+      "translated": "福克兰群岛战争",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6266,
+      "var": "text2",
+      "raw": "Problems of Stavropol agronomist",
+      "text": "Problems of Stavropol agronomist",
+      "translated": "斯塔夫罗波尔农学家之难",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6271,
+      "var": "text2",
+      "raw": "Our old partisan...",
+      "text": "Our old partisan...",
+      "translated": "我们的老游击队员……",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6276,
+      "var": "text2",
+      "raw": "German autonomy in Kazakhstan",
+      "text": "German autonomy in Kazakhstan",
+      "translated": "哈萨克斯坦的德意志自治",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6281,
+      "var": "text2",
+      "raw": "The end of \\\"Iron Yuri\\\"",
+      "text": "The end of \"Iron Yuri\"",
+      "translated": "“铁腕尤里”的终结",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6286,
+      "var": "text2",
+      "raw": "Peace for Galilee",
+      "text": "Peace for Galilee",
+      "translated": "加利利的和平",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6291,
+      "var": "text2",
+      "raw": "The end of Zimbabwe apartheid",
+      "text": "The end of Zimbabwe apartheid",
+      "translated": "津巴布韦种族隔离的终结",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6304,
+      "var": "text2",
+      "raw": "The End of an Era",
+      "text": "The End of an Era",
+      "translated": "一个时代的终结",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6314,
+      "var": "text2",
+      "raw": "The End of an Era",
+      "text": "The End of an Era",
+      "translated": "一个时代的终结",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6328,
+      "var": "text2",
+      "raw": "Hong Kong Goodbye, Macao hasta la vista?",
+      "text": "Hong Kong Goodbye, Macao hasta la vista?",
+      "translated": "香港再见，澳门再会？",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6333,
+      "var": "text2",
+      "raw": "Rangoon bombing",
+      "text": "Rangoon bombing",
+      "translated": "仰光轰炸",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6338,
+      "var": "text2",
+      "raw": "Overfulfilling is an honor!",
+      "text": "Overfulfilling is an honor!",
+      "translated": "超额完成是光荣！",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6343,
+      "var": "text2",
+      "raw": "Homeland of democracy",
+      "text": "Homeland of democracy",
+      "translated": "民主的故乡",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6369,
+      "var": "text2",
+      "raw": "Tiananmen Incident. Again?!",
+      "text": "Tiananmen Incident. Again?!",
+      "translated": "天安门事件。又来？！",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6374,
+      "var": "text2",
+      "raw": "New beginning for CPC",
+      "text": "New beginning for CPC",
+      "translated": "中共的新开端",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6379,
+      "var": "text2",
+      "raw": "Perestroika! Democracy! Glasnost!",
+      "text": "Perestroika! Democracy! Glasnost!",
+      "translated": "改革！民主！公开！",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6384,
+      "var": "text2",
+      "raw": "Automation?",
+      "text": "Automation?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6389,
+      "var": "text2",
+      "raw": "African Che Guevara",
+      "text": "African Che Guevara",
+      "translated": "非洲的“切·格瓦拉”",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6394,
+      "var": "text2",
+      "raw": "Five years of funeral",
+      "text": "Five years of funeral",
+      "translated": "五年丧葬",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6399,
+      "var": "text2",
+      "raw": "Elephant and donkey",
+      "text": "Elephant and donkey",
+      "translated": "大象与驴",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6404,
+      "var": "text2",
+      "raw": "Yellow scorpion",
+      "text": "Yellow scorpion",
+      "translated": "黄蝎子",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6409,
+      "var": "text2",
+      "raw": "GOVERNMENT CRISIS",
+      "text": "GOVERNMENT CRISIS",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6414,
+      "var": "text2",
+      "raw": "Wind of change?",
+      "text": "Wind of change?",
+      "translated": "变革的风？",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6419,
+      "var": "text2",
+      "raw": "XII World Festival of Youth and Students",
+      "text": "XII World Festival of Youth and Students",
+      "translated": "第十二届世界青年与学生联欢节",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6424,
+      "var": "text2",
+      "raw": "End of Albanian Stalin",
+      "text": "End of Albanian Stalin",
+      "translated": "阿尔巴尼亚斯大林的终结",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6429,
+      "var": "text2",
+      "raw": "Democratic International",
+      "text": "Democratic International",
+      "translated": "民主国际",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6434,
+      "var": "text2",
+      "raw": "Somalia's Golden Age",
+      "text": "Somalia's Golden Age",
+      "translated": "索马里的黄金时代",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6439,
+      "var": "text2",
+      "raw": "Automation is a natural process",
+      "text": "Automation is a natural process",
+      "translated": "自动化是一个自然的过程",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6444,
+      "var": "text2",
+      "raw": "To the ghostly light",
+      "text": "To the ghostly light",
+      "translated": "向幽冥之光",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6449,
+      "var": "text2",
+      "raw": "Stories of unknown worlds",
+      "text": "Stories of unknown worlds",
+      "translated": "未知世界的故事",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6454,
+      "var": "text2",
+      "raw": "Agony of Yugoslav Socialist Self-Government",
+      "text": "Agony of Yugoslav Socialist Self-Government",
+      "translated": "南斯拉夫社会主义自治的煎熬",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6459,
+      "var": "text2",
+      "raw": "Golden Triangle",
+      "text": "Golden Triangle",
+      "translated": "金三角",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6474,
+      "var": "text2",
+      "raw": "Two China",
+      "text": "Two China",
+      "translated": "两个中国",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6481,
+      "var": "text2",
+      "raw": "Schengen Agreement",
+      "text": "Schengen Agreement",
+      "translated": "申根协议",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6486,
+      "var": "text2",
+      "raw": "Madrid Agreement",
+      "text": "Madrid Agreement",
+      "translated": "马德里协议",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6492,
+      "var": "text2",
+      "raw": "Allied Crisis",
+      "text": "Allied Crisis",
+      "translated": "同盟危机",
+      "has_translation": true
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6513,
+      "var": "text2",
+      "raw": "Гудбай, Брежнев",
+      "text": "Гудбай, Брежнев",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6519,
+      "var": "text2",
+      "raw": "Смерть кормчего",
+      "text": "Смерть кормчего",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6524,
+      "var": "text2",
+      "raw": "Заговор",
+      "text": "Заговор",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6529,
+      "var": "text2",
+      "raw": "Народное недовольство",
+      "text": "Народное недовольство",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6534,
+      "var": "text2",
+      "raw": "Низкий уровень жизни",
+      "text": "Низкий уровень жизни",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6543,
+      "var": "text2",
+      "raw": "Дипломатический кризис",
+      "text": "Дипломатический кризис",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6548,
+      "var": "text2",
+      "raw": "Дипломатический кризис",
+      "text": "Дипломатический кризис",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6553,
+      "var": "text2",
+      "raw": "Сепаратизм в Тибете",
+      "text": "Сепаратизм в Тибете",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6558,
+      "var": "text2",
+      "raw": "Сепаратизм в Синьцзяне",
+      "text": "Сепаратизм в Синьцзяне",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6563,
+      "var": "text2",
+      "raw": "Упадок промышленности",
+      "text": "Упадок промышленности",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6568,
+      "var": "text2",
+      "raw": "Упадок сельского хозяйства",
+      "text": "Упадок сельского хозяйства",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6573,
+      "var": "text2",
+      "raw": "Упадок сферы услуг",
+      "text": "Упадок сферы услуг",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6578,
+      "var": "text2",
+      "raw": "Денег нет, но вы держитесь!",
+      "text": "Денег нет, но вы держитесь!",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6583,
+      "var": "text2",
+      "raw": "Кампучийско-вьетнамская война",
+      "text": "Кампучийско-вьетнамская война",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6588,
+      "var": "text2",
+      "raw": "Выборы в Таиланде",
+      "text": "Выборы в Таиланде",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6593,
+      "var": "text2",
+      "raw": "Нестабильность в Таиланде",
+      "text": "Нестабильность в Таиланде",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6600,
+      "var": "text2",
+      "raw": "Война закончилась",
+      "text": "Война закончилась",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6605,
+      "var": "text2",
+      "raw": "Война закончилась",
+      "text": "Война закончилась",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6612,
+      "var": "text2",
+      "raw": "Пять \\\"нет\\\"",
+      "text": "Пять \"нет\"",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6617,
+      "var": "text2",
+      "raw": "Критикуй Дэна и борись с правыми!",
+      "text": "Критикуй Дэна и борись с правыми!",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6622,
+      "var": "text2",
+      "raw": "Туманная статья о «Чжоу»",
+      "text": "Туманная статья о «Чжоу»",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6627,
+      "var": "text2",
+      "raw": "Тяньаньмэньский инцидент",
+      "text": "Тяньаньмэньский инцидент",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6632,
+      "var": "text2",
+      "raw": "Таншаньское землетрясение",
+      "text": "Таншаньское землетрясение",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6637,
+      "var": "text2",
+      "raw": "Ветер перемен?",
+      "text": "Ветер перемен?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6642,
+      "var": "text2",
+      "raw": "Банда четырех",
+      "text": "Банда четырех",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6647,
+      "var": "text2",
+      "raw": "Непрочный альянс",
+      "text": "Непрочный альянс",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6652,
+      "var": "text2",
+      "raw": "Выборы, выборы, кандидаты...",
+      "text": "Выборы, выборы, кандидаты...",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6657,
+      "var": "text2",
+      "raw": "Судьба Гонконга и Макао",
+      "text": "Судьба Гонконга и Макао",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6662,
+      "var": "text2",
+      "raw": "Конец азиатского Пиночета",
+      "text": "Конец азиатского Пиночета",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6667,
+      "var": "text2",
+      "raw": "Империализм по-китайски",
+      "text": "Империализм по-китайски",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6672,
+      "var": "text2",
+      "raw": "Конец конфликта?",
+      "text": "Конец конфликта?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6677,
+      "var": "text2",
+      "raw": "Правильная демократия",
+      "text": "Правильная демократия",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6682,
+      "var": "text2",
+      "raw": "Улан-Баторская весна?",
+      "text": "Улан-Баторская весна?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6687,
+      "var": "text2",
+      "raw": "Полумесяцем в бровь",
+      "text": "Полумесяцем в бровь",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6692,
+      "var": "text2",
+      "raw": "Враги моих врагов",
+      "text": "Враги моих врагов",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6697,
+      "var": "text2",
+      "raw": "Конец революции",
+      "text": "Конец революции",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6702,
+      "var": "text2",
+      "raw": "Крах коалиции?",
+      "text": "Крах коалиции?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6707,
+      "var": "text2",
+      "raw": "Конец египетского паши",
+      "text": "Конец египетского паши",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6712,
+      "var": "text2",
+      "raw": "Возвращение к истокам",
+      "text": "Возвращение к истокам",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6717,
+      "var": "text2",
+      "raw": "Комиссия по \\\"Решению...\\\"",
+      "text": "Комиссия по \"Решению...\"",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6722,
+      "var": "text2",
+      "raw": "Судьба Панчен-Ламы",
+      "text": "Судьба Панчен-Ламы",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6727,
+      "var": "text2",
+      "raw": "Индийские выборы",
+      "text": "Индийские выборы",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6732,
+      "var": "text2",
+      "raw": "Иранская революция",
+      "text": "Иранская революция",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6737,
+      "var": "text2",
+      "raw": "Расширение СЭВ",
+      "text": "Расширение СЭВ",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6743,
+      "var": "text2",
+      "raw": "Неважно, какого цвета кошка...",
+      "text": "Неважно, какого цвета кошка...",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6748,
+      "var": "text2",
+      "raw": "Реформы и открытость: начало",
+      "text": "Реформы и открытость: начало",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6753,
+      "var": "text2",
+      "raw": "Новый 1956-й?",
+      "text": "Новый 1956-й?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6758,
+      "var": "text2",
+      "raw": "Пекинская весна",
+      "text": "Пекинская весна",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6763,
+      "var": "text2",
+      "raw": "Апрельская революция",
+      "text": "Апрельская революция",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6768,
+      "var": "text2",
+      "raw": "Перевороты продолжаются",
+      "text": "Перевороты продолжаются",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6773,
+      "var": "text2",
+      "raw": "Против всех тиранов",
+      "text": "Против всех тиранов",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6778,
+      "var": "text2",
+      "raw": "Проклятый горный дикий край...",
+      "text": "Проклятый горный дикий край...",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6783,
+      "var": "text2",
+      "raw": "Постоят и уйдут...",
+      "text": "Постоят и уйдут...",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6788,
+      "var": "text2",
+      "raw": "Непростое соседство",
+      "text": "Непростое соседство",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6793,
+      "var": "text2",
+      "raw": "Реформа сельского хозяйства",
+      "text": "Реформа сельского хозяйства",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6798,
+      "var": "text2",
+      "raw": "Реформы и открытость: инвестиции",
+      "text": "Реформы и открытость: инвестиции",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6803,
+      "var": "text2",
+      "raw": "Бирманский путь к социализму",
+      "text": "Бирманский путь к социализму",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6808,
+      "var": "text2",
+      "raw": "Преподать Вьетнаму урок?",
+      "text": "Преподать Вьетнаму урок?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6813,
+      "var": "text2",
+      "raw": "Красное восходящее солнце",
+      "text": "Красное восходящее солнце",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6818,
+      "var": "text2",
+      "raw": "Иранская революция: финал",
+      "text": "Иранская революция: финал",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6823,
+      "var": "text2",
+      "raw": "Экономический союз",
+      "text": "Экономический союз",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6828,
+      "var": "text2",
+      "raw": "Военный альянс",
+      "text": "Военный альянс",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6833,
+      "var": "text2",
+      "raw": "Проблема гимна",
+      "text": "Проблема гимна",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6838,
+      "var": "text2",
+      "raw": "Проблемы наследников Чингисхана",
+      "text": "Проблемы наследников Чингисхана",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6843,
+      "var": "text2",
+      "raw": "Панарабизм",
+      "text": "Панарабизм",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6848,
+      "var": "text2",
+      "raw": "До свидания, наш ласковый Мишка...",
+      "text": "До свидания, наш ласковый Мишка...",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6857,
+      "var": "text2",
+      "raw": "И после Тита - Тито!",
+      "text": "И после Тита - Тито!",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6866,
+      "var": "text2",
+      "raw": "Ещё Польша не погибла?",
+      "text": "Ещё Польша не погибла?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6871,
+      "var": "text2",
+      "raw": "Восстание в Кванджу",
+      "text": "Восстание в Кванджу",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6876,
+      "var": "text2",
+      "raw": "Ещё одна банда?",
+      "text": "Ещё одна банда?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6881,
+      "var": "text2",
+      "raw": "Проблемы наследников Чжоу Эньлая",
+      "text": "Проблемы наследников Чжоу Эньлая",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6886,
+      "var": "text2",
+      "raw": "Алеет восток...",
+      "text": "Алеет восток...",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6891,
+      "var": "text2",
+      "raw": "Спасение утопающих",
+      "text": "Спасение утопающих",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6896,
+      "var": "text2",
+      "raw": "Ирано-иракская война",
+      "text": "Ирано-иракская война",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6901,
+      "var": "text2",
+      "raw": "Решение по некоторым вопросам истории КПК со времени образования КНР",
+      "text": "Решение по некоторым вопросам истории КПК со времени образования КНР",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6918,
+      "var": "text2",
+      "raw": "Проблемы иракского атома",
+      "text": "Проблемы иракского атома",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6923,
+      "var": "text2",
+      "raw": "Падающего - подтолкни!",
+      "text": "Падающего - подтолкни!",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6928,
+      "var": "text2",
+      "raw": "Плевок в лицо, удар в челюсть и пулю в голову",
+      "text": "Плевок в лицо, удар в челюсть и пулю в голову",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6937,
+      "var": "text2",
+      "raw": "Вечный президент",
+      "text": "Вечный президент",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6942,
+      "var": "text2",
+      "raw": "Режим экономии",
+      "text": "Режим экономии",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6947,
+      "var": "text2",
+      "raw": "XII съезд КПК",
+      "text": "XII съезд КПК",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6952,
+      "var": "text2",
+      "raw": "Венгерская рапсодия",
+      "text": "Венгерская рапсодия",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6957,
+      "var": "text2",
+      "raw": "Фолклендская война",
+      "text": "Фолклендская война",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6962,
+      "var": "text2",
+      "raw": "Проблемы ставропольского агронома",
+      "text": "Проблемы ставропольского агронома",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6967,
+      "var": "text2",
+      "raw": "Наш старый партизан...",
+      "text": "Наш старый партизан...",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6972,
+      "var": "text2",
+      "raw": "Немецкая автономия в Казахстане",
+      "text": "Немецкая автономия в Казахстане",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6977,
+      "var": "text2",
+      "raw": "Конец \\\"Железного Юрика\\\"",
+      "text": "Конец \"Железного Юрика\"",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6982,
+      "var": "text2",
+      "raw": "Мир Галилее",
+      "text": "Мир Галилее",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 6987,
+      "var": "text2",
+      "raw": "Конец зимбабвийского апартеида",
+      "text": "Конец зимбабвийского апартеида",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7000,
+      "var": "text2",
+      "raw": "Конец эпохи",
+      "text": "Конец эпохи",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7010,
+      "var": "text2",
+      "raw": "Конец эпохи",
+      "text": "Конец эпохи",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7024,
+      "var": "text2",
+      "raw": "Гонконг гудбай, Макао аста ла виста?",
+      "text": "Гонконг гудбай, Макао аста ла виста?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7029,
+      "var": "text2",
+      "raw": "Рангунский теракт",
+      "text": "Рангунский теракт",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7034,
+      "var": "text2",
+      "raw": "Перевыполнение – честь!",
+      "text": "Перевыполнение – честь!",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7039,
+      "var": "text2",
+      "raw": "Родина демократии",
+      "text": "Родина демократии",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7065,
+      "var": "text2",
+      "raw": "Тяньаньмэньский инцидент. Снова?!",
+      "text": "Тяньаньмэньский инцидент. Снова?!",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7070,
+      "var": "text2",
+      "raw": "Новое начало для КПК",
+      "text": "Новое начало для КПК",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7075,
+      "var": "text2",
+      "raw": "Перестройка! Демократия! Гласность!",
+      "text": "Перестройка! Демократия! Гласность!",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7080,
+      "var": "text2",
+      "raw": "Автоматизация?",
+      "text": "Автоматизация?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7085,
+      "var": "text2",
+      "raw": "Африканский Че Гевара",
+      "text": "Африканский Че Гевара",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7090,
+      "var": "text2",
+      "raw": "Слон и осёл",
+      "text": "Слон и осёл",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7095,
+      "var": "text2",
+      "raw": "Пятилетка похорон",
+      "text": "Пятилетка похорон",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7100,
+      "var": "text2",
+      "raw": "Жёлтый скорпион",
+      "text": "Жёлтый скорпион",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7105,
+      "var": "text2",
+      "raw": "КРИЗИС ПРАВИТЕЛЬСТВА",
+      "text": "КРИЗИС ПРАВИТЕЛЬСТВА",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7110,
+      "var": "text2",
+      "raw": "Ветер перемен?",
+      "text": "Ветер перемен?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7115,
+      "var": "text2",
+      "raw": "ХII Всемирный фестиваль молодёжи и студентов",
+      "text": "ХII Всемирный фестиваль молодёжи и студентов",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7120,
+      "var": "text2",
+      "raw": "Конец албанского Сталина",
+      "text": "Конец албанского Сталина",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7125,
+      "var": "text2",
+      "raw": "Демократический интернационал",
+      "text": "Демократический интернационал",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7130,
+      "var": "text2",
+      "raw": "Золотой век Сомали",
+      "text": "Золотой век Сомали",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7135,
+      "var": "text2",
+      "raw": "Автоматизация – естественный процесс",
+      "text": "Автоматизация – естественный процесс",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7140,
+      "var": "text2",
+      "raw": "К призрачному свету",
+      "text": "К призрачному свету",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7145,
+      "var": "text2",
+      "raw": "Предания неведомых миров",
+      "text": "Предания неведомых миров",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7150,
+      "var": "text2",
+      "raw": "Агония югославского социалистического самоуправления",
+      "text": "Агония югославского социалистического самоуправления",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7155,
+      "var": "text2",
+      "raw": "Золотой треугольник",
+      "text": "Золотой треугольник",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7170,
+      "var": "text2",
+      "raw": "Два Китая",
+      "text": "Два Китая",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7177,
+      "var": "text2",
+      "raw": "Шенгенское соглашение",
+      "text": "Шенгенское соглашение",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7182,
+      "var": "text2",
+      "raw": "Мадридское соглашение",
+      "text": "Мадридское соглашение",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "doneventscript.cs",
+      "line": 7188,
+      "var": "text2",
+      "raw": "Кризис среди союзников",
+      "text": "Кризис среди союзников",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 78,
+      "var": "text2",
+      "raw": "Elections, Elections, Candidates are...",
+      "text": "Elections, Elections, Candidates are...",
+      "translated": "选举、选举、候选人是……",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 371,
+      "var": "text2",
+      "raw": "Death of helmsman",
+      "text": "Death of helmsman",
+      "translated": "掌舵者逝世",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 430,
+      "var": "text2",
+      "raw": "Conspiracy",
+      "text": "Conspiracy",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 552,
+      "var": "text2",
+      "raw": "Popular discontent",
+      "text": "Popular discontent",
+      "translated": "群众不满",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 736,
+      "var": "text2",
+      "raw": "Low standard of living",
+      "text": "Low standard of living",
+      "translated": "生活水平偏低",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 784,
+      "var": "text2",
+      "raw": "Diplomatic crisis",
+      "text": "Diplomatic crisis",
+      "translated": "外交危机",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 838,
+      "var": "text2",
+      "raw": "Diplomatic crisis",
+      "text": "Diplomatic crisis",
+      "translated": "外交危机",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 891,
+      "var": "text2",
+      "raw": "Separatism in Tibet",
+      "text": "Separatism in Tibet",
+      "translated": "西藏分裂主义",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 962,
+      "var": "text2",
+      "raw": "Separatism in Xinjiang",
+      "text": "Separatism in Xinjiang",
+      "translated": "新疆分裂主义",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1020,
+      "var": "text2",
+      "raw": "The decline of industry",
+      "text": "The decline of industry",
+      "translated": "工业衰退",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1065,
+      "var": "text2",
+      "raw": "The decline of agriculture",
+      "text": "The decline of agriculture",
+      "translated": "农业衰退",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1110,
+      "var": "text2",
+      "raw": "The decline of service sector",
+      "text": "The decline of service sector",
+      "translated": "服务业衰退",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1156,
+      "var": "text2",
+      "raw": "We have no money, but you hang in there!",
+      "text": "We have no money, but you hang in there!",
+      "translated": "我们没钱，但你们要挺住！",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1204,
+      "var": "text2",
+      "raw": "Cambodian-Vietnamese war",
+      "text": "Cambodian-Vietnamese war",
+      "translated": "柬越战争",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1242,
+      "var": "text2",
+      "raw": "Elections in Thailand",
+      "text": "Elections in Thailand",
+      "translated": "泰国选举",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1270,
+      "var": "text2",
+      "raw": "Instability in Thailand",
+      "text": "Instability in Thailand",
+      "translated": "泰国局势不稳",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1323,
+      "var": "text2",
+      "raw": "War is over",
+      "text": "War is over",
+      "translated": "战争结束了",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1332,
+      "var": "text2",
+      "raw": "Five \\\"no\\\"",
+      "text": "Five \"no\"",
+      "translated": "五个“不”",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1400,
+      "var": "text2",
+      "raw": "Criticize Deng and fight with right!",
+      "text": "Criticize Deng and fight with right!",
+      "translated": "批邓反右！",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1470,
+      "var": "text2",
+      "raw": "Mystery article and old ghosts",
+      "text": "Mystery article and old ghosts",
+      "translated": "神秘文章与老鬼",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1526,
+      "var": "text2",
+      "raw": "Tiananmen incident",
+      "text": "Tiananmen incident",
+      "translated": "天安门事件",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1592,
+      "var": "text2",
+      "raw": "Tangshan earthquake",
+      "text": "Tangshan earthquake",
+      "translated": "唐山地震",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1629,
+      "var": "text2",
+      "raw": "Wind of change?",
+      "text": "Wind of change?",
+      "translated": "变革的风？",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1765,
+      "var": "text2",
+      "raw": "Gang of four",
+      "text": "Gang of four",
+      "translated": "四人帮",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 1909,
+      "var": "text2",
+      "raw": "Weak alliance",
+      "text": "Weak alliance",
+      "translated": "弱联盟",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2119,
+      "var": "text2",
+      "raw": "The fate of Hong Kong and Macau",
+      "text": "The fate of Hong Kong and Macau",
+      "translated": "香港和澳门的命运",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2175,
+      "var": "text2",
+      "raw": "The end of the Asian Pinochet",
+      "text": "The end of the Asian Pinochet",
+      "translated": "亚洲皮诺切特的终结",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2241,
+      "var": "text2",
+      "raw": "Chinese imperialism",
+      "text": "Chinese imperialism",
+      "translated": "中国帝国主义",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2338,
+      "var": "text2",
+      "raw": "End of conflict?",
+      "text": "End of conflict?",
+      "translated": "冲突的终结？",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2410,
+      "var": "text2",
+      "raw": "Correct democracy",
+      "text": "Correct democracy",
+      "translated": "正确的民主",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2446,
+      "var": "text2",
+      "raw": "Ulaanbaatar Spring?",
+      "text": "Ulaanbaatar Spring?",
+      "translated": "乌兰巴托之春？",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2469,
+      "var": "text2",
+      "raw": "Crescent in the eyes",
+      "text": "Crescent in the eyes",
+      "translated": "眼中的新月",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2515,
+      "var": "text2",
+      "raw": "Enemies of my enemies",
+      "text": "Enemies of my enemies",
+      "translated": "我敌人的敌人",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2644,
+      "var": "text2",
+      "raw": "End of revolution",
+      "text": "End of revolution",
+      "translated": "革命的终结",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2744,
+      "var": "text2",
+      "raw": "Coalition collapse?",
+      "text": "Coalition collapse?",
+      "translated": "联盟崩溃？",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2772,
+      "var": "text2",
+      "raw": "The end of the Egyptian pasha",
+      "text": "The end of the Egyptian pasha",
+      "translated": "埃及帕夏的终结",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2830,
+      "var": "text2",
+      "raw": "Back to the roots",
+      "text": "Back to the roots",
+      "translated": "回归根源",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 2910,
+      "var": "text2",
+      "raw": "Commission on \\\"Resolution...\\\"",
+      "text": "Commission on \"Resolution...\"",
+      "translated": "“决议……”委员会",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3039,
+      "var": "text2",
+      "raw": "The fate of the Panchen Lama",
+      "text": "The fate of the Panchen Lama",
+      "translated": "班禅喇嘛的命运",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3130,
+      "var": "text2",
+      "raw": "Indian Elections",
+      "text": "Indian Elections",
+      "translated": "印度选举",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3169,
+      "var": "text2",
+      "raw": "Iranian revolution",
+      "text": "Iranian revolution",
+      "translated": "伊朗革命",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3215,
+      "var": "text2",
+      "raw": "Expansion of the CMEA",
+      "text": "Expansion of the CMEA",
+      "translated": "经互会扩展",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3235,
+      "var": "text2",
+      "raw": "It doesn't matter if a cat is black or white...",
+      "text": "It doesn't matter if a cat is black or white...",
+      "translated": "不管黑猫白猫，抓到老鼠就是好猫……",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3460,
+      "var": "text2",
+      "raw": "Reform and openness: the beginning",
+      "text": "Reform and openness: the beginning",
+      "translated": "改革开放：开端",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3526,
+      "var": "text2",
+      "raw": "New 1956?",
+      "text": "New 1956?",
+      "translated": "新的 1956？",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3604,
+      "var": "text2",
+      "raw": "Beijing Spring",
+      "text": "Beijing Spring",
+      "translated": "北京之春",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3666,
+      "var": "text2",
+      "raw": "April revolution",
+      "text": "April revolution",
+      "translated": "四月革命",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3731,
+      "var": "text2",
+      "raw": "Coups continue",
+      "text": "Coups continue",
+      "translated": "政变仍在继续",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3762,
+      "var": "text2",
+      "raw": "Against all tyrants",
+      "text": "Against all tyrants",
+      "translated": "反对一切暴君",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 3838,
+      "var": "text2",
+      "raw": "Cursed Mountain Wild Edge...",
+      "text": "Cursed Mountain Wild Edge...",
+      "translated": "诅咒之山，荒野之隅……",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4025,
+      "var": "text2",
+      "raw": "Just hold and then leave...",
+      "text": "Just hold and then leave...",
+      "translated": "先顶住，然后撤……",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4051,
+      "var": "text2",
+      "raw": "Difficult neighborhood...",
+      "text": "Difficult neighborhood...",
+      "translated": "难处的邻里……",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4112,
+      "var": "text2",
+      "raw": "Agricultural reform",
+      "text": "Agricultural reform",
+      "translated": "农业改革",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4275,
+      "var": "text2",
+      "raw": "Reforms and openness: investments",
+      "text": "Reforms and openness: investments",
+      "translated": "改革开放：投资",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4389,
+      "var": "text2",
+      "raw": "Burmese road to socialism",
+      "text": "Burmese road to socialism",
+      "translated": "缅甸式通往社会主义的道路",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4419,
+      "var": "text2",
+      "raw": "Teach Vietnam a lesson?",
+      "text": "Teach Vietnam a lesson?",
+      "translated": "要不要给越南一个教训？",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4455,
+      "var": "text2",
+      "raw": "Red rising sun",
+      "text": "Red rising sun",
+      "translated": "红日东升",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4477,
+      "var": "text2",
+      "raw": "Iranian Revolution: Endgame",
+      "text": "Iranian Revolution: Endgame",
+      "translated": "伊朗革命：终局",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4537,
+      "var": "text2",
+      "raw": "Economic union",
+      "text": "Economic union",
+      "translated": "经济联盟",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4669,
+      "var": "text2",
+      "raw": "Military alliance",
+      "text": "Military alliance",
+      "translated": "军事联盟",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4810,
+      "var": "text2",
+      "raw": "Anthem problem",
+      "text": "Anthem problem",
+      "translated": "国歌问题",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4863,
+      "var": "text2",
+      "raw": "The problems of the heirs of Genghis Khan",
+      "text": "The problems of the heirs of Genghis Khan",
+      "translated": "成吉思汗的继承者们的问题",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4929,
+      "var": "text2",
+      "raw": "Iran-Iraq war",
+      "text": "Iran-Iraq war",
+      "translated": "伊朗—伊拉克战争",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4946,
+      "var": "text2",
+      "raw": "Pan-Arabism",
+      "text": "Pan-Arabism",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 4997,
+      "var": "text2",
+      "raw": "Goodbye, our sweet Mishka...",
+      "text": "Goodbye, our sweet Mishka...",
+      "translated": "再见了，我们亲爱的米什卡……",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5110,
+      "var": "text2",
+      "raw": "And after Tito - Tito!",
+      "text": "And after Tito - Tito!",
+      "translated": "而后是铁托——铁托！",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5155,
+      "var": "text2",
+      "raw": "Poland has not died yet?",
+      "text": "Poland has not died yet?",
+      "translated": "波兰还没死呢？",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5276,
+      "var": "text2",
+      "raw": "Rise in Gwangju",
+      "text": "Rise in Gwangju",
+      "translated": "光州起义",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5328,
+      "var": "text2",
+      "raw": "Another gang?",
+      "text": "Another gang?",
+      "translated": "又是一个帮派？",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5442,
+      "var": "text2",
+      "raw": "The problems of Zhou Enlai's heirs",
+      "text": "The problems of Zhou Enlai's heirs",
+      "translated": "周恩来继承人的问题",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5591,
+      "var": "text2",
+      "raw": "The East Is Red...",
+      "text": "The East Is Red...",
+      "translated": "东方红……",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5622,
+      "var": "text2",
+      "raw": "Rescue drowning",
+      "text": "Rescue drowning",
+      "translated": "救起溺水者",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5656,
+      "var": "text2",
+      "raw": "The decision on some questions of the history of the CPC",
+      "text": "The decision on some questions of the history of the CPC",
+      "translated": "关于中共历史若干问题的决议",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 5938,
+      "var": "text2",
+      "raw": "Problems of the Iraqi Atom",
+      "text": "Problems of the Iraqi Atom",
+      "translated": "伊拉克原子问题",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6011,
+      "var": "text2",
+      "raw": "Push the falling man!",
+      "text": "Push the falling man!",
+      "translated": "推倒那个跌倒的人！",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6043,
+      "var": "text2",
+      "raw": "Spittle in the face, punch in the jaw and a bullet in the head",
+      "text": "Spittle in the face, punch in the jaw and a bullet in the head",
+      "translated": "唾沫糊脸、拳头打下巴、子弹打脑袋",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6080,
+      "var": "text2",
+      "raw": "Eternal president",
+      "text": "Eternal president",
+      "translated": "永远的总统",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6112,
+      "var": "text2",
+      "raw": "Austerity policy",
+      "text": "Austerity policy",
+      "translated": "紧缩政策",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6145,
+      "var": "text2",
+      "raw": "XII Congress of the CPC",
+      "text": "XII Congress of the CPC",
+      "translated": "中共十二大",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6225,
+      "var": "text2",
+      "raw": "Hungarian Rhapsody",
+      "text": "Hungarian Rhapsody",
+      "translated": "匈牙利狂想曲",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6305,
+      "var": "text2",
+      "raw": "Falklands War",
+      "text": "Falklands War",
+      "translated": "福克兰群岛战争",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6321,
+      "var": "text2",
+      "raw": "Problems of Stavropol agronomist",
+      "text": "Problems of Stavropol agronomist",
+      "translated": "斯塔夫罗波尔农学家之难",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6355,
+      "var": "text2",
+      "raw": "Our old partisan...",
+      "text": "Our old partisan...",
+      "translated": "我们的老游击队员……",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6387,
+      "var": "text2",
+      "raw": "German autonomy in Kazakhstan",
+      "text": "German autonomy in Kazakhstan",
+      "translated": "哈萨克斯坦的德意志自治",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6430,
+      "var": "text2",
+      "raw": "The end of \\\"Iron Yuri\\\"",
+      "text": "The end of \"Iron Yuri\"",
+      "translated": "“铁腕尤里”的终结",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6468,
+      "var": "text2",
+      "raw": "Peace for Galilee",
+      "text": "Peace for Galilee",
+      "translated": "加利利的和平",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6485,
+      "var": "text2",
+      "raw": "The end of Zimbabwe apartheid",
+      "text": "The end of Zimbabwe apartheid",
+      "translated": "津巴布韦种族隔离的终结",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6506,
+      "var": "text2",
+      "raw": "End of an Era",
+      "text": "End of an Era",
+      "translated": "一个时代的结束",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6601,
+      "var": "text2",
+      "raw": "Hong Kong Goodbye, Macao hasta la vista?",
+      "text": "Hong Kong Goodbye, Macao hasta la vista?",
+      "translated": "香港再见，澳门再会？",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6654,
+      "var": "text2",
+      "raw": "Rangoon bombing",
+      "text": "Rangoon bombing",
+      "translated": "仰光轰炸",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6676,
+      "var": "text2",
+      "raw": "Overfulfilling is an honor!",
+      "text": "Overfulfilling is an honor!",
+      "translated": "超额完成是光荣！",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6710,
+      "var": "text2",
+      "raw": "Homeland of democracy",
+      "text": "Homeland of democracy",
+      "translated": "民主的故乡",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 6748,
+      "var": "text2",
+      "raw": "Tiananmen Incident. Again?!",
+      "text": "Tiananmen Incident. Again?!",
+      "translated": "天安门事件。又来？！",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7080,
+      "var": "text2",
+      "raw": "New beginning for CPC",
+      "text": "New beginning for CPC",
+      "translated": "中共的新开端",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7183,
+      "var": "text2",
+      "raw": "Perestroika! Democracy! Glasnost!",
+      "text": "Perestroika! Democracy! Glasnost!",
+      "translated": "改革！民主！公开！",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7238,
+      "var": "text2",
+      "raw": "Automation?",
+      "text": "Automation?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7281,
+      "var": "text2",
+      "raw": "African Che Guevara",
+      "text": "African Che Guevara",
+      "translated": "非洲的“切·格瓦拉”",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7352,
+      "var": "text2",
+      "raw": "Five years of funeral",
+      "text": "Five years of funeral",
+      "translated": "五年丧葬",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7410,
+      "var": "text2",
+      "raw": "Elephant and donkey",
+      "text": "Elephant and donkey",
+      "translated": "大象与驴",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7516,
+      "var": "text2",
+      "raw": "Yellow scorpion",
+      "text": "Yellow scorpion",
+      "translated": "黄蝎子",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7573,
+      "var": "text2",
+      "raw": "XII World Festival of Youth and Students",
+      "text": "XII World Festival of Youth and Students",
+      "translated": "第十二届世界青年与学生联欢节",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7636,
+      "var": "text2",
+      "raw": "Democratic International",
+      "text": "Democratic International",
+      "translated": "民主国际",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7704,
+      "var": "text2",
+      "raw": "Schengen Agreement",
+      "text": "Schengen Agreement",
+      "translated": "申根协议",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7774,
+      "var": "text2",
+      "raw": "Allied Crisis",
+      "text": "Allied Crisis",
+      "translated": "同盟危机",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7936,
+      "var": "text2",
+      "raw": "GOVERNMENT CRISIS",
+      "text": "GOVERNMENT CRISIS",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 7967,
+      "var": "text2",
+      "raw": "End of Albanian Stalin",
+      "text": "End of Albanian Stalin",
+      "translated": "阿尔巴尼亚斯大林的终结",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8000,
+      "var": "text2",
+      "raw": "Somalia's Golden Age",
+      "text": "Somalia's Golden Age",
+      "translated": "索马里的黄金时代",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8051,
+      "var": "text2",
+      "raw": "Wind of change?",
+      "text": "Wind of change?",
+      "translated": "变革的风？",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8170,
+      "var": "text2",
+      "raw": "Automation is a natural process",
+      "text": "Automation is a natural process",
+      "translated": "自动化是一个自然的过程",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8213,
+      "var": "text2",
+      "raw": "To the ghostly light",
+      "text": "To the ghostly light",
+      "translated": "向幽冥之光",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8285,
+      "var": "text2",
+      "raw": "Stories of unknown worlds",
+      "text": "Stories of unknown worlds",
+      "translated": "未知世界的故事",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8324,
+      "var": "text2",
+      "raw": "Agony of Yugoslav Socialist Self-Government",
+      "text": "Agony of Yugoslav Socialist Self-Government",
+      "translated": "南斯拉夫社会主义自治的煎熬",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8427,
+      "var": "text2",
+      "raw": "Golden Triangle",
+      "text": "Golden Triangle",
+      "translated": "金三角",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8554,
+      "var": "text2",
+      "raw": "Two China",
+      "text": "Two China",
+      "translated": "两个中国",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8589,
+      "var": "text2",
+      "raw": "Ответ Живкова",
+      "text": "Ответ Живкова",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8605,
+      "var": "text2",
+      "raw": "Nothing here",
+      "text": "Nothing here",
+      "translated": "此处无内容",
+      "has_translation": true
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8612,
+      "var": "text2",
+      "raw": "Выборы, выборы, кандидаты...",
+      "text": "Выборы, выборы, кандидаты...",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8901,
+      "var": "text2",
+      "raw": "Смерть кормчего",
+      "text": "Смерть кормчего",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 8960,
+      "var": "text2",
+      "raw": "Заговор",
+      "text": "Заговор",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 9082,
+      "var": "text2",
+      "raw": "Народное недовольство",
+      "text": "Народное недовольство",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 9262,
+      "var": "text2",
+      "raw": "Низкий уровень жизни",
+      "text": "Низкий уровень жизни",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 9310,
+      "var": "text2",
+      "raw": "Дипломатический кризис",
+      "text": "Дипломатический кризис",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 9373,
+      "var": "text2",
+      "raw": "Дипломатический кризис",
+      "text": "Дипломатический кризис",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 9426,
+      "var": "text2",
+      "raw": "Сепаратизм в Тибете",
+      "text": "Сепаратизм в Тибете",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 9497,
+      "var": "text2",
+      "raw": "Сепаратизм в Синьцзяне",
+      "text": "Сепаратизм в Синьцзяне",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 9555,
+      "var": "text2",
+      "raw": "Упадок промышленности",
+      "text": "Упадок промышленности",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 9600,
+      "var": "text2",
+      "raw": "Упадок сельского хозяйства",
+      "text": "Упадок сельского хозяйства",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 9645,
+      "var": "text2",
+      "raw": "Упадок сферы услуг",
+      "text": "Упадок сферы услуг",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 9691,
+      "var": "text2",
+      "raw": "Денег нет, но вы держитесь!",
+      "text": "Денег нет, но вы держитесь!",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 9739,
+      "var": "text2",
+      "raw": "Кампучийско-вьетнамская война",
+      "text": "Кампучийско-вьетнамская война",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 9777,
+      "var": "text2",
+      "raw": "Выборы в Таиланде",
+      "text": "Выборы в Таиланде",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 9805,
+      "var": "text2",
+      "raw": "Нестабильность в Таиланде",
+      "text": "Нестабильность в Таиланде",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 9858,
+      "var": "text2",
+      "raw": "Война закончилась",
+      "text": "Война закончилась",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 9866,
+      "var": "text2",
+      "raw": "Пять \\\"нет\\\"",
+      "text": "Пять \"нет\"",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 9934,
+      "var": "text2",
+      "raw": "Критикуй Дэна и борись с правыми!",
+      "text": "Критикуй Дэна и борись с правыми!",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 10004,
+      "var": "text2",
+      "raw": "Таинственная статья и старые тени",
+      "text": "Таинственная статья и старые тени",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 10060,
+      "var": "text2",
+      "raw": "Тяньаньмэньский инцидент",
+      "text": "Тяньаньмэньский инцидент",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 10126,
+      "var": "text2",
+      "raw": "Таншаньское землетрясение",
+      "text": "Таншаньское землетрясение",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 10163,
+      "var": "text2",
+      "raw": "Ветер перемен?",
+      "text": "Ветер перемен?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 10299,
+      "var": "text2",
+      "raw": "Банда четырех",
+      "text": "Банда четырех",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 10443,
+      "var": "text2",
+      "raw": "Непрочный альянс",
+      "text": "Непрочный альянс",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 10653,
+      "var": "text2",
+      "raw": "Судьба Гонконга и Макао",
+      "text": "Судьба Гонконга и Макао",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 10709,
+      "var": "text2",
+      "raw": "Конец азиатского Пиночета",
+      "text": "Конец азиатского Пиночета",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 10775,
+      "var": "text2",
+      "raw": "Империализм по-китайски",
+      "text": "Империализм по-китайски",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 10875,
+      "var": "text2",
+      "raw": "Конец конфликта?",
+      "text": "Конец конфликта?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 10947,
+      "var": "text2",
+      "raw": "Правильная демократия",
+      "text": "Правильная демократия",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 10983,
+      "var": "text2",
+      "raw": "Улан-Баторская весна?",
+      "text": "Улан-Баторская весна?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 11006,
+      "var": "text2",
+      "raw": "Полумесяцем в бровь",
+      "text": "Полумесяцем в бровь",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 11053,
+      "var": "text2",
+      "raw": "Враги моих врагов",
+      "text": "Враги моих врагов",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 11182,
+      "var": "text2",
+      "raw": "Конец революции",
+      "text": "Конец революции",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 11282,
+      "var": "text2",
+      "raw": "Крах коалиции?",
+      "text": "Крах коалиции?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 11311,
+      "var": "text2",
+      "raw": "Конец египетского паши",
+      "text": "Конец египетского паши",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 11369,
+      "var": "text2",
+      "raw": "Возвращение к истокам",
+      "text": "Возвращение к истокам",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 11449,
+      "var": "text2",
+      "raw": "Комиссия по \\\"Решению...\\\"",
+      "text": "Комиссия по \"Решению...\"",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 11578,
+      "var": "text2",
+      "raw": "Судьба Панчен-Ламы",
+      "text": "Судьба Панчен-Ламы",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 11669,
+      "var": "text2",
+      "raw": "Индийские выборы",
+      "text": "Индийские выборы",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 11708,
+      "var": "text2",
+      "raw": "Иранская революция",
+      "text": "Иранская революция",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 11754,
+      "var": "text2",
+      "raw": "Расширение СЭВ",
+      "text": "Расширение СЭВ",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 11774,
+      "var": "text2",
+      "raw": "Неважно, какого цвета кошка...",
+      "text": "Неважно, какого цвета кошка...",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 11999,
+      "var": "text2",
+      "raw": "Реформы и открытость: начало",
+      "text": "Реформы и открытость: начало",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 12065,
+      "var": "text2",
+      "raw": "Новый 1956-й?",
+      "text": "Новый 1956-й?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 12143,
+      "var": "text2",
+      "raw": "Пекинская весна",
+      "text": "Пекинская весна",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 12205,
+      "var": "text2",
+      "raw": "Реформа сельского хозяйства",
+      "text": "Реформа сельского хозяйства",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 12368,
+      "var": "text2",
+      "raw": "Реформы и открытость: инвестиции",
+      "text": "Реформы и открытость: инвестиции",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 12482,
+      "var": "text2",
+      "raw": "Бирманский путь к социализму",
+      "text": "Бирманский путь к социализму",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 12512,
+      "var": "text2",
+      "raw": "Преподать Вьетнаму урок?",
+      "text": "Преподать Вьетнаму урок?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 12548,
+      "var": "text2",
+      "raw": "Красное восходящее солнце",
+      "text": "Красное восходящее солнце",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 12570,
+      "var": "text2",
+      "raw": "Иранская революция: финал",
+      "text": "Иранская революция: финал",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 12630,
+      "var": "text2",
+      "raw": "Экономический союз",
+      "text": "Экономический союз",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 12763,
+      "var": "text2",
+      "raw": "Военный альянс",
+      "text": "Военный альянс",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 12905,
+      "var": "text2",
+      "raw": "Проблема гимна",
+      "text": "Проблема гимна",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 12958,
+      "var": "text2",
+      "raw": "Проблемы наследников Чингисхана",
+      "text": "Проблемы наследников Чингисхана",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 13024,
+      "var": "text2",
+      "raw": "Апрельская революция",
+      "text": "Апрельская революция",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 13091,
+      "var": "text2",
+      "raw": "Перевороты продолжаются",
+      "text": "Перевороты продолжаются",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 13121,
+      "var": "text2",
+      "raw": "Против всех тиранов",
+      "text": "Против всех тиранов",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 13197,
+      "var": "text2",
+      "raw": "Проклятый горный дикий край...",
+      "text": "Проклятый горный дикий край...",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 13384,
+      "var": "text2",
+      "raw": "Постоят и уйдут...",
+      "text": "Постоят и уйдут...",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 13410,
+      "var": "text2",
+      "raw": "Непростое соседство",
+      "text": "Непростое соседство",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 13471,
+      "var": "text2",
+      "raw": "Панарабизм",
+      "text": "Панарабизм",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 13522,
+      "var": "text2",
+      "raw": "До свидания, наш ласковый Мишка...",
+      "text": "До свидания, наш ласковый Мишка...",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 13635,
+      "var": "text2",
+      "raw": "И после Тита - Тито!",
+      "text": "И после Тита - Тито!",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 13682,
+      "var": "text2",
+      "raw": "Ещё Польша не погибла?",
+      "text": "Ещё Польша не погибла?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 13805,
+      "var": "text2",
+      "raw": "Восстание в Кванджу",
+      "text": "Восстание в Кванджу",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 13857,
+      "var": "text2",
+      "raw": "Ещё одна банда?",
+      "text": "Ещё одна банда?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 13971,
+      "var": "text2",
+      "raw": "Проблемы наследников Чжоу Эньлая",
+      "text": "Проблемы наследников Чжоу Эньлая",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 14120,
+      "var": "text2",
+      "raw": "Алеет восток...",
+      "text": "Алеет восток...",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 14151,
+      "var": "text2",
+      "raw": "Спасение утопающих",
+      "text": "Спасение утопающих",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 14190,
+      "var": "text2",
+      "raw": "Ирано-иракская война",
+      "text": "Ирано-иракская война",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 14207,
+      "var": "text2",
+      "raw": "Решение по некоторым вопросам истории КПК со времени образования КНР",
+      "text": "Решение по некоторым вопросам истории КПК со времени образования КНР",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 14489,
+      "var": "text2",
+      "raw": "Проблемы иракского атома",
+      "text": "Проблемы иракского атома",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 14562,
+      "var": "text2",
+      "raw": "Падающего - подтолкни!",
+      "text": "Падающего - подтолкни!",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 14594,
+      "var": "text2",
+      "raw": "Плевок в лицо, удар в челюсть и пулю в голову",
+      "text": "Плевок в лицо, удар в челюсть и пулю в голову",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 14631,
+      "var": "text2",
+      "raw": "Вечный президент",
+      "text": "Вечный президент",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 14663,
+      "var": "text2",
+      "raw": "Режим экономии",
+      "text": "Режим экономии",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 14696,
+      "var": "text2",
+      "raw": "XII съезд КПК",
+      "text": "XII съезд КПК",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 14777,
+      "var": "text2",
+      "raw": "Венгерская рапсодия",
+      "text": "Венгерская рапсодия",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 14857,
+      "var": "text2",
+      "raw": "Фолклендская война",
+      "text": "Фолклендская война",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 14873,
+      "var": "text2",
+      "raw": "Проблемы ставропольского агронома",
+      "text": "Проблемы ставропольского агронома",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 14907,
+      "var": "text2",
+      "raw": "Наш старый партизан...",
+      "text": "Наш старый партизан...",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 14939,
+      "var": "text2",
+      "raw": "Немецкая автономия в Казахстане",
+      "text": "Немецкая автономия в Казахстане",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 14982,
+      "var": "text2",
+      "raw": "Конец \\\"Железного Юрика\\\"",
+      "text": "Конец \"Железного Юрика\"",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 15020,
+      "var": "text2",
+      "raw": "Мир Галилее",
+      "text": "Мир Галилее",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 15036,
+      "var": "text2",
+      "raw": "Конец зимбабвийского апартеида",
+      "text": "Конец зимбабвийского апартеида",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 15058,
+      "var": "text2",
+      "raw": "Конец эпохи",
+      "text": "Конец эпохи",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 15153,
+      "var": "text2",
+      "raw": "Гонконг гудбай, Макао ате а виста?",
+      "text": "Гонконг гудбай, Макао ате а виста?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 15206,
+      "var": "text2",
+      "raw": "Рангунский теракт",
+      "text": "Рангунский теракт",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 15228,
+      "var": "text2",
+      "raw": "Перевыполнение – честь!",
+      "text": "Перевыполнение – честь!",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 15262,
+      "var": "text2",
+      "raw": "Родина демократии",
+      "text": "Родина демократии",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 15300,
+      "var": "text2",
+      "raw": "Тяньаньмэньский инцидент. Снова?!",
+      "text": "Тяньаньмэньский инцидент. Снова?!",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 15630,
+      "var": "text2",
+      "raw": "Новое начало для КПК",
+      "text": "Новое начало для КПК",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 15733,
+      "var": "text2",
+      "raw": "Перестройка! Демократия! Гласность!",
+      "text": "Перестройка! Демократия! Гласность!",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 15788,
+      "var": "text2",
+      "raw": "Автоматизация?",
+      "text": "Автоматизация?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 15814,
+      "var": "text2",
+      "raw": "Африканский Че Гевара",
+      "text": "Африканский Че Гевара",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 15876,
+      "var": "text2",
+      "raw": "Слон и осёл",
+      "text": "Слон и осёл",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 15994,
+      "var": "text2",
+      "raw": "Пятилетка похорон",
+      "text": "Пятилетка похорон",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 16051,
+      "var": "text2",
+      "raw": "Жёлтый скорпион",
+      "text": "Жёлтый скорпион",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 16108,
+      "var": "text2",
+      "raw": "КРИЗИС ПРАВИТЕЛЬСТВА",
+      "text": "КРИЗИС ПРАВИТЕЛЬСТВА",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 16139,
+      "var": "text2",
+      "raw": "Конец албанского Сталина",
+      "text": "Конец албанского Сталина",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 16176,
+      "var": "text2",
+      "raw": "Золотой век Сомали",
+      "text": "Золотой век Сомали",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 16229,
+      "var": "text2",
+      "raw": "Ветер перемен?",
+      "text": "Ветер перемен?",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 16348,
+      "var": "text2",
+      "raw": "ХII Всемирный фестиваль молодёжи и студентов",
+      "text": "ХII Всемирный фестиваль молодёжи и студентов",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 16411,
+      "var": "text2",
+      "raw": "Кризис среди союзников",
+      "text": "Кризис среди союзников",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 16573,
+      "var": "text2",
+      "raw": "Шенгенское соглашение",
+      "text": "Шенгенское соглашение",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 16643,
+      "var": "text2",
+      "raw": "Демократический интернационал",
+      "text": "Демократический интернационал",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 16711,
+      "var": "text2",
+      "raw": "Автоматизация – естественный процесс",
+      "text": "Автоматизация – естественный процесс",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 16754,
+      "var": "text2",
+      "raw": "К призрачному свету",
+      "text": "К призрачному свету",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 16826,
+      "var": "text2",
+      "raw": "Предания неведомых миров",
+      "text": "Предания неведомых миров",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 16865,
+      "var": "text2",
+      "raw": "Агония югославского социалистического самоуправления",
+      "text": "Агония югославского социалистического самоуправления",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 16968,
+      "var": "text2",
+      "raw": "Золотой треугольник",
+      "text": "Золотой треугольник",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 17095,
+      "var": "text2",
+      "raw": "Два Китая",
+      "text": "Два Китая",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 17130,
+      "var": "text2",
+      "raw": "Ответ Живкова",
+      "text": "Ответ Живкова",
+      "translated": "",
+      "has_translation": false
+    },
+    {
+      "file": "Results_text.cs",
+      "line": 17146,
+      "var": "text2",
+      "raw": "Не готово",
+      "text": "Не готово",
+      "translated": "",
+      "has_translation": false
+    }
+  ]
+}

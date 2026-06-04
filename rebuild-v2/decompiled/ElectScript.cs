@@ -97,7 +97,7 @@ public class ElectScript : MonoBehaviour
 		{
 			if (GlobalScript.inst.gameState.data[15] > 7)
 			{
-				text_part.text = "Parties of 全国人大";
+				text_part.text = "Parties of NPC";
 			}
 			else
 			{

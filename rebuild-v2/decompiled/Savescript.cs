@@ -32,7 +32,7 @@ public class Savescript : MonoBehaviour
 		bool flag = PlayerPrefs.GetInt("language") != 0;
 		SaveMetadata saveMetadata = providedMeta ?? SaveStorage.LoadMetaFile(number);
 		bool flag2 = saveMetadata?.iron ?? false;
-		string text = ((!flag) ? (flag2 ? "With achievements" : "Without achievements") : (flag2 ? "С достижениями" : "Без достижений"));
+		string text = ((!flag) ? (flag2 ? "有成就" : "无成就") : (flag2 ? "С достижениями" : "Без достижений"));
 		if (saveMetadata != null)
 		{
 			string[] array = ((GlobalScript.inst != null) ? GlobalScript.inst.gameState : null)?.doctr;
@@ -60,8 +60,8 @@ public class Savescript : MonoBehaviour
 			}
 			else
 			{
-				text = text + "\nSystem: " + text2;
-				text = text + "\nDate: " + day + "." + month + "." + year;
+				text = text + "系统：" + text2;
+				text = text + "日期：" + day + "." + month + "." + year;
 				text = text + "\nDifficulty: " + text3;
 				text += "\nAchievements: ";
 			}
@@ -71,7 +71,7 @@ public class Savescript : MonoBehaviour
 			}
 			return text + (flag ? "<color=red>Недоступны</color>" : "<color=red>Unavailable</color>");
 		}
-		return text + (flag ? "\nПустой слот" : "\nEmpty Slot");
+		return text + (flag ? "\nПустой слот" : "\n空槽位");
 	}
 
 	private void Awake()
@@ -97,7 +97,7 @@ public class Savescript : MonoBehaviour
 			WriteYugoSave(number);
 			if (PlayerPrefs.GetInt("language") == 0)
 			{
-				Opis.text = "存档D";
+				Opis.text = "SAVED";
 			}
 			else
 			{

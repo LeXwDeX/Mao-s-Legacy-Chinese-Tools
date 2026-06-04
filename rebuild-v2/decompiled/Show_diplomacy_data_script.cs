@@ -239,24 +239,24 @@ public class Show_diplomacy_data_script : MonoBehaviour
 		{
 			if (num >= 10)
 			{
-				text.text = "Influence of the Reserve:\nServices, Ind. and SoL: +" + Mathf.Abs(num / 10) + "." + Mathf.Abs(num % 10);
+				text.text = "储备的影响：\n服务业、工业与生活水平：+" + Mathf.Abs(num / 10) + "." + Mathf.Abs(num % 10);
 			}
 			else if (num <= -10)
 			{
-				text.text = "Influence of the Reserve:\nServices, Ind. and SoL: -" + Mathf.Abs(num / 10) + "." + Mathf.Abs(num % 10);
+				text.text = "储备的影响：\n服务业、工业与生活水平：-" + Mathf.Abs(num / 10) + "." + Mathf.Abs(num % 10);
 			}
 			else if (num < 0)
 			{
-				text.text = "Influence of the Reserve:\nServices, Ind. and SoL: -0." + Mathf.Abs(num);
+				text.text = "储备的影响：\n服务业、工业与生活水平：-0。" + Mathf.Abs(num);
 			}
 			else
 			{
-				text.text = "Influence of the Reserve:\nServices, Ind. and SoL: +0." + num;
+				text.text = "储备的影响：\n服务业、工业与生活水平：+0。" + num;
 			}
 			TextMesh textMesh = text;
-			textMesh.text = textMesh.text + "\nCorruption -0." + Mathf.Abs(num2);
+			textMesh.text = textMesh.text + "\n腐败 -0。" + Mathf.Abs(num2);
 			TextMesh textMesh2 = text;
-			textMesh2.text = textMesh2.text + "\nYour alliance stability +" + (float)GlobalScript.inst.gameState.data[36] / 1500f;
+			textMesh2.text = textMesh2.text + "\n你方同盟稳定性 +" + (float)GlobalScript.inst.gameState.data[36] / 1500f;
 		}
 		else
 		{
@@ -353,7 +353,7 @@ public class Show_diplomacy_data_script : MonoBehaviour
 			}
 			if (PlayerPrefs.GetInt("language") == 0)
 			{
-				text.text = "Debt loss:\nBudget -" + Mathf.Abs(num / 10) + "." + Mathf.Abs(num % 10);
+				text.text = "债务损失：\n预算 -" + Mathf.Abs(num / 10) + "." + Mathf.Abs(num % 10);
 			}
 			else
 			{
@@ -380,7 +380,7 @@ public class Show_diplomacy_data_script : MonoBehaviour
 		int num2 = GlobalScript.inst.gameState.data[26] / 50;
 		if (PlayerPrefs.GetInt("language") == 0)
 		{
-			text.text = "Losses from corruption\nBudget -" + Mathf.Abs(num / 10) + "." + Mathf.Abs(num % 10) + "\nStandard of living: -" + Mathf.Abs(num2 / 10) + "." + Mathf.Abs(num2 % 10);
+			text.text = "腐败造成的损失\n预算 -" + Mathf.Abs(num / 10) + "." + Mathf.Abs(num % 10) + "\n生活水平：-" + Mathf.Abs(num2 / 10) + "." + Mathf.Abs(num2 % 10);
 		}
 		else
 		{
@@ -413,12 +413,12 @@ public class Show_diplomacy_data_script : MonoBehaviour
 			{
 				bool flag = !GlobalScript.inst.gameState.allcountries[1].econ && !GlobalScript.inst.gameState.allcountries[1].isSEV && GlobalScript.inst.gameState.modifies[12].active;
 				bool flag2 = (GlobalScript.inst.gameState.science[9] || GlobalScript.inst.gameState.allcountries[1].isSEV || GlobalScript.inst.gameState.allcountries[1].isASEAN) && !flag;
-				string text2 = (GlobalScript.inst.gameState.science[9] ? "<color=green>science Improved conveyor production</color>" : "<color=red>science Improved conveyor production</color>");
+				string text2 = (GlobalScript.inst.gameState.science[9] ? "<color=green>科学：改进输送机生产</color>" : "<color=red>科学：改进输送机生产</color>");
 				string text3 = (GlobalScript.inst.gameState.allcountries[1].isSEV ? "<color=green>COMECON</color>" : "<color=red>COMECON</color>");
 				string text4 = (GlobalScript.inst.gameState.allcountries[1].isASEAN ? "<color=green>ASEAN</color>" : "<color=red>ASEAN</color>");
 				_ = GlobalScript.inst.gameState.allcountries[1].econ;
-				string text5 = (flag ? "<color=red>Backward economy</color>" : "<color=green>Backward economy</color>");
-				text = text + "\nAvailable if has " + text2 + "或者在" + text3 + "或者在" + text4 + ".";
+				string text5 = (flag ? "<color=red>落后经济</color>" : "<color=green>落后经济</color>");
+				text = text + "\n若拥有则可用：" + text2 + "或者在" + text3 + "或者在" + text4 + ".";
 				text = text + "\nThe next modificator blocks only when outside economic alliances: " + text5;
 				text = text + "\n\nStatus: " + (flag2 ? "<color=green>Available</color>" : "<color=red>Unavailable</color>");
 			}

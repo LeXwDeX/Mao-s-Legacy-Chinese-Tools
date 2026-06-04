@@ -75,7 +75,7 @@ public class Results_text : MonoBehaviour
 			if (GlobalScript.inst.gameState.number_event == 1)
 			{
 				GlobalScript.inst.gameState.data[106] = 0;
-				text2 = "Elections, Elections, Candidates are...";
+				text2 = "选举、选举、候选人是……";
 				float[] array = new float[5]
 				{
 					0f,
@@ -203,18 +203,18 @@ public class Results_text : MonoBehaviour
 					}
 					if (GlobalScript.inst.gameState.party_number[1] > 1500)
 					{
-						text = "We won with a devastating result, taking the majority of seats in the 全国人大 and proving to China and the whole world that it is the people who recognize us as their rulers!";
+						text = "我们以摧枯拉朽的结果获胜，夺得全国人大多数席位，\n并向中国和全世界证明：是人民承认我们是他们的统治者！";
 						GlobalScript.inst.gameState.data[3] += 10;
 						GlobalScript.inst.gameState.data[4] -= 20;
 						GlobalScript.inst.gameState.data[1] += 50;
 					}
 					else if (num2 > 1500)
 					{
-						text = "Our alliance of parties won the elections to the 全国人大 and proved to China and the whole world that it is the people who recognize us as their rulers!";
+						text = "我们各党派的联盟赢得了全国人大选举，\n并向中国和全世界证明：是人民承认我们是他们的统治者！";
 					}
 					else
 					{
-						text = "We have lost not only the majority, we no longer even occupy 50% of the seats in the 全国人大! It's a shame!";
+						text = "我们不但失去了多数席位，甚至连全国人大50%的席位都占不够了！\n真是耻辱！";
 						GlobalScript.inst.gameState.data[35] = 5;
 						load_scene_after_click = "Ending";
 					}
@@ -223,13 +223,13 @@ public class Results_text : MonoBehaviour
 					{
 						if (GlobalScript.inst.gameState.is_party_enabled[l])
 						{
-							text = text + "|" + GlobalScript.inst.gameState.party_name[l + 5] + ": " + GlobalScript.inst.gameState.party_number[l] + " seats из 3000";
+							text = text + "|" + GlobalScript.inst.gameState.party_name[l + 5] + ": " + GlobalScript.inst.gameState.party_number[l] + "席，共3000席";
 						}
 					}
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "With the promise of bonuses, payouts and threats of layoffs and downgrades, we managed to get the civil servants to come to the polls and vote for our party. But people will long remember such an open scam.";
+					text = "凭借奖金、发放与裁员降级的威胁，我们终于让公务员走进投票站，\n为我们的党投票。但人们会很久都记得这种赤裸裸的骗局。";
 					array[1] += GlobalScript.inst.gameState.data[1] / 10;
 					int num3 = 0;
 					float[] array3 = new float[5];
@@ -263,18 +263,18 @@ public class Results_text : MonoBehaviour
 					}
 					if (GlobalScript.inst.gameState.party_number[1] > 1500)
 					{
-						text = "We won with a devastating result, taking the majority of seats in the 全国人大 and proving to China and the whole world that it is the people who recognize us as their rulers!";
+						text = "我们以摧枯拉朽的结果获胜，夺得全国人大多数席位，\n并向中国和全世界证明：是人民承认我们是他们的统治者！";
 						GlobalScript.inst.gameState.data[3] += 10;
 						GlobalScript.inst.gameState.data[4] -= 20;
 						GlobalScript.inst.gameState.data[1] += 50;
 					}
 					else if (num4 > 1500)
 					{
-						text = "Our alliance of parties won the elections to the 全国人大 and proved to China and the whole world that it is the people who recognize us as their rulers!";
+						text = "我们各党派的联盟赢得了全国人大选举，\n并向中国和全世界证明：是人民承认我们是他们的统治者！";
 					}
 					else
 					{
-						text = "We have lost not only the majority, we no longer even occupy 50% of the seats in the 全国人大! It's a shame!";
+						text = "我们不但失去了多数席位，甚至连全国人大50%的席位都占不够了！\n真是耻辱！";
 						GlobalScript.inst.gameState.data[35] = 5;
 						load_scene_after_click = "Ending";
 					}
@@ -292,7 +292,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "The special services did a great job getting places for us. Only they are very tired.";
+					text = "特务机关为我们安排席位干得很出色。只是他们也累坏了。";
 					if (GlobalScript.inst.gameState.data[9] < 100)
 					{
 						array[1] += GlobalScript.inst.gameState.data[9] * 2;
@@ -335,18 +335,18 @@ public class Results_text : MonoBehaviour
 					}
 					if (GlobalScript.inst.gameState.party_number[1] > 1500)
 					{
-						text = "We won with a devastating result, taking the majority of seats in the 全国人大 and proving to China and the whole world that it is the people who recognize us as their rulers!";
+						text = "我们以摧枯拉朽的结果获胜，夺得全国人大多数席位，\n并向中国和全世界证明：是人民承认我们是他们的统治者！";
 						GlobalScript.inst.gameState.data[3] += 10;
 						GlobalScript.inst.gameState.data[4] -= 20;
 						GlobalScript.inst.gameState.data[1] += 50;
 					}
 					else if (num8 > 1500)
 					{
-						text = "Our alliance of parties won the elections to the 全国人大 and proved to China and the whole world that it is the people who recognize us as their rulers!";
+						text = "我们各党派的联盟赢得了全国人大选举，\n并向中国和全世界证明：是人民承认我们是他们的统治者！";
 					}
 					else
 					{
-						text = "We have lost not only the majority, we no longer even occupy 50% of the seats in the 全国人大! It's a shame!";
+						text = "我们不但失去了多数席位，甚至连全国人大50%的席位都占不够了！\n真是耻辱！";
 						GlobalScript.inst.gameState.data[35] = 5;
 						load_scene_after_click = "Ending";
 					}
@@ -368,7 +368,7 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 3)
 			{
-				text2 = "Death of helmsman";
+				text2 = "掌舵者逝世";
 				GlobalScript.inst.gameState.data[38] = 100;
 				GlobalScript.inst.gameState.politics[0].name_1 = 1;
 				GlobalScript.inst.gameState.politics[0].name_2 = 41;
@@ -379,7 +379,7 @@ public class Results_text : MonoBehaviour
 				GlobalScript.inst.gameState.politics_dolshnost[1] = 150;
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "After Mao’s death was announced, his body was placed in the House of People’s Congregations for a week so that everyone could say goodbye to the chairman, mourning was declared throughout the country. Many Chinese people have come to pay their last honors to their great leader and teacher. After the deadline, Mao's body was cremated, according to his wish, and the urn with ashes after three minutes of silence and 华国锋's farewell speech in Tiananmen Square was walled up in a monument specially built on the same square.";
+					text = "毛主席逝世的消息宣布后，遗体安放在人民大会堂一周，\n供大家向主席告别，全国哀悼。\n许多中国人前来向这位伟大领袖和老师作最后的告别。\n到期后，按毛主席遗愿将遗体火化；三分钟的默哀之后，\n在天安门广场由华国锋作告别讲话，骨灰坛被封入一座专门在同一广\n场修建的纪念碑中。";
 					GlobalScript.inst.gameState.data[4] -= 50;
 					GlobalScript.inst.gameState.data[3] += 20;
 					Politic politic = GlobalScript.inst.gameState.politics[4];
@@ -393,7 +393,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "After Mao’s death was announced, his body was placed in the House of People’s Congregations for a week so that everyone could say goodbye to the chairman, mourning was declared throughout the country. Many Chinese people have come to pay their last honors to their great leader and teacher. After the deadline, Mao's body was taken to the hospital and embalmed by a specially developed technique. After three minutes of silence and 华国锋's farewell speech on Tiananmen Square, the chairman rested in a mausoleum built on the same square by a special order of Guofeng.";
+					text = "毛主席逝世的消息宣布后，遗体安放在人民大会堂一周，\n供大家向主席告别，全国哀悼。\n许多中国人前来向这位伟大领袖和老师作最后的告别。\n到期后，毛主席遗体被送往医院，采用专门研制的技术进行防腐处理。\n三分钟默哀之后，在天安门广场由华国锋作告别讲话，\n主席安息于由华国锋特别下令修建在同一广场的陵墓之中。";
 					GlobalScript.inst.gameState.data[4] -= 70;
 					GlobalScript.inst.gameState.data[3] += 50;
 					GlobalScript.inst.gameState.data[1] += 40;
@@ -410,7 +410,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Guofeng decided not to participate directly in the organization of the funeral, which did not go unnoticed. After Mao’s death was announced, his body was placed in the House of People’s Congregations for a week so that everyone could say goodbye to the chairman, mourning was declared throughout the country. Many Chinese people have come to pay their last honors to their great leader and teacher. After the deadline, Mao's body was taken to the hospital and embalmed by a specially developed technique. After three minutes of silence and 华国锋's farewell speech on Tiananmen Square, the chairman rested in a mausoleum built on the same square by a special order of the funeral commission.";
+					text = "华国锋决定不直接参与丧事的组织，这一点并未被人忽视。\n毛主席逝世的消息宣布后，遗体安放在人民大会堂一周，\n供大家向主席告别，全国哀悼。\n许多中国人前来向这位伟大领袖和老师作最后的告别。\n到期后，毛主席遗体被送往医院，采用专门研制的技术进行防腐处理。\n三分钟默哀之后，在天安门广场由华国锋作告别讲话，\n主席安息于由丧事委员会特别下令修建在同一广场的陵墓之中。";
 					GlobalScript.inst.gameState.data[4] -= 70;
 					GlobalScript.inst.gameState.data[3] += 50;
 					GlobalScript.inst.gameState.data[1] -= 40;
@@ -427,7 +427,7 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 4)
 			{
-				text2 = "Conspiracy";
+				text2 = "阴谋";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
 					int num11 = 0;
@@ -440,7 +440,7 @@ public class Results_text : MonoBehaviour
 					}
 					if (GlobalScript.inst.gameState.data[1] > 500 && num11 >= 4)
 					{
-						text = "Before the conspirators managed to voice their accusations, you attacked them with criticism and counter accusations. Most of those present at the congress supported you and the conspirators had to retreat.";
+						text = "在阴谋者还没来得及提出指控之前，你就以批判和反指控向他们发起\n攻击。大会上大多数人站在你这边，阴谋者只得退却。";
 						GlobalScript.inst.gameState.data[1] += 50;
 						Politic[] politics = GlobalScript.inst.gameState.politics;
 						foreach (Politic politic2 in politics)
@@ -458,7 +458,7 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "Before the conspirators managed to voice their accusations, you attacked them with criticism and counter accusations. However, you clearly did not have enough credibility, and most of the party members are tired of your rule. The majority of those present at the congress supported the conspirators, and you were removed from post, expelled from the Central Committee and sent to a distant, powerless position.";
+						text = "在阴谋者还没来得及提出指控之前，你就以批判和反指控向他们发起\n攻击。然而你显然缺乏足够的威信，而大多数党员早已厌倦了你的统\n治。大会上多数人支持阴谋者，你被撤职、\n开除出中央委员会，并被打发到遥远而无权的岗位上。";
 						GlobalScript.inst.gameState.data[1] = 0;
 						GlobalScript.inst.gameState.data[3] = 0;
 						GlobalScript.inst.gameState.data[35] = 2;
@@ -467,7 +467,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Even before the start of the congress, the secret service agents loyal to you, overwhelmed the conspirators who had arrived and sent them to the detention facilities. At the congress, you criticized them in absentia, which was supported by the delegates. But it’s not so easy to get rid of high party members...";
+					text = "在大会开始之前，你忠诚的秘密情报人员就已压制了赶来的阴谋者，\n并把他们送进拘留设施。\n大会上，你对他们进行“隔空批判”，得到了与会代表的支持。\n但要摆脱高级党内人物，可没那么容易……";
 					GlobalScript.inst.gameState.data[3] -= 50;
 					GlobalScript.inst.gameState.data[9] -= 100;
 					if (GlobalScript.inst.gameState.data[1] <= 300 + GlobalScript.inst.gameState.data[4] / 5 - (GlobalScript.inst.gameState.data[3] - 500) / 5)
@@ -494,7 +494,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Even before the start of the congress, the officers loyal to you overwhelmed the conspirators who had arrived and, at gunpoint, took them to military jails. At the congress, in the presence of armed soldiers, you criticized them in absentia, which was supported by the delegates. But it’s not so easy to get rid of high party members...";
+					text = "在大会开始之前，你忠诚的军官就已压制了赶来的阴谋者，\n并在枪口威逼下把他们押往军中监狱。\n大会上，在武装士兵在场的情况下，你对他们进行“隔空批判”，\n得到了与会代表的支持。\n但要摆脱高级党内人物，可没那么容易……";
 					GlobalScript.inst.gameState.data[3] -= 80;
 					if (GlobalScript.inst.gameState.data[1] <= 300 + GlobalScript.inst.gameState.data[4] / 5 - (GlobalScript.inst.gameState.data[3] - 500) / 5)
 					{
@@ -521,7 +521,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "Even before the start of the congress, you appealed through the media to the people with a call to support you and protect the conquests of your power. The people loyal to you went to mass demonstrations in your support and began to storm the departments under your opponent's control. Realizing their unpopularity, the conspirators retreated, and the last congress secured your power. But the people are already rather tired of similar 文化大革命s.";
+					text = "在大会开始之前，你就通过媒体向人民发出号召，\n要求支持你、保卫你权力的“成果”。\n你忠诚的群众举行大规模集会声援，并开始冲击对手所控制的部门。\n阴谋者意识到自己不得人心，于是退却；\n最后一届大会也就稳固了你的权力。\n但人民早已对类似的文化大革命感到厌倦。";
 					if (GlobalScript.inst.gameState.data[1] <= 300 + GlobalScript.inst.gameState.data[4] / 5 - (GlobalScript.inst.gameState.data[3] - 500) / 5)
 					{
 						GlobalScript.inst.gameState.data[1] += 400;
@@ -549,12 +549,12 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 5)
 			{
-				text2 = "Popular discontent";
+				text2 = "群众不满";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
 					if (GlobalScript.inst.gameState.data[3] > 700 && GlobalScript.inst.gameState.data[1] >= 500)
 					{
-						text = "You personally spoke to the protesters in Beijing, which was broadcast throughout the country. You promised to make every effort to change the policy and take into account the interests of all citizens, as well as to create mechanisms of real democracy (which, however, you are not in a hurry to implement). It seems that you have succeeded in convincing the people, the protests are slowly falling.";
+						text = "你亲自向北京的抗议者讲话，并通过全国广播。\n你承诺将尽一切努力改变政策，兼顾所有公民的利益，\n并建立真正民主的机制（不过，你并不急着去落实）。\n看来你已经成功说服了人民，抗议活动正在慢慢降温。";
 						GlobalScript.inst.gameState.data[3] -= 150;
 						GlobalScript.inst.gameState.data[4] -= 150;
 						GlobalScript.inst.gameState.data[1] -= 100;
@@ -605,7 +605,7 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "You personally spoke to the protesters in Beijing, which was broadcast throughout the country. You promised to make every effort to change the policy and take into account the interests of all citizens, as well as to create mechanisms of real democracy (which, however, you are not in a hurry to implement). Nevertheless, the people, tired of your promises, took them without enthusiasm and demanded your resignation. Having finally disappointed in you, the party urgently organized your dismissal and arrest and formed a new government that will lead the country until the general election while you are sitting in the detention center.";
+						text = "你亲自向北京的抗议者讲话，并通过全国广播。\n你承诺将尽一切努力改变政策，兼顾所有公民的利益，\n并建立真正民主的机制（不过，你并不急着去落实）。\n然而，人民早已厌倦你的空话，听了也毫无热情，\n要求你辞职。党终于对你彻底失望，紧急组织你的撤职与逮捕，\n并组建新政府，直到大选前继续领导国家——而你则坐在拘留中心里。";
 						GlobalScript.inst.gameState.data[1] = 0;
 						GlobalScript.inst.gameState.data[3] = 0;
 						GlobalScript.inst.gameState.data[35] = 1;
@@ -614,7 +614,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "The army, having received the order, led the armored vehicles to the streets of the cities and firmly dispersed the protest. There were casualties on both sides. Of course, such actions have already been condemned by almost all countries of the world.";
+					text = "军队接到命令后，驾驶装甲车开上城市街头，\n强行驱散抗议。双方都有伤亡。\n当然，这种行动早已遭到世界上几乎所有国家的谴责。";
 					GlobalScript.inst.gameState.data[4] -= 150;
 					GlobalScript.inst.gameState.data[22] -= 100;
 					GlobalScript.inst.gameState.data[6] += 50;
@@ -631,7 +631,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "Through the media, you appealed to people sympathizing with you to help protect your conquests from traitors funded by the USA and the USSR. They immediately went to mass rallies in your support, which often resulted in clashes with protesters and their arrests. When the dust of street battles subsided and the protesters fled, your supporters marched on Tiananmen.";
+					text = "你通过媒体向同情你的人发出呼吁，要求他们帮助保卫你“夺取的成\n果”，抵御由美国和苏联资助的叛徒。\n对方立刻组织大规模集会声援，常常演变为与抗议者的冲突，\n并导致后者被捕。街头战斗的尘埃落定、\n抗议者四散逃离之后，你的支持者向天安门进发。";
 					GlobalScript.inst.gameState.data[4] -= 200;
 					GlobalScript.inst.gameState.data[1] -= 50;
 					GlobalScript.inst.gameState.data[6] += 20;
@@ -679,7 +679,7 @@ public class Results_text : MonoBehaviour
 							persona2.isLead = false;
 						}
 					}
-					text = (flag ? "You personally spoke the protesters in Beijing, with the speech broadcast nationwide. You promised to make every effort to reform policies, consider the interests of all citizens. However, the people, weary of your promises, received them without enthusiasm and demanded your resignation. In response to the growing discontent, you made an unexpected decision: to nominate a leader from the people, as the protesters demanded. You introduced a candidate—a charismatic politician whose career is built on the ability to persuade and win the trust of the masses. Your decision temporarily quelled the protests but caused a split within the party, undermining its unity. Will the new leader be able to hold onto power, or has your decision merely delayed the crisis?" : "You personally spoke to the protesters in Beijing, which was broadcast throughout the country. You promised to make every effort to change the policy and take into account the interests of all citizens, as well as to create mechanisms of real democracy, which are about to begin work. The people are inspired, but at the same time, the stream of criticism also went through the newly acquired freedoms");
+					text = (flag ? "你亲自对北京的抗议者讲话，讲话在全国播出。\n你承诺竭尽全力改革政策，考虑所有公民的利益。\n然而，人民对你的承诺已感疲惫，既不买账，\n也不热情接受，反而要求你辞职。\n面对日益增长的不满，你作出一个出人意料的决定：\n按抗议者的要求，提名一位“来自人民”的领袖。\n你推出了一名候选人——一位魅力型政治家，\n其仕途建立在说服民众、赢得群众信任的能力之上。\n你的决定暂时平息了抗议，却在党内造成分裂，\n动摇了团结。新领袖能否守住权力，还是说你的决定只是把危机延后\n了？" : "你亲自同北京的抗议者对话，并在全国播出。\n你承诺竭尽全力改变政策，兼顾所有公民的利益，\n还要建立真正民主的机制——即将开始运转。\n人民备受鼓舞，但与此同时，批评的洪流也借着新获得的自由奔涌而\n出。");
 					GlobalScript.inst.gameState.data[1] -= 50;
 					GlobalScript.inst.gameState.data[3] += 100;
 					GlobalScript.inst.gameState.data[6] -= 50;
@@ -715,7 +715,7 @@ public class Results_text : MonoBehaviour
 							GlobalScript.inst.gameState.data[20],
 							GlobalScript.inst.gameState.data[21]
 						};
-						string item = CitizenManager.FormatLog(GlobalScript.inst.gameState.citizens[num16], "стал правителем.", "became the leader.", date);
+						string item = CitizenManager.FormatLog(GlobalScript.inst.gameState.citizens[num16], "стал правителем.", "成为领袖。", date);
 						persona3.changeLog.Add(item);
 						GlobalScript.inst.gameState.data[1] = 0;
 						achieves.GetComponent<achievements>().Set(211);
@@ -725,7 +725,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 5)
 				{
-					text = "The 国家安全部 was engaged in the usual business - they bribed someone, they eliminated someone, and all sorts of organizations and people who decompose it from the inside in our interests began to actively join in the protest. The opposition fights with itself, the protest turned into a gathering without any strategy and soon dried up.";
+					text = "国安系统照例忙活——收买一个、清除一个，\n各种组织和人物从内部瓦解、为我们利益服务的“力量”也开始积极\n加入抗议。反对派自相残杀，抗议变成毫无策略的聚会，\n很快就偃旗息鼓了。";
 					GlobalScript.inst.gameState.data[9] -= 150;
 					GlobalScript.inst.gameState.data[4] -= 150;
 					GlobalScript.inst.gameState.data[3] += 100;
@@ -733,17 +733,17 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 6)
 			{
-				text2 = "Low standard of living";
+				text2 = "生活水平偏低";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Large funds from the budget were urgently allocated to social programs, housing development and to help the poor. Social problems are gradually beginning to be solved and people are satisfied";
+					text = "财政预算中大笔资金被紧急拨付到社会项目、\n住房建设以及救助贫困。\n社会问题正逐步开始得到解决，人民也感到满意";
 					GlobalScript.inst.gameState.data[3] += 50;
 					GlobalScript.inst.gameState.data[8] -= 100;
 					GlobalScript.inst.gameState.data[5] = 300;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "We requested foreign humanitarian assistance, which was provided. Volunteers from different countries and from the UN distribute food, as well as develop housing for people on free terms. However, such actions showed both our people and the world community that we cannot cope with such things on our own, which greatly undermines our prestige.";
+					text = "我们请求外援的人道主义援助，援助已被提供。\n来自不同国家以及联合国的志愿者分发食物，\n并以无偿方式为民众修建住房。\n然而，这样的行动让我们的人民和国际社会都看清：\n我们自己无法应对这些事，这极大损害了我们的威信。";
 					GlobalScript.inst.gameState.data[4] += 200;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 100;
@@ -751,7 +751,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Through the development of labor laws, government orders, benefits and banal coercion, we managed to force our businessmen to provide social support to the people, improve working conditions and housing conditions. However, they are not particularly happy to share their wealth with the people and are actively using connections at the highest levels to put pressure on you.";
+					text = "通过完善劳动法规、政府命令、福利待遇以及司空见惯的强制手段，\n我们终于迫使我们的商人向人民提供社会支持，\n改善劳动条件和住房条件。\n然而，他们并不太愿意把自己的财富与人民分享，\n并正积极动用最高层的关系对你施压。";
 					GlobalScript.inst.gameState.data[4] += 100;
 					GlobalScript.inst.gameState.data[1] -= 500;
 					GlobalScript.inst.gameState.data[5] = 300;
@@ -767,7 +767,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "Speaking at the extraordinary party congress, you explained to the top the brunt of the situation and decided to allocate funds for social needs of the party and voluntarily-forcedly attracted party members and officials to participate in charity events. This, of course, raised the standard of living, but the party was not satisfied.";
+					text = "在特别党代会上，你向上层说明了形势的严峻，\n并决定拨款满足党内社会需要，同时“自愿—被迫”吸引党员干部参\n加慈善活动。当然，这提高了生活水平，\n但党内并不满足。";
 					GlobalScript.inst.gameState.data[1] = 0;
 					GlobalScript.inst.gameState.data[3] += 100;
 					GlobalScript.inst.gameState.data[5] = 300;
@@ -781,10 +781,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 7)
 			{
-				text2 = "Diplomatic crisis";
+				text2 = "外交危机";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "We urgently organized a magnificent meeting of the foreign ministers of China and the USA, and the American delegation was invited to a luxurious tour of China, where various festivals and events are being prepared, showing our peacefulness. The detente succeeded, the tension subsided.";
+					text = "我们紧急组织了中美两国外长的盛大会晤，\n并邀请美方代表团在中国进行豪华参观——各类节庆和活动正在筹备，\n以展示我们的和平姿态。\n缓和取得成功，紧张局势随之缓解。";
 					GlobalScript.inst.gameState.empires[0].relations = 400;
 					if (GlobalScript.inst.gameState.data[6] > 600)
 					{
@@ -794,7 +794,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "We have abandoned some foreign policy claims, reduced the support of loyal opposition in other countries and, in general, reduced the degree of interventionism of Chinese politics. This was positively perceived by the Ministry of Foreign Affairs of the USA, tensions decreased. Like our influence.";
+					text = "我们放弃了部分外交主张，减少了对其他国家“忠诚反对派”的支持，\n总体上也降低了中国政治的干预主义程度。\n美国外交部对此作出了积极评估，紧张局势下降。\n也就是承认了我们的影响力。";
 					GlobalScript.inst.gameState.empires[0].relations = 400;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 50;
@@ -803,13 +803,13 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Tension grows.";
+					text = "紧张局势加剧。";
 					GlobalScript.inst.gameState.data[35] = 3;
 					load_scene_after_click = "Ending";
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "Tension grows.";
+					text = "紧张局势加剧。";
 					if (!GlobalScript.inst.gameState.modifies[17].active)
 					{
 						GlobalScript.inst.gameState.data[22] -= 50;
@@ -824,7 +824,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 5)
 				{
-					text = "We urgently organized a magnificent meeting of the foreign ministers of China and the USA, and the American delegation was invited to a luxurious tour of China, where various festivals and events are being prepared, showing our peacefulness. The detente succeeded, the tension subsided.";
+					text = "我们紧急组织了中美两国外长的盛大会晤，\n并邀请美方代表团在中国进行豪华参观——各类节庆和活动正在筹备，\n以展示我们的和平姿态。\n缓和取得成功，紧张局势随之缓解。";
 					GlobalScript.inst.gameState.empires[0].relations = 400;
 					GlobalScript.inst.gameState.data[168] -= 50;
 					if (GlobalScript.inst.gameState.data[6] > 700)
@@ -835,10 +835,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 8)
 			{
-				text2 = "Diplomatic crisis";
+				text2 = "外交危机";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "We urgently organized a magnificent meeting of the foreign ministers of China and the USSR, and the Soviet delegation was invited to a luxurious tour of China, where various festivals and events are being prepared, showing our peacefulness. The detente succeeded, the tension subsided.";
+					text = "我们紧急组织了中苏两国外长的盛大会晤，\n并邀请苏方代表团在中国进行豪华参观——各类节庆和活动正在筹备，\n以展示我们的和平姿态。\n缓和取得成功，紧张局势随之缓解。";
 					GlobalScript.inst.gameState.empires[1].relations = 400;
 					if (GlobalScript.inst.gameState.data[6] > 600)
 					{
@@ -848,7 +848,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "We have abandoned some foreign policy claims, reduced the support of loyal opposition in other countries and, in general, reduced the degree of interventionism of Chinese politics. This was positively perceived by the Ministry of Foreign Affairs of the USSR, tensions decreased. Like our influence.";
+					text = "我们放弃了部分外交主张，减少了对其他国家“忠诚反对派”的支持，\n总体上也降低了中国政治的干预主义程度。\n苏联外交部对此作出了积极评估，紧张局势下降。\n也就是承认了我们的影响力。";
 					GlobalScript.inst.gameState.empires[1].relations = 400;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 50;
@@ -862,7 +862,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "Tension grows.";
+					text = "紧张局势加剧。";
 					if (!GlobalScript.inst.gameState.modifies[16].active)
 					{
 						GlobalScript.inst.gameState.data[22] -= 50;
@@ -877,7 +877,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 5)
 				{
-					text = "We urgently organized a magnificent meeting of the foreign ministers of China and the USSR, and the Soviet delegation was invited to a luxurious tour of China, where various festivals and events are being prepared, showing our peacefulness. The detente succeeded, the tension subsided.";
+					text = "我们紧急组织了中苏两国外长的盛大会晤，\n并邀请苏方代表团在中国进行豪华参观——各类节庆和活动正在筹备，\n以展示我们的和平姿态。\n缓和取得成功，紧张局势随之缓解。";
 					GlobalScript.inst.gameState.empires[1].relations = 400;
 					GlobalScript.inst.gameState.data[168] -= 50;
 					if (GlobalScript.inst.gameState.data[6] > 700)
@@ -888,10 +888,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 9)
 			{
-				text2 = "Separatism in Tibet";
+				text2 = "西藏分裂主义";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Tibet Autonomous Region officially declared its independence within the borders of 1950. This will be a big blow for us and a great opportunity for the USSR and the USA.";
+					text = "西藏自治区正式宣布在1950年边界内独立。\n这将给我们造成沉重打击，也将为苏联和美国提供绝佳机会。";
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 250;
 					GlobalScript.inst.gameState.data[34] -= 31;
@@ -932,7 +932,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "We have further expanded the powers of local authorities and the rights of Tibetan autonomy. It seems that the majority of the population is satisfied, but it gives the radicals more opportunities to promote separatism, and other national outskirts are thinking about greater independence.";
+					text = "我们进一步扩大了地方当局的权力和西藏自治权。\n看起来多数民众是满意的，但这也给激进分子提供了更多推动分裂的\n机会，其他民族边缘地区也在考虑更大的独立。";
 					GlobalScript.inst.gameState.data[4] += 70;
 					GlobalScript.inst.gameState.data[57] -= 20;
 					GlobalScript.inst.gameState.data[1] -= 200;
@@ -940,7 +940,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "The loyal parts of the PLA entered Tibet and quickly restored order. But the nationalists and the opposition will not forget this.";
+					text = "忠于我们的人民解放军部队进入西藏，迅速恢复秩序。\n但民族主义者和反对派不会忘记这一点。";
 					GlobalScript.inst.gameState.data[4] += 50;
 					GlobalScript.inst.gameState.data[57] += 30;
 					GlobalScript.inst.gameState.data[3] -= 100;
@@ -949,7 +949,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "We organized a referendum in which the majority, of course, voted to preserve the status of Tibet. Dissatisfied nationalists and other radicals took to the streets, claiming falsification, but without past support these protests no longer pose a serious threat.";
+					text = "我们组织了一场全民公决，当然，大多数人投票赞成保留西藏现状。\n那些不满的民族主义者和其他激进分子走上街头，\n声称存在造假，但在失去以往支持之后，\n这些抗议已不再构成严重威胁。";
 					GlobalScript.inst.gameState.data[4] += 30;
 					GlobalScript.inst.gameState.data[57] += 20;
 					GlobalScript.inst.gameState.data[3] -= 20;
@@ -959,10 +959,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 10)
 			{
-				text2 = "Separatism in Xinjiang";
+				text2 = "新疆分裂主义";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Xinjiang Uygur Autonomous Region officially declared its independence. This will be a big blow for us and a great opportunity for the USSR and the USA.";
+					text = "新疆维吾尔自治区正式宣布独立。\n这将给我们造成沉重打击，也将为苏联和美国提供绝佳机会。";
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 250;
 					GlobalScript.inst.gameState.data[34] -= 218;
@@ -990,7 +990,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "We have further expanded the powers of local authorities and the rights of Xinjiang Uygur autonomy. It seems that the majority of the population is satisfied, but it gives the radicals more opportunities to promote separatism, and other national outskirts are thinking about greater independence.";
+					text = "我们进一步扩大了地方当局的权力和新疆维吾尔自治权。\n看起来多数民众是满意的，但这也给激进分子提供了更多推动分裂的\n机会，其他民族边缘地区也在考虑更大的独立。";
 					GlobalScript.inst.gameState.data[4] += 70;
 					GlobalScript.inst.gameState.data[57] -= 20;
 					GlobalScript.inst.gameState.data[1] -= 200;
@@ -998,7 +998,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "The loyal parts of the PLA entered Xinjiang and quickly restored order. But the nationalists and the opposition will not forget this.";
+					text = "忠于我们的人民解放军部队进入新疆，迅速恢复秩序。\n但民族主义者和反对派不会忘记这一点。";
 					GlobalScript.inst.gameState.data[4] += 50;
 					GlobalScript.inst.gameState.data[57] += 30;
 					GlobalScript.inst.gameState.data[3] -= 100;
@@ -1007,7 +1007,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "We organized a referendum in which the majority, of course, voted to preserve the status of Xinjiang. Dissatisfied nationalists and other radicals took to the streets, claiming falsification, but without past support these protests no longer pose a serious threat.";
+					text = "我们组织了一场全民公决，当然，大多数人投票赞成保留新疆现状。\n那些不满的民族主义者和其他激进分子走上街头，\n声称存在造假，但在失去以往支持之后，\n这些抗议已不再构成严重威胁。";
 					GlobalScript.inst.gameState.data[4] += 30;
 					GlobalScript.inst.gameState.data[57] += 20;
 					GlobalScript.inst.gameState.data[3] -= 20;
@@ -1017,16 +1017,16 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 11)
 			{
-				text2 = "The decline of industry";
+				text2 = "工业衰退";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Large funds from the budget were urgently allocated for the modernization of the industry, the purchase of imported technologies and the involvement of specialists in this area. The problem starts to be solved";
+					text = "财政预算中大笔资金被紧急拨付用于工业现代化、\n引进进口技术，并吸纳该领域专家参与。\n问题开始得到解决";
 					GlobalScript.inst.gameState.data[12] += 100;
 					GlobalScript.inst.gameState.data[8] -= 100;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Our campaign to attract foreign investment was a great success! Foreigners themselves now build and modernize our plants without a single yuan from our budget. True, for this it was necessary to reduce the minimum wage, production safety requirements and other requirements of labor legislation, but nothing, the people will suffer.";
+					text = "我们吸引外资的运动大获成功！\n现在，外国人自己出钱出力建厂、改造、\n现代化我们的工厂，连一分钱预算都不用。\n不错，为此需要压低最低工资、降低生产安全要求以及劳动立法的其\n他要求——不过没关系，受苦的还是人民。";
 					GlobalScript.inst.gameState.data[12] += 100;
 					GlobalScript.inst.gameState.data[5] -= 50;
 					GlobalScript.inst.gameState.data[4] -= 50;
@@ -1035,7 +1035,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "The Soviet Union agreed how in the old days to help us with the modernization of industry. However, he doesn’t particularly like distributing specialists and machines for nothing, and we’ve got some dependence on the USSR.";
+					text = "苏联同意像从前那样帮助我们进行工业现代化。\n然而，他并不太喜欢无偿分发专家和机器，\n我们对苏联也因此产生了一定依赖。";
 					GlobalScript.inst.gameState.data[12] += 100;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power += 10;
@@ -1055,23 +1055,23 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "By the method of redistributing budget funds and revenues from enterprises, we were able to direct the power of agriculture to the development of industry. This helped the industry, but agriculture suffered a big blow.";
+					text = "通过重新分配预算资金以及企业收入，我们把农业的力量导向工业发\n展。这帮助了工业，但农业遭受了沉重打击。";
 					GlobalScript.inst.gameState.data[12] += 100;
 					GlobalScript.inst.gameState.data[13] -= 100;
 				}
 			}
 			else if (GlobalScript.inst.gameState.number_event == 12)
 			{
-				text2 = "The decline of agriculture";
+				text2 = "农业衰退";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Large funds from the budget were urgently allocated for the modernization of the agriculture, the purchase of imported technologies and the involvement of specialists in this area. The problem starts to be solved";
+					text = "财政预算中大笔资金被紧急拨付用于农业现代化、\n引进进口技术，并吸纳该领域专家参与。\n问题开始得到解决";
 					GlobalScript.inst.gameState.data[13] += 100;
 					GlobalScript.inst.gameState.data[8] -= 100;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Our campaign to attract foreign investment was a great success! Foreigners themselves now build and modernize our farms without a single yuan from our budget. True, for this it was necessary to reduce the minimum wage, production safety requirements and other requirements of labor legislation, but nothing, the people will suffer.";
+					text = "我们吸引外资的运动大获成功！\n现在，外国人自己出钱出力建造并改造、\n现代化我们的农场，连一分钱预算都不用。\n不错，为此需要压低最低工资、降低生产安全要求以及劳动立法的其\n他要求——不过没关系，受苦的还是人民。";
 					GlobalScript.inst.gameState.data[13] += 100;
 					GlobalScript.inst.gameState.data[5] -= 50;
 					GlobalScript.inst.gameState.data[4] -= 50;
@@ -1080,7 +1080,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "The Soviet Union agreed how in the old days to help us with the rise of agriculture. However, he doesn’t particularly like distributing specialists and machines for nothing, and we’ve got some dependence on the USSR.";
+					text = "苏联同意像从前那样帮助我们发展农业。\n然而，他并不太喜欢无偿分发专家和机器，\n我们对苏联也因此产生了一定依赖。";
 					GlobalScript.inst.gameState.data[13] += 100;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power += 10;
@@ -1100,23 +1100,23 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "By the method of redistributing budget funds and revenues from enterprises, we were able to direct the power of industry to the development of agriculture. This helped the agriculture, but industry suffered a big blow.";
+					text = "通过重新分配预算资金以及企业收入，我们把工业的力量导向农业发\n展。这帮助了农业，但工业遭受了沉重打击。";
 					GlobalScript.inst.gameState.data[13] += 100;
 					GlobalScript.inst.gameState.data[12] -= 100;
 				}
 			}
 			else if (GlobalScript.inst.gameState.number_event == 13)
 			{
-				text2 = "The decline of service sector";
+				text2 = "服务业衰退";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Large funds from the budget were urgently allocated for the modernization of the service sector, the purchase of imported technologies and the involvement of specialists in this area. The problem starts to be solved";
+					text = "财政预算中大笔资金被紧急拨付用于服务业现代化、\n引进进口技术，并吸纳该领域专家参与。\n问题开始得到解决";
 					GlobalScript.inst.gameState.data[68] += 100;
 					GlobalScript.inst.gameState.data[8] -= 100;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Our campaign to attract foreign investment was a great success! Foreigners themselves now build and modernize our shops and restaurants without a single yuan from our budget. True, for this it was necessary to reduce the minimum wage, production safety requirements and other requirements of labor legislation, but nothing, the people will suffer.";
+					text = "我们吸引外资的运动大获成功！\n现在，外国人自己出钱出力建造并改造、\n现代化我们的商店和餐馆，连一分钱预算都不用。\n不错，为此需要压低最低工资、降低生产安全要求以及劳动立法的其\n他要求——不过没关系，受苦的还是人民。";
 					GlobalScript.inst.gameState.data[68] += 100;
 					GlobalScript.inst.gameState.data[5] -= 50;
 					GlobalScript.inst.gameState.data[4] -= 50;
@@ -1125,7 +1125,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "The Soviet Union agreed how in the old days to help us with the the development of the service sector. However, he doesn’t particularly like distributing specialists and machines for nothing, and we’ve got some dependence on the USSR.";
+					text = "苏联同意像从前那样帮助我们发展服务业。\n然而，他并不太喜欢无偿分发专家和机器，\n我们对苏联也因此产生了一定依赖。";
 					GlobalScript.inst.gameState.data[68] += 100;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power += 10;
@@ -1145,7 +1145,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "By the method of redistributing budget funds and revenues from enterprises, we were able to direct the power of industry and agriculture to the development of services sector. This helped the services sector, but industry and agriculture suffered a big blow.";
+					text = "通过重新分配预算资金以及企业收入，把工农业的力量引导到服务业\n发展上。服务业因此受益，但工农业却遭到重创。";
 					GlobalScript.inst.gameState.data[13] -= 100;
 					GlobalScript.inst.gameState.data[12] -= 100;
 					GlobalScript.inst.gameState.data[68] += 100;
@@ -1153,10 +1153,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 14)
 			{
-				text2 = "We have no money, but you hang in there!";
+				text2 = "我们没钱，但你们要挺住！";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Taxes and fees were raised, and social programs for the population were reduced. It helped, of course, to replenish the budget, but the people are not happy.";
+					text = "提高税费，压缩对群众的社会项目。\n当然，这有助于补充财政，但群众并不高兴。";
 					GlobalScript.inst.gameState.data[3] -= 100;
 					GlobalScript.inst.gameState.data[4] += 50;
 					GlobalScript.inst.gameState.data[8] += 100;
@@ -1164,7 +1164,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Taxes on luxury and super-wealth were raised, which made it possible to replenish the budget without hurting the common people. But the oligarchs, using their strength, tell the people how the state \"plunders honest entrepreneurs\" and uses the levers of influence in the party to put pressure on you.";
+					text = "提高奢侈品和超高收入的税负，使得在不伤害普通民众的情况下补充\n财政成为可能。但寡头们凭借势力，向群众宣称国家“掠夺守法的企\n业家”，并动用党内影响力的杠杆对你施压。";
 					GlobalScript.inst.gameState.data[8] += 100;
 					GlobalScript.inst.gameState.data[1] -= 500;
 					GlobalScript.inst.gameState.data[4] += 300;
@@ -1174,7 +1174,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "A foreign loan was taken, which helped replenish the budget, but had a negative impact on our influence. Yes, and you still have to pay it...";
+					text = "举借外债，确实有助于补充预算，却对我们的影响力造成负面影响。\n是的，而且你们还得还……";
 					GlobalScript.inst.gameState.data[8] += 100;
 					GlobalScript.inst.gameState.data[69] += 100;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -1182,7 +1182,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "Many state-owned enterprises were sold into private hands, which of course hit the standard of living and disrupted the mechanism of our economy, but it helped replenish the budget.";
+					text = "许多国有企业被卖给私人，当然打击了生活水平、\n扰乱了我们的经济机制，但它确实有助于补充财政。";
 					GlobalScript.inst.gameState.data[5] -= 100;
 					GlobalScript.inst.gameState.data[8] += 100;
 					GlobalScript.inst.gameState.data[12] -= 50;
@@ -1201,15 +1201,15 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 15)
 			{
-				text2 = "Cambodian-Vietnamese war";
-				GlobalScript.inst.gameState.ingamewars[1].name_war = "Cambodian-Vietnamese war";
+				text2 = "柬越战争";
+				GlobalScript.inst.gameState.ingamewars[1].name_war = "柬越战争";
 				GlobalScript.inst.gameState.ingamewars[1].is_going = true;
 				GlobalScript.inst.gameState.ingamewars[1].side1 = "Kampuchea";
 				GlobalScript.inst.gameState.ingamewars[1].side2 = "Vietnam";
 				GlobalScript.inst.gameState.ingamewars[1].ussr_place = 1;
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "We decided not to intervene in the conflict. Pol Pot and the Khmer Rouge leadership, of course, are very unhappy with this, but it does not seem that they will live long - the Vietnamese troops are moving fast, and the Kampuchean soldiers are deserting en masse. It seems that the fall of the Pol Pot regime is only a matter of time.";
+					text = "我们决定不介入这场冲突。\n当然，波尔布特和红色高棉领导层对此非常不满，\n但看来他们也活不长——越军推进很快，\n而柬埔寨军队正在大规模逃亡。\n看来波尔布特政权的垮台只是时间问题。";
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 10;
 					GlobalScript.inst.gameState.ingamewars[1].infl1 = 300;
@@ -1217,7 +1217,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Coming in contact with the Left Opposition within the Kampuchean army, we were able to organize the displacement and arrest of Pol Pot. The Provisional Revolutionary Council has come to power, which has yet to pull Cambodia out of the chaos into which Pol Pot has led it. Seeing that Pol Pot was finished, the army resists the Vietnamese more actively, and Vietnam itself is not so decisive, because the main goal of the campaign was fulfilled. Here are just a new leadership of Cambodia is still loyal to China.";
+					text = "我们与柬埔寨军队内部的左派反对派取得联系，\n组织了对波尔布特的架空与逮捕。\n临时革命委员会已上台，但尚未把柬埔寨从波尔布特所带来的混乱中\n拉出来。看到波尔布特已完蛋，军队对越军的抵抗更积极，\n而越南本身也不那么果断了，因为这次战役的主要目标已经达成。\n只是柬埔寨的新领导层仍然忠于中国。";
 					GlobalScript.inst.gameState.data[9] -= 30;
 					GlobalScript.inst.gameState.ingamewars[1].infl1 = 450;
 					GlobalScript.inst.gameState.ingamewars[1].infl2 = 550;
@@ -1227,7 +1227,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "We sent help to our old ally, Pol Pot, but it is not known whether this is enough for him. The Vietnamese army is successfully advancing, and the Kampuchean soldiers are actively deserting, and the Pol Pot regime does not enjoy the support of the people. Vietnam and the USSR remained unhappy with our actions and most likely will continue to strengthen their cooperation to our detriment.";
+					text = "我们向老盟友波尔布特提供了援助，但这是否足够他也不得而知。\n越军推进顺利，柬埔寨士兵正在积极逃亡，\n而波尔布特政权并不得到民众支持。\n越南和苏联对我们的行动仍然不满，恐怕会继续加强合作，\n从而对我们不利。";
 					GlobalScript.inst.gameState.data[22] -= 50;
 					GlobalScript.inst.gameState.data[8] -= 10;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
@@ -1239,16 +1239,16 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 16)
 			{
-				text2 = "Elections in Thailand";
+				text2 = "泰国选举";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "The election campaign of 1976 was accompanied by bloody street clashes. Killed about 30 people. The Seni Pramoj's Democratic Party — somewhat more right-wing than the Kukrit Pramoj's Social Action Party — received the largest number of votes. Pongpol Adireksarn, leader of the right-wing national party, became deputy prime minister. Left radicals noticeably lost influence.";
+					text = "1976年的竞选活动伴随着血腥的街头冲突，\n约有30人丧生。森尼·巴莫吉的民主党——比库立·巴莫吉的社会\n行动党更偏右——获得最多选票。\n右翼民族党领袖蓬波尔·阿迪雷沙恩出任副总理。\n左翼激进派的影响力明显下降。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.power += 5;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "We managed to provide substantial support for the CPT and to achieve an alliance with various moderately left-wing activists and some warming of relations with the Social Action Party and the Democratic Party in exchange for the termination of partisan attacks on military bases. The election campaign of 1976 was accompanied by bloody street clashes. As a result the Premier Kukrit Pramoj's Social Action Party, received the largest number of votes, which had to form a coalition with the Democratic Party and the CPT. Royalists in the government and officers are unhappy with the strengthening of the left, the situation is heating up.";
+					text = "我们设法对CPT提供了相当的支持，并通过终止对军事基地的党派\n袭击，与各类温和左翼活动分子达成联盟，\n同时也使同社会行动党与民主党的关系有所回暖。\n1976年的竞选活动伴随着血腥的街头冲突。\n结果，首相库立·巴莫吉的社会行动党获得最多选票，\n必须与民主党和CPT组成联合政府。\n政府中的王党派与军官对左翼力量的增强不满，\n局势正在升温。";
 					GlobalScript.inst.gameState.data[9] -= 20;
 					GlobalScript.inst.gameState.data[8] -= 10;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -1258,7 +1258,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Ignoring the elections, we sent more weapons to the guerrillas from CPT, who continue to raid military sites with new forces. However, it does not seem that the CPT will be able to control a sufficient part of the country in this way. The election campaign of 1976 was accompanied by bloody street clashes. Killed about 30 people. The Seni Pramoj's Democratic Party — somewhat more right-wing than the Kukrit Pramoj's Social Action Party — received the largest number of votes. Pongpol Adireksarn, leader of the right-wing national party, became deputy prime minister.";
+					text = "不理会选举，我们向CPT的游击队增送武器，\n他们继续以新力量袭扰军事据点。\n不过看来，这样CPT恐怕难以控制足够多的国土。\n1976年的竞选活动伴随着血腥的街头冲突，\n约有30人丧生。森尼·巴莫吉的民主党——比库立·巴莫吉的社会\n行动党更偏右——获得最多选票。\n右翼民族党领袖蓬波尔·阿迪雷沙恩出任副总理。";
 					GlobalScript.inst.gameState.data[22] -= 20;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC += 10;
@@ -1267,11 +1267,11 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 17)
 			{
-				text2 = "Instability in Thailand";
+				text2 = "泰国局势不稳";
 				GlobalScript.inst.gameState.TaiCoup = true;
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "On October 6, police forces, along with right-wing militants, broke through to the territory of the university and, despite the students' willingness to surrender, began the massacre. According to various sources, the death toll can reach more than 100 people. In the evening of the same day, the ultra-right militants together with the military force forced the prime minister Pramoj to resign. The government, with the support of the king, again turned to the military junta, ending the three-year period of democracy. Thailand once again entered the era of repression, and only the partisan operations in the north of the country remained from the CPT.";
+					text = "10月6日，警力与右翼武装一起突破到大学范围内，\n尽管学生愿意投降，仍开始屠杀。\n据多方消息，死亡人数可能超过100人。\n同日傍晚，极右翼武装联合军方强迫总理普拉莫吉辞职。\n在国王支持下，政府再次转向军事政变集团，\n结束为期三年的民主时期。\n泰国再次进入镇压时代，而CPT仅在该国北部保留了党派行动。";
 					GlobalScript.inst.gameState.allcountries[34].Gosstroy = 0;
 					GlobalScript.inst.gameState.allcountries[34].SubGosstroy = 7;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
@@ -1279,7 +1279,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Thanks to our support and the efforts of the special services, the armed militants of the CPT came to Tammasat University and, together with the students, started a battle with the right-wing militants, the outcome of which was decided only by the police that arrived to the right. However, by this time, clashes and demonstrations were already taking place all over Bangkok, to suppress which the army and police were thrown. Prime Minister Pramoj was arrested by the military. This cruelty and the beginning of chaos plunged society into shock and forced many students, trade union activists and workers to go into the cells of the CPT, which, taking advantage of the chaos, launched a full-scale offensive from the north of the country.";
+					text = "多亏我们的支持以及特工部门的努力，CPT的武装分子进入塔玛萨\n特大学，并与学生一起同右翼武装展开战斗，\n结果却由赶到“右边”的警察决定。\n然而此时，冲突与示威已在曼谷各处发生，\n为了镇压，军队和警察被投入行动。\n普拉莫吉总理被军方逮捕。\n这种残酷与混乱的开端令社会震惊，并迫使许多学生、\n工会活动分子和工人进入CPT的组织体系；\n而CPT则借助混乱，从该国北部发动全面攻势。";
 					GlobalScript.inst.gameState.data[9] -= 40;
 					GlobalScript.inst.gameState.data[22] -= 30;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
@@ -1287,7 +1287,7 @@ public class Results_text : MonoBehaviour
 					GlobalScript.inst.gameState.allcountries[34].Gosstroy = 0;
 					GlobalScript.inst.gameState.allcountries[34].SubGosstroy = 7;
 					party_change[0] = 1f;
-					GlobalScript.inst.gameState.ingamewars[2].name_war = "Civil war in Thailand";
+					GlobalScript.inst.gameState.ingamewars[2].name_war = "泰国内战";
 					GlobalScript.inst.gameState.ingamewars[2].is_going = true;
 					GlobalScript.inst.gameState.ingamewars[2].side1 = "Communists";
 					GlobalScript.inst.gameState.ingamewars[2].side2 = "Loyalists";
@@ -1305,7 +1305,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "On October 6, police forces, along with right-wing militants, broke through to the territory of the university and, despite the students' willingness to surrender, began the massacre. According to various sources, the death toll can reach more than 100 people. In the evening of the same day, the ultra-right militants together with the military force forced the prime minister Pramoj to resign. The government, with the support of the king, again turned to the military junta, ending the three-year period of democracy. Thailand once again entered the era of repression, and only the partisan operations in the north of the country remained from the CPT. We formally condemned the cruelties of the military junta and sent out additional support for the CPT, but this is unlikely to change anything.";
+					text = "10月6日，警力与右翼武装一起突破到大学范围内，\n尽管学生愿意投降，仍开始屠杀。\n据多方消息，死亡人数可能超过100人。\n同日傍晚，极右翼武装联合军方强迫总理普拉莫吉辞职。\n在国王支持下，政府再次转向军事政变集团，\n结束为期三年的民主时期。\n泰国再次进入镇压时代，而CPT仅在该国北部保留了党派行动。\n我们正式谴责军事政变集团的残暴，并向CPT追加支持，\n但恐怕改变不了什么。";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.relations += 20;
 					empire = GlobalScript.inst.gameState.empires[0];
@@ -1320,8 +1320,8 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 18)
 			{
-				text2 = "War is over";
-				text = "Another war ended.";
+				text2 = "战争结束了";
+				text = "又一场战争结束了。";
 				GlobalScript.inst.gameState.data[0] = 0;
 				GlobalScript.inst.gameState.ingamewars[GlobalScript.inst.gameState.data[82]].is_going = false;
 				GlobalScript.inst.gameState.WarResult(ref text);
@@ -1329,17 +1329,17 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 19)
 			{
-				text2 = "Five \"no\"";
+				text2 = "五个“不”";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Rumor had it 毛泽东 himself started the Five \"no\" campaign, though no one was certain — he was barely reachable because of his failing health and decisions had to be made quickly. As part of the campaign, government and police officers removed improvised memorials and tore down posters marking 周恩来’s achievements. Constant propaganda aimed at denigrating Zhou and bans on open commemoration of the deceased caused widespread discontent of people with 毛泽东 and the top party, especially his wife 江青.";
+					text = "传言说是毛泽东本人亲自发动了“五不”运动，\n虽然没人敢肯定——他因病重几乎联系不上，\n决策又必须迅速作出。\n运动期间，政府和警察人员拆除临时纪念物，\n撕掉标注周恩来功绩的海报。\n持续的抹黑宣传，以及禁止公开悼念逝者，\n引发了群众对毛泽东和最高层的不满，尤其是对他的妻子江青。";
 					GlobalScript.inst.gameState.data[3] -= 50;
 					GlobalScript.inst.gameState.data[4] += 50;
 					GlobalScript.inst.gameState.data[88]++;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Rumor had it 毛泽东 himself started the Five \"no\" campaign, though no one was certain — he was barely reachable because of his failing health and decisions had to be made quickly. As Prime Minister of the State Council, as well as the Minister of Public Security, you personally followed the strict execution of the campaign. As part of the campaign, government and police officers removed improvised memorials and tore down posters marking 周恩来’s achievements. Constant propaganda aimed at denigrating Zhou and bans on open commemoration of the deceased caused widespread discontent of people with 毛泽东 and the top party, especially his wife 江青 and successor 华国锋.";
+					text = "传言说是毛泽东本人亲自发动了“五不”运动，\n虽然没人敢肯定——他因病重几乎联系不上，\n决策又必须迅速作出。\n作为国务院总理、同时也是公安部长，你亲自盯着运动的严格执行。\n运动期间，政府和警察人员拆除临时纪念物，\n撕掉标注周恩来功绩的海报。\n持续的抹黑宣传，以及禁止公开悼念逝者，\n引发了群众对毛泽东和最高层的广泛不满，\n尤其是对他的妻子江青以及接班人华国锋。";
 					GlobalScript.inst.gameState.data[3] -= 70;
 					GlobalScript.inst.gameState.data[4] += 50;
 					GlobalScript.inst.gameState.data[6] += 10;
@@ -1355,7 +1355,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Rumor had it 毛泽东 himself started the Five \"no\" campaign, though no one was certain — he was barely reachable because of his failing health and decisions had to be made quickly. As Prime Minister of the State Council, as well as the Minister of Public Security, you personally followed the strict execution of the campaign and were responsible for the publication of criticism of 周恩来 in newspapers, which, however, had no effect on people already tired of criticism in the spirit of the 文化大革命.. As part of the campaign, government and police officers removed improvised memorials and tore down posters marking 周恩来’s achievements. Constant propaganda aimed at denigrating Zhou and bans on open commemoration of the deceased caused widespread discontent of people with 毛泽东 and the top party, especially his wife 江青 and successor 华国锋.";
+					text = "传言说是毛泽东本人亲自发动了“五不”运动，\n虽然没人敢肯定——他因病重几乎联系不上，\n决策又必须迅速作出。\n作为国务院总理、同时也是公安部长，你亲自盯着运动的严格执行，\n并负责在报纸上刊发对周恩来的批判；然而这对早已厌倦“文化大革\n命精神”式批判的人们并没有什么效果。\n运动期间，政府和警察人员拆除临时纪念物，\n撕掉标注周恩来功绩的海报。\n持续的抹黑宣传，以及禁止公开悼念逝者，\n引发了群众对毛泽东和最高层的广泛不满，\n尤其是对他的妻子江青以及接班人华国锋。";
 					GlobalScript.inst.gameState.data[3] -= 100;
 					GlobalScript.inst.gameState.data[4] += 70;
 					GlobalScript.inst.gameState.data[6] += 10;
@@ -1372,7 +1372,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "Rumor had it 毛泽东 himself started the Five \"no\" campaign, though no one was certain — he was barely reachable because of his failing health and decisions had to be made quickly. As Prime Minister of the State Council, as well as the Minister of Public Security, you were able, as far as possible, to mitigate the effect of the campaign. As part of the campaign, government and police officers removed improvised memorials and tore down posters marking 周恩来’s achievements. Constant propaganda aimed at denigrating Zhou and bans on open commemoration of the deceased caused widespread discontent of people with the top party, especially his wife 江青, however, thanks to your efforts to sabotage the campaign, discontent does not go beyond reasonable limits.";
+					text = "传言说是毛泽东本人亲自发动了“五不”运动，\n虽然没人敢肯定——他因病重几乎联系不上，\n决策又必须迅速作出。\n作为国务院总理、同时也是公安部长，你尽可能地缓和了运动的影响。\n运动期间，政府和警察人员拆除临时纪念物，\n撕掉标注周恩来功绩的海报。\n持续的抹黑宣传，以及禁止公开悼念逝者，\n确实引发了群众对最高层的广泛不满，尤其是对他的妻子江青；\n不过多亏你在暗中破坏运动，这种不满没有超出合理限度。";
 					GlobalScript.inst.gameState.data[3] -= 10;
 					GlobalScript.inst.gameState.data[88] += 2;
 					GlobalScript.inst.gameState.data[1] -= 50;
@@ -1397,10 +1397,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 20)
 			{
-				text2 = "Criticize Deng and fight with right!";
+				text2 = "批邓反右！";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "In the media controlled by 江青's group, active persecution of 邓小平 and his ideas began. Deng was stripped of all posts, though his party card was left with him, and he spends these months confined at home, waiting for his fate. Like any action of the 江青 group, this one did not arouse sympathy among the people, where 小平 was respected for his ties to the popular 周恩来 and for trying to pull China out of the disastrous aftermath of the 大跃进 by using market and even capitalist tools. Provincial party committees also joined the criticism of 小平 soon after Mao issued a directive on March 3, confirming the legitimacy of the 文化大革命 and noting that 邓小平 is an internal problem of the country.";
+					text = "在江青集团控制的媒体上，对邓小平及其思想的积极迫害开始了。\n邓小平被撤去一切职务，党籍卡却留在他手里，\n这几个月他被关在家里，等待命运。\n像江青集团的任何行动一样，这次也没有在群众中引起同情；\n在群众眼里，小平因与深受欢迎的周恩来关系密切、\n并试图借助市场乃至资本主义工具把中国从“大跃进”的灾难后果中\n拉出来而受到尊敬。3月3日毛泽东发出指示，\n确认文化大革命的合法性，并指出邓小平是国内问题；\n随后，各省党委也很快加入对小平的批判。";
 					GlobalScript.inst.gameState.data[3] -= 20;
 					GlobalScript.inst.gameState.data[4] += 40;
 					Politic politic = GlobalScript.inst.gameState.politics[12];
@@ -1408,7 +1408,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "In the media controlled by 江青's group, active persecution of 邓小平 and his ideas began. The new Premier 华国锋 also joined the persecution, saying that Deng’s reformist ideas lead China to capitalist slavery. Deng was removed from every post but kept his party membership, and was pushed into forced seclusion. Like any action of the 江青 group, this one did not arouse sympathy among the people, where 小平 was respected for his ties to the popular 周恩来 and for trying to pull China out of the disastrous aftermath of the 大跃进 by using market and even capitalist tools. Provincial party committees also joined the criticism of 小平 soon after Mao issued a directive on March 3, confirming the legitimacy of the 文化大革命 and noting that 邓小平 is an internal problem of the country.";
+					text = "在江青集团控制的媒体上，对邓小平及其思想的积极迫害开始了。\n新任总理华国锋也加入迫害，称邓的改革思想会把中国引向资本主义\n奴役。邓小平被撤去所有职务，但保留党籍，\n被迫进入强制隐居。像江青集团的任何行动一样，\n这次也没有在群众中引起同情；在群众眼里，\n小平因与深受欢迎的周恩来关系密切、并试图借助市场乃至资本主义\n工具把中国从“大跃进”的灾难后果中拉出来而受到尊敬。\n3月3日毛泽东发出指示，确认文化大革命的合法性，\n并指出邓小平是国内问题；随后，各省党委也很快加入对小平的批判。";
 					GlobalScript.inst.gameState.data[1] += 80;
 					GlobalScript.inst.gameState.data[3] -= 20;
 					GlobalScript.inst.gameState.data[88]--;
@@ -1433,7 +1433,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "In the media controlled by 江青's group, active persecution of 邓小平 and his ideas began. You, however, stood up for him, arguing that 小平 made mistakes but admitted them, helped China develop, and now was being stripped of every post while still formally kept in the party. This caused discontent among the party top, but it appealed to the people, where 小平 was respected for his ties to the popular 周恩来 and for trying to pull China out of the disastrous aftermath of the 大跃进 by using market and even capitalist tools. Provincial party committees also joined the criticism of 小平 soon after Mao issued a directive on March 3, confirming the legitimacy of the 文化大革命 and noting that 邓小平 is an internal problem of the country, after which provincial party committees also criticized 小平.";
+					text = "在江青集团控制的媒体上，对邓小平及其思想的积极迫害开始了。\n然而你为他辩护，认为小平犯过错误但承认了错误，\n帮助中国发展；如今却在形式上仍保留党籍的情况下被撤去一切职务。\n这在党内最高层引起不满，但在群众中却引起共鸣；\n在群众眼里，小平因与深受欢迎的周恩来关系密切、\n并试图借助市场乃至资本主义工具把中国从“大跃进”的灾难后果中\n拉出来而受到尊敬。3月3日毛泽东发出指示，\n确认文化大革命的合法性，并指出邓小平是国内问题；\n随后，各省党委也加入对小平的批判。";
 					GlobalScript.inst.gameState.data[3] += 20;
 					GlobalScript.inst.gameState.data[1] -= 70;
 					GlobalScript.inst.gameState.data[88]++;
@@ -1467,16 +1467,16 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 21)
 			{
-				text2 = "Mystery article and old ghosts";
+				text2 = "神秘文章与老鬼";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "An obscure article sparked rumors: some say it attacks 周恩来, others whisper it targets Zhou Rongxin, and that talk of Enlai was inflated by Deng’s capitalist-roadings to whip up grief for a fallen hero. With targets unclear and tempers hot, we chose to keep our heads down and not end up under a swinging axe. Even so, word spread, and protests flared across Yangtze cities, especially Nanjing, and are now reaching Beijing despite our passivity.";
+					text = "一篇不明不白的文章引发了谣言：有人说它攻击周恩来，\n也有人低声说它针对周荣鑫；还有人说，\n邓的“资本主义道路”把对恩来的提法夸大其词，\n借此煽动对“倒下的英雄”的悲痛。\n目标不明、火气又大，我们选择低头不惹事，\n免得落到挥下的屠刀之下。\n即便如此，消息还是传开了，长江沿岸各城——尤其南京——抗议之\n火迅速燃起，如今即便我们消极应对，也正传到北京。";
 					GlobalScript.inst.gameState.data[3] -= 50;
 					GlobalScript.inst.gameState.data[4] += 50;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "The article’s exact target remained murky: some saw a swipe at 周恩来, others insisted it was Zhou Rongxin and that Deng’s capitalist-roadings hyped an ‘Enlai insult’ to inflame the crowds. We moved hard to seize the text and choke off any speculation to avoid giving the masses a martyr. The clampdown slowed the spread; protests still erupted, but the scale stayed contained.";
+					text = "文章的具体指向仍然扑朔迷离：有人看出是在影射周恩来，\n也有人坚持说是周荣鑫，并认为邓的“资本主义道路”炒作所谓“恩\n来侮辱”，以激起群众情绪。\n我们强力抓文本、掐断任何猜测，避免给群众送上“烈士”。\n严控确实减缓了扩散；抗议仍然爆发，但规模被控制在一定范围内。";
 					GlobalScript.inst.gameState.data[1] -= 50;
 					GlobalScript.inst.gameState.data[3] -= 30;
 					GlobalScript.inst.gameState.data[4] += 30;
@@ -1500,7 +1500,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "With the article’s aim unclear—Enlai to some, Zhou Rongxin to others—you framed it as proof of the dangers of capitalist-roadings reforms and pushed it beyond Shanghai. The party appreciated the line; the public did not. Protests, fueled by competing rumors, spread through the Yangtze cities, Nanjing foremost, and with our amplification reached Beijing as well. For now, the situation stays under control.";
+					text = "由于文章的目的不明——有人说是恩来，\n有人说是周荣鑫——你把它包装成“资本主义道路改革的危险”的证\n据，并把它推到上海之外。\n党内觉得这条路子不错，群众却不买账。\n抗议在互相竞争的谣言推动下席卷长江沿岸各城，\n首当其冲的是南京；而在我们的放大之下，\n也传到了北京。就目前而言，局势仍在可控范围内。";
 					GlobalScript.inst.gameState.data[3] -= 80;
 					GlobalScript.inst.gameState.data[4] += 70;
 					GlobalScript.inst.gameState.data[1] += 50;
@@ -1523,10 +1523,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 22)
 			{
-				text2 = "Tiananmen incident";
+				text2 = "天安门事件";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Following 江青 and 张春桥’s line, we first used radio appeals to separate mourners from provocateurs, then moved in city police and the Peking Garrison to clear the square. Clashes and beatings occurred, but no one was killed; about a hundred people were detained and most were released soon after. The events on Tiananmen were officially declared a counter-revolutionary incident, with 邓小平 blamed. On 毛泽东’s proposal, the 政治局 formally removed 邓小平 from all posts while keeping his 中共 membership. Deng himself is now in Guangzhou under the protection of his old comrade-in-arms, Guangzhou Military District commander Xu Shiyu.";
+					text = "按照江青、张春桥的路线，我们先用广播号召把悼念者与挑衅者分开，\n然后出动北京市公安与北京卫戍部队清场。\n发生了冲突和殴打，但没有人被杀；约一百人被拘留，\n随后大多数很快获释。\n天安门的事件被官方定性为反革命事件，\n并把责任推给邓小平。\n根据毛泽东的提议，政治局正式撤销邓小平的一切职务，\n同时保留其在中共的党籍。\n邓本人现由老战友、广州军区司令员徐世友保护，\n在广州。";
 					GlobalScript.inst.gameState.data[3] -= 250;
 					GlobalScript.inst.gameState.data[4] -= 200;
 					GlobalScript.inst.gameState.data[6] += 60;
@@ -1551,7 +1551,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "At half past six in the evening, 吴德 spoke over loudspeakers urging the crowd to disperse. Many left, some stayed. By night, city police and Peking Garrison units dispersed the remaining protest. There were no deaths; about a hundred people were detained and most were released later. The square remained under military and police control in the following days. The events on Tiananmen were officially declared a counter-revolutionary incident, with 邓小平 blamed. On 毛泽东’s proposal, the 政治局 removed 邓小平 from all posts while retaining his 中共 membership. Deng is now in Guangzhou under the protection of his old comrade-in-arms, Guangzhou Military District commander Xu Shiyu.";
+					text = "晚上六点半，吴德通过扩音器呼吁群众散去。\n许多人离开了，也有些人留下。\n到了夜里，市公安和北京卫戍部队驱散了剩余的抗议人群。\n没有人死亡；约一百人被拘留，随后大多数获释。\n接下来的几天，广场仍由军警控制。\n天安门的事件被官方定性为反革命事件，\n并把责任推给邓小平。\n根据毛泽东的提议，政治局在保留邓小平中共党籍的同时，\n撤销其一切职务。邓现在在广州，由老战友、\n广州军区司令员徐世友保护。";
 					GlobalScript.inst.gameState.data[1] += 50;
 					GlobalScript.inst.gameState.data[3] -= 50;
 					GlobalScript.inst.gameState.data[4] -= 150;
@@ -1570,7 +1570,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "At half past six in the evening, 吴德 spoke over loudspeakers urging the crowd to go home. Many left, but some stayed. By night, police and Peking Garrison units cleared the square. No one was killed; around a hundred were detained and most were released later. The square stayed under military-police control for the following days. The events on Tiananmen were officially declared a counter-revolutionary incident, with 邓小平 blamed. On 毛泽东’s proposal, the 政治局 removed 邓小平 from all posts while retaining his 中共 membership. Deng is now in Guangzhou under the protection of his old comrade-in-arms, Guangzhou Military District commander Xu Shiyu.";
+					text = "晚上六点半，吴德通过扩音器呼吁群众回家。\n许多人离开了，但也有些人留下。\n到了夜里，警察和北京卫戍部队清理了广场。\n没有人被杀；大约一百人被拘留，随后大多数获释。\n接下来的几天，广场仍处于军警控制之下。\n天安门的事件被官方定性为反革命事件，\n并把责任推给邓小平。\n根据毛泽东的提议，政治局在保留邓小平中共党籍的同时，\n撤销其一切职务。邓现在在广州，由老战友、\n广州军区司令员徐世友保护。";
 					GlobalScript.inst.gameState.data[4] -= 100;
 					GlobalScript.inst.gameState.data[1] -= 50;
 					Politic[] politics = GlobalScript.inst.gameState.politics;
@@ -1589,17 +1589,17 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 23)
 			{
-				text2 = "Tangshan earthquake";
+				text2 = "唐山地震";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Funds from the 中华人民共和国 budget were immediately allocated to carry out rescue and restoration work, which made it possible to mitigate the effects of the earthquake. The earthquake in Tangshan today turned out to be the second in the history of the number of victims after the Shaanxi earthquake in 1556.";
+					text = "中华人民共和国预算资金立即拨付，用于开展救援与恢复工作，\n从而减轻了地震的影响。\n今天的唐山地震，结果成为继1556年陕西地震之后，\n历史上伤亡人数第二多的一次地震。";
 					GlobalScript.inst.gameState.data[3] += 30;
 					GlobalScript.inst.gameState.data[1] += 50;
 					GlobalScript.inst.gameState.data[8] -= 30;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "The world community and charitable organizations, assessing the scale of the disaster, agreed to provide us with assistance in the form of gratuitous loans and assistance of volunteers, which made it possible to mitigate the effects of the earthquake. The earthquake in Tangshan today turned out to be the second in the history of the number of victims after the Shaanxi earthquake in 1556.";
+					text = "国际社会与慈善机构在评估灾害规模后，\n决定以无偿贷款和志愿者援助的形式向我们提供帮助，\n从而减轻了地震的影响。\n今天的唐山地震，结果成为继1556年陕西地震之后，\n历史上伤亡人数第二多的一次地震。";
 					GlobalScript.inst.gameState.data[1] -= 50;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 5;
@@ -1607,7 +1607,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Funds from the 中华人民共和国 budget were immediately allocated to carry out rescue and restoration work, which made it possible to mitigate the effects of the earthquake. The earthquake in Tangshan today turned out to be the second in the history of the number of victims after the Shaanxi earthquake in 1556 Additional funding was also provided for the construction of earthquake-resistant buildings in hazardous regions, and numerous tests were carried out on the suitability of current buildings, which revealed numerous violations. We hope that in the future this will help to avoid so many victims. ";
+					text = "中华人民共和国预算资金立即拨付，用于开展救援和恢复工作，\n从而减轻了地震的影响。\n今天的唐山地震，结果竟成为继1556年陕西地震之后、\n历史上受害者人数第二多的地震。\n另拨经费用于对危险地区建设抗震建筑，\n并对现有建筑的适用性进行了大量测试，\n暴露出种种违规。我们希望今后能借此避免如此多的伤亡。";
 					GlobalScript.inst.gameState.data[5] += 50;
 					GlobalScript.inst.gameState.data[3] += 30;
 					GlobalScript.inst.gameState.data[1] += 50;
@@ -1617,7 +1617,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "The center remained deaf to the problems of Hebei Province, which of course made it difficult to eliminate the consequences of the earthquake and gave rise to discontent among the people, but somehow the local administration copes. The earthquake in Tangshan today turned out to be the second in the history of the number of victims after the Shaanxi earthquake in 1556.";
+					text = "中央对河北省的问题充耳不闻，这当然使得消除地震后果困难重重，\n也引起了民众的不满，但地方政府总算是应付过去了。\n今天的唐山地震，结果竟成为继1556年陕西地震之后、\n历史上受害者人数第二多的地震。";
 					GlobalScript.inst.gameState.data[5] -= 50;
 					GlobalScript.inst.gameState.data[3] -= 40;
 					GlobalScript.inst.gameState.data[1] -= 50;
@@ -1626,10 +1626,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 24)
 			{
-				text2 = "Wind of change?";
+				text2 = "变革的风？";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "You and 汪东兴 coined the slogan of the 'Two Whatevers'—'We will resolutely uphold whatever policy decisions Chairman Mao made, and unswervingly follow whatever instructions Chairman Mao gave'—to legitimize the new leadership. You now present it more as a personal code of honor than a rigid line, while quietly snuffing out the last embers of the long-fading 文化大革命, which pleases the people. Even so, holding to conservative Maoism breeds unease among the public, abroad, and within 中共 reform circles.";
+					text = "你和汪东兴炮制了“两个凡是”的口号——“凡是毛主席作出的决策，\n我们都坚决维护；凡是毛主席发出的指示，\n我们都一以贯之地遵循”——以此为新领导层“正名”。\n如今你把它更多包装成个人的荣誉准则，\n而不是僵硬的路线，同时又悄悄掐灭那场久已衰微的文化大革命最后\n的余火，倒也讨得了人心。\n可即便如此，守着保守的毛主义仍会在国内外以及中共改革圈里引起\n不安。";
 					GlobalScript.inst.gameState.data[3] += 20;
 					GlobalScript.inst.gameState.data[4] += 100;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
@@ -1662,7 +1662,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Relying on loyal radicals, you and 汪东兴 elevated your own 'Two Whatevers' formula to the binding line—'We will resolutely uphold whatever policy decisions Chairman Mao made, and unswervingly follow whatever instructions Chairman Mao gave'—to anchor your authority. You proclaimed an uncompromising fight against revisionism and fidelity to Mao and the 文化大革命, trying to rekindle it with lessons claimed from past errors. A wave of repression hit the revisionists, and a wave of protests rose from those weary of a new turn of the 文化大革命.";
+					text = "你和汪东兴依靠忠于激进派的力量，把你们自己的“两个凡是”公式\n抬升为必须遵守的“铁律”——“凡是毛主席作出的决策，\n我们都坚决维护；凡是毛主席发出的指示，\n我们都一以贯之地遵循”——以此稳固你们的权威。\n你们宣称要毫不妥协地反对修正主义，忠于毛和文化大革命，\n并试图用“从过去错误中吸取的教训”把它重新点燃。\n一波镇压打向修正主义者，另一波反抗则从厌倦了文化大革命再度转\n向的人群中涌起。";
 					GlobalScript.inst.gameState.data[1] -= 50;
 					GlobalScript.inst.gameState.data[3] -= 100;
 					GlobalScript.inst.gameState.data[4] += 100;
@@ -1689,7 +1689,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "You and 汪东兴 reminded cadres of your authorship of the 'Two Whatevers' to legitimize the transition, framing them as a code of honor rather than a hard line while declaring the 文化大革命’s tasks complete and moving to liquidate its last pockets. You also underlined the need to reorganize and modernize the economy, without yet detailing the path. Reformers wait in suspense; the people expect improvements.";
+					text = "你和汪东兴提醒干部们“两个凡是”出自你们之手，\n以此为权力交接“站台”。\n你们把它包装成荣誉守则而非硬邦邦的路线，\n同时宣布文化大革命的任务已经完成，准备清算其最后的残余。\n你还强调要调整和实现经济现代化，却尚未说明具体路径。\n改革者在悬念中等待，人民则期待改进。";
 					GlobalScript.inst.gameState.data[6] -= 10;
 					GlobalScript.inst.gameState.data[3] += 50;
 					GlobalScript.inst.gameState.data[4] += 80;
@@ -1714,7 +1714,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "You and 汪东兴 asserted the 'Two Whatevers'—your own formula—as a strict obligatory line to buttress your mandate while announcing the rapid dismantling of the 文化大革命’s remnants. Simultaneously, you spoke of further market reforms and a gradual opening to the world market, promoting veteran reformers like 赵紫阳 and restoring 邓小平 to the vice-premiership. The people await better times, though conservatives bristle at these decisions.";
+					text = "你和汪东兴把“两个凡是”——你们自己的那套公式——宣称为严格\n必须遵守的“硬线”，以巩固你们的授权，\n同时又宣布要迅速拆除文化大革命的残余。\n与此同时，你们谈到进一步的市场改革以及逐步面向世界市场的开放，\n提拔像赵紫阳这样的老牌改革者，并让邓小平重回副总理岗位。\n人民期待更好的日子，尽管保守派对这些决定怒目而视。";
 					GlobalScript.inst.gameState.data[3] += 80;
 					GlobalScript.inst.gameState.data[1] -= 50;
 					GlobalScript.inst.gameState.data[4] += 100;
@@ -1762,10 +1762,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 25)
 			{
-				text2 = "Gang of four";
+				text2 = "四人帮";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Enlisting the support of Special Regiment 8341, as well as the highest generals, 华国锋 convened an extraordinary congress of the 政治局, right at which the leaders of the radical faction were arrested. Following this, a wave of arrests of loyal functionaries swept through Beijing and Shanghai, practically causing no resistance. A large-scale campaign was launched in the press to condemn the conspirators, who had already been dubbed the «四人帮», which was now blamed for the numerous victims of the 文化大革命, as well as the attempt to seize power after Mao’s death. The people, like most of the party members, generally accepted with relief the defeat of the radicals and gradually express the hope of a softening of domestic policy.";
+					text = "在争取了第8341特种团以及最高将领的支持后，\n华国锋召集了政治局的非常会议，当场逮捕了激进派的主要头目。\n此后，一波又一波对忠于激进派的官员的抓捕席卷北京和上海，\n几乎没有遭到抵抗。新闻界随即发动大规模运动，\n声讨那些阴谋者——早已被称为“<b>四人帮</b>”——并把他们归咎于文化\n大革命造成的众多受害者，以及毛泽东逝世后企图夺权。\n人民——和大多数党员一样——总体上如释重负地接受了激进派的失\n败，并逐渐表达出希望国内政策有所缓和的愿望。";
 					GlobalScript.inst.gameState.data[3] += 100;
 					GlobalScript.inst.gameState.data[4] += 70;
 					GlobalScript.inst.gameState.data[1] += 100;
@@ -1807,7 +1807,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Unwilling to take risks, 华国锋 decided to arrest only 王洪文 and 江青, who represented the greatest threat to the authorities. This happened at a specially convened meeting of the 政治局. At the same time, 姚文元 and 张春桥 were offered seats in the government in exchange for loyalty to the current ruler. The positions of the left faction were undermined, but not so significantly as to completely disregard them, although now they can not dream of seizing power. An active media campaign began against 江青 and 王洪文, who were now accused of trying to seize power and excesses during the time of the 文化大革命. In general, the people and the majority of the party members accepted their fall with relief, although many are strained by the fact that some radicals remained in power and consider the conspirators to be only «scapegoats».";
+					text = "华国锋不愿冒险，决定只逮捕代表对当局最大威胁的王洪文和江青。\n这发生在一次专门召开的政治局会议上。\n与此同时，姚文元和张春桥被“安排”进入政府，\n以换取对现任统治者的忠诚。\n左派的地位被削弱了，但并未削弱到可以完全无视他们的程度——尽\n管他们现在也别想再做夺权的美梦。\n舆论战随即展开，矛头指向江青和王洪文，\n指控他们企图夺权、以及在文化大革命时期的种种过火。\n总体而言，人民和大多数党员都如释重负地接受了他们的倒台，\n尽管不少人仍为“仍有一些激进分子掌权”而感到紧张，\n并认为阴谋者不过是“<b>替罪羊</b>”。";
 					GlobalScript.inst.gameState.data[1] += 50;
 					GlobalScript.inst.gameState.data[3] += 50;
 					GlobalScript.inst.gameState.data[4] += 100;
@@ -1851,7 +1851,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "The growing influence of reformers in the wake of Mao’s death scared not only Guofeng, but also the Wang-Zhang-Jiang-Yao group, so the new Chairman of the 中华人民共和国 decided to join forces with them. The negotiations were conducted through the mediation of Mao Yuanxin (毛泽东's nephew) for a long time. However, we managed to reach an agreement - in exchange for support, the Wang-Zhang-Jiang-Yao group demanded: removal from the post of the 中华人民共和国 Minister of Defense Marshal 叶剑英, the transfer of the posts of the Chairman of the Military Council of the 中共 Central Committee and the Minister of Foreign Affairs of the 中华人民共和国 to her. Comrade Guofeng agreed to these terms. The military council of the 中共 Central Committee was headed by 王洪文, 姚文元 became foreign minister, and Chen Xilian, commander of the PLA Beijing military district, became defense minister. At a meeting of the Political Bureau of the 中共 Central Committee, 邓小平 was again attacked, returning the slogan \"Criticize Dang and speak against the flow of the right bias aimed at revising the right decisions\". The influence of Xiaopeng began to decline again, especially due to the departure of his \"guardian angel\" Jianing from the PLA command posts... The people and the majority of the party, however, are dissatisfied with such a strange alliance, foreshadowing the continuation of the 文化大革命.";
+					text = "毛泽东逝世后，改革派影响力不断扩大，\n不仅吓着了华国锋，也吓着王-张-江-姚集团，\n于是新任中华人民共和国主席决定与他们“结盟”。\n谈判长期由毛远新（毛泽东的侄子）居中斡旋。\n可最终还是达成了协议——作为支持的交换，\n王-张-江-姚集团提出条件：撤掉中华人民共和国国防部长、\n叶剑英元帅的职务，并将中共中央军委主席与中华人民共和国外交部\n长的职位转交给她。华国锋同志同意了这些条件。\n中共中央军委由王洪文担任负责人，姚文元出任外长，\n担任北京军区司令的陈锡联则出任国防部长。\n在中共中央政治局会议上，邓小平再次遭到攻击，\n重新喊回口号：“批邓、反击右倾翻案风，\n反对修正正确决定”。\n“小平”的影响力又开始回落，尤其是他的“<b>守护天使</b>”简宁离开了\n人民解放军的指挥岗位……\n然而，人民和大多数党员对这种荒唐的联盟并不满意，\n这也预示着文化大革命将继续。";
 					GlobalScript.inst.gameState.data[1] -= 100;
 					GlobalScript.inst.gameState.data[3] -= 100;
 					GlobalScript.inst.gameState.data[4] += 250;
@@ -1906,10 +1906,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 26)
 			{
-				text2 = "Weak alliance";
+				text2 = "弱联盟";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Enlisting the support of Special Regiment 8341, as well as the highest generals, 华国锋 convened an extraordinary congress of the 政治局, right at which the leaders of the radical faction were arrested. Following this, a wave of arrests of loyal functionaries swept through Beijing and Shanghai, although it was not without some excesses, given the increased influence of the radicals. A large-scale campaign was launched in the press to condemn the conspirators, who had already been dubbed the «四人帮», which was now blamed for the numerous victims of the 文化大革命, as well as the attempt to seize power after Mao’s death. The people, like most of the party members, generally accepted with relief the defeat of the radicals, although given the past alliance with them, these actions did not greatly added much popularity to Guofeng";
+					text = "在争取了第8341特种团以及最高将领的支持后，\n华国锋召集了政治局的非常会议，当场逮捕了激进派的主要头目。\n此后，随着激进派影响力的上升，虽然也难免出现一些过火，\n但一波又一波对忠于激进派官员的抓捕仍席卷北京和上海。\n新闻界随即发动大规模运动，声讨那些阴谋者——早已被称为“<b>四人\n帮</b>”——并把他们归咎于文化大革命造成的众多受害者，\n以及毛泽东逝世后企图夺权。\n人民——和大多数党员一样——总体上如释重负地接受了激进派的失\n败，尽管考虑到此前曾与他们结过盟，这些行动并未给华国锋带来太\n多声望。";
 					GlobalScript.inst.gameState.data[3] += 40;
 					GlobalScript.inst.gameState.data[4] += 100;
 					GlobalScript.inst.gameState.data[1] += 50;
@@ -1952,7 +1952,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Unwilling to take risks, 华国锋 decided to arrest only 王洪文 and 江青, who represented the greatest threat to the authorities. This happened at a specially convened meeting of the 政治局. At the same time, 姚文元 and 张春桥 were offered further advancement in exchange for loyalty to the current ruler. The positions of the left faction were undermined, but not so significantly as to completely disregard them, although now they can not dream of seizing power. An active media campaign began against 江青 and 王洪文, who were now accused of trying to seize power and excesses during the time of the 文化大革命. In general, the people and the majority of the party members accepted their fall with relief, although many are strained by the fact that some radicals remained in power and consider the conspirators to be only «scapegoats», especially since Guofeng had already made concessions to them, therefore this decision not much add to his popularity. ";
+					text = "华国锋不愿冒险，决定只逮捕代表对当局最大威胁的王洪文和江青。\n这发生在一次专门召开的政治局会议上。\n与此同时，姚文元和张春桥被“安排”获得进一步升迁，\n以换取对现任统治者的忠诚。\n左派的地位被削弱了，但并未削弱到可以完全无视他们的程度——尽\n管他们现在也别想再做夺权的美梦。\n舆论战随即展开，矛头指向江青和王洪文，\n指控他们企图夺权、以及在文化大革命时期的种种过火。\n总体而言，人民和大多数党员都如释重负地接受了他们的倒台，\n尽管不少人仍为“仍有一些激进分子掌权”而感到紧张，\n并认为阴谋者不过是“<b>替罪羊</b>”，尤其因为华国锋此前已经向他们让\n过步，因此这一决定对他的声望提升并不明显。";
 					GlobalScript.inst.gameState.data[1] += 20;
 					GlobalScript.inst.gameState.data[3] += 20;
 					GlobalScript.inst.gameState.data[4] += 100;
@@ -1997,7 +1997,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Fearing to go into open conflict with ever-increasing radicals, Guofeng made further concessions, essentially unleashing their hands to fight the opposition, which they actively use, including to remove Guofang from power, which he is losing every day. At this rate, 王洪文 is becoming the new de facto head of state, relying on his associates. However, they still remember to whom they owe their triumph, so Guofeng may not yet fear persecution, but the end of his career is only a matter of time. All of these changes caused fear and discontent in the party and the people, who are now waiting for a new round of the 文化大革命.";
+					text = "担心与日益壮大的激进派公开翻脸，华国锋又作出进一步让步，\n等于放开他们的手去打击反对者，而他们正积极利用这一点，\n包括把“国防”——也就是华国锋——从权力上挤下去；\n他每天都在失去控制。\n照这样下去，王洪文就会逐渐成为新的事实上的国家首脑，\n依靠其同伙运作。然而他们仍记得自己的胜利要归功于谁，\n所以华国锋也许暂时不必担心遭到清算，\n但他的仕途终点只是时间问题。\n所有这些变化在党内和人民中引起了恐惧与不满，\n大家现在都在等待文化大革命的下一轮。";
 					GlobalScript.inst.gameState.data[1] -= 200;
 					GlobalScript.inst.gameState.data[3] -= 100;
 					GlobalScript.inst.gameState.data[4] += 100;
@@ -2116,10 +2116,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 27)
 			{
-				text2 = "The fate of Hong Kong and Macau";
+				text2 = "香港和澳门的命运";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "After long negotiations, you finally signed an agreement with the representatives of Britain and Portugal, according to which Hong Kong will be transferred to China in 1997 at the same time as the end of the lease period of the New Territories, and Macao in 1999. Both former colonies will gain wide autonomy, retaining control over the legal and economic spheres, while the central government of the 中华人民共和国 will deal only with defense and foreign policy issues. Of course, this will lead to the concentration of power in the hands of local business elites, but this is not so important, because the long-awaited reunion with our brothers will take place very soon!";
+					text = "经过长期谈判，你终于与英国和葡萄牙的代表签署了协议：\n香港将于1997年在新界租约期满的同时移交中华人民共和国，\n澳门则于1999年移交。\n两处旧殖民地都将获得广泛的自治权，保留对法律和经济领域的控制\n权，而中华人民共和国中央政府只处理国防和外交事务。\n当然，这会导致权力集中在地方工商精英手中，\n但这并不重要，因为我们久盼的与兄弟的团聚很快就要实现了！";
 					GlobalScript.inst.gameState.data[3] += 100;
 					GlobalScript.inst.gameState.data[4] += 100;
 					GlobalScript.inst.gameState.data[1] += 100;
@@ -2131,7 +2131,7 @@ public class Results_text : MonoBehaviour
 				{
 					if ((GlobalScript.inst.gameState.data[6] <= 60 || GlobalScript.inst.gameState.influencePRC >= 150) && GlobalScript.inst.gameState.empires[0].relations >= 800)
 					{
-						text = "After long negotiations, you finally signed an agreement with the representatives of Britain and Portugal, according to which Hong Kong will be transferred to China in 1997 at the same time as the end of the lease period of the New Territories, and Macao in 1999. Both former colonies will get limited autonomy, while retaining control over the economic and, in part, legal sphere. The authority of the administration will be divided between the local electoral administration and the supervising bodies of the 中共. This is our diplomatic victory!";
+						text = "经过长期谈判，你终于与英国和葡萄牙的代表签署了协议：\n香港将于1997年在新界租约期满的同时移交中华人民共和国，\n澳门则于1999年移交。\n两处旧殖民地将获得有限的自治权，同时保留对经济以及部分法律领\n域的控制。行政权力将由地方选举机构与中共的监督机构共同分担。\n这是我们的外交胜利！";
 						GlobalScript.inst.gameState.data[3] += 100;
 						GameState gameState = GlobalScript.inst.gameState;
 						gameState.influencePRC += 50;
@@ -2140,7 +2140,7 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "After long negotiations, the British and the Portuguese abandoned our conditions, calling them unacceptable, which caused great frustration of the party and the people. It seems that the issue of the transfer of colonies is postponed indefinitely. At least New Territories Britain is still ready to return in 1997 on such conditions.";
+						text = "经过长期谈判，英国和葡萄牙放弃了我们的条件，\n称其“不可接受”，这使党和人民都大为沮丧。\n看来殖民地移交的问题将被无限期地拖延。\n至少，新界的英国方面仍准备在这种条件下于1997年归还。";
 						GlobalScript.inst.gameState.data[3] -= 50;
 						GlobalScript.inst.gameState.data[4] += 50;
 						GameState gameState = GlobalScript.inst.gameState;
@@ -2152,7 +2152,7 @@ public class Results_text : MonoBehaviour
 				{
 					if ((GlobalScript.inst.gameState.data[6] <= 50 || GlobalScript.inst.gameState.influencePRC >= 250) && GlobalScript.inst.gameState.empires[0].relations >= 800)
 					{
-						text = "After long negotiations, you finally signed an agreement with the representatives of Britain and Portugal, according to which Hong Kong will be transferred to China in 1997 at the same time as the end of the lease period of the New Territories, and Macao in 1999. Both former colonies will completely come under the control of the 中华人民共和国, retaining only some elements of local self-government. Private property of foreign nationals will continue to work within the framework of the Special Economic Zones created, and the administrative institutions will be bought out by China from Britain and Portugal by the time of the transfer of the colonies. The people and the party are celebrating our huge diplomatic victory!";
+						text = "经过长期谈判，你终于与英国和葡萄牙的代表签署了协议：\n香港将于1997年在新界租约期满的同时移交中华人民共和国，\n澳门则于1999年移交。\n两处旧殖民地将完全纳入中华人民共和国的控制，\n仅保留部分地方自治要素。\n外国国民的私有财产将继续在已设立的特别经济区框架内运作，\n而在殖民地移交之时，中国将从英国和葡萄牙“赎买”行政机构。\n人民和党都在庆祝我们这场巨大的外交胜利！";
 						GlobalScript.inst.gameState.data[3] += 120;
 						GlobalScript.inst.gameState.data[1] += 200;
 						GameState gameState = GlobalScript.inst.gameState;
@@ -2161,7 +2161,7 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "After long negotiations, the British and the Portuguese abandoned our conditions, calling them unacceptable, which caused great frustration of the party and the people. It seems that the issue of the transfer of colonies is postponed indefinitely. At least New Territories Britain is still ready to return in 1997 on such conditions.";
+						text = "经过长期谈判，英国和葡萄牙放弃了我们的条件，\n称其“不可接受”，这使党和人民都大为沮丧。\n看来殖民地移交的问题将被无限期地拖延。\n至少，新界的英国方面仍准备在这种条件下于1997年归还。";
 						GlobalScript.inst.gameState.data[3] -= 50;
 						GlobalScript.inst.gameState.data[4] += 50;
 						GameState gameState = GlobalScript.inst.gameState;
@@ -2172,10 +2172,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 28)
 			{
-				text2 = "The end of the Asian Pinochet";
+				text2 = "亚洲皮诺切特的终结";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Unable to cope with the protests, Suharto resigned, transferring the board to the vice-president, who liberalized the regime and held free elections and initiated a more independent foreign policy.";
+					text = "由于无法应对抗议浪潮，苏哈托辞职，把权力交给副总统。\n副总统放宽了政体，举行自由选举，并启动了更独立的外交政策。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.power -= 20;
 					GlobalScript.inst.gameState.allcountries[50].Vyshi = false;
@@ -2188,7 +2188,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "БUnable to cope with the protests, Suharto resigned. Despite all the efforts of the ruling elite, in the course of the protests, with our support, a moderate-left party was formed, following the course of the first president, Sukarno, which won the subsequent elections. The restructuring of the economy begins with the introduction of elements of socialist governance into it, as well as the tribunal over involved in the tyranny of Suharto.";
+					text = "Б由于无法应对抗议浪潮，苏哈托辞职。\n尽管执政精英竭尽全力，但在抗议过程中，\n在我们的支持下，一个温和的左翼政党成立，\n沿着首任总统苏加诺的道路前进，并在随后选举中获胜。\n经济重组从把社会主义治理的要素引入其中开始，\n同时还要对参与苏哈托暴政的人进行审判。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.power -= 40;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -2213,7 +2213,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Unable to cope with the protests, Suharto resigned. Thanks to our support in Indonesia, after the almost complete destruction in the 60s, the Communist Party was formed again, which was able to replenish its ranks well at the expense of the protesters and was able to carry out many guerrilla attacks on government facilities. All this, together with our pressure, forced the Indonesian government to allow the communist party to the elections in which it, with our active intervention, won, forming a coalition with the Democrats. For Indonesia began a new era.";
+					text = "由于无法应对抗议浪潮，苏哈托辞职。\n多亏我们在印尼的支持，在60年代遭到几乎彻底的摧毁之后，\n印尼共产党得以重新组建，并能够在以抗议者为代价的情况下迅速补\n充队伍，还能对政府设施发动许多游击袭击。\n所有这些，再加上我们的施压，迫使印尼政府允许共产党参加选举；\n在我们积极介入之下，共产党赢得选举，\n并与民主党组成联合政府。\n印尼由此开始了一个新时代。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.power -= 50;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -2238,10 +2238,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 29)
 			{
-				text2 = "Chinese imperialism";
+				text2 = "中国帝国主义";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Not wanting to meet with serious economic problems, Kim Il-sung nevertheless agreed to our demands and went to soften the party-state control and partial rehabilitation of those who had been subjected to past repressions, and also went to partial contacts with Japan and South Korea.";
+					text = "金日成不想面对严重的经济问题，尽管如此，\n他还是同意了我们的要求：放松党国控制，\n对过去遭受迫害者进行部分平反，并且与日本和韩国展开了有限接触。";
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC += 10;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
@@ -2265,7 +2265,7 @@ public class Results_text : MonoBehaviour
 				{
 					if (GlobalScript.inst.gameState.influencePRC > GlobalScript.inst.gameState.empires[1].power)
 					{
-						text = "Not wanting to make concessions to us, Kim Il-sung originally wanted to completely turn over to the side of the USSR in exchange for help from them, but we turned out to be much more influential and, not wanting to go with us to confrontation, he agreed to our demands. Large-scale reforms have taken place in the DPRK - party-state control has been relaxed, a lot of publicity and freedom has been introduced in the media, and reforms have begun in the economy, based on the introduction of cost accounting and self-government. All of this was positively appreciated by Japan, South Korea and the United States, whose president noted China’s outstanding contribution to the struggle for world democracy.";
+						text = "金日成原本不愿向我们让步，想以完全倒向苏联来换取他们的援助；\n但事实证明，我们的影响力更大，他又不愿与我们走向对抗，\n于是同意了我们的要求。\n朝鲜民主主义人民共和国已经展开大规模改革——放松了党国控制，\n媒体上引入了大量宣传与自由；经济改革也开始推进，\n基础是引入成本核算与自主管理。\n日本、韩国和美国对这一切都给予了积极评价，\n美国总统还指出中国在争取世界民主的斗争中作出了杰出贡献。";
 						GameState gameState = GlobalScript.inst.gameState;
 						gameState.influencePRC += 10;
 						Empire empire = GlobalScript.inst.gameState.empires[0];
@@ -2293,7 +2293,7 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "Not wanting to bend over our demands, Kim Il-sung appealed for help to the Soviet Union, who gladly increased the supply of material aid and sent a small contingent of troops to the DPRK for basing. The DPRK, which previously maintained neutrality with respect to China and the USSR, has now firmly entered the Soviet sphere.";
+						text = "金日成不愿屈从我们的要求，便向苏联求援。\n苏联欣然增加物资援助，并派出一小支部队进驻朝鲜民主主义人民共\n和国作为基地。此前对中国和苏联保持中立的朝鲜，\n如今已坚定地进入苏联势力范围。";
 						Empire empire = GlobalScript.inst.gameState.empires[1];
 						empire.power += 20;
 						GameState gameState = GlobalScript.inst.gameState;
@@ -2306,7 +2306,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Not wanting to meet with serious economic problems, Kim Il-sung nevertheless agreed to our demands and authorized the opening of special economic zones where foreign enterprises could operate, and Chinese would also receive preferential terms. Our entrepreneurs are very satisfied and we are already looking forward to receiving new profits.";
+					text = "金日成不想面对严重的经济问题，尽管如此，\n他还是同意了我们的要求，并授权开设特别经济区，\n允许外国企业经营，同时中国方面也将获得优惠待遇。\n我们的企业家对此非常满意，我们也已经期待获得新的利润。";
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC += 10;
 					GlobalScript.inst.gameState.data[8] += 40;
@@ -2322,7 +2322,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "Not wanting to bend over our demands, Kim Il-sung appealed for help to the Soviet Union, who gladly increased the supply of material aid and sent a small contingent of troops to the DPRK for basing. The DPRK, which previously maintained neutrality with respect to China and the USSR, has now firmly entered the Soviet sphere.";
+					text = "金日成不愿屈从我们的要求，便向苏联求援。\n苏联欣然增加物资援助，并派出一小支部队进驻朝鲜民主主义人民共\n和国作为基地。此前对中国和苏联保持中立的朝鲜，\n如今已坚定地进入苏联势力范围。";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power += 20;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -2335,12 +2335,12 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 30)
 			{
-				text2 = "End of conflict?";
+				text2 = "冲突的终结？";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
 					if (GlobalScript.inst.gameState.influencePRC >= 150)
 					{
-						text = "Following the talks, Yasser Arafat, the leader of the PLO, agreed to the rejection of terrorist methods of struggle, the condemnation of terrorists and the recognition of Israel’s right to exist, and Israel in turn agreed to the gradual establishment of the State of Palestine in the West Bank, Gaza and most parts of East Jerusalem (although the issue of the latter is still the subject of heated debate) and the gradual withdrawal of the Israeli army from these territories. Many radical Arab groups called such agreements a betrayal and decided to continue the struggle until the complete destruction of Israel. However, this is a great victory for the Arab world, which can mark the beginning of the normalization of relations between the Arab world and Israel.";
+						text = "会谈之后，巴勒斯坦解放组织（PLO）\n领导人亚西尔·阿拉法特同意摒弃恐怖主义的斗争方式，\n谴责恐怖分子，并承认以色列的存在权；\n作为回应，以色列同意在约旦河西岸、加沙地带以及东耶路撒冷的大\n部分地区，逐步建立巴勒斯坦国（至于后者的问题仍在激烈争论中），\n并逐步从这些地区撤出以色列军队。\n许多激进的阿拉伯组织称这类协议为背叛，\n并决定继续斗争，直到以色列被彻底摧毁为止。\n然而，这对阿拉伯世界而言是一场重大胜利，\n意味着阿拉伯世界与以色列关系正常化的开端。";
 						GameState gameState = GlobalScript.inst.gameState;
 						gameState.influencePRC += 10;
 						Empire empire = GlobalScript.inst.gameState.empires[1];
@@ -2352,7 +2352,7 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "Despite all our efforts, the parties could not reach a compromise, our proposal was rejected, and the negotiations failed. It seems that a new round of violence will soon begin.";
+						text = "尽管我们竭尽全力，双方仍无法达成妥协，\n我们的提案被拒绝，谈判破裂。\n看来新一轮暴力很快就要开始了。";
 						Empire empire = GlobalScript.inst.gameState.empires[0];
 						empire.relations -= 100;
 						GameState gameState = GlobalScript.inst.gameState;
@@ -2362,7 +2362,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Following the talks, Yasser Arafat, the leader of the PLO, agreed to the rejection of terrorist methods of struggle, the condemnation of terrorists and the recognition of Israel’s right to exist, and Israel in turn agreed to create a Palestinian National Administration based on the West Bank and the Gaza Strip, which would become the self-government body of the Palestinian autonomy until a final decision on the status of Arabs in Palestine, which should be made in 5 years. Many radical Arab groups called such agreements a betrayal and decided to continue the struggle until the complete destruction of Israel. However, we hope that these agreements will eventually lead to a settlement of the conflict.";
+					text = "会谈之后，巴勒斯坦解放组织（PLO）\n领导人亚西尔·阿拉法特同意摒弃恐怖主义的斗争方式，\n谴责恐怖分子，并承认以色列的存在权；\n作为回应，以色列同意在约旦河西岸和加沙地带建立巴勒斯坦民族行\n政机构，该机构将成为巴勒斯坦自治的自我管理机构，\n直到对巴勒斯坦境内阿拉伯人的地位作出最终决定——该决定应在5\n年内做出。许多激进的阿拉伯组织称这类协议为背叛，\n并决定继续斗争，直到以色列被彻底摧毁为止。\n然而，我们希望这些协议最终能促成冲突的解决。";
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC += 10;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
@@ -2375,7 +2375,7 @@ public class Results_text : MonoBehaviour
 				{
 					if (GlobalScript.inst.gameState.influencePRC >= 200 && GlobalScript.inst.gameState.OAR)
 					{
-						text = "Following the talks, Yasser Arafat, the leader of the PLO, agreed to the rejection of terrorist methods of struggle, the condemnation of terrorists and the recognition of Israel’s right to exist. However, the further came as a complete surprise - the parties agreed on the creation of a Union State of Palestine and Israel, with a common army, bilingual paperwork, developed local self-government and an obligatory foreign policy neutrality. Part of the radical groups, of course, called it a betrayal, but others decided to stop the terrorist attacks. Of course, the creation of a new state will take place with difficulty, and many more conflicts remain to be resolved, but the very decision to create one speaks of a serious step towards the long-awaited peace.";
+						text = "会谈之后，巴勒斯坦解放组织（PLO）\n领导人亚西尔·阿拉法特同意摒弃恐怖主义的斗争方式，\n谴责恐怖分子，并承认以色列的存在权。\n然而后续发展完全出人意料——双方同意建立巴勒斯坦与以色列的“\n<b>联邦国家</b>”，实行共同军队、双语文书，\n发展地方自治，并在外交政策上实行必然的中立。\n激进派中的一部分当然称之为背叛，但也有其他人决定停止恐怖袭击。\n当然，新国家的建立将困难重重，更多冲突仍有待解决，\n但仅仅是作出建立决定，就表明迈向久盼和平的重大一步。";
 						GameState gameState = GlobalScript.inst.gameState;
 						gameState.influencePRC += 30;
 						Empire empire = GlobalScript.inst.gameState.empires[0];
@@ -2387,7 +2387,7 @@ public class Results_text : MonoBehaviour
 						GlobalScript.inst.gameState.allcountries[37].proprc = true;
 						if (PlayerPrefs.GetInt("language") == 0)
 						{
-							GlobalScript.inst.gameState.allcountries[37].name = "Union State";
+							GlobalScript.inst.gameState.allcountries[37].name = "联邦国家";
 						}
 						else
 						{
@@ -2396,7 +2396,7 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "Despite all our efforts, the parties could not reach a compromise, our proposal was rejected, and the negotiations failed. It seems that a new round of violence will soon begin.";
+						text = "尽管我们竭尽全力，双方仍无法达成妥协，\n我们的提案被拒绝，谈判破裂。\n看来新一轮暴力很快就要开始了。";
 						Empire empire = GlobalScript.inst.gameState.empires[0];
 						empire.relations -= 100;
 						GameState gameState = GlobalScript.inst.gameState;
@@ -2407,10 +2407,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 31)
 			{
-				text2 = "Correct democracy";
+				text2 = "正确的民主";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "The victory in the first free elections, playing on the fragmentation of the opposition, was won by Roh Tae-woo, a supporter of the old military regime, who managed to dissociate himself from it in time after the fall in popularity of Chun Doo-hwan.";
+					text = "在首届自由选举中，利用反对派分裂的局面获胜者是卢泰愚——旧军\n政府的支持者。他在全斗焕人气下滑之后，\n及时与旧势力撇清关系。";
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 10;
 					GlobalScript.inst.gameState.allcountries[46].Gosstroy = 3;
@@ -2418,7 +2418,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Thanks to our help, Kim Dae-jung managed to rally the opposition around himself, which led him to victory in the elections. South Korea is awaited by large-scale democratic reforms, and rhetoric towards North has already been relaxed. Significant warming is expected in the relations of the two Koreas, but it seems that it will not come to unification.";
+					text = "多亏我们的帮助，金大中成功把反对力量凝聚到自己周围，\n从而在选举中获胜。韩国将迎来大规模的民主改革，\n对北方的强硬言辞也已开始松动。\n两韩关系预计将明显升温，但看来还不会走到统一。";
 					GlobalScript.inst.gameState.data[9] -= 40;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations -= 100;
@@ -2429,7 +2429,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Thanks to our help, Kim Dae-jung managed to rally the opposition around himself, which led him to victory in the elections. South Korea is awaited by large-scale democratic reforms, and rhetoric towards North has already been relaxed. Also, the North Korea itself, under our pressure, made peaceful contacts with its southern neighbor and Japan, which eventually led to the historic meeting of the leaders of both Koreas in Pyongyang, where in addition to the long-awaited detente, it was decided to gradually unite Korea into a neutral confederation, where the parties jointly would solve issues of foreign policy and defense, while maintaining internal independence. And the American soldiers from South Korea will soon have to sail home.";
+					text = "多亏我们的帮助，金大中成功把反对力量凝聚到自己周围，\n从而在选举中获胜。韩国将迎来大规模的民主改革，\n对北方的强硬言辞也已开始松动。\n与此同时，在我们的压力下，朝鲜也与其南方邻国以及日本展开和平\n接触，最终促成了两韩领导人在平壤举行的历史性会晤。\n在久盼的缓和之外，双方还决定把朝鲜半岛逐步统一为一个中立的邦\n联：由各方共同解决外交与国防问题，同时保持内部独立。\n而驻韩美军也将很快启航回国。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations -= 250;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -2443,10 +2443,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 32)
 			{
-				text2 = "Ulaanbaatar Spring?";
+				text2 = "乌兰巴托之春？";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Under pressure from the protesters, the MPR made some concessions, having dispersed the most radical of them. Censorship and pressure on dissidents and religion was greatly relaxed. Although foreign policy has become more independent, but mainly Mongolia is still oriented towards the USSR.";
+					text = "在抗议者的压力下，蒙古人民革命党作出了一些让步，\n驱散了其中最激进的部分。\n对新闻审查以及对持不同政见者和宗教的压制大幅放松。\n尽管外交政策变得更加独立，但主要而言，\n蒙古仍然倾向于苏联。";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power += 10;
 					empire = GlobalScript.inst.gameState.empires[1];
@@ -2454,7 +2454,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Under pressure from the protesters, the MPR made some concessions, having dispersed the most radical of them. Censorship and pressure on dissidents and religion was greatly relaxed. Due to this, we were able to conduct in the Mongolian media and the social and political life individuals who advocate a more independent foreign policy from the USSR and, in particular, the establishment of relations with China.";
+					text = "在抗议者的压力下，马来西亚人民党（MPR）\n作出了一些让步，驱散了其中最激进的部分。\n对新闻审查以及对持不同政见者和宗教的压制大幅放松。\n正因如此，我们得以在蒙古的媒体中开展工作，\n并在社会与政治生活中推动那些主张采取更独立的对外政策、\n尤其是建立同中国关系的人士。";
 					GlobalScript.inst.gameState.data[9] -= 40;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.relations -= 100;
@@ -2466,10 +2466,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 33)
 			{
-				text2 = "Crescent in the eyes";
+				text2 = "眼中的新月";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "At around midnight on July 4, General Zia-ul-Haq ordered the 111th Brigade from Rawalpindi to encircle all the main federal government buildings, police stations and the National Assembly. After that, he ordered the police to arrest Zulfikar Bhutto, ministers and other leaders from the Pakistan People’s Party. In an address to the population on national television, General Zia stated that the National Assembly of Pakistan and the provincial assemblies were dissolved, and the Constitution of Pakistan was no longer valid. The new government headed for the Islamization of Pakistan and returned to pro-American foreign policy.";
+					text = "7月4日午夜左右，齐亚·乌尔·哈克将军命令驻拉瓦尔品第的第1\n11旅包围所有主要的联邦政府建筑、警察局以及国民议会。\n随后，他下令警方逮捕祖勒菲卡尔·布托以及巴基斯坦人民党部长们\n和其他领导人。齐亚在国家电视台向全国发表讲话时表示，\n巴基斯坦国民议会和各省议会已被解散，\n巴基斯坦宪法不再有效。\n新的政府将着手推进巴基斯坦的伊斯兰化，\n并恢复亲美的外交政策。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.power += 30;
 					GlobalScript.inst.gameState.data[4] += 30;
@@ -2481,7 +2481,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Thanks to our warning, Bhutto managed to hide from the rebels and put up loyal units against them, who together with the special forces of the 国家安全部 arrived to help them stopped the rebels and captured the leaders of the coup. General Zia-ul-Haq was executed for treason, and the situation in the country, thanks to our material assistance and help in the fight against the protesters, was normalized. Bhutto continued the course of building Islamic socialism, introducing more and more socialist methods into the economy. There is also a slight warming in relations with India.";
+					text = "多亏了我们的警告，布托得以躲过叛军，\n并部署忠诚部队与他们对抗。\n与此同时，摩萨德（MSS）的特种部队也赶来支援，\n协助他们击退叛军，并俘获了政变的头目。\n齐亚-乌尔-哈克将军因叛国罪被处决。\n由于我们提供的物资援助以及在镇压抗议者斗争中的帮助，\n国内局势得以恢复正常。\n布托继续推进建设伊斯兰社会主义的进程，\n逐步在经济中引入越来越多的社会主义做法。\n与此同时，中印关系也出现了轻微缓和。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations -= 100;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -2496,7 +2496,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "At around midnight on July 4, General Zia-ul-Haq ordered the 111th Brigade from Rawalpindi to encircle all the main federal government buildings, police stations and the National Assembly. After that, he ordered the police to arrest Zulfikar Bhutto, ministers and other leaders from the Pakistan People’s Party. In an address to the population on national television, General Zia stated that the National Assembly of Pakistan and the provincial assemblies were dissolved, and the Constitution of Pakistan was no longer valid. The new government headed for the Islamization of Pakistan and returned to pro-American foreign policy, which did not prevent us from maintaining close and mutually beneficial relations with them.";
+					text = "7月4日午夜左右，齐亚·乌尔·哈克将军命令第111旅从拉瓦尔\n品第出发，包围所有主要的联邦政府建筑、\n警察局以及国民议会。\n随后，他下令警察逮捕祖勒菲卡尔·布托以及巴基斯坦人民党部长和\n其他领导人。齐亚在国家电视台向全国发表讲话时表示，\n巴基斯坦国民议会和各省议会已被解散，\n巴基斯坦宪法不再有效。\n新的政府将着手对巴基斯坦进行伊斯兰化，\n并恢复亲美的外交政策；这并不妨碍我们与他们保持密切且互利的关\n系。";
 					GlobalScript.inst.gameState.data[4] += 50;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations += 50;
@@ -2512,10 +2512,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 34)
 			{
-				text2 = "Enemies of my enemies";
+				text2 = "我敌人的敌人";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "At the next meeting of the politburo of the 中共 Central Committee, Comrade Guofen criticized some members of the reformers faction for being too hasty in the need for domestic political and economic changes, and also urged them to solve all pressing problems collectively in order to prevent a split in the party and Khrushchev's «voluntarist mistakes» in the USSR. Loyal conservatives supported our proposal «not to bring discord to the party», however, the liberal-minded wing still continues to insist on accelerating economic reforms, but nevertheless agrees to make concessions to us on the need to maintain intra-party democracy. At the same time, the people who read the transcripts of the meeting in the media were not satisfied with the slowdown in the long-awaited changes that seemed to have already begun after the defeat of the «四人帮».";
+					text = "在中共中央政治局下一次会议上，郭芬同志批评改革派中的一些成员，\n在推进国内政治与经济变革的必要性上过于急躁，\n并且还敦促他们共同解决所有迫切问题，\n以防止党内分裂，避免重演苏联赫鲁晓夫的“主观随意性错误”。\n忠于保守立场的同志支持我们的主张“不要把不和带进党内”，\n然而，倾向自由化的一翼仍继续坚持加速经济改革；\n不过，他们在维持党内民主的必要性上仍同意向我们作出让步。\n与此同时，媒体上阅读会议记录的民众，\n对这场人们翘首以盼、似乎在“江青集团”被击败之后已经开始的变\n革却被放慢，仍然感到不满。";
 					GlobalScript.inst.gameState.data[1] -= 100;
 					GlobalScript.inst.gameState.data[3] -= 50;
 					GlobalScript.inst.gameState.party_ideology[3] -= (int)((float)GlobalScript.inst.gameState.party_ideology[3] * 0.5f);
@@ -2542,7 +2542,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Not wanting to loosen up your already difficult situation, you did not dare to enter into open confrontation with the most influential representatives of the reformers, but only limited yourself to promoting the loyal members of the moderately conservative wing in order to prevent rash reforms. The reformers, in turn, accuse the chairman in an attempt to split the party and plans to create own «gang of four», from loyal people who do not represent the interests of broad sections of the population. However, the charges have not gone further.";
+					text = "你并不想让你本已艰难的处境进一步松动，\n因此你不敢与改革派中最有影响力的代表展开公开对抗，\n而只是着力提拔温和保守翼中忠诚的成员，\n以防止鲁莽的改革。与此同时，改革派反过来指责主席，\n企图分裂党，并计划从不代表广大人民利益的忠诚人士中另立自己的\n“江青式四人帮”。然而，这些指控并没有进一步发展。";
 					GlobalScript.inst.gameState.data[1] -= 100;
 					party_change[1] = 4f;
 					Politic[] politics = GlobalScript.inst.gameState.politics;
@@ -2564,7 +2564,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Having enlisted the support of a moderately conservative majority, you criticized the positions of reformers at the next congress of the 中共 Central Committee and, using your influence in the Ministry of Public Security, began to actively interfere with the careers of various less eminent reformists and promote your people from among moderate conservatives. The people, to whom your criticism has come, remained, of course, dissatisfied, as did the reformist wing of the party. But your position is significantly strengthened.";
+					text = "在争取到一支相对保守的多数支持之后，\n你在中共中央党校（中央委员会）下一次代表大会上批评了改革派的\n主张，并凭借你在公安部的影响力，开始有力地干预各类不那么显赫\n的改革派人士的仕途，同时在中间偏保守派中提拔起你自己的人。\n那些受你批评波及的人当然不满，党内的改革派阵营也同样不满。\n但你的地位却得到了显著加强。";
 					GlobalScript.inst.gameState.data[1] -= 150;
 					GlobalScript.inst.gameState.data[3] -= 50;
 					GlobalScript.inst.gameState.data[4] += 50;
@@ -2594,7 +2594,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "At the next meeting of the politburo, Comrade Guofeng said it was necessary to continue the planned course of socio-economic changes, and also managed to negotiate with Lee 先念 and 叶剑英 on joining efforts and creating a kind of moderate-reformist alliance. Taking advantage of their freedom of action, the reformers are already actively promoting their people in the party with appropriate views, such as 邓小平 and 赵紫阳. The people, noting the movement for reforms, expect them to change for the better, however, the conservative part of the party is unhappy with this state of affairs.";
+					text = "在下一次政治局会议上，同志郭峰表示，\n有必要继续执行既定的社会经济变革方针，\n并且还设法与李先念、叶剑英就联合努力、\n建立某种温和改革派联盟达成了协商。\n利用他们所拥有的行动自由，改革派已经在党内积极推举自己的人选，\n并以适当的观点加以推动，例如邓小平、\n赵紫阳。人民在察觉到改革运动之后，期待它们朝着更好的方向改变；\n然而，党内保守派对这种局面并不满意。";
 					GlobalScript.inst.gameState.data[1] -= 50;
 					GlobalScript.inst.gameState.data[3] += 50;
 					GlobalScript.inst.gameState.data[4] += 80;
@@ -2624,7 +2624,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 5)
 				{
-					text = "In the 政治局 and the rest of the 中共, reformist-liberal sentiments are rapidly growing, which makes the old conservatives very angry, who are afraid of losing their positions and former influence, as well as of China’s fall into revisionism. The power is still in your hands, but for how long?";
+					text = "在政治局以及中共其他各部门中，改革—自由派的情绪正在迅速增长，\n这令那些旧保守派极为愤怒：他们担心自己会失去职位和昔日的影\n响力，也担心中国会滑向修正主义。\n权力仍在你手中，但还能维持多久？";
 					GlobalScript.inst.gameState.data[1] -= 50;
 					GlobalScript.inst.gameState.data[4] += 30;
 					party_change[3] = 2f;
@@ -2641,10 +2641,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 35)
 			{
-				text2 = "End of revolution";
+				text2 = "革命的终结";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Despite the completed folding of the 文化大革命, there seems to be no further movement towards liberalization. The people and the reform wing are disappointed.";
+					text = "尽管文化大革命已经彻底结束，似乎并没有进一步走向自由化的动向。\n民众和改革派都感到失望。";
 					GlobalScript.inst.gameState.data[4] += 40;
 					GlobalScript.inst.gameState.data[3] -= 60;
 					Politic[] politics = GlobalScript.inst.gameState.politics;
@@ -2659,7 +2659,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "As part of the continuation of the struggle with the excesses of the 文化大革命, the repressive control in China was gradually reduced slightly. The people and the reformers are satisfied, but what if something happens...";
+					text = "作为继续纠正“文化大革命”过激现象的一部分，\n中国的高压控制逐步被略微放松。\n人民和改革派对此感到满意，但如果会发生什么意外……";
 					GlobalScript.inst.gameState.data[3] += 60;
 					GlobalScript.inst.gameState.data[4] += 20;
 					GlobalScript.inst.gameState.data[57] -= 30;
@@ -2684,7 +2684,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "As part of the continuation of the struggle with the excesses of the 文化大革命, the repressive control in China was gradually reduced slightly, and the active struggle against traditionalism was also stopped, which marked a slight, but reduced, pressure on religion. State atheism, however, has not gone away. Despite some underground anti-state sermons of priests, the people, in general, are pleased. Hopefully this will not lead to problems.";
+					text = "作为继续纠正“文化大革命”过激现象的一部分，\n中国的高压控制被逐步略微放松，同时针对传统主义的积极斗争也被\n停止了，这意味着对宗教的压力有所减轻，\n但仍然存在。尽管如此，国家无神论并没有消失。\n尽管有一些地下的反国家布道活动来自牧师，\n但总体而言，人们是满意的。\n希望这不会引发问题。";
 					GlobalScript.inst.gameState.data[3] += 70;
 					GlobalScript.inst.gameState.data[4] += 40;
 					GlobalScript.inst.gameState.data[6] -= 30;
@@ -2712,7 +2712,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "As part of the continuation of the struggle with the excesses of the 文化大革命, the repressive control in China was gradually reduced slightly, and the active struggle against traditionalism was also stopped and freedom of conscience was approved while maintaining the state course on atheism and its control over religious institutions. Despite some anti-state sermons of the clergy, which, often quickly suppressed, the people, in general, are pleased. We hope this will not lead to problems and clashes of the peoples of the 中华人民共和国.";
+					text = "作为继续纠正“文化大革命”过激行为的一部分，\n中国逐步略微放松了镇压性的控制；同时，\n针对传统主义的积极斗争也被停止，并在维持国家在无神论方向上的\n方针以及对宗教机构的控制的前提下，批准了良心自由。\n尽管有些来自教士的反国家布道——往往很快就被压制——但总体而\n言，民众是满意的。我们希望这不会引发中华人民共和国各族人民之\n间的问题与冲突。";
 					GlobalScript.inst.gameState.data[3] += 90;
 					GlobalScript.inst.gameState.data[4] += 60;
 					GlobalScript.inst.gameState.data[6] -= 40;
@@ -2741,16 +2741,16 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 36)
 			{
-				text2 = "Coalition collapse?";
+				text2 = "联盟崩溃？";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Having suffered for some time and unsuccessfully trying to establish relations with the Baathist leadership, the ICP eventually decided to break. In April 1979, communist ministers withdrew from the government, the Communist Party ceased its participation in the National Front. In May 1979, the leadership of the ICP decided to withdraw from the PNPF and go to the illegal situation.";
+					text = "在遭受了一段时间的折磨，并且多次尝试与复兴党领导层建立关系却\n始终未果之后，伊拉克共产党最终决定决裂。\n1979年4月，共产党部长退出政府；\n共产党停止参与全国阵线。\n1979年5月，伊拉克共产党领导层决定退出PNPF，\n转入非法状态。";
 					GlobalScript.inst.gameState.allcountries[14].Gosstroy = 0;
 					GlobalScript.inst.gameState.allcountries[14].SubGosstroy = 10;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Our condemnation expectedly led only to exacerbation of relations with Iraq and to further repression against the communists. Having suffered for some time and unsuccessfully trying to establish relations with the Baathist leadership, the ICP eventually decided to break. In April 1979, communist ministers withdrew from the government, the Communist Party ceased its participation in the National Front. In May 1979, the leadership of the ICP decided to withdraw from the PNPF and go to the illegal situation.";
+					text = "我们本来预料到的谴责，果然只会导致同伊拉克关系的进一步恶化，\n并对共产党人实施更严厉的镇压。\n由于长期遭受打击却始终未能同复兴党领导层建立关系，\n伊共最终决定决裂。1979年4月，共产党部长从政府中撤出；\n共产党停止参加“民族阵线”。\n1979年5月，伊共领导层决定退出PNPF，\n转入非法状态。";
 					GlobalScript.inst.gameState.data[6] += 10;
 					GlobalScript.inst.gameState.allcountries[14].Gosstroy = 0;
 					GlobalScript.inst.gameState.allcountries[14].SubGosstroy = 10;
@@ -2758,7 +2758,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Our unofficial political pressure on both sides, backed up by the compromising information collected by the secret services and small protests against the Ba'ath, has finally borne fruit. The Baathists stopped repressions and declared their firm alliance with the ICP, which also confirmed its membership in the PNPF, refusing anti-government agitation and demands for the abolition of the state of emergency. It is clear that behind these beautiful words there is only a hidden struggle and a shaky resemblance of the alliance, but for some time such a coalition will hold on.";
+					text = "我们对双方施加的非正式政治压力，得到了情报机构收集到的妥协性\n信息的支撑，以及针对复兴党的小规模抗议，\n终于结出了果实。复兴党人停止了镇压，\n并宣布他们与伊斯兰共产党（ICP）之间的坚定同盟；\n而ICP也确认了自己加入人民民族阵线（PNPF），\n拒绝煽动反政府行动，并拒绝要求废除紧急状态。\n很显然，这些漂亮话背后只有一场隐藏的较量，\n以及同盟关系那摇摇欲坠的相似性；但在一段时间内，\n这样的联合仍将维持下去。";
 					GlobalScript.inst.gameState.data[1] += 70;
 					GlobalScript.inst.gameState.data[4] -= 30;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -2769,10 +2769,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 37)
 			{
-				text2 = "The end of the Egyptian pasha";
+				text2 = "埃及帕夏的终结";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "We decided to actively intervene in the situation and support the unrest. Through secret channels, many weapons fell into the hands of the demonstrators, which they immediately used against the police. In Cairo and a number of other cities, real street fighting began, which resulted in many people being killed on both sides. Sadat tried to enlist the support of the United States and Israel, but this set up against him all three factions of the ASU and the command of the army, who had not forgotten the defeat of 1973. After attempting to assassinate him, Sadat fled to the American embassy in Cairo and sought political asylum. After negotiations between the demonstrators and the army command, it was decided to transfer power to the government of national unity, led by former Vice President Ali Sabri. He began a reversal of capitalist reforms, restored the unity of the ASU, broke off all ties with the United States and Israel, and had already begun negotiations to restore diplomatic relations with the USSR, China, Libya, Syria, Iraq and other socialist countries. The new president also announced Egypt’s readiness to participate in pan-Arab and pan-African integration projects, which opens up interesting prospects for us to form a broad confederation of Arab countries against the United States and their puppet in the Middle East.";
+					text = "我们决定积极介入局势并支持动乱。\n通过秘密渠道，许多武器落入示威者手中，\n他们立刻将这些武器用于对警察的攻击。\n在开罗以及其他一些城市，真正的街头巷战爆发，\n双方都造成了大量人员伤亡。\n萨达特试图争取美国和以色列的支持，但这反而使他与ASU的三个\n派系以及军队指挥部彻底对立——他们从未忘记1973年的失败。\n萨达特在遭到刺杀企图后逃往开罗的美国大使馆，\n并寻求政治庇护。在示威者与军队指挥部之间进行谈判后，\n决定将权力移交给由前副总统阿里·萨布里领导的民族团结政府。\n萨布里开始扭转资本主义改革，恢复ASU的统一，\n切断与美国和以色列的一切联系，并已开始与苏联、\n中国、利比亚、叙利亚、伊拉克以及其他社会主义国家恢复外交关系\n的谈判。新总统还宣布埃及愿意参与泛阿拉伯与泛非洲的整合项目，\n这为我们组建一个由阿拉伯国家组成的广泛邦联、\n以对抗美国及其在中东的傀儡，打开了颇具吸引力的前景。";
 					GlobalScript.inst.gameState.data[1] += 50;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC += 20;
@@ -2793,7 +2793,7 @@ public class Results_text : MonoBehaviour
 				{
 					if (GlobalScript.inst.gameState.allcountries[13].Torg || GlobalScript.inst.gameState.allcountries[30].stab == 1)
 					{
-						text = "Not daring to intervene directly, we went the other way and began to act through Libya and Syria, having their own accounts for Sadat. The secret organization of the Libyan Jamahiriya and the Syrian Military Intelligence, with the help of our 国家安全部 and with the secret approval of the Soviet KGB, have joined forces in developing a plan to eliminate the Egyptian President. On October 25, Anwar Sadat was killed by a Libyan sniper while speaking to Egyptian protesters in Tahrir Square in Cairo. With the support of the surviving supporters of Nasserism, pardoned Ali Sabri became the new president of Egypt, but the associate of the late, Hosni Mubarak, became his prime minister. The ARE refuses to deepen reforms, turns off the most radical of them and gradually normalizes relations with Arab countries. Sabri has already resumed negotiations with the USSR on the restoration of military-technical cooperation, so that the country's course has swung to the left again - but not in our direction...";
+						text = "我们不敢直接干预，于是转而从利比亚和叙利亚下手，\n由他们各自去处理萨达特的问题。\n利比亚“人民群众国”的秘密组织与叙利亚军事情报机构，\n在我方国家安全部（MSS）的协助下，\n并在苏联克格勃的秘密批准之下，已经联手制定了一项消除埃及总统\n的计划。10月25日，安瓦尔·萨达特在开罗塔里尔广场向埃及抗\n议者讲话时，被一名利比亚狙击手击毙。\n借助仍存的纳赛尔主义支持者的支持，被赦免的阿里·萨布里成为埃\n及新总统，但已故霍斯尼·穆巴拉克的同僚则出任他的总理。\n阿联拒绝深化改革，关闭其中最激进的部分，\n并逐步与阿拉伯国家恢复正常关系。\n萨布里已经重新与苏联就恢复军事技术合作展开谈判，\n因此该国的路线再次向左转——但并不是朝我们的方向……";
 						GlobalScript.inst.gameState.data[1] += 20;
 						Empire empire = GlobalScript.inst.gameState.empires[1];
 						empire.power += 20;
@@ -2812,7 +2812,7 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "Not daring to intervene directly, we went the other way and began to act through Libya and Syria, having their own accounts for Sadat. The secret organization of the Libyan Jamahiriya and the Syrian Military Intelligence, with the help of our 国家安全部 and with the secret approval of the Soviet KGB, have joined forces in developing a plan to eliminate the Egyptian President. On October 25, Anwar Sadat was killed by a Libyan sniper while speaking to Egyptian protesters in Tahrir Square in Cairo. The new president of Egypt was his associate Hosni Mubarak, who abandoned the deepening of reforms and headed for a multi-vector foreign policy, albeit with the preservation of the anti-Soviet tone. Relations between Egypt and its Arab neighbors gradually normalized.";
+						text = "由于不敢直接干预，我们转而从另一条路入手，\n通过利比亚和叙利亚来行动，让它们各自对萨达特采取行动。\n利比亚“人民群众国”的秘密组织与叙利亚军事情报机构，\n在我方MSS的协助下，并在苏联克格勃的秘密批准下，\n联手制定了一项消灭埃及总统的计划。\n10月25日，安瓦尔·萨达特在开罗解放广场向埃及抗议者讲话时，\n被一名利比亚狙击手击毙。\n埃及新总统是他的同僚胡斯尼·穆巴拉克，\n他放弃了正在加深的改革进程，转而推行多方向的外交政策，\n尽管在措辞上仍保留反苏的基调。\n埃及与其阿拉伯邻国之间的关系逐步走向正常化。";
 						GlobalScript.inst.gameState.data[9] -= 20;
 						GlobalScript.inst.gameState.data[8] -= 20;
 						Empire empire = GlobalScript.inst.gameState.empires[0];
@@ -2822,19 +2822,19 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Anwar Sadat went to a number of concessions to the protesters, promising to increase subsidies to the CPG to the poor and begin rearming the Egyptian army and its training on the NATO standard, so that \"no one else could take advantage of our weaknesses\". This allowed him to stabilize the situation in the country. Sadat is expected to visit Israel and the final restoration of relations with it...";
+					text = "安瓦尔·萨达特向抗议者作出了多项让步，\n承诺向贫困者增加对CPG的补贴，并开始重新武装埃及军队、\n使其训练达到北约标准，以便“没有人能够利用我们的弱点”。\n这使他得以稳定国内局势。\n据预计，萨达特将访问以色列，并最终恢复与以色列的关系……";
 				}
 			}
 			else if (GlobalScript.inst.gameState.number_event == 38)
 			{
-				text2 = "Back to the roots";
+				text2 = "回归根源";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "China's economy continues to grow gradually, but how soon will it pay off? Wait and see.";
+					text = "中国的经济持续稳步增长，但它要多久才能见效？拭目以待。";
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "At the next meeting of the Political Bureau of the 中共 Central Committee, a decision was made to restore the Soviet-style planning system, forcedly rejected in the 60s, a Planning Committee was set up, which should soon adopt a five-year strategy for the development of the national economy. Of course, the reformers are dissatisfied with the rollback of Zhou's reforms, the people reacted with doubt to the restoration of the old system, and the funds for transformation and the creation of bureaucracy had to be allocated.";
+					text = "在中共中央政治局下一次会议上，决定恢复苏联式的计划体制——在\n60年代曾被强行否定。\n成立了计划委员会，该委员会应尽快制定国家经济发展的五年战略。\n当然，改革派对撤回周的改革不满，民众对恢复旧体制也产生了疑虑；\n同时还必须拨出用于改造与建立官僚体系的资金。";
 					GlobalScript.inst.gameState.data[8] -= 10;
 					GlobalScript.inst.gameState.data[6] += 20;
 					GlobalScript.inst.gameState.data[4] += 50;
@@ -2868,7 +2868,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "In accordance with the previously proclaimed course of changing socio-economic life, you, together with the most prominent reform figures, formed a special commission and began to develop a program of future economic reforms that should continue the work of 周恩来. The party (or rather only its right and moderate wing) is looking forward to the decisions of the commission, and the part of the people, to which only fragmentary rumors have flown so far, are waiting for a change for the better.";
+					text = "根据此前所宣告的改变社会经济生活的方针，\n你与最杰出的改革人物一道，成立了一个特别委员会，\n并开始制定未来经济改革的方案，以继续周恩来的工作。\n党（准确说是党内的右翼与温和派）正期待委员会的决定，\n而迄今仅有零星传闻传到的那部分民众，\n则在等待向好的变化。";
 					GlobalScript.inst.gameState.data[6] -= 10;
 					GlobalScript.inst.gameState.data[4] += 20;
 					GlobalScript.inst.gameState.data[3] += 30;
@@ -2907,10 +2907,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 39)
 			{
-				text2 = "Commission on \"Resolution...\"";
+				text2 = "“决议……”委员会";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " made a decision to personally head the commission for drafting \"Resolution on certain questions in the history of our party since the founding of the 中华人民共和国\", and appointed one of the main ideologues of the \"文化大革命\" " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[0]].name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[0]].name_2] + " as his deputy. In its assessment, the commission focuses on the work of 毛泽东 since the \"Great Controversy\". The personality of Mao himself is evaluated positively, however, excesses of both the right and left sense are mentioned, which, however, are not of fundamental importance in his activities. The document begins to take the form of another Maoist pamphlet of the time of the \"文化大革命\", although it criticizes it...";
+					text = GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "决定亲自担任起草《中华人民共和国成立以来我党历史若干问题的决\n议》的委员会负责人，并任命“文化大革命”的主要思想家之一" + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[0]].name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[0]].name_2] + "作为他的副手。委员会的评估重点放在“伟大争论”以来毛泽东的工\n作。对毛本人性格的评价是正面的，但也提到了右倾与左倾两方面的\n过火行为，不过这些在他的活动中并不具有根本性。\n该文件开始呈现出另一种“文化大革命”时期的毛主义小册子的样式，\n尽管它对其进行了批评……";
 					GlobalScript.inst.gameState.data[1] += 80;
 					GlobalScript.inst.gameState.data[3] += 20;
 					GlobalScript.inst.gameState.data[6] += 10;
@@ -2950,7 +2950,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "In accordance with the decision of the 政治局, the commission was headed by the old reform ideologist 邓小平. He appointed his associate 胡耀邦 as his deputy. Although both were hit by the \"文化大革命\", they nevertheless managed to rise above resentment against 毛泽东 and impartially appreciated his period. Mao himself received the same assessment, which in his articles \"On the historical experience of the dictatorship of the proletariat\", \"More on the historical experience of the dictatorship of the proletariat\" and \"On The Question Of Stalin\" he gave to Stalin - \"Merit and error Stalin is in the ratio of 70 to 30\", while all the major failures (like \"大跃进\") are dumped on the late 林彪 and Kang Sheng, who gave \" wrong advice\" to Chairman Mao. 邓小平 made remarks to editors nine times about the text («not good», «needs to be processed», «too voluminous», «too sad», etc.). Perhaps, we completely guessed with the choice and \"Resolution on certain questions in the history of our party since the founding of the 中华人民共和国\" will be balanced and can serve as the first step to rethink our past for the sake of a bright future... ";
+					text = "根据政治局的决定，委员会由老牌改革思想家邓小平担任负责人。\n他任命同僚胡耀邦为副手。\n尽管两人都遭受过“文化大革命”的打击，\n但他们仍设法超越对毛泽东的怨恨，对他的那段时期作出了相对公允\n的评价。毛泽东本人也得到了同样的评价：\n在他关于《无产阶级专政的历史经验》《关于无产阶级专政的历史经\n验的再探讨》以及《论斯大林问题》等文章中，\n他对斯大林的判断是——“功过斯大林七三开”，\n而所有主要的失败（如“大跃进”）则被归咎于晚年的林彪和康生，\n正是他们给了毛主席“错误的建议”。\n邓小平还就这份文本向编辑们作了九次修改意见（“不好”“需要加\n工”“太冗长”“太悲伤”等）。\n也许，我们的选择完全猜中了，而《中华人民共和国成立以来我党历\n史若干问题的决议》将会保持平衡，并能作为为了光明未来而重新思\n考我们过去的第一步……";
 					GlobalScript.inst.gameState.data[1] += 100;
 					GlobalScript.inst.gameState.data[3] += 50;
 					GlobalScript.inst.gameState.data[6] -= 30;
@@ -2992,10 +2992,10 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "华国锋, despite objections from both the right and left wing of the 中共, appointed the disgraced party member of the liberal views Peng Zhen as head of the commission. He appointed 赵紫阳 as his deputy, whose views were not too different from his. Both were seriously affected during the \"文化大革命\" and now do not particularly hide the desire to recoup for their experiences. The document, compiled by them, assesses the socialist period in the history of China as \"the time of the feudal-fascist dictatorship of 毛泽东, who produced mass terror, destroyed honest communists such as Liu Shaoqi and Peng Dehuai, and completely subjugated the party of his will by establishing a personality cult in the 中华人民共和国\". He recommends \"returning to the sources, to Marx, Lenin, Chen Duxiu and Wang Ming, reject the anti-Marxist cult of 毛泽东’s personality and brand their totalitarian past for the sake of building China’s bright socialist future\". Something I do not think that this Chinese copy of the Khrushchev \"secret report\" of 1956 will appeal to both ordinary party members and the people...";
+					text = "华国锋尽管遭到中共内右翼与左翼两方面的反对，\n仍任命持自由主义观点、已被打入冷宫的彭真为委员会负责人。\n他任命赵紫阳为副手，而赵紫阳的观点与他也并不太不同。\n两人都在“文化大革命”期间遭受了严重影响，\n如今也并不太掩饰想要为自己的遭遇讨回公道的愿望。\n由他们编写的这份文件，将中国历史中的社会主义时期评为：\n“毛泽东的封建法西斯式独裁时期——他制造大规模恐怖，\n摧毁像刘少奇、彭德怀这样的正直共产党员，\n并通过在中华人民共和国建立个人崇拜而使党完全屈从于他的意志。\n”文件还主张“回到源头，回到马克思、\n列宁、陈独秀和王明，摒弃反马克思的毛泽东个人崇拜，\n并为建设中国光明的社会主义未来而对他们的极权主义过去加以定性\n”。我认为，这份对1956年赫鲁晓夫“秘密报告”的中国式抄本，\n恐怕不会让普通党员和民众都买账……";
 					if (GlobalScript.inst.gameState.data[104] == 10)
 					{
-						text += "|On the night after the document was adopted, Mao was removed from the Mausoleum, and the next day the building was demolished. On the site of the Mausoleum will be built a museum of Chen Duxiu, the 1st Secretary of the Central Bureau of the 中共, who was accused of indecision and, later, sided with the Trotskyist opposition.";
+						text += "|文件通过后的当晚，毛被从陵墓中移走；\n次日，陵墓建筑被拆毁。\n陵墓旧址将兴建陈独秀纪念馆——中共中央局第一书记，\n曾被指控优柔寡断，后来又站到了托洛茨基主义反对派一边。";
 						if (GlobalScript.inst.gameState.iron_and_blood)
 						{
 							achieves.GetComponent<achievements>().Set(9);
@@ -3036,10 +3036,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 40)
 			{
-				text2 = "The fate of the Panchen Lama";
+				text2 = "班禅喇嘛的命运";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "The letter went away from you with the following resolution: \"The merits of the 10th Panchen Lama before the Tibetan and Chinese peoples are great, but the blow he struck on the international friendship of Tibet and China is even greater. His release is inopportune and dangerous\". In March 1979, a Chinese dissident, Wei Jingsheng, published a letter condemning the conditions of the Panchen Lama's prison in Jincheng Prison, after which he was transported to Lhasa and changed his preventive measure to house arrest. However, the 10th Panchen Lama never came to freedom until his death on January 28, 1989...";
+					text = "这封信离开你时附带了如下决议：“第十世班禅喇嘛在藏族和中国人\n民面前的功绩是巨大的，但他对西藏与中国国际友谊所造成的打击更\n为巨大。他的释放时机不当且危险。\n”1979年3月，中国异议人士魏京生发表了一封信，\n谴责班禅喇嘛在金城监狱的囚禁条件；之后他被转送到拉萨，\n并将防范措施改为居家监禁。\n然而，第十世班禅喇嘛直到1989年1月28日去世，\n也从未获得自由……";
 					GlobalScript.inst.gameState.data[1] += 50;
 					GlobalScript.inst.gameState.data[3] -= 50;
 					GlobalScript.inst.gameState.data[6] += 5;
@@ -3048,7 +3048,7 @@ public class Results_text : MonoBehaviour
 				{
 					if (GlobalScript.inst.gameState.data[50] <= 25)
 					{
-						text = "Choekyi Gyaltsen flatly refused to fulfill this condition, citing the extremely repressive nature of the attitude of our state to the Tibetan clergy. Well, this is his choice - let him stay in Jincheng until the end of his earthly existence...";
+						text = "却吉坚赞断然拒绝履行这一条件，理由是我国对藏传佛教僧侣的态度\n极其压迫。好吧，这是他的选择——让他在金城待到尘世生命的尽头……";
 						GlobalScript.inst.gameState.data[1] += 50;
 						GlobalScript.inst.gameState.data[3] -= 60;
 						GlobalScript.inst.gameState.data[6] += 10;
@@ -3058,7 +3058,7 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "Choekyi Gyaltsen agreed with this condition by asking to transfer to comrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + ", that, in general, he approves of our state’s policy regarding the Tibetan clergy and undertakes to no longer take part in spiritual life. After his release, he traveled to China, married a soldier Li Jye, and in 1982 he was fully rehabilitated and received permission to return to Lhasa. He was even elected to the 全国人大 from the Tibetan AR.";
+						text = "却吉坚赞同意了这一条件，并请求调到同志" + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "……总体上，他赞同我国关于藏传佛教僧俗的政策，\n并保证不再参与宗教活动。\n获释后，他赴中国，结婚嫁给军人李杰；\n1982年他被彻底平反，并获准返回拉萨。\n他甚至还当选为西藏自治区全国人大代表。";
 						GlobalScript.inst.gameState.data[3] += 60;
 						Empire empire = GlobalScript.inst.gameState.empires[0];
 						empire.relations += 50;
@@ -3071,7 +3071,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "The letter went away from you with the following resolution: \"10th Panchen Lama spent enough time in custody to consider and reflect on his actions and mistakes. I agree to release him soon and allow him to return to Tibet, but under observation\". Upon returning to Lhasa, Choekyi Gyaltsen reburied the  remains of the previous Panchen-lamas from the graves that were destroyed during the destruction of the Tashi Lhunpo monastery in 1959, however, in general, behaved quietly and made contact with the runaway 14th Dalai Lama or his supporters did not try. Therefore, in 1983, the observation of him was filmed. The pardon of the Panchen Lama was well received by the people, the West and Tibetan emigration.";
+					text = "这封信随你们的决议一并送出：“第十世班禅喇嘛在羁押中已足够时\n间，足以反思其行为与过失。\n我同意尽快释放他并允许其返回西藏，但须置于观察之下。\n”回到拉萨后，确吉坚赞将1959年塔尔寺（塔什伦布寺）\n遭毁时被毁坏的前任班禅喇嘛遗骨重新安葬；\n但总体上他表现得很安分，也没有去接触逃亡的第十四世达赖喇嘛或\n其支持者。因此，1983年对他的观察被拍成了片。\n班禅喇嘛获赦，受到人民、西方以及藏人流亡群体的普遍欢迎。";
 					GlobalScript.inst.gameState.data[3] += 80;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations += 100;
@@ -3086,7 +3086,7 @@ public class Results_text : MonoBehaviour
 				{
 					if (GlobalScript.inst.gameState.data[50] >= 26 && GlobalScript.inst.gameState.data[3] >= 700)
 					{
-						text = "On his return to Lhasa, 10th Panchen Lama officially announced that he had no complaints against the Chinese authorities and that the punishment he had suffered was a fair and very important lesson for him, which brought him even closer to enlightenment. He took up the reburial of the remains of the previous Panchen-lamas from the graves that were destroyed during the destruction of the Tashi Lhunpo monastery in 1959, actively participated in charitable activities, visited (with the consent of the Soviet leadership) the Kalmyk, Buryat and Tuva Autonomous Soviet Socialist Republics, where he helped establish cultural ties Tibetan AR with these autonomous republics. The people and the international community are satisfied.";
+						text = "回到拉萨后，第十世班禅喇嘛正式宣布：\n他对中国当局没有任何怨言；他所受的惩罚是公平且极其重要的一课，\n使他更接近觉悟。他承担起1959年塔什伦布寺遭毁时被毁坏的\n前任班禅喇嘛遗骨的重新安葬工作，积极参加慈善活动；\n并在苏联领导层同意下访问了卡尔梅克、\n布里亚特和图瓦等自治苏维埃社会主义共和国，\n帮助建立西藏自治区与这些自治共和国之间的文化联系。\n人民与国际社会都感到满意。";
 						GameState gameState = GlobalScript.inst.gameState;
 						gameState.influencePRC += 10;
 						GlobalScript.inst.gameState.data[3] += 120;
@@ -3100,7 +3100,7 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "10th Panchen Lama  never forgave the Chinese authorities for the offense he suffered. Immediately after returning to Lhasa, he began to speak with inflammatory speeches (for example: \"Thanks to the release, of course, there was a development, but the price paid for this development was more than the benefits\"), to establish contacts with supporters of the Dalai Lama , send messages to the world community with a criticism of the situation in China and in the Tibet AR in particular. Finally, when the Supreme People’s Court ruled to arrest the Panchen Lama, he fled to Bhutan, from where he moved to India and became part of the so-called \"Tibetan government in exile\". The leadership of India refused to give him to us, so now the camp of the Tibetan separatists is replenished with an extremely important figure. This clearly does not turn out to our advantage...";
+						text = "第十世班禅喇嘛从未原谅他所遭受的那一切。\n回到拉萨的当即，他就开始发表煽动性言论（例如：\n“当然，获释带来了发展，但为这发展付出的代价大于收益”），\n并着手与达赖喇嘛的支持者建立联系，\n向世界共同体发出信息，批评中国以及尤其是西藏自治区的局势。\n最后，当最高人民法院作出逮捕班禅喇嘛的裁决时，\n他逃往不丹；随后又转到印度，成为所谓“藏人流亡政府”的一员。\n印度领导层拒绝把他交给我们，因此藏族分裂势力阵营如今又补充了\n一位极其重要的人物。\n这显然对我们不利……";
 						GlobalScript.inst.gameState.data[3] -= 100;
 						Empire empire = GlobalScript.inst.gameState.empires[0];
 						empire.relations -= 100;
@@ -3112,7 +3112,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 5)
 				{
-					text = "On October 28, 1977, the guards of the Jincheng Prison found Panchen-Lamu X on the floor of his cell without signs of life. In the morning of the same day, under the guise of the injection of a tonic substance, he was injected with a special poison, which provoked myocardial infarction. Although the newspaper \"Sitszan zhibao\" (an organ of the Tibetan Council of People’s Representatives) published an official communique in which the cause of death was called a heart attack, few people believed it. The autonomy has already openly said that the \"Panchen Lama was killed by the 国家安全部 for disagreeing with the Chinese annexation of Tibet\"... The head of the committee on the search for the new Panchen Lama, appointed by our approval, secretly maintained contact with the fugitive Dalai Lama that did not hide from the attention of the 国家安全部. Rinpoche was arrested and replaced by Sengchen Lobsang Gyaltsen, who was a political opponent of both the Dalai Lama and the late Panchen Lama. He achieved the outcome we needed - on November 11 a new 11th Panchen Lama was declared. \"Buddhism made a solemn oath to the state and society to protect the country and work for the good of the people. Chinese society is a favorable environment for the Buddhist faith\", Norbu said. He also praised his predecessor for the \"outstanding contribution to strengthening the unity of the country and the solidarity of its people\". However, 14th Dalai Lama and his so-called \"Tibetan government in exile\" declared the new Panchen Lama XI a little baby from Tibetan territory. We had to send him to a state orphanage... Tibetan clergy sabotage the activities of the new Panchen Lama and support the Dalai Lama's appointee, separatist sentiments spread among them...";
+					text = "1977年10月28日，金城监狱的看守发现班禅喇嘛X倒在牢房\n地上，已无生命迹象。\n同日早晨，借口注射“补品”，实则给他注射了一种特殊毒药，\n引发心肌梗死。尽管《西藏日报》（西藏人民代表大会机关报）\n刊登了官方通告，称死因是心脏病发作，\n但相信的人并不多。自治区方面早已公开说：\n“班禅喇嘛因不同意中国吞并西藏而被中共中央情报部门（MSS）\n杀害”……由我们批准任命的寻找新班禅喇嘛委员会负责人，\n暗中与逃亡的达赖喇嘛保持联系，而达赖喇嘛并未躲过中共中央情报\n部门的注意。仁波切被捕，随后由桑臣·罗桑坚赞顶替；\n他是达赖喇嘛与已故班禅喇嘛的共同政治对手。\n他达成了我们所需要的结果——11月11日宣布了新的第十一世班\n禅喇嘛。诺布说：“佛教向国家和社会作出庄严誓言：\n保卫国家、为人民的利益而工作。\n中国社会是佛教信仰的有利环境。\n”他还称赞前任对“加强国家统一、增进人民团结所作出的杰出贡献\n”。然而，第十四世达赖喇嘛及其所谓“藏人流亡政府”却宣称新任\n第十一世班禅喇嘛只是“藏地的一名小孩”。\n我们只好把他送进国家孤儿院……\n藏传僧侣破坏新班禅喇嘛的活动，并支持达赖喇嘛的任命者；\n分裂情绪在他们中间蔓延……";
 					GlobalScript.inst.gameState.data[1] += 100;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations -= 100;
@@ -3127,10 +3127,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 41)
 			{
-				text2 = "Indian Elections";
+				text2 = "印度选举";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Due to the fall in the popularity of Gandhi and the INC, and also because the fight against the state of emergency in the eyes of the population made them kin with the freedom fighters of India from British domination, Janata party managed to bypass the INC. Morarji Desai became the new prime minister. The government formed by him restored diplomatic relations with the 中华人民共和国, improved relations with Pakistan, and defended the Indian nuclear policy on the world stage. A tribunal was established to investigate abuses during a state of emergency, which, however, failed to bring Gandhi to justice. However, in the new ruling party, there is already an active split between its members regarding the future vector of the country's development.";
+					text = "由于甘地与印度国民大会党（INC）的声望下跌，\n再加上在民众眼中反对紧急状态的斗争使他们与印度反抗英国殖民统\n治的自由斗士“同气相连”，人民党（Janata）\n得以绕开INC。莫拉尔吉·德赛成为新任总理。\n他组建的政府恢复了同中华人民共和国的外交关系，\n改善了同巴基斯坦的关系，并在世界舞台上为印度的核政策辩护。\n成立了一个法庭调查紧急状态期间的滥权行为，\n但却未能把甘地送上法庭追究责任。\n然而，在新的执政党内部，关于国家未来发展方向，\n其成员之间已经出现了积极的分裂。";
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC += 10;
 					GlobalScript.inst.gameState.data[91] = 2;
@@ -3138,7 +3138,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Due to the fall in the popularity of Gandhi and the INC, our active support and also because the fight against the state of emergency in the eyes of the population made them kin with the freedom fighters of India from British domination, Janata party managed to bypass the INC. Morarji Desai became the new prime minister. The government formed by him restored diplomatic relations with the 中华人民共和国, improved relations with Pakistan, and defended the Indian nuclear policy on the world stage. A tribunal was established to investigate abuses during a state of emergency, which, however, failed to bring Gandhi to justice. However, in the new ruling party, there is already an active split between its members regarding the future vector of the country's development. We hope that our good relations with Janata party will allow us to save it from collapse.";
+					text = "由于甘地与INC的声望下跌，再加上我们积极的支持，\n以及在民众眼中反对紧急状态的斗争使他们与印度反抗英国殖民统治\n的自由斗士“同气相连”，人民党（Janata）\n得以绕开INC。莫拉尔吉·德赛成为新任总理。\n他组建的政府恢复了同中华人民共和国的外交关系，\n改善了同巴基斯坦的关系，并在世界舞台上为印度的核政策辩护。\n成立了一个法庭调查紧急状态期间的滥权行为，\n但却未能把甘地送上法庭追究责任。\n然而，在新的执政党内部，关于国家未来发展方向，\n其成员之间已经出现了积极的分裂。\n我们希望同人民党保持良好关系，能让我们把它从崩溃边缘挽救回来。";
 					GlobalScript.inst.gameState.data[1] += 70;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC += 20;
@@ -3152,7 +3152,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Despite past disagreements with us, Gandhi gratefully accepted our help, only thanks to which INC managed to bypass the opposition and win. Indira Gandhi continued to be prime minister, diplomatic relations between India and China were restored, although there is still noticeable tension between us, and territorial disputes are not settled. Hopefully, the INC will go on a further rapprochement and the USSR will not prevent it.";
+					text = "尽管过去曾与我们有过分歧，甘地仍心怀感激地接受了我们的帮助—\n—正是因为这份帮助，INC才得以绕开反对派并赢得胜利。\n英迪拉·甘地继续担任总理；尽管我们之间仍有明显紧张，\n且领土争端尚未解决，但印度与中国的外交关系已得以恢复。\n希望INC能够继续进一步缓和，而苏联不会阻挠。";
 					GlobalScript.inst.gameState.data[1] -= 50;
 					GlobalScript.inst.gameState.data[9] -= 50;
 					GlobalScript.inst.gameState.data[91] = 3;
@@ -3166,16 +3166,16 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 42)
 			{
-				text2 = "Iranian revolution";
+				text2 = "伊朗革命";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Protests and strikes in Iran continue without our participation.";
+					text = "伊朗的抗议与罢工在没有我们参与的情况下仍在继续。";
 					GlobalScript.inst.gameState.iranrev = true;
 					GlobalScript.inst.gameState.allcountries[8].dev = 4;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "We were able to establish contacts with Tudeh Party of Iran and other smaller communist, Maoist and left-nationalist organizations, having agreed on support from our side. The first step has been taken, but we must not forget to periodically send them new help.";
+					text = "我们得以同伊朗的图德党以及其他较小的共产党、\n毛主义和左翼民族主义组织建立联系，并就由我们方面提供支持达成\n一致。第一步已经迈出，但我们不能忘记要定期向他们再提供新的帮\n助。";
 					GlobalScript.inst.gameState.data[42] += 70;
 					GlobalScript.inst.gameState.data[9] -= 50;
 					GlobalScript.inst.gameState.data[6] += 20;
@@ -3184,7 +3184,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "We were able to establish contacts with Islamic movements in Iran and even with Khomeini himself in Paris. Not to say that they were delighted with such patrons, however, apparently they considered us a lesser evil than the USSR, the USA and the Shah. The first step has been taken, but we must not forget to periodically send them new help.";
+					text = "我们得以同伊朗的伊斯兰运动建立联系，\n甚至在巴黎还与霍梅尼本人取得了接触。\n话虽如此，他们未必对这样的“靠山”感到高兴，\n但显然他们认为我们比苏联、美国和国王（沙阿）\n更“次要的恶”。第一步已经迈出，但我们不能忘记要定期向他们再\n提供新的帮助。";
 					GlobalScript.inst.gameState.iranrev = true;
 					GlobalScript.inst.gameState.data[45] += 70;
 					GlobalScript.inst.gameState.data[9] -= 50;
@@ -3193,7 +3193,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "We were able to establish contacts with the ruling dynasty Pahlavi and Shah Mohammad Reza Pahlavi, who gladly accepted our help in the fight against the opposition. Our agents, together with the Iranian secret police SAVAK, are now engaged in the disclosure of opposition networks and the capture of their members. The first step has been taken, but we must not forget to periodically send the shah new help.";
+					text = "我们得以同统治王朝巴列维以及沙阿穆罕默德·礼萨·巴列维建立联\n系；他们欣然接受我们在打击反对派斗争中的帮助。\n我们的特工目前正与伊朗秘密警察萨瓦克（SAVAK）\n一道，致力于揭露反对派网络并抓捕其成员。\n第一步已经迈出，但我们不能忘记要定期向沙阿再提供新的帮助。";
 					GlobalScript.inst.gameState.iranrev = true;
 					GlobalScript.inst.gameState.data[43] += 70;
 					GlobalScript.inst.gameState.data[9] -= 50;
@@ -3202,7 +3202,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 5)
 				{
-					text = "We managed to establish contacts with the National Front and other democratic organizations (including Islamic democrats) and agreed with them to provide our assistance. The first step has been taken, but we must not forget to periodically send them new help..";
+					text = "我们成功同民族阵线以及其他民主组织（包括伊斯兰民主派）\n建立了联系，并与他们达成协议：由我们提供援助。\n第一步已经迈出，但我们不能忘记要定期向他们再提供新的帮助。";
 					GlobalScript.inst.gameState.iranrev = true;
 					GlobalScript.inst.gameState.data[44] += 70;
 					GlobalScript.inst.gameState.data[9] -= 50;
@@ -3212,10 +3212,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 43)
 			{
-				text2 = "Expansion of the CMEA";
+				text2 = "经互会扩展";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "In November 1978, Vietnam joined the CMEA, which led to a further deterioration in our relations. The anti-Vietnamese sentiments are already actively maturing in the 中共. Hopefully, this will not result in a large scale conflict.";
+					text = "1978年11月，越南加入经互会（CMEA），\n导致我们之间关系进一步恶化。\n中共内部反越情绪正在积极酝酿成熟。\n希望这不会引发大规模冲突。";
 					GlobalScript.inst.gameState.data[1] -= 50;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power += 30;
@@ -3223,7 +3223,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Our intervention and the mobilization of supporters of a more moderate course in Vietnam ultimately forced Le Duan and the CPV leadership to postpone the planned accession to the CMEA for an indefinite period and pursue a more balanced foreign policy. The Soviet Union, of course, was not happy, but it helped us at least temporarily avoid further rapprochement of Vietnam with the USSR.";
+					text = "我们的介入以及动员越南内部主张更温和路线的支持者，\n最终迫使黎笋与越南共产党（CPV）领导层将原定加入经互会的计\n划无限期推迟，并转而奉行更平衡的外交政策。\n当然，苏联并不高兴，但至少在一段时间内，\n它帮助我们避免越南与苏联进一步靠拢。";
 					GlobalScript.inst.gameState.data[1] += 100;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.relations -= 70;
@@ -3232,10 +3232,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 44)
 			{
-				text2 = "It doesn't matter if a cat is black or white...";
+				text2 = "不管黑猫白猫，抓到老鼠就是好猫……";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "At the current plenary session of the 中共 Central Committee, with  almost universal approval (the few conservatives had almost no power), the beginning of market reforms was announced and so-called \"The policy of reform and openness\" was approved, implying China’s access to the world market and the restructuring of the economy on market principles. Despite the fact that nominally the country still heads " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + ", virtually all of the power now has " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[3]].name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[3]].name_2] + " who is ready to lead the country into a bright market future.";
+					text = "在中共中央委员会当前全体会议上，几乎全票赞成（少数保守派几乎\n没有什么权力），宣布启动市场改革，并通过所谓“改革开放”政策，\n意味着中国将进入世界市场，并按市场原则重组经济。\n尽管名义上国家仍由 " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "，实际上现在几乎所有权力都掌握在 " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[3]].name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[3]].name_2] + "手中——他已准备好带领国家走向光明的市场未来。";
 					GlobalScript.inst.gameState.data[1] += 100;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 20;
@@ -3375,7 +3375,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "While you were delay the meeting with demagogy, the staff of the 国家安全部, arrived at the building and arrested the majority of the reformers. Following this, a wave of arrests, propaganda and personnel changes aimed at hounding reformers swept across China. " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[3]].name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[3]].name_2] + " himself is now under arrest, but you still managed to keep the power by upholding your policy, although this caused widespread discontent in the party and the people.";
+					text = "就在你以花言巧语拖延会议之际，中共中央情报部门（MSS）\n的人员赶到大楼，逮捕了大多数改革派。\n随后，一股以追捕改革派为目标的逮捕浪潮、\n宣传攻势与人事更替席卷全国。" + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[3]].name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[3]].name_2] + "他本人如今也被拘押了，但你仍凭借坚持自己的政策而保住了权力，\n尽管这在党内和人民中引起了广泛不满。";
 					GlobalScript.inst.gameState.data[1] -= 150;
 					GlobalScript.inst.gameState.data[3] -= 120;
 					GlobalScript.inst.gameState.data[9] -= 150;
@@ -3385,7 +3385,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "At the current plenary session of the 中共 Central Committee, with your support and almost universal approval (the few conservatives had almost no power), the beginning of market reforms was announced and so-called \"The policy of reform and openness\" was approved, implying China’s access to the world market and the restructuring of the economy on market principles. " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " nevertheless managed to retain power, thanks to the fact that he had not previously expressed himself obviously in opposition to the reforms and in time had gone over to the side of reformers. However, can he continue to retain it in the course of reforms?";
+					text = "在中共中央委员会当前全体会议上，在你的支持下并获得几乎全票赞\n成（少数保守派几乎没有什么权力），宣布启动市场改革，\n并通过所谓“改革开放”政策，意味着中国将进入世界市场，\n并按市场原则重组经济。" + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "他却仍设法保住了权力——因为他此前并未明显表示反对改革，\n并且及时转到了改革派一边。\n不过，在改革进程中，他还能继续保住吗？";
 					GlobalScript.inst.gameState.data[1] += 100;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 20;
@@ -3457,10 +3457,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 45)
 			{
-				text2 = "Reform and openness: the beginning";
+				text2 = "改革开放：开端";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = " It was decided to reduce the role of the central government in the management of state-owned enterprises, to encourage local initiatives on them, to actively introduce market-based business methods and to expand the rights of private and cooperative enterprises.|Discontent with this policy came from no one expected: In Albania, Enver Hoxha sharply criticized our policy for revisionism and the departure from Marxism, breaking off everything connect with us. Well, he wants to sit in isolation - his right.";
+					text = "决定削弱中央政府在国有企业管理中的作用，\n鼓励地方在这方面的主动性，积极引入市场化经营方式，\n并扩大私营与合作企业的权利。\n|对这项政策的不满，出乎意料地来自某些人：\n在阿尔巴尼亚，霍查（恩维尔·霍查）尖锐批评我们的政策是修正主\n义、背离马克思主义，并与我们断绝一切联系。\n好吧，他想坐在孤立里——这是他的权利。";
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 20;
 					GlobalScript.inst.gameState.data[4] += 50;
@@ -3523,16 +3523,16 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 46)
 			{
-				text2 = "New 1956?";
+				text2 = "新的 1956？";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "We did not respond to the Hungarian events. Kadar launched an attack on Biszku and his supporters. It seems they and Biszku himself will soon be waiting for resignation, and in their place Kadar will promote young reformers.";
+					text = "我们对匈牙利的事态没有作出反应。\n卡达尔（卡达尔）对比兹库（比斯库）及其支持者发动了打击。\n看来他们——连比兹库本人——很快就要等着辞职了，\n而卡达尔将提拔年轻改革派顶上。";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power -= 10;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Thanks to the timely assistance of our intelligence services, Biszku realized that Andropov had betrayed him, and urgently, with the help of our agents, changed the coup plans and spoke almost instantly, isolating the Kadar supporters by the Workers' Militia and holding an extraordinary congress of the Central Committee of the HSWP, where Kadaru was reminded of his cooperation with Imre Nagy and initial support for the uprising of 1956, as well as a departure from the principles of Marxism and the growing external debt of the country. Kadar was removed from all posts and excluded from the HSWP, Bela Biszku became the new general secretary, who began returning the economy to central planning, began cleansing against cadist reformers, and also began to pursue a more independent foreign policy, having already concluded several useful contracts with us. The USSR, of course, was not happy, but having understood that everything was calm in Hungary, confined theyself to dry comments.";
+					text = "多亏我们情报部门的及时协助，比兹库意识到安德罗波夫出卖了他；\n在我们特工的帮助下，他紧急改动政变计划，\n并几乎立刻采取行动：通过工人民兵把卡达尔支持者隔离起来，\n并召开了匈牙利社会主义工人党（HSWP）\n中央委员会的非常代表大会。\n在会上，向卡达尔提醒他曾与伊姆雷·纳吉合作、\n并在1956年起义初期给予支持；同时也指出他背离马克思主义原\n则、以及国家外债不断增长。\n卡达尔被撤去所有职务，并被开除出HSWP。\n贝拉·比兹库成为新的总书记；他开始把经济拉回中央计划体制，\n开始清洗“卡达尔式”的改革派，并且开始奉行更独立的外交政策—\n—已经与我们签订了几份颇有用的合同。\n当然，苏联并不高兴，但在明白匈牙利一切都已平静之后，\n只能作些干巴巴的评论。";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power -= 20;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -3550,7 +3550,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Thanks to our operational information and support, Biszku was able to quickly gather around him conservative communists, stalinists, nationalists and other disgruntled Kadar policies and brought his supporters to street demonstrations, simultaneously with the help of the Workers Police, taking control of the administrative buildings and arrested Kadar and his supporters. However, this street performances did not stop. Sensing the instability of his power, Biszku then tried to calm the demonstrators, to whom anti-Soviet elements had already begun to join, then to use them to their advantage. The USSR bombarded Budapest with calls to restore order in the country and restore law. However, tired of fruitless negotiations and seeing that Biszku is increasingly inclined to receive direct support from China with the possibility of withdrawing from the Warsaw Pact, the USSR sent troops into Hungary, who arrested the failed coup, freed the former leadership and reassured the people. Having decided not to take any more risks, the Soviet leadership did not return Kadar to the post of general secretary (he retired for health reasons), but put the pro-Soviet moderate Janos Pap there, who began to return to the Soviet planned system and cut ties with the West, pursuing an increasingly pro-Soviet policy.";
+					text = "多亏我们提供的行动情报与支持，比兹库得以迅速聚拢一批保守派共\n产党人、斯大林主义者、民族主义者以及其他对卡达尔政策不满的人，\n并把他的支持者带上街头示威；同时在工人警察的协助下，\n控制行政大楼，逮捕卡达尔及其支持者。\n然而，这场街头表演并未就此停止。\n察觉自己权力的不稳，比兹库随后试图安抚那些示威者——而反苏势\n力已开始加入其中——再转而利用他们为自己所用。\n苏联向布达佩斯发出一轮又一轮呼吁，要求恢复国内秩序、\n恢复法制。但在厌倦了无果的谈判、并看到比兹库越来越倾向于接受\n来自中国的直接支持，且有可能退出华沙条约的情况下，\n苏联派兵进入匈牙利：逮捕了失败的政变者，\n释放了原领导层，并安抚了民众。\n苏联领导层决定不再冒险，便没有把卡达尔再推回总书记岗位（他因\n健康原因退下），而是扶植亲苏的温和派亚诺什·帕普（János\n Pápp）上台；他开始把匈牙利拉回苏联式计划体制，\n并切断同西方的联系，奉行日益亲苏的政策。";
 					GlobalScript.inst.gameState.data[1] -= 100;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 15;
@@ -3571,7 +3571,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "Due to the fact that we told him about the betrayal of Andropov, Biszku realized that in Hungary he was waiting, at best, for his resignation with the ban on criticizing the Kadar course. He decided to take advantage of our proposal and, together with his family and supporters who wished to follow him, fled to China, where he began to widely criticize Hungarian and even sometimes Soviet revisionism in our media. This made our people think and increased our influence in the eyes of the world left movement, but spoiled our already not the best relations with the USSR. In Hungary, young reformers continue to come to the place of departed conservatives with the support of Kadar.";
+					text = "由于我们告诉他安德罗波夫的背叛，比兹库意识到在匈牙利，\n自己最多也不过是被迫辞职，并被禁止批评卡达尔路线。\n他决定利用我们的提议：携同家人以及愿意追随他的支持者逃往中国。\n在我们媒体上，他开始广泛批判匈牙利，\n甚至有时也批判苏联的修正主义。\n这使我们的人民有所思考，并在世界左翼运动的眼中扩大了我们的影\n响力，但也破坏了我们与苏联本就不算最好的关系。\n在匈牙利，年轻改革派继续在卡达尔的支持下顶替离去的保守派。";
 					GlobalScript.inst.gameState.data[1] += 50;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC += 10;
@@ -3584,7 +3584,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 5)
 				{
-					text = "Thanks to the fact that we had informed him of Andropov's betrayal, Bisku realised that at best he would be dismissed in Hungary with a ban on criticism of Kádár's course, so he decided to carry out a pre-emptive coup without any preparation and in extreme haste. As a result, the extraordinary congress of the MSZMP organised by Bisku's group resulted in a confrontation between several forces, and the facade of monolithic and unanimous party unity collapsed. As a result, although Biscu's group and he himself were expelled from the party for factionalism by a majority vote, we and many other newspapers of communist parties outside the control of Soviet influence managed to print articles about what had happened at the congress. As a consequence, Kadar was forced to take the blame for the disgrace of the whole party and facilitated the transfer of power to a promising, in his opinion, young communist Károly Grosz. Having come to power and lacking sufficient authority, Grosz tries to form a collective leadership of the MSZMP aimed at moderate, gradual reforms. Imre Pozsgay, a prominent party reformer, became the ideology secretary. Without formally attacking the ideological foundations, Požgai gradually relaxed the ideological control, allowed some public discussions and initiatives and thus gained popularity, primarily among the intelligentsia. At the same time Károly Grosz himself was actively engaged in the fight against economic problems and for this purpose Hungary joined the IMF (for the sake of another loan, despite Moscow's protests, becoming the first COMECON country to join the IMF), legalised small businesses and joint ventures between the state and foreign corporations. Hungary started to follow a new course...";
+					text = "由于我们已告知他安德罗波夫的背叛，比斯库意识到在匈牙利，\n自己最多也就是被撤职，并被禁止批评卡达尔路线；\n因此他决定不作任何准备、极端仓促地发动先发制人的政变。\n结果，由比斯库集团组织的MSZMP非常代表大会引发了数股力量\n之间的对抗，“党内铁板一块、步调一致”的外观随之崩塌。\n于是，尽管比斯库集团及他本人都因派别活动而在多数票表决中被开\n除出党，我们以及许多其他不受苏联影响控制的共产党报纸，\n还是设法刊登了关于大会上所发生事情的文章。\n后果是：卡达尔被迫为全党的丢脸承担责任，\n并促成了权力向一位在他看来前途可期的年轻共产党人卡罗伊·格罗\n什（Károly Grosz）移交。\n格罗什上台后由于权威不足，试图组建面向温和、\n渐进改革的MSZMP集体领导。\n党内著名改革派伊姆雷·波兹加伊（Imre Pozsgay）\n出任宣传思想书记。在不正式攻击意识形态根基的前提下，\n波兹加伊逐步放松意识形态控制，允许一些公开讨论与倡议，\n从而赢得了人气，主要是在知识分子中间。\n同时，卡罗伊·格罗什本人也积极投入到对经济问题的斗争；\n为此，匈牙利加入了国际货币基金组织（IMF）\n（为再争取一笔贷款，尽管莫斯科提出抗议，\n匈牙利仍成为第一个加入IMF的经互会国家），\n并对小型企业以及国家与外国公司之间的合资企业予以合法化。\n匈牙利开始走上新的道路……";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power -= 10;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -3601,10 +3601,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 47)
 			{
-				text2 = "Beijing Spring";
+				text2 = "北京之春";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "In the old manner, the MS and the police began to tear big-character poster and search for underground \"samizdat\", and the 中共 again passed a wave of purges from reformers (which however did not go so smoothly due to the dominance of the reformers themselves in many 中共 structures). The people and reformers are unhappy, but the wave of protests has stopped. Hopefully, now the discontented will not move to more radical actions.";
+					text = "一如既往，中央情报部门（MS）和警察开始撕毁大字报，\n并搜查地下“萨米兹达特”（samizdat）；\n中共又掀起了一轮对改革派的清洗（不过由于改革派在许多中共机\n构中占据主导，这次并不那么顺利）。\n人民与改革派都不满，但抗议浪潮已经停了。\n希望现在不满者不会转向更激进的行动。";
 					GlobalScript.inst.gameState.data[1] -= 80;
 					GlobalScript.inst.gameState.data[4] += 100;
 					GlobalScript.inst.gameState.data[3] -= 80;
@@ -3624,7 +3624,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "The media controlled by us engaged in the active release of our articles refuting the theses of the reformers, and in the 中共 meeting rooms the controversy between the left and right wing flared up again. Of course, reformers also responded with new articles and magazines. The population followed your controversy with interest, and although, because of the populism of the reformers, the majority sympathies were on their side, your position also had its supporters. But the fact of such a broad discussion of political issues (for the first time since the campaign \"Hundred Flowers\") strengthened the confidence of the people in the inevitability of democratic change. Who knows what it will turn out...";
+					text = "由我们控制的媒体积极发表文章，反驳改革派的论点；\n而在中共会议室里，左右两派之间的争论又一次燃起。\n当然，改革派也用新的文章和杂志作出回应。\n群众带着兴趣关注你们的争论；尽管由于改革派的民粹主义，\n大多数同情站在他们一边，但你们的立场也同样有支持者。\n然而，这样广泛地讨论政治问题（自“百花齐放”运动以来第一次）\n增强了人民对民主变革必然性的信心。\n谁知道最后会变成什么样……";
 					GlobalScript.inst.gameState.data[1] += 30;
 					GlobalScript.inst.gameState.data[4] += 80;
 					GlobalScript.inst.gameState.data[3] -= 50;
@@ -3643,7 +3643,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "No special reaction on your part. The fights between the left and right wing mostly do not go beyond the walls of the CPС meeting rooms, our media continue to speak out in your support and criticize the reformers and theses of their supporters (it turns out media is not particularly good), and the students continue to hang big-character poster. Well, at least not see large-scale discontent.";
+					text = "你这边没有什么特别反应。\n左右两派的争斗大多还局限在中共会议室的墙内；\n我们的媒体继续为你们摇旗呐喊，批评改革派及其支持者的那些论点\n（看来媒体也并不怎么灵）；学生们则继续张贴大字报。\n好吧，至少还看不到大规模的不满。";
 					GlobalScript.inst.gameState.data[1] -= 80;
 					GlobalScript.inst.gameState.data[4] += 120;
 					GlobalScript.inst.gameState.data[3] -= 60;
@@ -3663,13 +3663,13 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 63)
 			{
-				text2 = "April revolution";
+				text2 = "四月革命";
 				GlobalScript.inst.gameState.allcountries[12].Gosstroy = 1;
 				GlobalScript.inst.gameState.allcountries[12].SubGosstroy = 1;
 				GlobalScript.inst.gameState.allcountries[12].prosov = true;
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "We did not respond to the April revolution and the events in the PDPA. The party, of course, is dissatisfied with such passivity. In the DRA, the Khalqists, who gained authority during the revolution, are actively trying to take away share of power from Parcham.";
+					text = "我们没有回应“四月革命”以及PDPA（阿富汗人民民主党）\n内部的事态。当然，党对这种消极被动很不满意。\n在阿富汗民主共和国（DRA）里，革命中获得权力的“哈勒克派”\n（Khalqists）正积极试图从“帕尔查姆派”（Parch\nam）手中夺取一部分权力。";
 					GlobalScript.inst.gameState.data[1] -= 80;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 10;
@@ -3681,7 +3681,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Being dissatisfied with such an expansion of Soviet influence, the leadership of the 中共 decided to extend feasible support to the opposition in Afghanistan loyal to the 中华人民共和国. Arms and undercover assistance were sent to the Maoists, the left opposition, moderate Islamists and other opposition forces. Let's hope it keeps Soviet expansion.";
+					text = "鉴于对苏联影响力这种扩张的不满，中共领导层决定对阿富汗境内那\n些忠于中华人民共和国的反对派提供力所能及的支持。\n武器与秘密援助被送往毛主义者、左翼反对派、\n温和派伊斯兰主义者以及其他反对力量。\n希望这能遏制苏联的扩张。";
 					GlobalScript.inst.gameState.data[1] += 50;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power += 30;
@@ -3695,7 +3695,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "After long disputes, it was decided to establish relations with the new government of Afghanistan, and especially with the Khalq faction in the PDPA. This turned out to be simpler than we thought, because the PDPA did not take part in the Soviet-Chinese controversy and, after coming to power, nominally proclaimed a policy of non-alignment. Khalqists appreciated our support and, apparently, use their growing power to put pressure on Parcham and to get a monopoly on power in the DRA.";
+					text = "经过长期争论，决定同阿富汗新政府建立关系，\n尤其是同PDPA中的<color=red>喀尔克</color>派建立关系。\n结果比我们想的更简单，因为PDPA并未卷入苏中争论，\n而且上台后名义上宣称奉行不结盟政策。\n<color=red>喀尔克</color>派感激我们的支持，显然还在利用其日益增长的力量向<color=red>帕尔查\n姆</color>施压，并在DRA争取对权力的垄断。";
 					GlobalScript.inst.gameState.data[1] -= 50;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power += 30;
@@ -3711,7 +3711,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "After long disputes, it was decided to establish relations with the new government of Afghanistan, and especially with the Parcham faction in the PDPA. This turned out to be simpler than we thought, because the PDPA did not take part in the Soviet-Chinese controversy and, after coming to power, nominally proclaimed a policy of non-alignment. Thanks to our support, the Parcham succeeds in overcoming the growing pressure from Khalq, in particular, the Parchamists, together with some Khalqists, have been able to slow down the career path of Hafizullah Amin, a close ally of Taraki, who does not being trusted by the party.";
+					text = "经过长期争论，决定同阿富汗新政府建立关系，\n尤其是同PDPA中的<color=red>帕尔查姆</color>派建立关系。\n结果比我们想的更简单，因为PDPA并未卷入苏中争论，\n而且上台后名义上宣称奉行不结盟政策。\n多亏我们的支持，<color=red>帕尔查姆</color>得以克服来自<color=red>喀尔克</color>日益加大的压力。\n尤其是<color=red>帕尔查姆</color>派，联合部分<color=red>喀尔克</color>派，\n已经能够放慢塔拉基亲密盟友哈菲祖拉·阿明的上升之路——而他又\n不被党所信任。";
 					GlobalScript.inst.gameState.data[1] -= 50;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power += 30;
@@ -3728,17 +3728,17 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 48)
 			{
-				text2 = "Coups continue";
+				text2 = "政变仍在继续";
 				GlobalScript.inst.gameState.allcountries[12].Gosstroy = 0;
 				GlobalScript.inst.gameState.allcountries[12].SubGosstroy = 10;
 				GlobalScript.inst.gameState.allcountries[12].Vyshi = false;
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Having come to power, Amin launched widespread repression as against his current and potential political opponents. Despite the stated policy of \"the destruction of feudal lords\" under the destruction come not only them. The USSR seems to be dissatisfied with the coup, although it pretends that everything is fine.";
+					text = "阿明上台后，对其现有及潜在的政治对手发动了广泛镇压。\n尽管其宣称要“摧毁封建主”，但在“摧毁”的名义下，\n遭殃的并不只是他们。\n苏联似乎对这次政变不满，尽管它假装一切都好。";
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Having come to power, Amin launched widespread repression as against his current and potential political opponents. Despite the stated policy of \"the destruction of feudal lords\" under the destruction come not only them. The USSR seems to be dissatisfied with the coup, although it pretends that everything is fine. Our secret ambassadors and special services established contacts with Amin, who was very pleased with the acquisition of new allies. However, at the same time, he began to asking us for providing material assistance to Afghanistan.";
+					text = "阿明上台后，对其现有及潜在的政治对手发动了广泛镇压。\n尽管其宣称要“摧毁封建主”，但在“摧毁”的名义下，\n遭殃的并不只是他们。\n苏联似乎对这次政变不满，尽管它假装一切都好。\n我们的秘密使节和特工部门与阿明建立了联系——他对获得新的盟友\n非常高兴。然而与此同时，他又开始向我们索要对阿富汗的物质援助。";
 					GlobalScript.inst.gameState.data[8] -= 20;
 					GlobalScript.inst.gameState.data[6] += 10;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
@@ -3746,7 +3746,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Continuing our great friendship with the USSR and not really trusting Amin, " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " decided, despite the protests of individual members of the Central Committee, to hold tacit negotiations with the USSR about the danger of the Amin regime for the DRA and the need for his removing. The Soviet leadership was very surprised at such a willingness to \"finish\" a potential ally and, it seems, does not fully trust us, but on the whole was very happy. We will wait for the further development of these events. Having come to power, Amin launched widespread repression as against his current and potential political opponents. Despite the stated policy of \"the destruction of feudal lords\" under the destruction come not only them. The USSR seems to be dissatisfied with the coup, although it pretends that everything is fine. Our secret ambassadors and special services established contacts with Amin, who was very pleased with the acquisition of new allies. However, at the same time, he began to asking us for providing material assistance to Afghanistan..";
+					text = "在继续同苏联的“伟大友谊”同时，并不太信任阿明，" + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "尽管中央委员会个别成员提出抗议，仍决定同苏联进行秘密磋商，\n讨论阿明政权对DRA的危险性以及需要将其除掉。\n苏联领导层对这种“干掉”潜在盟友的意愿感到十分惊讶——看起来\n也并不完全信任我们，但总体上还是很高兴。\n我们将等待这些事件的进一步发展。\n阿明上台后，对其现有及潜在的政治对手发动了广泛镇压。\n尽管其宣称要“摧毁封建主”，但在“摧毁”的名义下，\n遭殃的并不只是他们。\n苏联似乎对这次政变不满，尽管它假装一切都好。\n我们的秘密使节和特工部门与阿明建立了联系——他对获得新的盟友\n非常高兴。然而与此同时，他又开始向我们索要对阿富汗的物质援助。";
 					GlobalScript.inst.gameState.data[1] -= 50;
 					GlobalScript.inst.gameState.data[49] = 110;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
@@ -3759,13 +3759,13 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 49)
 			{
-				text2 = "Against all tyrants";
+				text2 = "反对一切暴君";
 				GlobalScript.inst.gameState.allcountries[12].Vyshi = false;
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
 					if (GlobalScript.inst.gameState.data[49] > 150)
 					{
-						text = "On the evening of December 27, having previously blocked parts of the Kabul garrison and seized the General Staff building, the USSR forces of the KGB special forces and the army stormed the Amin residence during which he died (although it was ordered to take him alive). With the support of the USSR, Afghanistan was headed by Assadullah Sarwari, a member of the Khalq faction and the former head of the Afghan special services, who fell under the repression of Amin. In general, despite the resistance of individual parts of the army that were loyal to Amin, his displacement went without problems. Meanwhile, the entry and deployment of Soviet troops continues.";
+						text = "12月27日晚，苏联方面先封锁了喀布尔驻军部分兵力，\n并夺取了总参谋部大楼。\n随后，苏联克格勃特种部队与军队对阿明住所发起突袭——阿明在突\n袭中身亡（尽管命令是要活捉）。\n在苏联支持下，阿富汗由<color=red>阿萨杜拉·萨尔瓦里</color>出任领导——他是<color=red>喀尔\n克</color>派成员，曾任阿富汗特工部门负责人，\n曾遭阿明的镇压。总体而言，尽管有少数忠于阿明的军队部队抵抗，\n但他的更替进行得毫无障碍。\n与此同时，苏军的进入与部署仍在继续。";
 						Empire empire = GlobalScript.inst.gameState.empires[1];
 						empire.power += 10;
 						GlobalScript.inst.gameState.data[48] = 150;
@@ -3778,7 +3778,7 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "On the evening of December 27, having previously blocked parts of the Kabul garrison and seized the General Staff building, the USSR forces of the KGB special forces and the army stormed the Amin residence during which he died (although it was ordered to take him alive). With the support of the USSR, Afghanistan was headed by Babrak Karmal, founder and permanent leader of the Parcham faction and longtime opponent of Amin. In general, despite the resistance of individual parts of the army that were loyal to Amin, his displacement went without problems. Meanwhile, the entry and deployment of Soviet troops continues.";
+						text = "12月27日晚，苏联方面先封锁了喀布尔驻军部分兵力，\n并夺取了总参谋部大楼。\n随后，苏联克格勃特种部队与军队对阿明住所发起突袭——阿明在突\n袭中身亡（尽管命令是要活捉）。\n在苏联支持下，阿富汗由<color=red>巴布拉克·卡尔迈勒</color>出任领导——他是<color=red>帕尔\n查姆</color>派的创始人和长期领导者，也是阿明的老对手。\n总体而言，尽管有少数忠于阿明的军队部队抵抗，\n但他的更替进行得毫无障碍。\n与此同时，苏军的进入与部署仍在继续。";
 						Empire empire = GlobalScript.inst.gameState.empires[1];
 						empire.power += 10;
 						GlobalScript.inst.gameState.data[48] = 100;
@@ -3791,7 +3791,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Thanks to our timely warning, Amin managed to bring his loyal parts to combat readiness, while he left the residence and took refuge on the outskirts of Kabul. The USSR, even at the beginning of the operation, realized that his plan had failed, and recalled the special forces. Only thanks to the efforts of our and Afghan diplomats, as well as Amin, who diligently pretended that nothing happened and did not nominally change the policy, a major international scandal was avoided. Although the USSR, of course, is still unhappy and is beginning to rapidly reduce aid to Afghanistan. The entry of Soviet troops was also slowed down, as were their tasks. It seems that in time they will be completely withdrawn along with Soviet specialists, so that we will have to take all the help for Afghanistan in the beginning civil war. Meanwhile, Amin concluded a number of treaties with the 中华人民共和国, and also invited the Maoists, who until recently were in opposition, would join PDPA on favorable terms and co-opted them into the government.";
+					text = "多亏我们及时的警告，阿明设法让其忠诚部队进入战备状态；\n而他本人则离开住所，躲到喀布尔郊外避难。\n苏联甚至在行动一开始就意识到他的计划失败了，\n于是召回了特种部队。\n只有依靠我们与阿富汗外交官的努力，以及阿明刻意装作若无其事、\n名义上也不改变政策，才避免了一场重大的国际丑闻。\n当然，苏联仍然不快，并开始迅速减少对阿富汗的援助。\n苏军的进入也被放慢了，他们的任务同样被拖延。\n看来他们最终会连同苏联专家一起撤走——这样在内战初期，\n我们就得把对阿富汗的一切援助都扛起来。\n与此同时，阿明同中华人民共和国签订了一系列条约，\n并邀请此前一直处于反对地位的毛主义者以有利条件加入PDPA，\n把他们纳入政府。";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power -= 20;
 					GlobalScript.inst.gameState.data[9] -= 70;
@@ -3802,7 +3802,7 @@ public class Results_text : MonoBehaviour
 					empire.relations -= 400;
 					GlobalScript.inst.gameState.allcountries[12].prosov = false;
 					GlobalScript.inst.gameState.allcountries[12].proprc = true;
-					GlobalScript.inst.gameState.ingamewars[5].name_war = "Afghan civil war";
+					GlobalScript.inst.gameState.ingamewars[5].name_war = "阿富汗内战";
 					GlobalScript.inst.gameState.ingamewars[5].is_going = true;
 					GlobalScript.inst.gameState.ingamewars[5].side1 = "DRA";
 					GlobalScript.inst.gameState.ingamewars[5].side2 = "Mujahideen";
@@ -3835,12 +3835,12 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 50)
 			{
-				text2 = "Cursed Mountain Wild Edge...";
+				text2 = "诅咒之山，荒野之隅……";
 				GlobalScript.inst.gameState.allcountries[12].Vyshi = false;
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "We decided not to get involved in Afghan affairs. In the country, meanwhile, a civil war is in full swing, the outcome of which no one can predict.";
-					GlobalScript.inst.gameState.ingamewars[5].name_war = "Afghan civil war";
+					text = "我们决定不介入阿富汗事务。\n与此同时，国内内战正打得如火如荼，结局谁也无法预料。";
+					GlobalScript.inst.gameState.ingamewars[5].name_war = "阿富汗内战";
 					GlobalScript.inst.gameState.ingamewars[5].is_going = true;
 					GlobalScript.inst.gameState.ingamewars[5].side1 = "DRA";
 					GlobalScript.inst.gameState.ingamewars[5].side2 = "Mujahideen";
@@ -3872,7 +3872,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Thanks to our relations with the USSR, we were able to negotiate with the DRA. In exchange for our support, they stops the persecution of the Maoists, who had previously been in opposition, and formed with them an alliance of progressive forces to fight Islamism and American imperialism, provided that the Maoists themselves lay down their arms (they reluctantly, but agreed). This is our diplomatic victory! In the country, meanwhile, a civil war is in full swing, the outcome of which no one can predict.";
+					text = "多亏我们同苏联的关系，我们得以同DRA进行谈判。\n作为我们支持的交换，他们停止对此前处于反对地位的毛主义者的迫\n害，并与他们结成“进步力量联盟”，共同对抗伊斯兰主义与美国帝\n国主义——前提是毛主义者自己放下武器（他们虽不情愿，\n但还是同意了）。这就是我们的外交胜利！\n与此同时，国内内战正打得如火如荼，结局谁也无法预料。";
 					GlobalScript.inst.gameState.data[1] += 50;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power -= 20;
@@ -3884,7 +3884,7 @@ public class Results_text : MonoBehaviour
 					empire.relations -= 250;
 					empire = GlobalScript.inst.gameState.empires[1];
 					empire.relations += 50;
-					GlobalScript.inst.gameState.ingamewars[5].name_war = "Afghan civil war";
+					GlobalScript.inst.gameState.ingamewars[5].name_war = "阿富汗内战";
 					GlobalScript.inst.gameState.ingamewars[5].is_going = true;
 					GlobalScript.inst.gameState.ingamewars[5].side1 = "DRA";
 					GlobalScript.inst.gameState.ingamewars[5].side2 = "Mujahideen";
@@ -3918,7 +3918,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "After long discussions in the 政治局, where individual party members stubbornly protested against the support of the pro-Soviet DRA regime, the comrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " still pushed through the strategy of supporting the DRA (at least in words), against which they definitely did not mind. In the country, meanwhile, a civil war is in full swing, the outcome of which no one can predict.";
+					text = "在政治局经过长期讨论时，个别党内成员固执地反对支持亲苏的DR\nA政权，同志" + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "仍然力排众议，推行支持DRA的战略（至少在口头上），\n他们对此当然并不介意。\n与此同时，国内内战正打得如火如荼，结局谁也无法预料。";
 					GlobalScript.inst.gameState.data[1] -= 70;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power -= 20;
@@ -3927,7 +3927,7 @@ public class Results_text : MonoBehaviour
 					empire.relations -= 300;
 					empire = GlobalScript.inst.gameState.empires[1];
 					empire.relations += 100;
-					GlobalScript.inst.gameState.ingamewars[5].name_war = "Afghan civil war";
+					GlobalScript.inst.gameState.ingamewars[5].name_war = "阿富汗内战";
 					GlobalScript.inst.gameState.ingamewars[5].is_going = true;
 					GlobalScript.inst.gameState.ingamewars[5].side1 = "DRA";
 					GlobalScript.inst.gameState.ingamewars[5].side2 = "Mujahideen";
@@ -3961,7 +3961,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "Fearing the expansion of Soviet influence, we decided to support the Maoist organizations in Afghanistan in their armed struggle against both the DRA and the Islamists. Naturally, neither the USSR nor the United States liked this, and the Afghan Maoists do not represent a particularly formidable force, so a lot of our forces will go to support them... In the country, meanwhile, a civil war is in full swing, the outcome of which no one can predict.";
+					text = "担心苏联势力扩张，我们决定支持阿富汗的毛主义组织，\n参与其对DRA与伊斯兰主义者的武装斗争。\n当然，苏联和美国都不喜欢这一点；而阿富汗的毛主义者也并不算什\n么特别强大的力量，所以我们将投入不少力量去支援他们……\n与此同时，国内内战正打得如火如荼，\n结局谁也无法预料。";
 					GlobalScript.inst.gameState.data[1] += 50;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power -= 30;
@@ -3970,7 +3970,7 @@ public class Results_text : MonoBehaviour
 					empire.relations -= 150;
 					empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations -= 150;
-					GlobalScript.inst.gameState.ingamewars[5].name_war = "Afghan uprising of the Maoists";
+					GlobalScript.inst.gameState.ingamewars[5].name_war = "阿富汗毛主义者起义";
 					GlobalScript.inst.gameState.ingamewars[5].is_going = true;
 					GlobalScript.inst.gameState.ingamewars[5].side1 = "Maoists";
 					GlobalScript.inst.gameState.ingamewars[5].side2 = "Other";
@@ -3981,10 +3981,10 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 5)
 				{
-					text = "Later, the summit between the United States and the 中华人民共和国 unexpectedly quickly took place under the pretext of “developing trade and economic cooperation”, but its goal was completely different. At closed negotiations, the US delegation offered China a contract to buy weapons and send them across the Chinese border to neighboring Afghanistan in order to support Mujahideen opposition against Soviet aggression and deal a serious blow to the puppet DRA regime. The Chinese side accepted the US proposal, the first arms shipments are planned to be deployed in the next three months, however, we will only benefit from this, our costs will be covered by our new strategic ally.";
+					text = "后来，美中峰会竟以“发展贸易与经济合作”为借口出乎意料地迅速\n举行，但其目标完全不同。\n在闭门谈判中，美方代表团向中国提出一份合同：\n购买武器，并将其跨过中国边境运往邻近的阿富汗，\n以支持圣战者对抗苏联的侵略，并对傀儡DRA政权给予沉重打击。\n中方接受了美方提议，首批武器运送计划在未来三个月内部署；\n不过，我们从中只会获益——我们的成本将由新的战略盟友来承担。";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power -= 30;
-					GlobalScript.inst.gameState.ingamewars[5].name_war = "Afghan civil war";
+					GlobalScript.inst.gameState.ingamewars[5].name_war = "阿富汗内战";
 					GlobalScript.inst.gameState.ingamewars[5].is_going = true;
 					GlobalScript.inst.gameState.ingamewars[5].side1 = "DRA";
 					GlobalScript.inst.gameState.ingamewars[5].side2 = "Mujahideen";
@@ -4022,14 +4022,14 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 51)
 			{
-				text2 = "Just hold and then leave...";
+				text2 = "先顶住，然后撤……";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "With the release of part of their forces and with the help of Soviet advisers and aviation, the DRA launched relatively successful hostilities against the Islamists. It is too early to make predictions about a future victory, but in the absence of direct US access to Afghanistan, the DRA has a significant advantage.";
+					text = "在释放部分兵力、并在苏联顾问与航空力量的帮助下，\nDRA对伊斯兰主义者发动了相对成功的军事行动。\n至于未来能否取得胜利，现在还为时过早；\n但在美国无法直接进入阿富汗的情况下，\nDRA确实占据明显优势。";
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Having joined the speeches of Western diplomats, we also condemned the entry of Soviet troops into Afghanistan, calling it a rude interference in the affairs of a sovereign state. Western leaders supported our statement, but the Soviet leadership did not respond. With the release of part of their forces and with the help of Soviet advisers and aviation, the DRA launched relatively successful hostilities against the Islamists. It is too early to make predictions about a future victory, but in the absence of direct US access to Afghanistan, the DRA has a significant advantage.";
+					text = "在加入西方外交官的发言之后，我们也谴责苏军进入阿富汗，\n称其是对主权国家事务的粗暴干涉。\n西方领导人支持我们的表态，但苏联领导层没有回应。\n与此同时，在释放部分兵力、并在苏联顾问与航空力量的帮助下，\nDRA对伊斯兰主义者发动了相对成功的军事行动。\n至于未来能否取得胜利，现在还为时过早；\n但在美国无法直接进入阿富汗的情况下，\nDRA确实占据明显优势。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations += 80;
 					GlobalScript.inst.gameState.data[6] -= 10;
@@ -4038,7 +4038,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Contrary to the voices heard from around the world about the \"invasion\" we decided to support the entry of Soviet troops, as it aims to ensure peace and stability in Afghanistan and is absolutely legitimate according to the Soviet-Afghan Friendship Treaty. In the west, of course, we were called accomplices of the bloody regimes, but the USSR thanked for the support.";
+					text = "与全世界对“入侵”的舆论相反，我们决定支持苏军的进入——因为\n它的目的在于确保阿富汗的和平与稳定，\n并且依据《苏阿友好条约》完全具有合法性。\n当然，在西方，我们被称为血腥政权的同谋；\n但苏联对我们的支持表示感谢。";
 					GlobalScript.inst.gameState.data[1] -= 50;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations -= 110;
@@ -4048,14 +4048,14 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 52)
 			{
-				text2 = "Difficult neighborhood...";
+				text2 = "难处的邻里……";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Everything goes as it went. The Pakistani authorities suppress radical sermons and do not allow weapons to be carried through checkpoints at the border, but they don’t have the strength, desire, or both.";
+					text = "一切照旧。巴基斯坦当局压制激进宣讲，\n并不允许武器通过边境检查站携带入境，\n但他们既没有力量，也没有意愿——或者两者都没有。";
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Transparently hinting to Bhutto that it was time to stop the terrorists rampant on the border, and sending him ours agents and military to help, we and Pakistan began operations to patrol the border and track down radical Islamist groups. I must say that it was crowned with success - the Islamists did not expect such a harsh reaction from Pakistan and were caught almost by surprise. The rest are hiding and now can not work with the same efficiency. Good luck in digging tunnels under the border.";
+					text = "我们向布托做了再明显不过的暗示：是时候制止边境上猖獗的恐怖分\n子了；同时派出我们的特工和军队协助。\n于是，中巴双方开始行动：巡逻边境、追踪激进伊斯兰主义团体。\n我必须说，这次行动取得了成功——伊斯兰主义者根本没想到巴基斯\n坦会有如此强硬的反应，几乎是被打了个措手不及。\n其余的则躲了起来，现在也无法再以同样效率运作。\n祝你们挖边境下的地道好运。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations -= 100;
 					GlobalScript.inst.gameState.data[6] += 10;
@@ -4077,7 +4077,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Having entered into a tacit agreement with the United States and persuading Bhutto not to hinder us, we began transporting American weapons and advisers to the Pakistan-Afghanistan border, transferring them to the Mujahideen, who then half-legally crossed the border, going to Afghanistan. This greatly helps the Afghan rebels against the DRA, and in turn, for the \"intermediary services\" in our pockets American money goes.";
+					text = "在与美国达成默契协议，并说服布托不要阻挠我们之后，\n我们开始把美制武器与顾问运往巴基斯坦—阿富汗边境，\n再转交给圣战者；他们随后以“半合法”的方式越过边境，\n进入阿富汗。这极大地帮助了反对DRA的阿富汗反叛者；\n而反过来，作为“中介服务费”，美国的钱也会流进我们的口袋。";
 					GlobalScript.inst.gameState.data[8] += 30;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations += 100;
@@ -4092,7 +4092,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "Continuing our assistance to the Maoist insurgents in Afghanistan, we drove the Islamists away from the border, organized training camps and supply centers for the Maoists, where we now supply weapons and send instructors, which greatly help these rebels. The Pakistani authorities also agreed on the unimpeded sending of people and weapons to Afghanistan. Naturally, we had to fork out for the creation of such an infrastructure , as well as strain the army for supplies, and the USSR and the United States were dissatisfied.";
+					text = "继续援助阿富汗的毛主义叛乱者，我们把伊斯兰主义者赶离边境，\n为毛主义者组织训练营和补给中心——如今我们在这里向他们提供武\n器并派遣教官，这极大地帮助了这些反叛者。\n巴基斯坦当局也同意让人员与武器得以不受阻碍地送往阿富汗。\n当然，为了建立这种基础设施，我们得掏钱；\n为补给而动用军队也要付出代价；苏联和美国对此都不满意。";
 					GlobalScript.inst.gameState.data[8] -= 50;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations -= 100;
@@ -4109,10 +4109,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 53)
 			{
-				text2 = "Agricultural reform";
+				text2 = "农业改革";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "It was decided not to break something that already works. The only problem is that it works extremely poorly - the situation in agriculture is not the best, which adversely affects the standard of living of the population and its contentment.";
+					text = "决定不去打破已经在运转的东西。\n问题只有一个：它运转得极其糟——农业形势并不理想，\n这反过来损害了人民的生活水平与满意度。";
 					GlobalScript.inst.gameState.data[1] -= 80;
 					GlobalScript.inst.gameState.data[13] -= 100;
 					GlobalScript.inst.gameState.data[4] += 50;
@@ -4127,7 +4127,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "It was decided to dissolve the communes and distribute the land between independent family farms, who would be obliged to sell the specified harvest to the state at fixed prices. This spurred the growth of our economy, contributed to an increase in food supplies, and people liked it.";
+					text = "决定解散人民公社，把土地分给独立的家庭农场；\n家庭农场必须按固定价格向国家出售规定的收成。\n这推动了我们经济的增长，增加了粮食供应，\n人民也很喜欢。";
 					GlobalScript.inst.gameState.data[1] -= 150;
 					GlobalScript.inst.gameState.data[13] += 50;
 					GlobalScript.inst.gameState.data[92] += 10;
@@ -4162,7 +4162,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "After long discussions with the conservative and even moderate part of 政治局, the reformers managed to persuade the 中共 to introduce private land tenure instead of communes. New farmers were given loans for the purchase of machinery and equipment, as well as they were obliged to sell part of the crop to the state, while the rest could be sold at free prices on the markets. This made it possible to improve productivity and replenish the treasury at the expense of taxes and fees from young private owners, but not everyone in the party is satisfied with this decision, and the new private owners are already beginning to speculate on prices, and the people are waiting for further reforms.";
+					text = "在与政治局保守派、甚至较为温和的部分进行长期讨论后，\n改革派终于说服中共用“私有土地承包”取代公社。\n新农户获得贷款，用于购买机械和设备；\n同时他们也被要求向国家出售部分农作物，\n其余部分则可在市场上按自由价格出售。\n这使得提高生产率、并通过向年轻的私有者征收税费来补充财政成为\n可能；但并非党内所有人都对这一决定感到满意。\n新的私有者已经开始投机炒作价格，而人民则在等待进一步改革。";
 					GlobalScript.inst.gameState.data[1] -= 70;
 					GlobalScript.inst.gameState.data[92] += 30;
 					GlobalScript.inst.gameState.data[4] += 50;
@@ -4208,7 +4208,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "It was decided to recall the Stalinist practice of collective farms, we don’t need to do special collectivization - most of the collective farms were created on the basis of reorganized communes. Now our agriculture consists of a multitude of state-controlled artels, which are obliged to sell part of the crop to it at fixed prices, and the remains can be sold at markets at freer prices. Mass construction and equipping of machine tractor stations, which will have to provide collective farms with equipment, also began. This ultimately helped us overcome technical backwardness and in the future promises productivity growth, however, for these events we had to fork out.";
+					text = "决定恢复斯大林式的集体农场做法——我们不需要搞什么特别的集体\n化；大多数集体农场都是在对公社进行改组的基础上建立起来的。\n如今我们的农业由林林总总、由国家控制的合作社构成：\n它们被要求以固定价格向国家出售部分收成，\n其余部分则可在市场上以更自由的价格出售。\n大规模兴建并配备机耕站的工作也开始了——机耕站将为集体农场提\n供设备。最终，这帮助我们克服了技术落后，\n并在未来有望带来生产率增长；不过，为这些事情，\n我们得掏钱。";
 					GlobalScript.inst.gameState.data[1] -= 50;
 					GlobalScript.inst.gameState.data[8] -= 50;
 					GlobalScript.inst.gameState.data[3] += 70;
@@ -4272,10 +4272,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 54)
 			{
-				text2 = "Reforms and openness: investments";
+				text2 = "改革开放：投资";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Despite numerous protests and accusations of slowing down the reforms, " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " nevertheless decided to postpone the question of investment for the time being \"so that we can work out best solutions on this issue\". ";
+					text = "尽管不断有抗议与指责，称其是在拖慢改革，" + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "仍然决定暂时把投资问题推迟，“以便我们能就此问题拿出最佳方案\n”。";
 					GlobalScript.inst.gameState.data[1] -= 150;
 					GlobalScript.inst.gameState.data[6] += 20;
 					GlobalScript.inst.gameState.data[3] -= 50;
@@ -4302,7 +4302,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "It was announced the gradual opening of some cities on the coast for foreign investment. Special economic zones will soon be opened in Shenzhen, Zhuhai and Shantou in Guangdong Province and in Xiamen (Fujian Province), and the entire Hainan Province will be turned into a special economic zone. The United States and Western European countries warmly welcomed this decision, as did the heads of large Western companies.";
+					text = "宣布将逐步开放部分沿海城市以吸引外资。\n广东省的深圳、珠海和汕头，以及福建省的厦门（福建省）\n将很快设立经济特区；整个海南省也将被改造为经济特区。\n美国和西欧国家对此决定表示热烈欢迎，\n大型西方企业的负责人也同样表示欢迎。";
 					GlobalScript.inst.gameState.data[89] = 3;
 					GlobalScript.inst.gameState.data[8] += 30;
 					GlobalScript.inst.gameState.data[92] += 10;
@@ -4335,7 +4335,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Despite the protests of some of the reformers and moderates, it was finally decided to fully open the Chinese economy to foreign investment. In accordance with the plan, special economic zones will soon be opened in Shenzhen, Zhuhai and Shantou in Guangdong Province and in Xiamen (Fujian Province), and also the entire Hainan Province will be turned into a special economic zone. At the same time, most state-owned enterprises also open to foreign funding under the joint venture plan. And although foreign companies can only develop their activities directly in the SEZ, it is already possible to talk about the imminent rapid penetration of foreign capital into our economy, because the West has already taken our transformations with great enthusiasm.";
+					text = "尽管有些改革派与温和派提出抗议，最终还是决定全面向外资开放中\n国经济。按照计划，广东省的深圳、珠海和汕头，\n以及福建省的厦门（福建省）将很快设立经济特区；\n同时，整个海南省也将被改造为经济特区。\n与此同时，在合资计划下，绝大多数国有企业也向外资开放。\n尽管外资公司只能在经济特区内直接开展业务，\n但已经可以谈论外资将迅速、迅猛渗透进我们经济的迫在眉睫——因\n为西方已经以极大热情投入到我们的转变之中。";
 					GlobalScript.inst.gameState.data[1] -= 100;
 					GlobalScript.inst.gameState.data[92] += 20;
 					GlobalScript.inst.gameState.data[4] += 100;
@@ -4386,14 +4386,14 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 55)
 			{
-				text2 = "Burmese road to socialism";
+				text2 = "缅甸式通往社会主义的道路";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "In the BSPP, mass purges against the communists and sympathizers took place, which further strengthened the regime of Ne Win.";
+					text = "在缅甸社会主义纲领党（BSPP）内部，\n对共产党人及其同情者进行了大规模清洗，\n进一步巩固了吴奈温的统治。";
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "A meeting was held between representatives of the 中华人民共和国 and Burma, where a number of treaties were signed and a vector of relations development was outlined. We have also allocated additional assistance for the restoration of the Burmese economy. In the meantime, mass purges against the Communists and sympathizers took place in the BSPP, which further strengthened the regime of Ne Win.";
+					text = "中方与缅方代表举行了会谈，签署了一系列条约，\n并明确了关系发展的方向。\n我们还追加拨付援助，用于恢复缅甸经济。\n与此同时，BSPP内部对共产党人及其同情者又进行了大规模清洗，\n进一步巩固了吴奈温的统治。";
 					GlobalScript.inst.gameState.data[8] -= 30;
 					GlobalScript.inst.gameState.data[6] += 10;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
@@ -4402,7 +4402,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Thanks to the intervention of our intelligence services, the left wing of the BSPP was able to organize an internal party coup. Our special services were able to prevent the intervention of the army loyal to Ne Win. The former dictator himself was accused of violating the principles of democratic centralism, imprisoned and soon mysteriously died. The new government began large-scale socialist reforms and a way out of isolation through building friendly relations with socialist countries, including the 中华人民共和国.";
+					text = "多亏情报部门的介入，BSPP的左翼得以组织一次党内政变。\n我们的特工力量成功阻止了忠于吴奈温的军队插手。\n前独裁者本人被指控违反民主集中制原则，\n被关押后不久便以离奇方式死亡。\n新政府开始推行大规模社会主义改革，并通过同包括中华人民共和国\n在内的社会主义国家建立友好关系，寻找摆脱孤立的出路。";
 					GlobalScript.inst.gameState.data[9] -= 40;
 					GlobalScript.inst.gameState.data[6] += 20;
 					GlobalScript.inst.gameState.data[8] -= 20;
@@ -4416,10 +4416,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 56)
 			{
-				text2 = "Teach Vietnam a lesson?";
+				text2 = "要不要给越南一个教训？";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "You managed to calm the 中共, though not without discontent. Everything is going as it was, and Vietnam continues its rapprochement with the USSR.";
+					text = "你总算安抚住了中共（CPC），尽管并非没有怨气。\n一切照旧，越南继续向苏联靠拢。";
 					GlobalScript.inst.gameState.data[1] -= 150;
 					GlobalScript.inst.gameState.vietnampeace = true;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -4427,7 +4427,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "It was decided to prepare the invasion of Vietnam. On February 17, at 4:30, PLA units crossed the border and, after heavy fighting, captured border areas, breaking down Vietnamese resistance. However, recovered Vietnamese troops are now turning into violent counterattacks. We hope we have enough strength to fulfill our plan.";
+					text = "决定准备对越南的入侵。\n2月17日4时30分，解放军部队越过边境，\n经过激烈战斗，攻占边境地区，瓦解了越南的抵抗。\n然而，已恢复的越南军队正转为猛烈反击。\n我们希望有足够的力量完成计划。";
 					GlobalScript.inst.gameState.data[1] += 50;
 					GlobalScript.inst.gameState.war = 1;
 					GlobalScript.inst.gameState.data[39] = 200;
@@ -4438,7 +4438,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "After numerous disputes with anti-Soviet-minded party members, you still managed to organize the dispatch of the Chinese delegation to Vietnam. As a result of the negotiations, we had to abandon claims to some Vietnamese islands, but managed to end the oppression of the Vietnamese Chinese with the right to emigrate them to China, to settle relations and sign several trade and political treaties. Although Vietnam still focuses on the USSR, our relations with it have improved significantly, and the prospects for cooperation have increased significantly. The USSR also took with interest our attempts to establish relations with the socialist camp.";
+					text = "在同一批反苏倾向的党内成员反复争论之后，\n你仍然设法组织派遣中国代表团赴越南。\n谈判结果，我们不得不放弃对部分越南岛屿的主张，\n但最终争取到结束对越南华人的压迫，并获得将其迁往中国的权利；\n同时理顺关系，签署了若干贸易与政治条约。\n尽管越南仍把重心放在苏联方面，但我们同它的关系已显著改善，\n合作前景也大幅提升。\n苏联对我们试图同社会主义阵营建立关系的努力也表现出浓厚兴趣。";
 					GlobalScript.inst.gameState.data[1] -= 100;
 					GlobalScript.inst.gameState.vietnampeace = true;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -4452,14 +4452,14 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 57)
 			{
-				text2 = "Red rising sun";
+				text2 = "红日东升";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "As a result, the LDP managed to retain its rule, gaining 44% of the vote and playing on the fragmentation of the opposition. Prime Minister Masayoshi Ohira continued the liberal-Western course of Japan.";
+					text = "结果，自民党（LDP）得以保住政权，\n得票率达44%，并利用反对派分裂的局面。\n首相大平正芳继续推行日本的自由—亲西方路线。";
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Thanks to the timely elimination of Kenji Miyamoto, the CPJ returned to Beijing’s control with joy and accepted our help. Thanks to our finances, they were able to establish an effective pre-election campaign, and our intelligence services engaged in stuffing of compromising materials at the LDP and disrupting their speeches. As a result, the CPJ managed to reach a record 31% and form a coalition with the socialists, the Buddhist Komeito and various center-left opposition parties. Soon criminal cases were opened against LDP officials on charges of corruption and abuse, and with broad popular support, a law was passed to withdraw Japan from military treaties with the United States and NATO and to gradually withdraw American bases from the country.";
+					text = "多亏及时铲除宫本健治（Kenji Miyamoto），\n共产党（CPJ）喜气洋洋地重新回到北京的掌控之下，\n并接受了我们的援助。\n凭借我们的资金支持，他们得以建立一套高效的选前攻势；\n而我们的情报部门则向自民党塞入足以致命的丑闻材料，\n破坏其演说。结果，CPJ得以创纪录地拿下31%的支持率，\n并与社会党、佛教公明党以及各个中间偏左的反对党组成联合政府。\n不久，自民党官员因腐败与滥用职权而被提起刑事案件；\n在广泛的民意支持下，国会通过法律，要求日本退出与美国及北约（\nNATO）的军事条约，并逐步撤出美国在日本的基地。";
 					GlobalScript.inst.gameState.data[1] += 50;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC += 20;
@@ -4474,12 +4474,12 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 58)
 			{
-				text2 = "Iranian Revolution: Endgame";
+				text2 = "伊朗革命：终局";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
 					if (GlobalScript.inst.gameState.data[42] > GlobalScript.inst.gameState.data[43] && GlobalScript.inst.gameState.data[42] > GlobalScript.inst.gameState.data[44] && GlobalScript.inst.gameState.data[42] > GlobalScript.inst.gameState.data[45])
 					{
-						text = "And they managed to achieve their goal: in January, the Shah and his family fled the country, transferring power to Prime Minister Shapour Bakhtiar from a moderate opposition, which himself was soon overthrown by working protests. With the support of urban workers and military units, the left coalition from various parties and movements came to power on the wave of the popularity of promises to create a socially just state. Returning to Iran from exile, Khomeini tried to organize an uprising by loyal militants, but was quickly captured, and the movements that supported him were dispersed. The new government announced the construction of socialism with Islamic specifics (from the usual, differing only in soft religious policies), however, it seems that the first task of the formed Revolutionary Council will be the destruction of the Islamic and democratic opposition dissatisfied with the outcome of the revolution.";
+						text = "他们终于达成目标：1月，沙阿及其家人逃离该国，\n把权力交给来自温和反对派的总理沙普尔·巴赫蒂亚尔（Shapo\nur Bakhtiar）；而巴赫蒂亚尔本人很快就被工人抗议浪\n潮推翻。在城市工人和军队单位的支持下，\n由各党派与运动组成的左翼联盟乘着“建立社会公正国家”的承诺热\n潮上台。霍梅尼从流亡中返回伊朗，试图由忠诚的武装分子组织起义，\n但很快被捕，支持他的运动也随之被瓦解。\n新政府宣布要建设带有伊斯兰特色的社会主义（与通常模式相比，\n只是在宗教政策上更为温和），然而看来，\n成立后的革命委员会首要任务将是消灭对革命结局不满的伊斯兰与民\n主反对派。";
 						Empire empire = GlobalScript.inst.gameState.empires[0];
 						empire.power -= 10;
 						GlobalScript.inst.gameState.allcountries[8].Gosstroy = 1;
@@ -4495,7 +4495,7 @@ public class Results_text : MonoBehaviour
 					}
 					else if (GlobalScript.inst.gameState.data[43] > GlobalScript.inst.gameState.data[42] && GlobalScript.inst.gameState.data[43] > GlobalScript.inst.gameState.data[44] && GlobalScript.inst.gameState.data[43] > GlobalScript.inst.gameState.data[45])
 					{
-						text = "However, with our and American active support of Pahlavi, SAVAK and the army succeeded in suppressing the demonstrations, destroying the main opposition leaders and discording its ranks. An assassination attempt was made on Khomeini himself in Paris, which he survived, but was forced to lie to the bottom and has not yet made itself felt. However, now that the most radical protesters have been defeated, the Shah made concessions - a new government was formed, control over Muslim priests, censorship and the scale of repression were reduced and demonstrative arrests of corrupt officials from the highest echelons were held.";
+						text = "然而，在我们与美国对巴列维（Pahlavi）\n的积极支持下，萨瓦克（SAVAK）和军队成功镇压了示威，\n打掉了主要反对派领袖，瓦解了其队伍。\n巴黎也曾对霍梅尼本人发动暗杀企图，他幸存下来，\n但被迫隐入地下，至今尚未显露。\n可如今，最激进的抗议者已被击败，沙阿作出让步——组建了新政府，\n收紧对穆斯林宗教人士的控制、审查与镇压规模有所减轻，\n并举行了对最高层腐败官员的示范性逮捕。";
 						Empire empire = GlobalScript.inst.gameState.empires[0];
 						empire.power += 10;
 						if (GlobalScript.inst.gameState.allcountries[8].dev == 0)
@@ -4506,7 +4506,7 @@ public class Results_text : MonoBehaviour
 					}
 					else if (GlobalScript.inst.gameState.data[44] > GlobalScript.inst.gameState.data[42] && GlobalScript.inst.gameState.data[44] > GlobalScript.inst.gameState.data[43] && GlobalScript.inst.gameState.data[44] > GlobalScript.inst.gameState.data[45])
 					{
-						text = "And they managed to achieve their goal: in January, the Shah and his family fled the country, transferring power to Prime Minister Shapour Bakhtiar from a moderate opposition, who began to draft a new constitution and, at the request of protesters who refused to create a government \"national unity\", had free elections, which won, led by the Iranian National Front, the democratic coalition, which then successfully suppressed the performance of Islamic radicals led by Khomeini and began a careful purge against the Islamists and radical left dissatisfied with such a result. The newly formed government announced its loyalty to the principles of Islam and democracy and aimed at the development of the country on the model of Kemalist Turkey, while pursuing a multi-vector foreign policy.";
+						text = "他们终于达成目标：1月，沙阿及其家人逃离该国，\n把权力交给来自温和反对派的总理沙普尔·巴赫蒂亚尔（Shapo\nur Bakhtiar）。\n巴赫蒂亚尔开始起草新宪法，并在拒绝组建“民族团结政府”的抗议\n者要求下举行自由选举。\n选举胜出的是由伊朗民族阵线（Iranian National\n Front）领导的民主联盟；随后，\n该联盟成功压制了由霍梅尼领导的伊斯兰激进派的行动，\n并对那些对这一结果不满的伊斯兰主义者与激进左翼展开谨慎清洗。\n新成立的政府宣布忠于伊斯兰与民主原则，\n目标是以凯末尔土耳其模式推动国家发展，\n同时奉行多方向的外交政策。";
 						GlobalScript.inst.gameState.allcountries[8].Gosstroy = 3;
 						GlobalScript.inst.gameState.allcountries[8].SubGosstroy = 5;
 						GlobalScript.inst.gameState.allcountries[8].Vyshi = false;
@@ -4518,7 +4518,7 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "And they managed to achieve their goal: in January, the Shah and his family fled the country, transferring power to Prime Minister Shapour Bakhtiar from a moderate opposition, who began to draft a new constitution and invited disgraced Ayatollah Khomeini to the country, for which he soon paid. Not intending to cooperate with the new government, Khomeini, with the help of his numerous supporters, organized a new uprising that quickly spread to Tehran. The police sided with the rioters, and the generals declared neutrality, with the result that Bakhtiar fled the country. The new government of Khomeini proclaimed Iran as an Islamic republic and launched a brutal repression against yesterday's allies.";
+						text = "他们终于达成目标：1月，沙阿及其家人逃离该国，\n把权力交给来自温和反对派的总理沙普尔·巴赫蒂亚尔（Shapo\nur Bakhtiar）。\n巴赫蒂亚尔开始起草新宪法，并邀请被打入冷宫的阿亚图拉·霍梅尼\n回国——而他很快就为此付出了代价。\n霍梅尼并不打算与新政府合作，在众多支持者的帮助下组织了新的起\n义，并迅速蔓延到德黑兰。\n警方站在暴乱者一边，军方将领宣布中立，\n结果巴赫蒂亚尔逃离该国。\n霍梅尼的新政府宣布伊朗为伊斯兰共和国，\n并对昨天的盟友发动残酷镇压。";
 						GlobalScript.inst.gameState.allcountries[8].Vyshi = false;
 						GlobalScript.inst.gameState.allcountries[8].SubGosstroy = 9;
 						GlobalScript.inst.gameState.allcountries[8].isSENTO = false;
@@ -4534,14 +4534,14 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 59)
 			{
-				text2 = "Economic union";
+				text2 = "经济联盟";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "And nothing happened, let's hope this is only for the better.";
+					text = "什么也没发生，咱们希望这只是往好的方向发展。";
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Today, at the initiative of the 中华人民共和国, a closed economic meeting was convened in Beijing, which adopted a resolution establishing the Economic Cooperation Organization (ECO), the purpose of which is to expand trade and economic contacts between China’s friendly countries. Founding members of the new alliance are China";
+					text = "今天，在中华人民共和国的倡议下，北京召开了一次闭门经济会议，\n会议通过决议，成立经济合作组织（ECO）。\n该组织的宗旨是扩大中国友好国家之间的贸易与经济联系。\n新联盟的创始成员是中国";
 					GlobalScript.inst.gameState.data[1] += 100;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC += 30;
@@ -4590,7 +4590,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Continuing the line on «resetting relations with the USSR», China has applied for membership in the Council for Mutual Economic Assistance. This initiative, according to the idea, should revive and increase economic contacts between the 中华人民共和国 and the socialist countries that were severed during the «Soviet-Chinese split». For this purpose, an extraordinary session of the CMEA was convened, as a result of which, China was admitted to the union as a full member of the organization. The most radical party members «took this step with hostility», calling it «indulgence of Soviet revisionists», but now our relations with the USSR are better than ever. Can not be said about the United States, who were unhappy with the change in the vector of our foreign policy. However, now the socialist camp is stronger than ever before.";
+					text = "延续“重置同苏联关系”的路线，中国申请加入互助经济委员会（C\nMEA）。按设想，这一举措应当恢复并扩大在“苏中分裂”期间被\n切断的中华人民共和国与社会主义国家之间的经济联系。\n为此，CMEA召开了特别会议，结果中国以正式成员身份被接纳为\n该组织的成员。最激进的党内分子“怀着敌意迈出了这一步”，\n称之为“纵容苏联修正主义”，但如今我们同苏联的关系比以往任何\n时候都更好。至于美国就不能这么说了——他们对我国外交政策向新\n方向转变显然不满。然而，如今社会主义阵营比以往任何时候都更强\n大。";
 					GlobalScript.inst.gameState.data[1] -= 100;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 30;
@@ -4643,7 +4643,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "The Chinese government has applied for membership in the 'Non-aligned Movement' and, without question, China has been admitted to the organization by a majority vote. Now, if we wish to resolve any conflict by military means, we will be condemned and expelled from the organization. Strategic neutrality will allow us to maneuver between the Soviet Union and the United States, receiving preferences from both superpowers, which, however, is only to our advantage.";
+					text = "中国政府申请加入“不结盟运动”，毫无疑问，\n中国在多数票表决中被接纳进入该组织。\n现在，如果我们想用军事手段解决任何冲突，\n就会遭到谴责并被逐出该组织。\n战略中立将使我们在苏联与美国之间周旋，\n从两大超级强权那里获得种种优惠——不过这对我们只有好处。";
 					GlobalScript.inst.gameState.data[1] -= 300;
 					GlobalScript.inst.gameState.data[8] -= 20;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -4652,7 +4652,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 5)
 				{
-					text = "The Chinese government applied for membership in the «Association of Southeast Asian Nations» and without any questions asked, China was accepted into the organization by a majority vote. China's entry into ASEAN should improve China's relations with neighboring countries and the Western bloc. Due to the accession of a country that is not entirely in Southeast Asia, a new acronym, «Association of Asian Nations» (AAN), was added to the name of the union.";
+					text = "中国政府申请加入“东南亚国家联盟”（ASEAN），\n并在毫无争议的情况下以多数票接纳中国进入该组织。\n中国加入ASEAN应当有助于改善中国同邻国以及西方阵营的关系。\n由于有一个并不完全属于东南亚的国家加入，\n联盟名称中又增加了新的缩写“亚洲国家联盟”（AAN）。";
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 20;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
@@ -4666,10 +4666,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 60)
 			{
-				text2 = "Military alliance";
+				text2 = "军事联盟";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Today in Shanghai, an agreement was signed on the creation of the Collective Security Alliance (CRA), a military-political organization that united all allied countries of China into a single military bloc. The purpose of the CSA is to create a common system of collegial protection against other military alliances - Warsaw pact and NATO. The members of the newly formed organization became 中华人民共和国";
+					text = "今天在上海签署了关于成立集体安全联盟（CRA）\n的协议。该军事—政治组织将中国的所有盟国统一为一个单一军事集\n团。集体安全联盟（CSA）的目的，是建立针对其他军事联盟——\n华沙条约组织与北约（NATO）——的共同集体防护体系。\n新成立组织的成员包括中华人民共和国";
 					GlobalScript.inst.gameState.data[1] += 100;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC += 20;
@@ -4774,7 +4774,7 @@ public class Results_text : MonoBehaviour
 							}
 						}
 					}
-					text += ". The USSR and the United States reacted negatively to the expansion of Chinese influence, calling the new bloc «an obstacle to detente of international tensions» and «a destroyer of peaceful coexistence» . In turn, the party and the people perceived the growth of the prestige of the 中华人民共和国 with enthusiasm and admiration. It seems that a third force appears on the international arena, let's hope this is only for the better.";
+					text += "。苏联与美国对中国影响力的扩张作出消极反应，\n称这个新集团是“国际紧张局势缓和的障碍”，\n是“和平共处的破坏者”。\n与此同时，党和人民则满怀热情与敬佩地看待中华人民共和国威望的\n提升。看来国际舞台上出现了第三股力量——希望这只是往好的方向\n发展。";
 					Politic[] politics = GlobalScript.inst.gameState.politics;
 					foreach (Politic politic69 in politics)
 					{
@@ -4802,15 +4802,15 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "China continues to be out of military alliances. Peace on Earth - above all.";
+					text = "中国继续不参加军事联盟。世界和平——至上。";
 				}
 			}
 			else if (GlobalScript.inst.gameState.number_event == 61)
 			{
-				text2 = "Anthem problem";
+				text2 = "国歌问题";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "The Resolution of the 全国人大 Standing Committee on the Restoration of the \"March of the Volunteers\" was read on the radio as the hymn of the 中华人民共和国. At the same time, a law regulating the use of the hymn was adopted (radio and television broadcasting begins every day, the National Flag of the People's Republic of China rises to the sounds of the hymn, the 全国人大 Session and the 中共 Congress begin their work, etc.). The party is satisfied, like the people.";
+					text = "全国人大常委会关于恢复《义勇军进行曲》的决议通过广播宣读，\n作为中华人民共和国的国歌。\n同时通过了规范国歌使用的法律（每天广播电视开播时奏响国歌，\n中华人民共和国国旗在国歌声中升起，全国人大会议和中共代表大会\n开始工作等）。党很满意，人民也一样。";
 					GlobalScript.inst.gameState.data[8] -= 10;
 					GlobalScript.inst.gameState.data[3] += 20;
 					GlobalScript.inst.gameState.data[1] += 70;
@@ -4831,7 +4831,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Today, \" Radio Peking\" started broadcasting, like 10 years ago, with the song \"The East Is Red\", after which the Resolution of the 全国人大 Standing Committee on the approval it as a hymn of the People's Republic of China was read. The people, in general, are very pleased, however, the party members met this decision with incomprehension and accuse us of a \"radical left deviation\" and \"an attempt to creeping revaluation of the 文化大革命\". The USSR and the USA are also unhappy, but chose not to declare it.";
+					text = "今天，“北京广播电台”（Radio Peking）\n像10年前那样，以歌曲《东方红》开播；\n随后宣读了全国人大常委会关于将其批准为中华人民共和国国歌的决\n议。总体上，人民很高兴，但党内成员对这一决定却表示不理解，\n指责我们犯了“极左偏差”，并“试图悄悄重新评价文化大革命”。\n苏联和美国也不高兴，只是选择不表态。";
 					GlobalScript.inst.gameState.data[1] -= 100;
 					GlobalScript.inst.gameState.data[6] += 10;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
@@ -4851,7 +4851,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Today, the broadcast of \"Radio Peking\" began with \"March of the Volunteers\", but with a modified text, in which \"the great Communist Party \", \"the Communist tomorrow\" and \"the Flag of 毛泽东\". In this version, it was approved by the national anthem of the 中华人民共和国. This caused some discontent in the party, although the people, in general, accepted new words.";
+					text = "今天，“北京广播电台”（Radio Peking）\n的播音以《义勇军进行曲》开头，但歌词做了修改，\n加入了“伟大的共产党”“共产主义的明天”以及“毛泽东旗帜”。\n在这一版本上，它被批准为中华人民共和国国歌。\n此举在党内引起了一些不满，尽管总体上人民接受了新词。";
 					GlobalScript.inst.gameState.data[1] -= 50;
 					GlobalScript.inst.gameState.data[6] += 5;
 					GlobalScript.inst.gameState.data[8] -= 10;
@@ -4860,10 +4860,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 62)
 			{
-				text2 = "The problems of the heirs of Genghis Khan";
+				text2 = "成吉思汗的继承者们的问题";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Today, a joint decision of the 全国人大 Standing Committee and the 中共 Central Committee was issued, according to which all the territories  of Inner Mongolia, transferred to the neighboring provinces of the 中华人民共和国 in 1969, are returned to it. The policy of assimilation of the Mongols also ceases, the protection of their national culture, traditional way of life and national economy is guaranteed. The mausoleum of Genghis Khan, the tomb of Wang Zhaojun, the Wu Dan monastery and the Five Pagodas temple are open again to visit, the traditional Nadom festival revived, the publication of the newspaper \"Namengu zhibao\" in Mongolian begins. This step was enthusiastically met in the autonomous region and supported by the Mongolian People’s Republic, and behind it by the Soviet Union, which approved changes in our national policy. True, the left wing of the party thinks very differently, and our budget is forced to take on additional expenses.";
+					text = "今天，全国人大常委会与中共中央联合作出决定：\n1969年移交给中华人民共和国邻省的内蒙古全部地区，\n全部归还。对蒙古人的同化政策也随之停止，\n保证保护其民族文化、传统生活方式与民族经济。\n成吉思汗陵、王昭君墓、乌丹寺以及五塔寺重新对外开放参观，\n传统那达慕节日得以恢复，蒙古文报纸《内蒙古之报》（Namen\ngu zhibao）开始出版发行。\n此举在自治区内受到热烈欢迎，并得到蒙古人民共和国的支持；\n在其背后，还有苏联的认可——他们批准了我们民族政策的调整。\n只是，党内左翼的看法大不相同，我们的预算也被迫承担额外开支。";
 					GlobalScript.inst.gameState.data[1] -= 80;
 					GlobalScript.inst.gameState.data[57] += 50;
 					GlobalScript.inst.gameState.data[4] += 20;
@@ -4880,14 +4880,14 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "The central authorities showed no interest in the problem of Inner Mongolia. Mongolian assimilation continues in AR, more and more Chinese immigrants come to autonomy, and they will soon become the majority of its population. The situation is worsening, and dissidents of Mongolian origin are actively trying to attract the attention of the United States and the Soviet Union.";
+					text = "中央当局对内蒙古问题毫无兴趣。\n自治区内蒙古人的同化仍在继续，越来越多的中国移民涌入自治地区，\n他们很快就会成为该地区人口的多数。\n局势正在恶化，具有蒙古族背景的异议分子正积极试图引起美国与苏\n联的注意。";
 					GlobalScript.inst.gameState.data[1] -= 20;
 					GlobalScript.inst.gameState.data[57] -= 150;
 					GlobalScript.inst.gameState.data[3] -= 50;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "After a long hesitation, a half-decision was made to return the territories selected in 1969 to Inner Mongolia, but leave the national policy unchanged. This decision was, in general, met with neutral, although it caused some discontent among the nationalist party members, as well as the Mongolian People's Republic, which accused us of the \"genocide of the Mongolian population\" and trying to attract the attention of the Soviet Union...";
+					text = "经过长时间犹豫，作出一个“半决定”：\n把1969年挑选出来的地区归还内蒙古，\n但民族政策不作改变。\n总体上，这一决定得到了中性回应，尽管它在民族主义党内成员中引\n起了一些不满；同时，蒙古人民共和国也指责我们“对蒙古族人口实\n施种族灭绝”，并试图引起苏联的注意……";
 					GlobalScript.inst.gameState.data[1] += 10;
 					GlobalScript.inst.gameState.data[57] += 10;
 					GlobalScript.inst.gameState.data[4] += 30;
@@ -4898,7 +4898,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "After a long hesitation, a half-decision was made to stop the assimilation policy of the Mongolian population of the autonomy, but not to return the territories seized in 1969 into its composition.  The mausoleum of Genghis Khan, the tomb of Wang Zhaojun, the Wu Dan monastery and the Five Pagodas temple are open again to visit, the traditional Nadom festival revived, the publication of the newspaper \"Namengu zhibao\" in Mongolian begins. This decision was welcomed with approval, although our budget has to incur additional expenses.";
+					text = "经过长时间犹豫，作出一个“半决定”：\n停止对自治区蒙古族人口的同化政策，但不把1969年被夺走的地\n区重新纳入其版图。成吉思汗陵、王昭君墓、\n乌丹寺以及五塔寺重新对外开放参观，传统那达慕节日得以恢复，\n蒙古文报纸《内蒙古之报》（Namengu zhibao）\n开始出版发行。此决定受到赞同欢迎，尽管我们的预算不得不承担额\n外开支。";
 					GlobalScript.inst.gameState.data[1] += 30;
 					GlobalScript.inst.gameState.data[8] -= 10;
 					GlobalScript.inst.gameState.data[3] += 30;
@@ -4909,7 +4909,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 5)
 				{
-					text = "The chairperson " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + ", stunned by the revealed truth about the state of affairs in Inner Mongolia, decided to look more deeply at the national issue and personally visited all 3 small autonomous regions - Inner Mongolia, Guangxi Zhuang AR and Ningxia Hui AR. After a series of meetings with the party and soviet leadership of these regions, as well as representatives of national minorities (Mongols, Zhuans and Huizu), Comrade Chairman returned to Beijing in deep thought, which resulted in the adoption of the \"Concept of the National Policy of the 中华人民共和国\", which replaced the nationalist the nature of the \"Basic Principles for the Implementation of Regional National Autonomy in the 中华人民共和国\" 1952. In accordance with the \"Concept\", autonomous regions received broader rights, the state pledged to protect the national culture of national minorities, the traditional way of life and the national economy, to increase the volume of literature and print publishing in national languages, to allocate quotas for national minorities in all authorities and universities. An important decision was also made - not only the soviet authorities, but also the district autonomous committees of the 中共 should be headed by representatives of national minorities. All this allowed you to receive the sincere support of the national elites (we hope they will not forget this gesture if anything happens), the approval of the USSR and the USA - but also the fury of conservative party members...";
+					text = "主席" + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "在被揭露的内蒙古真实情况震惊之后，决定更深入地研究民族问题，\n并亲自走访全部3个小型自治区——内蒙古、\n广西壮族自治区与宁夏回族自治区。\n经过与这些地区的党和苏维埃领导层进行一系列会谈，\n以及与少数民族代表（蒙古族、壮族与回族）\n交流后，同志主席带着深思回到北京，进而通过了《中华人民共和国\n民族政策纲要》，以取代1952年《在中华人民共和国实行区域民\n族自治的基本原则》中带有民族主义性质的内容。\n根据《纲要》，自治区获得更广泛的权利；\n国家承诺保护少数民族的民族文化、传统生活方式与民族经济，\n增加少数民族语言的文献与出版发行量，\n并在所有机关与高校为少数民族分配名额。\n另一个重要决定也作出——不仅苏维埃当局，\n连中共的地区自治委员会也应由少数民族代表担任负责人。\n所有这些，使你得以赢得民族精英的真诚支持（希望他们在发生什么\n事时不会忘记这一姿态），也获得苏联与美国的认可——但同时也激\n怒了保守派党内成员……";
 					GlobalScript.inst.gameState.data[1] -= 150;
 					GlobalScript.inst.gameState.data[8] -= 60;
 					GlobalScript.inst.gameState.data[3] += 100;
@@ -4926,11 +4926,11 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 73)
 			{
-				text2 = "Iran-Iraq war";
+				text2 = "伊朗—伊拉克战争";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "The war is gaining momentum and it seems Iran is not going to give up so easily. The United States and the USSR made duty calls for peace, but in fact both supported Iraq, since Islamic Iran is inconvenient to both of them.";
-					GlobalScript.inst.gameState.ingamewars[3].name_war = "Iran-Iraq war";
+					text = "战争正在升级，看来伊朗并不打算轻易认输。\n美国和苏联都口头呼吁和平，但实际上两者都在支持伊拉克，\n因为伊斯兰伊朗对双方都不方便。";
+					GlobalScript.inst.gameState.ingamewars[3].name_war = "伊朗—伊拉克战争";
 					GlobalScript.inst.gameState.ingamewars[3].is_going = true;
 					GlobalScript.inst.gameState.ingamewars[3].side1 = "Iraq";
 					GlobalScript.inst.gameState.ingamewars[3].side2 = "Iran";
@@ -4943,16 +4943,16 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 64)
 			{
-				text2 = "Pan-Arabism";
+				text2 = "泛阿拉伯主义";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Nothing has happened. Arab states remain relatively fragmented, which give an advantage to pro-American Israel.";
+					text = "什么也没发生。阿拉伯国家仍相对分裂，\n这反而给亲美的以色列带来优势。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.power += 10;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Thanks to the intervention of our intelligence, most of the opponents of the union quickly subsided, and our willingness to mediate in the unification of Arab countries and give them free aid for the development of joint statehood eventually led to an agreement on negotiations. In August, a historical conference of Egypt, Libya and Syria was held in Cairo, after which it was decided to form a confederal United Arab Republic with a common currency, army, jointly resolving foreign policy issues and prospects for further economic and political integration. The new state declared its loyalty to the principles of Arab socialism and the need to continue the formation of a single state of all Arabs, which excited Israel, who asked for additional military aid from the United States. The USSR welcomed the creation of the UAR, but the United States was unhappy with the appearance in the Middle East of such a powerful opponent of their hegemony.";
+					text = "多亏情报部门的介入，反对联盟的多数势力很快偃旗息鼓；\n而我们愿意在阿拉伯国家统一问题上居中调停，\n并为发展共同国家形态提供无偿援助，最终促成了谈判协议。\n8月，埃及、利比亚与叙利亚在开罗举行了一次具有历史意义的会议；\n会后决定组建一个邦联制的阿拉伯联合共和国，\n实行共同货币与军队，共同解决外交政策问题，\n并为进一步的经济与政治一体化铺路。\n新国家宣称忠于阿拉伯社会主义原则，强调继续建立全体阿拉伯人的\n单一国家的必要性，这令以色列兴奋不已——以色列随即向美国请求\n追加军事援助。苏联欢迎阿联（UAR）\n的成立，但美国对中东出现这样一个强有力、\n足以挑战其霸权的对手却并不满意。";
 					GlobalScript.inst.gameState.data[8] -= 70;
 					GlobalScript.inst.gameState.data[9] -= 50;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
@@ -4994,15 +4994,15 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 65)
 			{
-				text2 = "Goodbye, our sweet Mishka...";
+				text2 = "再见了，我们亲爱的米什卡……";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Comrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "rejected the proposal to boycott the Moscow Olympics, calling it \"an American provocation\". He personally called Leonid Ilyich Brezhnev and said that \"China will in no way join the American boycott and will send his team to Moscow\", and also wished good luck to Soviet athletes. The touched Soviet leader in response expressed a desire to meet personally with Comrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " at the opening ceremony and wished success to the Chinese team. In the end, 63 states declared a boycott - the US and their satellites, teams of ";
+					text = "同志" + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "他拒绝了抵制莫斯科奥运会的提议，称之为“美国的挑衅”。\n他亲自给列昂尼德·伊里奇·勃列日涅夫打电话，\n说“中方绝不会参加美国的抵制，并将派出代表队赴莫斯科”，\n同时还祝苏联运动员好运。\n被感动的苏联领导人则表示希望能亲自会见同志 " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "在开幕式上会面，并祝中国代表队取得成功。\n最终，63个国家宣布抵制——美国及其卫星国，\n队伍包括 ";
 					if (GlobalScript.inst.gameState.allcountries[8].Gosstroy == 0)
 					{
 						text += "Iran, ";
 					}
-					text += "Mozambique and Qatar refused to participate in the games, and the governments of England, France, Italy and Spain were given the right to decide whether to send athletes to Moscow or not, to their Olympic committees (after all, they sent their teams). At the opening ceremony, IOC President Michael Morris, before giving the floor to Leonid Brezhnev, particularly thanked those athletes who came on their own initiative, despite the boycott. The Chinese team took 3rd place, losing to the USSR and the GDR, winning 35 gold, 30 silver and 38 bronze medals, as well as setting several records. These games went down in history as the Olympiad with the most competently organized and memorable closing ceremony - when the symbol of the games - Mishka - flied away to the song by A. Pakhmutova and N. Dobronravov «Good bye, Moscow!», many (even foreigners) could not hold back tears - it was so powerful and atmospheric. At the closing ceremony, instead of the flag of the United States (the country where the next Olympiad will be held), the flag of the city of Los Angeles was hoisted, which hinted that the USSR would recall this boycott...";
+					text += "莫桑比克和卡塔尔拒绝参加比赛，而英国、\n法国、意大利和西班牙等国政府则被授权由各自的奥委会决定是否派\n运动员赴莫斯科（毕竟他们也派了队伍）。\n开幕式上，国际奥委会主席迈克尔·莫里斯在把发言权交给列昂尼\n德·勃列日涅夫之前，特别感谢那些在抵制情况下仍自发前来参赛的\n运动员。中国代表队获得第3名，输给苏联和德意志民主共和国，\n赢得35枚金牌、30枚银牌和38枚铜牌，\n并创造了数项纪录。这届奥运会载入史册，\n因其闭幕式组织得最得当、最令人难忘——当比赛的吉祥物米什卡飞\n向阿·帕赫穆托娃和N·多布罗涅拉沃夫演唱的《再见吧，\n莫斯科！》时，许多人（甚至外国人）都忍不住落泪——太有力量、\n太有氛围了。闭幕式上，升起的不是将举办下一届奥运会的美国国旗，\n而是洛杉矶市旗，这暗示苏联将撤回这次抵制……";
 					GlobalScript.inst.gameState.data[1] += 150;
 					GlobalScript.inst.gameState.data[3] += 80;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
@@ -5018,12 +5018,12 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "While the USSR and the United States exchanged threats and complained about each other in the IOC, China — quite unexpectedly for everyone — simply ignored both Olympics. In response to a complete bewilderment of the IOC’s request for the reasons for the lack of Chinese athletes in Moscow, 华国锋 and the head of the 中华人民共和国 Olympic Committee, Zhong Shitong, referred to China’s difficult financial situation, which did not allow us to take part in the Games. It seems that our explanations there caused a strong doubt, but we received an official warning - a boycott of games in Los Angeles automatically deprives us of membership in the IOC. The people also do not understand why the country's leadership did not respond to the Games. In the end, 63 states declared a boycott - the US and their satellites, teams of ";
+					text = "当苏联和美国在国际奥委会里互相威胁、\n互相抱怨时，中国——出乎所有人意料——干脆两届奥运会都置之不\n理。面对国际奥委会对中国运动员为何缺席莫斯科而感到完全困惑，\n华国锋和中华人民共和国奥委会负责人钟世桐以中国财政困难为由，\n表示这使我们无法参加比赛。\n看来我们在那里的解释引起了强烈怀疑，\n但我们还是收到了一纸正式警告——抵制洛杉矶的比赛将自动剥夺我\n们在国际奥委会的成员资格。\n群众也不明白，为什么国家领导层没有回应这些比赛。\n最终，63个国家宣布抵制——美国及其卫星国，\n队伍包括 ";
 					if (GlobalScript.inst.gameState.allcountries[8].Gosstroy == 0)
 					{
 						text += "Iran, ";
 					}
-					text += "Mozambique and Qatar refused to participate in the games, and the governments of England, France, Italy and Spain were given the right to decide whether to send athletes to Moscow or not, to their Olympic committees (after all, they sent their teams). At the opening ceremony, IOC President Michael Morris, before giving the floor to Leonid Brezhnev, particularly thanked those athletes who came on their own initiative, despite the boycott. These games went down in history as the Olympiad with the most competently organized and memorable closing ceremony - when the symbol of the games - Mishka - flied away to the song by A. Pakhmutova and N. Dobronravov «Good bye, Moscow!», many (even foreigners) could not hold back tears - it was so powerful and atmospheric. At the closing ceremony, instead of the flag of the United States (the country where the next Olympiad will be held), the flag of the city of Los Angeles was hoisted, which hinted that the USSR would recall this boycott...";
+					text += "莫桑比克和卡塔尔拒绝参加比赛，而英国、\n法国、意大利和西班牙等国政府则被授权由各自的奥委会决定是否派\n运动员赴莫斯科（毕竟他们也派了队伍）。\n开幕式上，国际奥委会主席迈克尔·莫里斯在把发言权交给列昂尼\n德·勃列日涅夫之前，特别感谢那些在抵制情况下仍自发前来参赛的\n运动员。这届奥运会载入史册，因其闭幕式组织得最得当、\n最令人难忘——当比赛的吉祥物米什卡飞向阿·帕赫穆托娃和N·多\n布罗涅拉沃夫演唱的《再见吧，莫斯科！\n》时，许多人（甚至外国人）都忍不住落泪——太有力量、\n太有氛围了。闭幕式上，升起的不是将举办下一届奥运会的美国国旗，\n而是洛杉矶市旗，这暗示苏联将撤回这次抵制……";
 					GlobalScript.inst.gameState.data[1] -= 100;
 					GlobalScript.inst.gameState.data[3] -= 100;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
@@ -5037,12 +5037,12 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "China joined the American boycott of the Olympic Games in Moscow, although not without hesitation — the Chinese Olympic Committee had just received registration at the IOC and now it would be completely undesirable to spoil relations with it. Therefore, 华国锋 offered his head, Zhong Shitong, to independently decide whether to send a team to Moscow or not. He, after consultations with the IOC and the NOC of the United States, Italy, France, Spain and the British OA, gave the go-ahead to send the Chinese team to Moscow under the banner of the IOC. In the end, 63 states declared a boycott - the US and their satellites, teams of ";
+					text = "中国加入了美国对莫斯科奥运会的抵制，\n虽然并非没有犹豫——中国奥委会刚刚在国际奥委会完成注册，\n如今就完全不宜去破坏同它的关系。\n因此，华国锋让钟世桐自行决定是否派队赴莫斯科。\n他在与国际奥委会以及美国、意大利、法国、\n西班牙和英国奥委会等方面磋商后，批准以国际奥委会的名义派遣中\n国代表队赴莫斯科。最终，63个国家宣布抵制——美国及其卫星国，\n队伍包括 ";
 					if (GlobalScript.inst.gameState.allcountries[8].Gosstroy == 0)
 					{
 						text += "Iran, ";
 					}
-					text += "Mozambique and Qatar refused to participate in the games, and the governments of England, France, Italy and Spain were given the right to decide whether to send athletes to Moscow or not, to their Olympic committees (after all, they sent their teams). At the opening ceremony, IOC President Michael Morris, before giving the floor to Leonid Brezhnev, particularly thanked those athletes who came on their own initiative, despite the boycott. These games went down in history as the Olympiad with the most competently organized and memorable closing ceremony - when the symbol of the games - Mishka - flied away to the song by A. Pakhmutova and N. Dobronravov «Good bye, Moscow!», many (even foreigners) could not hold back tears - it was so powerful and atmospheric. At the closing ceremony, instead of the flag of the United States (the country where the next Olympiad will be held), the flag of the city of Los Angeles was hoisted, which hinted that the USSR would recall this boycott... | We also sent our team to the Alternative Games in Philadelphia, where we received 5 gold, 1 silver and 4 bronze medals.";
+					text += "莫桑比克和卡塔尔拒绝参加比赛，而英国、\n法国、意大利和西班牙等国政府则被授权由各自的奥委会决定是否派\n运动员赴莫斯科（毕竟他们也派了队伍）。\n开幕式上，国际奥委会主席迈克尔·莫里斯在把发言权交给列昂尼\n德·勃列日涅夫之前，特别感谢那些在抵制情况下仍自发前来参赛的\n运动员。这届奥运会载入史册，因其闭幕式组织得最得当、\n最令人难忘——当比赛的吉祥物米什卡飞向阿·帕赫穆托娃和N·多\n布罗涅拉沃夫演唱的《再见吧，莫斯科！\n》时，许多人（甚至外国人）都忍不住落泪——太有力量、\n太有氛围了。闭幕式上，升起的不是将举办下一届奥运会的美国国旗，\n而是洛杉矶市旗，这暗示苏联将撤回这次抵制……\n | 我们也派出了队伍参加费城的“替代奥运会”，\n在那里获得了5枚金牌、1枚银牌和4枚铜牌。";
 					GlobalScript.inst.gameState.data[1] += 50;
 					GlobalScript.inst.gameState.data[3] += 50;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
@@ -5058,12 +5058,12 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "China joined the American boycott of the Olympic Games in Moscow, although not without hesitation — the Chinese Olympic Committee had just received registration at the IOC and now it would be completely undesirable to spoil relations with it. However, 华国锋 decided to send the Chinese team to Philadelphia for the American \"alternative\" competition \"Liberty Bell\". The head of the OC of the 中华人民共和国, Zhong Shitong, who disagreed with this, was expelled from the 中共 and was removed from his post, he was replaced by the more loyal Li Menghua. Our team took 3rd place, losing to the United States and Germany, receiving 5 gold, 1 silver and 4 bronze medals. In the end, 63 states declared a boycott - the US and their satellites, teams of ";
+					text = "中国加入了美国对莫斯科奥运会的抵制，\n虽然并非没有犹豫——中国奥委会刚刚在国际奥委会完成注册，\n如今就完全不宜去破坏同它的关系。\n然而，华国锋决定派中国代表队赴费城参加美国的“替代”赛事“自\n由钟”。不同意这一决定的中华人民共和国奥委会负责人钟世桐被开\n除出中共并撤职，改由更忠诚的李梦华接替。\n我们的队伍获得第3名，输给美国和德国，\n拿到5枚金牌、1枚银牌和4枚铜牌。\n最终，63个国家宣布抵制——美国及其卫星国，\n队伍包括 ";
 					if (GlobalScript.inst.gameState.allcountries[8].Gosstroy == 0)
 					{
 						text += "Iran, ";
 					}
-					text += "Mozambique and Qatar refused to participate in the games, and the governments of England, France, Italy and Spain were given the right to decide whether to send athletes to Moscow or not, to their Olympic committees (after all, they sent their teams). At the opening ceremony, IOC President Michael Morris, before giving the floor to Leonid Brezhnev, particularly thanked those athletes who came on their own initiative, despite the boycott. These games went down in history as the Olympiad with the most competently organized and memorable closing ceremony - when the symbol of the games - Mishka - flied away to the song by A. Pakhmutova and N. Dobronravov «Good bye, Moscow!», many (even foreigners) could not hold back tears - it was so powerful and atmospheric. At the closing ceremony, instead of the flag of the United States (the country where the next Olympiad will be held), the flag of the city of Los Angeles was hoisted, which hinted that the USSR would recall this boycott...";
+					text += "莫桑比克和卡塔尔拒绝参加比赛，而英国、\n法国、意大利和西班牙等国政府则被授权由各自的奥委会决定是否派\n运动员赴莫斯科（毕竟他们也派了队伍）。\n开幕式上，国际奥委会主席迈克尔·莫里斯在把发言权交给列昂尼\n德·勃列日涅夫之前，特别感谢那些在抵制情况下仍自发前来参赛的\n运动员。这届奥运会载入史册，因其闭幕式组织得最得当、\n最令人难忘——当比赛的吉祥物米什卡飞向阿·帕赫穆托娃和N·多\n布罗涅拉沃夫演唱的《再见吧，莫斯科！\n》时，许多人（甚至外国人）都忍不住落泪——太有力量、\n太有氛围了。闭幕式上，升起的不是将举办下一届奥运会的美国国旗，\n而是洛杉矶市旗，这暗示苏联将撤回这次抵制……";
 					GlobalScript.inst.gameState.data[1] += 70;
 					GlobalScript.inst.gameState.data[3] += 30;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
@@ -5075,25 +5075,25 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 5)
 				{
-					text = "The idea of the party members was supported by both 华国锋 and the head of the 中华人民共和国 Olympic Committee, Zhong Shitong. We decided to revive the \"Games of the New Emerging Forces\". The 全国人大 Standing Committee decided to hold the Games in November in the city of Ningbo and sent out invitations to the countries of the \"second\" and \"third\" world. ";
+					text = "党的成员们的想法得到了华国锋和中华人民共和国奥委会负责人钟世\n桐的支持。我们决定重办“新兴力量运动会”。\n全国人大常委会决定于11月在宁波市举办，\n并向“第二世界”和“第三世界”的国家发出邀请。";
 					if (GlobalScript.inst.gameState.data[6] >= 85)
 					{
-						text += "Unfortunately, only 16 African countries with military and paramilitary regimes agreed to participate. Our team, of course, will take first place - but it will be completely uninteresting! ";
+						text += "不幸的是，只有16个实行军政府或准军事政权的非洲国家同意参加。\n当然，我们的队伍将夺得第一名——但会完全没意思！";
 					}
 					else if (GlobalScript.inst.gameState.data[6] >= 65 && GlobalScript.inst.gameState.data[6] < 85)
 					{
-						text += "Almost all countries of the Non-Aligned Movement, including Yugoslavia, agreed to take part. Games promise to be interesting and stressful!.. ";
+						text += "几乎不结盟运动的所有国家（包括南斯拉夫）\n都同意参加。比赛看起来会既有趣又紧张……";
 					}
 					else if (GlobalScript.inst.gameState.data[6] < 65)
 					{
-						text += "To our great surprise, all the countries to which we sent invitations agreed to take part in the new Games - moreover, the NOC of the USSR and the USA came into contact with the OC of the People's Republic of China for participation their athletes (of course, not the first level, but nonetheless...). Games will be very tense, our athletes should start training... ";
+						text += "令我们大为惊讶的是，我们发出邀请的所有国家都同意参加新的运动\n会——而且，苏联和美国的奥委会还与中华人民共和国奥委会取得联\n系，表示愿意让他们的运动员参赛（当然不是最高层级，\n但也算……）。比赛将非常紧张，我们的运动员应该开始训练了……";
 					}
-					text += " In the end, 63 states declared a boycott - the US and their satellites, teams of ";
+					text += "最终，63个国家宣布抵制——美国及其卫星国，队伍包括 ";
 					if (GlobalScript.inst.gameState.allcountries[8].Gosstroy == 0)
 					{
 						text += "Iran, ";
 					}
-					text += "Mozambique and Qatar refused to participate in the games, and the governments of England, France, Italy and Spain were given the right to decide whether to send athletes to Moscow or not, to their Olympic committees (after all, they sent their teams). At the opening ceremony, IOC President Michael Morris, before giving the floor to Leonid Brezhnev, particularly thanked those athletes who came on their own initiative, despite the boycott. These games went down in history as the Olympiad with the most competently organized and memorable closing ceremony - when the symbol of the games - Mishka - flied away to the song by A. Pakhmutova and N. Dobronravov «Good bye, Moscow!», many (even foreigners) could not hold back tears - it was so powerful and atmospheric. At the closing ceremony, instead of the flag of the United States (the country where the next Olympiad will be held), the flag of the city of Los Angeles was hoisted, which hinted that the USSR would recall this boycott...";
+					text += "莫桑比克和卡塔尔拒绝参加比赛，而英国、\n法国、意大利和西班牙等国政府则被授权由各自的奥委会决定是否派\n运动员赴莫斯科（毕竟他们也派了队伍）。\n开幕式上，国际奥委会主席迈克尔·莫里斯在把发言权交给列昂尼\n德·勃列日涅夫之前，特别感谢那些在抵制情况下仍自发前来参赛的\n运动员。这届奥运会载入史册，因其闭幕式组织得最得当、\n最令人难忘——当比赛的吉祥物米什卡飞向阿·帕赫穆托娃和N·多\n布罗涅拉沃夫演唱的《再见吧，莫斯科！\n》时，许多人（甚至外国人）都忍不住落泪——太有力量、\n太有氛围了。闭幕式上，升起的不是将举办下一届奥运会的美国国旗，\n而是洛杉矶市旗，这暗示苏联将撤回这次抵制……";
 					GlobalScript.inst.gameState.data[1] += 200;
 					GlobalScript.inst.gameState.data[3] += 50;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
@@ -5107,10 +5107,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 66)
 			{
-				text2 = "And after Tito - Tito!";
+				text2 = "而后是铁托——铁托！";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " sent a letter in which he expressed deep condolences to the Presidium of the SFRY, the LCY Central Committee, all peoples of Yugoslavia in connection with the death of the head of state, Marshal Tito, and expressed hope for the restoration of \"friendly relations, economic and cultural relations\". The letter was published in the newspaper \"Borba\", and at the end of the seven-day mourning we received an official response from the SFRY Presidium, in which we were thanked for condolences. However, this did not affect the state of Sino-Yugoslav relations. ";
+					text = GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "发来一封信，向南斯拉夫社会主义联邦共和国（SFRY）\n主席团、南斯拉夫共产党（LCY）中央委员会以及南斯拉夫全体人\n民，因国家元首、铁托元帅的逝世表示深切哀悼，\n并表示希望恢复“友好关系、经济与文化关系”。\n这封信刊登在《Borba》报上。\n七天哀悼结束后，我们收到了SFRY主席团的正式答复，\n信中对我们的慰问表示感谢。\n然而，这并未改变中南关系的状况。";
 					GlobalScript.inst.gameState.data[6] -= 10;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations += 20;
@@ -5119,7 +5119,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "On May 7, more than 200 foreign delegations arrived at the Assembly of the SFRY to bid farewell to Marshal Tito. Memorial service ended May 8 at 8:00 in the morning. At 12:00 on May 8, after the guard of honor, consisting of members of the SFRY Presidium and the Presidium of the Central Committee of the LCY, 8 admirals and generals of the YNA carried the coffin with the body of Josip Broz Tito. The Chairman of the Central Committee of the LCY, Stevan Doronsky, gave a speech in memory of Tito, after which the column moved along the street of Prince Milos and the October Revolution Boulevard up to the 25 May Museum. The last speech was made by the Chairman of the Presidium of the SFRY, Lazar Kolisevski, in front of the House of Flowers and the stands meant for foreign statesmen. To the sounds of the «Internationale» after 3:00 pm, the coffin was brought into the House of Flowers, where Josip Broz Tito rested from now on. |The 中华人民共和国 delegation, led by " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " and Ji Pengfei held talks with the new leadership of Yugoslavia, during which agreements were reached on the restoration of diplomatic, economic and cultural relations. A return visit of Lazar Kolisevski to Beijing in half a year is expected. However, the party has already found people dissatisfied with our policy of improving relations with the SFRY, and some have already compared the comrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " with Khrushchev...";
+					text = "5月7日，200多支外国代表团抵达SFRY议会，\n向铁托元帅告别。5月8日上午8时，追悼活动结束。\n5月8日12时，在由SFRY主席团成员以及LCY中央委员会主\n席团成员组成的仪仗队之后，南斯拉夫人民军（YNA）\n的8名海军上将和将军抬着装有约瑟普·布罗兹·铁托遗体的灵柩前\n行。LCY中央委员会主席斯捷潘·多龙斯基发表了纪念铁托的讲话，\n随后队伍沿着米洛什亲王街和十月革命大道前往25五月博物馆。\n最后一场讲话由SFRY主席团主席拉扎尔·科利舍夫斯基在“鲜花\n之家”以及为外国政要准备的看台前作出。\n下午3点后，在《国际歌》的旋律中，灵柩被移入“鲜花之家”，\n从此约瑟普·布罗兹·铁托将安息于此。\n | 中华人民共和国代表团由 " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "和季鹏飞与南斯拉夫新领导层举行会谈，\n期间就恢复外交、经济和文化关系达成协议。\n预计半年后拉扎尔·科利舍夫斯基将回访北京。\n然而，党内已经找到了对我们改善同SFRY关系政策不满的人，\n有人甚至已经把这位同志 " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "比作赫鲁晓夫……";
 					GlobalScript.inst.gameState.data[1] -= 50;
 					GlobalScript.inst.gameState.data[6] -= 20;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
@@ -5129,14 +5129,14 @@ public class Results_text : MonoBehaviour
 					GlobalScript.inst.gameState.allcountries[15].Torg = true;
 					if (GlobalScript.inst.gameState.allcountries[20].proprc)
 					{
-						text += "But, as was to be expected, the Albanian leadership immediately accused us of \"revisionism\" and broke the diplomatic relations with the 中华人民共和国, sending all our advisers out of the country and refusing to pay the loans that we gave them. What kind of people?..";
+						text += "但正如预料的那样，阿尔巴尼亚领导层立刻指责我们“修正主义”，\n并与中华人民共和国断绝外交关系，把我们所有顾问赶出该国，\n同时拒绝偿还我们借给他们的贷款。\n什么样的人……？";
 						GlobalScript.inst.gameState.allcountries[20].Torg = false;
 						GlobalScript.inst.gameState.allcountries[20].proprc = false;
 					}
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "On May 7, more than 200 foreign delegations arrived at the Assembly of the SFRY to bid farewell to Marshal Tito. Memorial service ended May 8 at 8:00 in the morning. At 12:00 on May 8, after the guard of honor, consisting of members of the SFRY Presidium and the Presidium of the Central Committee of the LCY, 8 admirals and generals of the YNA carried the coffin with the body of Josip Broz Tito. The Chairman of the Central Committee of the LCY, Stevan Doronsky, gave a speech in memory of Tito, after which the column moved along the street of Prince Milos and the October Revolution Boulevard up to the 25 May Museum. The last speech was made by the Chairman of the Presidium of the SFRY, Lazar Kolisevski, in front of the House of Flowers and the stands meant for foreign statesmen. To the sounds of the «Internationale» after 3:00 pm, the coffin was brought into the House of Flowers, where Josip Broz Tito rested from now on. The new leadership of Yugoslavia showed interest in restoring relations with the 中华人民共和国, but Comrade Ji Pengfei refused to conduct any negotiations, citing his lack of proper powers. \"It is possible that someday later... but not now\" he told to Lazar Kolisevski. However, the party found dissatisfied with the fact that our delegation returned from Belgrade empty-handed...";
+					text = "5月7日，200多支外国代表团抵达SFRY议会，\n向铁托元帅告别。5月8日上午8时，追悼活动结束。\n5月8日12时，在由SFRY主席团成员以及LCY中央委员会主\n席团成员组成的仪仗队之后，南斯拉夫人民军（YNA）\n的8名海军上将和将军抬着装有约瑟普·布罗兹·铁托遗体的灵柩前\n行。LCY中央委员会主席斯捷潘·多龙斯基发表了纪念铁托的讲话，\n随后队伍沿着米洛什亲王街和十月革命大道前往25五月博物馆。\n最后一场讲话由SFRY主席团主席拉扎尔·科利舍夫斯基在“鲜花\n之家”以及为外国政要准备的看台前作出。\n下午3点后，在《国际歌》的旋律中，灵柩被移入“鲜花之家”，\n从此约瑟普·布罗兹·铁托将安息于此。\n南斯拉夫新领导层对恢复同中华人民共和国的关系表现出兴趣，\n但季鹏飞同志以权限不足为由拒绝进行任何谈判。\n“也许以后某一天……\n但不是现在”，他对拉扎尔·科利舍夫斯基说。\n然而，党内有人对我们的代表团从贝尔格莱德空手而归感到不满……";
 					GlobalScript.inst.gameState.data[1] -= 30;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.relations += 30;
@@ -5146,16 +5146,16 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "The Chinese leadership did not respond to the death of Tito, did not even express condolences. This caused surprise not only in Yugoslavia, but throughout the world. To the question of the Tanjug agency about the reasons for this, comrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " replied: \"No comment...\"";
+					text = "中国领导层对铁托的逝世没有作出回应，\n甚至连慰问都没有表示。\n这不仅在南斯拉夫引起震惊，也在全世界引起震动。\n针对塔纽格通讯社询问此事原因，同志 " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "答道：“无可奉告……”";
 					GlobalScript.inst.gameState.data[6] += 10;
 				}
 			}
 			else if (GlobalScript.inst.gameState.number_event == 67)
 			{
-				text2 = "Poland has not died yet?";
+				text2 = "波兰还没死呢？";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "The Chinese leadership has not responded to the events in Poland, except for the joint editorial of the newspaper \"Renmin Ribao\" and the magazine \"Hongqi\", which called for the warring parties \"to find a compromise solution for the socialist and people's democratic future of Poland\". This position was approved by both the USSR and Poland itself. |In this situation, the army took all the responsibility for the fate of the country. Enlisting the support of the USSR and guaranteeing its military non-intervention, the Minister of National Defense of the NDP, General Wojciech Jaruzelski, created the Military Council of National Salvation and on December 13, 1981 announced the introduction of martial law throughout the territory of the NDP. Decisive actions of the Polish Army, the Security Council and ZOMO (special units of the Civil Militia), the entire asset \"Solidarity\" and the PUWP leadership were interned and order in the country more or less restored. Announcing the \"new line of socialism\", Jaruzelski began economic reforms on the model of the Hungarian. However, the cardinal problems were not solved, which later will surely make itself known...";
+					text = "中国领导层对波兰的事态没有回应，除了一篇《人民日报》和《红旗\n》杂志的联合社论，呼吁交战双方“为波兰社会主义和人民民主的未\n来找到一个折中解决方案”。\n这一立场得到了苏联和波兰本身的认可。\n | 在这种情况下，军队承担了国家命运的全部责任。\n国防部长、波兰人民共和国（NDP）总参将雅鲁泽尔斯基将军争取\n到苏联的支持，并保证苏联不会进行军事干预，\n于1981年12月13日成立“民族拯救军事委员会”，\n并宣布在NDP全境实行戒严。\n波兰军队、安全委员会以及ZOMO（民兵的特种部队）\n的果断行动，连同“团结”这一全部资产和波兰统一工人党（PUW\nP）领导层都被拘押，国家秩序或多或少得以恢复。\n雅鲁泽尔斯基宣布“新的社会主义路线”，\n并开始按匈牙利模式进行经济改革。\n然而，关键问题并未解决，日后必将显现出来……";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power -= 20;
 					empire = GlobalScript.inst.gameState.empires[1];
@@ -5166,7 +5166,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Understanding that in the current situation only the Polish Army could somehow influence the situation and stop the impending counter-revolution, we contacted his command headed by the National Defense Minister of Poland, General Wojciech Jaruzelski. As it turned out, we were not the only ones who demanded that he restore order — the USSR also put pressure, but Jaruzelski hesitated. Finally, he decided - but categorically demanded that the USSR and the 中华人民共和国 not intervene in the process. Having received our guarantees, on December 13, 1980, the Polish generals created the Military Council of National Salvation and imposed martial law on the whole territory of Poland. Decisive actions of the Polish Army, the Security Council and ZOMO (special units of the Civil Militia), the entire asset \"Solidarity\" and the PUWP leadership were interned and order in the country more or less restored. All power in the country passed to the Supreme Council of Armed Forces, which immediately caused accusations of \"establishing a military dictatorship\", and the United States has already called for a fight against \"the Soviet military junta of Jaruzelski\". The 中华人民共和国 and the USSR also issued the NDP large interest-free loans to repay the national debt. It seems that the situation is recovering, and the Polish example taught our party something...";
+					text = "我们认识到，在当前局势下，只有波兰军队才能在某种程度上左右局\n势、阻止迫在眉睫的反革命。\n因此，我们联系了由波兰国防部长雅鲁泽尔斯基将军领导的指挥部。\n事实证明，我们并不是唯一要求他恢复秩序的人——苏联也施加了压\n力，但雅鲁泽尔斯基仍犹豫不决。\n最终，他作出了决定——但明确要求苏联和中华人民共和国不要介入\n这一进程。得到我们的保证后，1980年12月13日，\n波兰将军们成立“民族拯救军事委员会”，\n并在波兰全境实行戒严。\n波兰军队、安全委员会和ZOMO（民兵特种部队）\n的果断行动，使“团结”这一全部力量以及波兰统一工人党（PUW\nP）领导层都被关押，国家秩序或多或少得以恢复。\n国家一切权力转交给武装力量最高委员会，\n这立刻引发了“建立军事独裁”的指责，\n美国也已经呼吁对“雅鲁泽尔斯基的苏联军事集团”进行斗争。\n中华人民共和国和苏联还向NDP提供了大额无息贷款，\n用于偿还国债。看来局势正在好转，而波兰的例子也给我们党上了一\n课……";
 					GlobalScript.inst.gameState.data[1] += 200;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power -= 10;
@@ -5182,7 +5182,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "国家安全部 agents through the underground Communist Party of Kazimierz Mijal came to the head of the \"concrete\" faction in the PUWP - Albin Siwak, who hates \"Solidarity\" and has repeatedly demanded to use weapons against it. Through his connections in the national catholic group \"PAX\" and the right-wing nationalist society \"Grunwald\", Siwak quickly achieved their agreement on a coalition with \"concrete\" and CPP. On December 2, at a joint meeting of the PUWP Central Committee and the State Council, former head of state Edward Gierek was removed. But immediately after this, Comrade Siwak demanded the immediate convocation of the Sejm and the declaration of martial law in the country. The State Council tried to resist, but then ORMO fighters broke into the meeting room. For two months in the country there was a de facto civil war in miniature, but the security forces of Poland supported the coup and, thus, ensured the victory of the coalition. The PUWP was dissolved, the CPP was legalized, \"Solidarity\" was virtually destroyed, and its right wing entered the Front of National Unity. The new leadership of Poland has already announced a course on \"socialism with Polish national identity\" and to come closer with us. The USSR is furious, but after the statements of the Polish leaders that \"Poland does not intend to withdraw from the Warsaw Pact and the CMEA in any way and is in favor of the development of Soviet-Polish relations along the lines of good-neighborliness and cooperation\", somewhat calmed down and de facto acknowledged changes. ";
+					text = "国家安全部（MSS）特工通过卡齐米日·米贾尔的地下共产党，\n接触到波兰统一工人党（PUWP）中“混凝土派”的头目阿尔宾·\n西瓦克。他憎恨“团结”，并多次要求对其动用武器。\n凭借他在民族天主教团体“PAX”和右翼民族主义社团“格伦瓦尔\n德”的关系，西瓦克很快就促成了他们同意与“混凝土派”和CPP\n结成联盟。12月2日，在PUWP中央委员会与国务委员会的联合\n会议上，前国家元首爱德华·吉莱克被撤职。\n但就在此后不久，西瓦克同志就要求立即召开议会（Sejm），\n并在全国宣布戒严。\n国务委员会试图抵抗，但随后ORMO武装人员闯入会议室。\n两个月内，国内出现了“微型内战”的事实局面；\n但波兰安全力量支持了政变，从而确保了联盟的胜利。\nPUWP被解散，CPP被合法化，“团结”几乎被摧毁，\n其右翼进入“民族统一阵线”。\n波兰新领导层已经宣布实行“带有波兰民族特征的社会主义”的路线，\n并表示要与我们更靠近。\n苏联十分恼怒，但在波兰领导人表示“波兰无论如何都不打算退出华\n沙条约和经互会，并赞成按照睦邻友好与合作的方针发展苏波关系”\n之后，才稍稍冷静下来，并在事实上承认了变化。";
 					GlobalScript.inst.gameState.data[1] += 100;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power -= 30;
@@ -5205,10 +5205,10 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "The news of Gierek’s resignation made a very negative impression on you. At 23 o'clock you summoned the Soviet ambassador and asked to transfer personally to comrade Leonid Ilyich Brezhnev the following: \"At this hour, the responsible tests for the fate of socialism in Poland, the Communist Party of China, fraternal parties of the allied states, all socialist countries cannot take the position of an outside observer. What happening in Poland is not only an internal affair of the Poles. Today at night we will appeal to all the leaders of the Warsaw Pact states with an urgent appeal to undertake vigorous joint military efforts in order to prevent of the collapse of socialism in Poland. The leadership of the People's Republic of China and the 中共 is confident that socialist Poland can still be saved. Imperialism can and must be prevented in the cause of socialism\".";
+					text = "吉莱克辞职的消息给你留下了非常负面的印象。\n23点时，你召见苏联大使，并要求他亲自向列昂尼德·伊里奇·勃\n列日涅夫同志转达如下内容：“在这一时刻，\n检验波兰社会主义命运的责任性考验，检验中共以及盟国兄弟党、\n所有社会主义国家，不能采取旁观者的立场。\n波兰发生的事情不仅是波兰人的内部事务。\n今天夜里，我们将向华沙条约国家的所有领导人发出紧急呼吁，\n要求他们采取有力的共同军事行动，以防止波兰社会主义的崩溃。\n中华人民共和国和中共的领导层相信，社会主义波兰仍然可以被挽救。\n为了社会主义事业，必须、也能够阻止帝国主义。\n”";
 					if (GlobalScript.inst.gameState.empires[1].relations >= 800)
 					{
-						text = "Our appeal found support from the leadership of the GDR, Czechoslovakia, and then the leadership of the USSR. The military invasion plan was transmitted by Marshal N.V. Ogarkov, Chief of the General Staff of the USSR Supreme Soviet to Deputy Polish General Staff General T. Hupalovsky. The plan provided for the introduction of Soviet, East German and Czechoslovak troops into Polish territory. Polish troops were to remain in the barracks. The invasion force consisted of 15 Soviet divisions, 2 German and 1 Czechoslovak. A reconnaissance of the routes and troop concentration areas was conducted, in which Polish representatives took an active part. The operation involved: from the Czechoslovak People's Army - the headquarters of the Western Military District and two army headquarters; from the National People's Army of the GDR - two army headquarters; from the Soviet Army - the headquarters of the State Civil Aviation Command, its two army headquarters and the headquarters of the Northern Group of Forces. |On December 9, 1980, units of the Northern Group of Forces of the Armed Forces of the USSR, together with units of the National People’s Army of the GDR and the Czechoslovak People’s Army, entered Polish territory and began a rapid advance towards the key cities of the country. Parts of the Polish Army did not offer any resistance. \"Solidarity\" went underground, the PUWP leadership was arrested and taken to the USSR. The new leadership of the PPR, headed by General Wojciech Jaruzelski, announced a course on the \"new line of socialism\", which envisages carrying out reforms within the framework of Marxism under the supervision of Soviet troops. The United States is in a frenzy and full swing accusing the USSR and us of establishing a military dictatorship in Poland\".";
+						text = "我们的呼吁得到了德意志民主共和国（GDR）\n领导层、捷克斯洛伐克领导层的支持，随后也得到了苏联领导层的支\n持。军事入侵计划由苏联最高苏维埃总参谋长、\n元帅N.V.奥加尔科夫传达给波兰副总参谋长、\n将军T.胡帕洛夫斯基。\n该计划规定将苏联、东德和捷克斯洛伐克部队引入波兰境内。\n波兰军队则留在军营中。\n入侵兵力由15个苏联师、2个德国师和1个捷克斯洛伐克师组成。\n对路线和部队集结地域进行了侦察，其中波兰方面代表积极参与。\n行动包括：来自捷克斯洛伐克人民军——西部军区司令部和两个集团\n军司令部；来自GDR国家人民军——两个集团军司令部；\n来自苏联军队——国家民航司令部、其两个集团军司令部以及北方兵\n团司令部。 |1980年12月9日，\n苏联武装力量北方兵团的部队，联合GDR国家人民军和捷克斯洛伐\n克人民军的部队进入波兰境内，并迅速向该国的要害城市推进。\n波兰军队的一部分没有进行任何抵抗。\n“团结”转入地下，PUWP领导层被逮捕并押往苏联。\n由雅鲁泽尔斯基将军领导的波兰人民共和国（PPR）\n新领导层宣布实行“新的社会主义路线”，\n即在苏联部队监督下，在马克思主义框架内进行改革。\n美国则陷入疯狂，正大肆指责苏联和我们在波兰建立军事独裁。\n”";
 						GlobalScript.inst.gameState.data[1] += 100;
 						GlobalScript.inst.gameState.data[22] -= 50;
 						GlobalScript.inst.gameState.data[9] -= 50;
@@ -5225,7 +5225,7 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "Unfortunately, the Soviet leadership, and then the leadership of the rest of the Warsaw Pact countries, did not decide on the use of troops to restore order, but supported the Polish military and sanctioned independent actions. The Minister of National Defense of the NDP, General Wojciech Jaruzelski, created the Military Council of National Salvation and on December 13, 1981 announced the introduction of martial law throughout the territory of the NDP. Decisive actions of the Polish Army, the Security Council and ZOMO (special units of the Civil Militia), the entire asset \"Solidarity\" and the PUWP leadership were interned and order in the country more or less restored. Announcing the \"new line of socialism\", Jaruzelski began economic reforms on the model of the Hungarian. However, the cardinal problems were not solved, which later will surely make itself known...";
+						text = "不幸的是，苏联领导层，随后是华沙条约其他国家的领导层，\n并未决定动用部队来恢复秩序，而是支持波兰军方，\n并批准其自行采取行动。\nNDP国防部长雅鲁泽尔斯基将军成立“民族拯救军事委员会”，\n并于1981年12月13日宣布在NDP全境实行戒严。\n波兰军队、安全委员会和ZOMO（民兵特种部队）\n的果断行动，使“团结”这一全部力量以及PUWP领导层都被拘押，\n国家秩序或多或少得以恢复。\n雅鲁泽尔斯基宣布“新的社会主义路线”，\n并开始按匈牙利模式进行经济改革。\n然而，关键问题并未解决，日后必将显现出来……";
 						GameState gameState = GlobalScript.inst.gameState;
 						gameState.influencePRC += 10;
 						GlobalScript.inst.gameState.data[6] += 200;
@@ -5239,7 +5239,7 @@ public class Results_text : MonoBehaviour
 				{
 					if (GlobalScript.inst.gameState.empires[0].relations >= 80 && GlobalScript.inst.gameState.allcountries[51].stab == 1)
 					{
-						text = "We came into contact with the CIA and reached agreements on joint actions. But the situation took an unexpected turn - in the wake of intensified unrest, Stanislaw Kania, after secret consultations with the army command, unexpectedly announced his resignation from all posts. The first secretary of the PUWP Central Committee became a reform supporter, Mieczyslaw Rakowski, who was close to the Minister of National Defense of Poland, General Wojciech Jaruzelski. Through his connections in the \"Solidarity\", Rakowski made contact with Walesa and offered a compromise advantageous to both sides - \"Solidarity\" officially legalized, but refused to fight power and went to the parliament, it will receive several portfolios in the new government and admission to the drafting of a broad reform. He agreed. Rakowski announced the concept of \"new line of socialism\", implying very broad reforms following the example of Hungary and Yugoslavia. Leadership \"Solidarity\" supported these reforms and announced the cessation of demonstrations and strikes. The situation is slowly normalizing, despite the fact that the USSR reacted to such an unexpected \"exit\" with very strong suspicion, and if Rakowski loses control of the situation during the reforms, then Poland will be waiting for its 1968th...";
+						text = "我们与中央情报局（CIA）取得联系，\n并就联合行动达成协议。\n但局势出现了意外转折——在骚乱加剧的背景下，\n斯坦尼斯瓦夫·卡尼亚在与军队指挥部秘密磋商后，\n竟然意外宣布辞去所有职务。\nPUWP中央委员会第一书记由改革派支持者、\n与波兰国防部长雅鲁泽尔斯基将军关系密切的米耶奇斯瓦夫·拉科夫\n斯基担任。拉科夫斯基凭借其在“团结”中的关系与瓦文萨取得联系，\n并提出对双方都有利的折中方案——“团结”被正式合法化，\n但拒绝争夺政权，转而进入议会；它将在新政府中获得若干内阁席位，\n并参与起草一揽子改革。\n他同意了。拉科夫斯基宣布“新的社会主义路线”理念，\n意味着将效仿匈牙利和南斯拉夫进行非常广泛的改革。\n“团结”领导层支持这些改革，并宣布停止示威和罢工。\n局势正在慢慢走向正常，尽管苏联对这种意外“出局”反应极为强烈\n地怀疑；而如果拉科夫斯基在改革过程中失去对局势的控制，\n那么波兰将迎来它的1968年……";
 						GlobalScript.inst.gameState.data[1] += 50;
 						GlobalScript.inst.gameState.data[3] += 20;
 						GlobalScript.inst.gameState.data[4] += 80;
@@ -5258,7 +5258,7 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "Unfortunately, even though we supported the efforts of the United States to destabilize the situation in Poland, it did not work out to achieve positive results. At first, everything went according to plan - in December, \"Solidarity\" attempted a coup with the support of the broad masses of the people and was able to seize the government quarter in Warsaw. But then the unexpected happened - Stanislaw Kania fled to Bialystok and turned to the PCC of the Warsaw Pact for military assistance. On December 9, 1980, units of the Northern Group of Forces of the Armed Forces of the USSR, together with units of the National People’s Army of the GDR and the Czechoslovak People’s Army, entered Polish territory and began a rapid advance towards the key cities of the country. Parts of the Polish Army either joined them or remained neutral. \"Solidarity\" was actually destroyed, and Lech Walesa barely managed to escape to the American embassy in Warsaw. The new leadership of the PPR, headed by General Wojciech Jaruzelski, announced a course on the \"new line of socialism\", which envisages the implementation of reforms within Marxism under the supervision of Soviet troops...";
+						text = "不幸的是，尽管我们支持美国破坏波兰局势的努力，\n但并未能取得积极成果。\n起初一切都按计划进行——12月，“团结”在广大群众的支持下发\n动政变，成功夺取了华沙的政府区。\n但随后发生了意外——斯坦尼斯瓦夫·卡尼亚逃往比亚韦斯托克，\n并向华沙条约的波兰共产党（PCC）请求军事援助。\n1980年12月9日，苏联武装力量北方兵团的部队，\n联合GDR国家人民军和捷克斯洛伐克人民军的部队进入波兰境内，\n并迅速向该国要害城市推进。\n波兰军队的一部分要么加入了他们，要么保持中立。\n“团结”实际上被摧毁，莱赫·瓦文萨几乎才得以逃到华沙的美国使\n馆。由雅鲁泽尔斯基将军领导的波兰人民共和国（PPR）\n新领导层宣布实行“新的社会主义路线”，\n即在苏联部队监督下，在马克思主义框架内实施改革……";
 						GlobalScript.inst.gameState.data[9] -= 200;
 						GlobalScript.inst.gameState.data[8] -= 100;
 						Empire empire = GlobalScript.inst.gameState.empires[1];
@@ -5273,16 +5273,16 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 68)
 			{
-				text2 = "Rise in Gwangju";
+				text2 = "光州起义";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "On May 27, aviation and army units of South Korea, as part of five divisions, broke into the city center and captured it in just 90 minutes. The number of killed civilians according to various estimates ranges from several hundred to several thousand.";
+					text = "5月27日，作为五个师的一部分，韩国空军和陆军部队突入市中心，\n仅用90分钟便将其占领。\n根据不同估算，被杀害的平民人数从数百到数千不等。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.power += 10;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Thanks to our supply of weapons and the introduction of confusion in the plans of the South Korean army and sabotage, the assault on Gwangju has become a long and bloody character. Moreover, having learned (thanks to our agents) about the massacre that is taking place, people from other cities and regions of South Korea also came out to protest, turning into open clashes with the army and the police, seizing administrative buildings and armories. In the end, the army managed to seize Gwangju, brutally cracking down on the rebels, and the rest of the biggest insurrections were somehow crushed. However, protests in various cities are still ongoing and the stability of the government of Chun Doo-hwan hangs in the balance.";
+					text = "多亏我们提供武器，并在韩国军队的部署中制造混乱、\n实施破坏，针对光州的进攻变成了一场漫长而血腥的战斗。\n更何况，在（多亏我们的特工）得知正在发生的屠杀之后，\n韩国其他城市和地区的人们也纷纷出来抗议，\n演变为与军队和警察的公开冲突，夺取行政大楼和军械库。\n最终，军队还是设法占领了光州，对反叛者进行残酷镇压，\n其余最大的起义也不知怎的被压了下去。\n然而，各地的抗议仍在继续，权力集团全斗焕政府的稳定摇摇欲坠。";
 					GlobalScript.inst.gameState.data[22] -= 80;
 					GlobalScript.inst.gameState.data[9] -= 80;
 					GlobalScript.inst.gameState.data[6] += 10;
@@ -5294,7 +5294,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "We called on the South Korean authorities and the insurgent Gwangju to negotiate and find a compromise. These statements were supported by the rebels themselves, but due to the fact that the United States (with the exception of some politicians who supported our statement) did not express any support for the protesters and a peaceful resolution of the conflict, our call was ignored by the authorities. On May 27, aviation and army units of South Korea, as part of five divisions, broke into the city center and captured it in just 90 minutes. The number of killed civilians according to various estimates ranges from several hundred to several thousand.";
+					text = "我们呼吁韩国当局与光州起义者进行谈判、\n寻求折中。这些表态得到了起义者本身的支持，\n但由于美国（除了一些支持我们表态的政客外）\n并未对抗议者以及通过和平方式解决冲突表示任何支持，\n我们的呼吁被当局无视。\n5月27日，作为五个师的一部分，韩国空军和陆军部队突入市中心，\n仅用90分钟便将其占领。\n根据不同估算，被杀害的平民人数从数百到数千不等。";
 					GlobalScript.inst.gameState.data[6] -= 10;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations += 20;
@@ -5303,7 +5303,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "After the South Korean army captured the city in 90 minutes, brutally suppressing the uprising, we expressed support for the actions of Chun Doo-hwan, saying that such tough measures were the only adequate response to the chaos organized by the insurgents. The South Korean government thanked us for the support, but quite a few countries, especially the socialist camp, took it with extreme disapproval.";
+					text = "在韩国军队用90分钟攻占城市、对起义进行残酷镇压之后，\n我们表示支持全斗焕的行动，称这种强硬措施是对起义者所策划的混\n乱所能作出的唯一恰当回应。\n韩国政府对我们的支持表示感谢，但不少国家，\n尤其是社会主义阵营，对此极为不满。";
 					GlobalScript.inst.gameState.data[6] -= 10;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations += 20;
@@ -5325,10 +5325,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 69)
 			{
-				text2 = "Another gang?";
+				text2 = "又是一个帮派？";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Conservatives continue to hold their posts, undermining your reforms and with the people and the 中共. And the reformers themselves are unhappy with your passivity.";
+					text = "保守派继续把持岗位，破坏你的改革，并与人民和中共作对。\n而改革派自己也对你的消极不满。";
 					GlobalScript.inst.gameState.data[1] -= 100;
 					GlobalScript.inst.gameState.data[3] -= 70;
 					Politic[] politics = GlobalScript.inst.gameState.politics;
@@ -5358,7 +5358,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "At the V Plenum of the 中共 Central Committee in February, 汪东兴, Ji Dengkui, Chen Xilian and 吴德 were criticized for \"ultra-left tendencies\", they were accused of participating in the repressions of the 文化大革命 and named \"The Little 四人帮\". As a result of the plenum, all four were removed from party and government posts, deprived of any influence. The same fate befell the conservatives clinging to them in the lower echelons. Their places are already occupied by your loyal supporters-refomrers, and the people they are promoting.";
+					text = "2月召开的中共第V次中央全会（五届？）\n上，王东兴、纪登奎、陈希连和吴德因“左倾”而遭到批评；\n他们被指控参与了文化大革命的镇压，并被称为“‘四人帮’的小帮\n”。全会结果是，这四人全部被撤出党政岗位，\n失去任何影响力。那些在基层紧跟他们的保守派也遭遇同样的下场。\n他们的位置已经被你忠诚的支持者——改革派——以及他们所推举的\n人所占据。";
 					GlobalScript.inst.gameState.data[1] += 80;
 					GlobalScript.inst.gameState.data[92] += 20;
 					GlobalScript.inst.gameState.data[4] += 100;
@@ -5398,7 +5398,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "At the V Plenum of the 中共 Central Committee in February, 汪东兴, Ji Dengkui, Chen Xilian and 吴德 were criticized for \"ultra-left tendencies\", they were accused of participating in the repressions of the 文化大革命 and named \"The Little 四人帮\". As a result of the plenum, all four were removed from party and government posts, deprived of any influence. The same fate befell the conservatives clinging to them in the lower echelons.";
+					text = "二月召开的中共十一届五中全会（V Plenum）\n上，汪东兴、纪登奎、陈希然（Chen Xilian）\n和吴德因“极左倾向”遭到批判，被指控参与了文化大革命的镇压，\n并被称为“小四人帮”。\n全会结果是四人全部被撤销党政职务，失去任何影响力。\n那些在基层死抱着他们不放的保守派，也遭遇同样下场。";
 					GlobalScript.inst.gameState.data[1] += 50;
 					GlobalScript.inst.gameState.data[92] += 10;
 					GlobalScript.inst.gameState.data[4] += 30;
@@ -5439,10 +5439,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 70)
 			{
-				text2 = "The problems of 周恩来's heirs";
+				text2 = "周恩来继承人的问题";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Reformers continue to hold their posts, undermining your undertakings and your reputation with the people and the 中共. And the left wing itself is dissatisfied with your passivity.";
+					text = "改革派继续把持岗位，破坏你的事业，也损害你在人民和中共中的声\n誉。而左翼本身也对你的消极不满。";
 					GlobalScript.inst.gameState.data[1] -= 100;
 					GlobalScript.inst.gameState.data[3] -= 100;
 					GlobalScript.inst.gameState.data[4] += 100;
@@ -5464,7 +5464,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "At the 5th Plenum of the 中共 Central Committee in February, the old reformers, such as 邓小平, 叶剑英 and 赵紫阳, were severely criticized for their revisionist positions, their striving for bourgeois liberalization and the betrayal of Mao's ideas. Despite heated discussions, following the results of the plenum, reformers and some moderates were removed from party and government posts, deprived of any influence. The same fate befell the reformers they cover in the lower echelons.";
+					text = "二月召开的中共十一届五中全会（5th Plenum）\n上，邓小平、叶剑英、赵紫阳等“老改革派”因其修正主义立场、\n鼓吹资产阶级自由化、背叛毛泽东思想而遭到严厉批判。\n尽管讨论激烈，但在全会结果公布后，改革派以及部分中间派被撤销\n党政职务，失去任何影响力。\n那些在基层为他们遮护的改革派，也遭遇同样下场。";
 					GlobalScript.inst.gameState.data[1] += 50;
 					GlobalScript.inst.gameState.data[4] -= 50;
 					GlobalScript.inst.gameState.data[6] += 40;
@@ -5508,7 +5508,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "At the 5th Plenum of the 中共 Central Committee in February, the old reformers, such as 邓小平, 叶剑英 and 赵紫阳, were severely criticized for their revisionist positions, their striving for bourgeois liberalization and the betrayal of Mao's ideas. Moreover, these accusations even supported the moderates once solidary with the reformers, thanks to the fact that you carried out, so much desired by them, the coagulation of the 文化大革命 and the reappraisal of Mao. As a result of the plenum, the reformers were removed from party and government posts, deprived of any influence. The same fate befell the reformers they cover in the lower echelons.";
+					text = "二月召开的中共十一届五中全会（5th Plenum）\n上，邓小平、叶剑英、赵紫阳等“老改革派”因其修正主义立场、\n鼓吹资产阶级自由化、背叛毛泽东思想而遭到严厉批判。\n更有甚者，这些指控甚至也“照顾”了曾与改革派同一阵线的中间派\n——因为你做了他们梦寐以求的事：把文化大革命“定型”，\n并重新评价毛。结果是改革派被撤销党政职务，\n失去任何影响力。那些在基层为他们遮护的改革派，\n也遭遇同样下场。";
 					GlobalScript.inst.gameState.data[1] += 80;
 					GlobalScript.inst.gameState.data[4] -= 50;
 					GlobalScript.inst.gameState.data[6] += 30;
@@ -5541,7 +5541,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "According to your order, the leaders of the reformers were arrested on trumped up charges and were permanently removed from politics. After that, with the active participation of the media controlled by us, the discredit of reformist ideas and supporters of repressed reformers began, with which the party began to be cleared of them. The people and the party are themselves unhappy and consider it a repetition of the events of the 文化大革命, but we got rid of our opponents.";
+					text = "奉你的命令，改革派头目被以莫须有的罪名逮捕，\n并被永久逐出政治舞台。\n之后，在我们控制的媒体积极配合下，开始对改革主义思想及被镇压\n的改革派支持者进行抹黑，党内也随之开始清除他们。\n人民和党内人士都不高兴，认为这不过是文化大革命的重演，\n但我们总算除掉了对手。";
 					GlobalScript.inst.gameState.data[1] -= 200;
 					GlobalScript.inst.gameState.data[4] += 150;
 					GlobalScript.inst.gameState.data[3] -= 200;
@@ -5588,15 +5588,15 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 71)
 			{
-				text2 = "The East Is Red...";
+				text2 = "东方红……";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Nothing has changed, the Naxalites continue their attacks, and the Indian government with varying success is trying to contain them. But who knows, maybe someday they will come in handy to us, because they also operate in the territories to which we pretend...";
+					text = "一切照旧，人民解放游击队（Naxalites）\n继续发动袭击，印度政府时而得手、时而失手，\n试图遏制他们。但谁知道呢，也许有一天他们会派上用场——因为他\n们也活动在我们“假装”不去管的那些地区……";
 					GlobalScript.inst.gameState.CBIndia = true;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "After long disputes and hesitations, the Indian government nevertheless agreed to negotiate with the Naxalites with our mediation. With great difficulty, following the results of the negotiations, they managed to achieve a transition to peaceful struggle in exchange for places in local governments and self-government bodies (in a few they even managed to get the majority) and recognize them as legal political force. Of course, some troops and groups have already called it a betrayal, but what do we care about these terrorists? Our influence in eastern India has been greatly strengthened.";
+					text = "经过长期争论与犹豫，印度政府最终还是同意在我们的斡旋下与人民\n解放游击队（Naxalites）谈判。\n谈判结果极其不易，他们才换取到在地方政府和自治机构中的席位（\n少数地方甚至拿下多数），并承认他们为合法政治力量。\n固然也有一些部队和团体已把这称作背叛，\n但我们在乎这些恐怖分子吗？\n我们在印度东部的影响力已大为增强。";
 					GlobalScript.inst.gameState.data[1] += 80;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.relations += 50;
@@ -5606,7 +5606,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "The PLA units managed to break down the defenses of the first border units relatively quickly, but then they rested on Indian fortifications well organized since our last border war. It seems that the war will be longer and bloodier than we thought... Meanwhile, the whole world is already looking askance at us and demands that we immediately sit at the negotiating table.";
+					text = "解放军部队相对迅速地击溃了第一道边防，\n但随后却陷入了印度方面自上次边境战争以来就组织得很好的工事。\n看来这场战争会比我们想象的更久、更血腥……\n与此同时，全世界已经在冷眼旁观，要求我们立刻坐到谈判桌前。";
 					GlobalScript.inst.gameState.data[1] -= 50;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations -= 150;
@@ -5619,10 +5619,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 72)
 			{
-				text2 = "Rescue drowning";
+				text2 = "救起溺水者";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = ((GlobalScript.inst.gameState.data[91] != 1) ? "In the end, under the pressure of internal squabbles and intrigues, the  Janata leader Morarji Desai resigned as prime minister. Charan Singh, who replaced him, is likely to hold out until the elections of 1980, after which Gandhi will replace him again." : "The Janata Party was extremely popular with the people and all analysts predicted that they would take the place of the INC and become the main party of the country for decades, but eventually, under the pressure of internal squabbles and intrigues, Janata Party leader Morarji Desai resigned as prime minister and the coalition itself fell apart, causing a major political vacuum in the country. His successor, Charan Singh, is likely to remain in power well into the 1980 elections, where a motley coalition of the INC, leftist Janata Party and Communist Party is predicted to win, after which Gandhi may come to power again.");
+					text = ((GlobalScript.inst.gameState.data[91] != 1) ? "最终，在党内争斗与阴谋的压力下，人民党领袖莫拉尔吉·德赛辞去\n总理职务。由他接任的查兰·辛格很可能撑到1980年选举，\n之后甘地又将取而代之。" : "人民党（Janata Party）在民众中极受欢迎，\n所有分析人士都预测他们将取代国大党（INC），\n成为国家数十年的主要政党；但最终，\n在党内争斗与阴谋的压力下，人民党领袖莫拉尔吉·德赛（Mora\nrji Desai）辞去总理职务，联盟本身也随之瓦解，\n造成全国性的重大政治真空。\n他的继任者查兰·辛格（Charan Singh）\n很可能执政到1980年选举之后——届时预计由国大党、\n左翼人民党和共产党组成的混合联盟将获胜，\n之后甘地（Gandhi）可能再次上台。");
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 10;
 					GlobalScript.inst.gameState.allcountries[19].Torg = false;
@@ -5630,7 +5630,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Our diplomats managed to convince Janatа leader Morarji Desai of the need to accept the demands of the left wing, primarily relating to the ban on dual membership - in Janata and other parties, directed mainly against representatives of the right wing, both in their own parties. As a result, most of them preferred their parties and were expelled from Janata, while Desai retained the post of prime minister with the support of the left wing. Having defined its political orientation, Janata is now implementing a leftist policy aimed mainly at developing production and fighting poverty, for which we had to give India a loan at a low rate. It seems now the party has been rehabilitated in the eyes of the people and has every chance in the upcoming elections.";
+					text = "我们的外交人员成功说服人民党领袖莫拉尔吉·德赛，\n接受左翼提出的要求——主要是禁止“双重党籍”：\n在人民党及其他政党之间的双重任职，主要针对各自党内的右翼代表。\n结果是他们中的大多数选择留在本党，\n并被逐出人民党；而德赛则在左翼支持下保住了总理职位。\n明确了政治取向后，人民党正在推行以发展生产、\n反贫困为主的左翼政策，为此我们不得不以低利率向印度提供贷款。\n看来该党已在人民眼中“翻案”，在即将到来的选举中大有机会。";
 					GlobalScript.inst.gameState.data[1] += 80;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations -= 80;
@@ -5639,7 +5639,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Our diplomats managed to convince Janatа leader Morarji Desai of the need to repel the demands of the left wing concerning, primarily relating to the ban on dual membership - in Janata and other parties, directed mainly against representatives of the right wing, both in their own parties. As a result, most of the left wing was excluded for splitting and violation of the principles of collective leadership, while Desai retained the post of prime minister with the support of the right wing. Having defined his political orientation, Janata is now implementing a right-liberal policy aimed mainly at attracting foreign investment and forming \"genuine democracy\", to which we had to give India a loan at a low rate. It seems now the party has been rehabilitated in the eyes of the people and has every chance in the upcoming elections.";
+					text = "我们的外交人员成功说服人民党领袖莫拉尔吉·德赛，\n拒绝左翼提出的要求——主要是关于禁止“双重党籍”：\n在人民党及其他政党之间的双重任职，主要针对各自党内的右翼代表。\n结果是左翼大多数因分裂和违反集体领导原则而被排除在外，\n而德赛则在右翼支持下保住了总理职位。\n明确了自己的政治取向后，人民党现在推行以吸引外资、\n建立“真正的民主”为主的右翼自由化政策，\n为此我们不得不以低利率向印度提供贷款。\n看来该党已在人民眼中“翻案”，在即将到来的选举中大有机会。";
 					GlobalScript.inst.gameState.data[1] += 80;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations -= 80;
@@ -5653,10 +5653,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 74)
 			{
-				text2 = "The decision on some questions of the history of the 中共";
+				text2 = "关于中共历史若干问题的决议";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "From 27 to 29 June 1981, Beijing hosted the 6th Plenum of the Central Committee of the Communist party of China of the 11th convocation, which was attended by 195 members of the 中共 Central Committee and 114 candidates for the 中共 Central Committee, as well as 53 invited persons. The agenda of the Plenum was: consideration and adoption of \"Decisions on some questions of the history of the 中共 since the founding of the 中华人民共和国\". Unanimously adopted by the Plenum \"The decision on some questions of the history of the 中共 since the founding of the 中华人民共和国\" from the Marxist position — the position of dialectical and historical materialism correctly summed up the most important events in the history of the party for 32 years after the formation of the 中华人民共和国, analyzed the subjective factors and social causes of errors, gave a fair assessment of the place of the great leader and wise teacher, comrade 毛泽东, in the history of the Chinese revolution, fully justified the great importance of 毛泽东's ideas as the guiding ideas of our party. The \"Decision\" confirmed the correctness of the way of building a modern socialist power, and also indicated the further direction of the development of the cause of socialism in our country and the work of the party.";
+					text = "1981年6月27日至29日，北京召开中共十一届六中全会。\n出席全会的有中共中央委员195人、候补委员114人，\n以及53名列席人员。\n全会的议程是：审议并通过《中华人民共和国成立以来中共历史若干\n问题的决议》。全会一致通过《中华人民共和国成立以来中共历史若\n干问题的决议》，从马克思主义立场——辩证唯物主义和历史唯物主\n义的立场——正确总结了中华人民共和国成立后32年中党的历史上\n最重要的事件，分析了错误的主观因素和社会原因，\n对伟大领袖和导师毛泽东同志在中国革命史上的地位作出了公正评价，\n充分论证了毛泽东思想作为我党指导思想的重大意义。\n《决议》确认了建设现代化社会主义强国道路的正确性，\n并指明了我国社会主义事业发展的进一步方向以及党的工作。";
 					GlobalScript.inst.gameState.data[1] += 50;
 					GlobalScript.inst.gameState.data[3] += 80;
 					GlobalScript.inst.gameState.data[4] -= 100;
@@ -5703,7 +5703,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "From 27 to 29 June 1981, Beijing hosted the 6th Plenum of the Central Committee of the Communist party of China of the 11th convocation, which was attended by 195 members of the 中共 Central Committee and 114 candidates for the 中共 Central Committee, as well as 53 invited persons. The agenda of the Plenum was: consideration and adoption of \"Decision on some questions of the history of the 中共 since the founding of the 中华人民共和国\". Unanimously adopted by the Plenum \"the Decision on some questions of the history of our party since the formation of China\" from a Marxist position — the positions of dialectical and historical materialism correctly summed up the most important events in the history of the party for 32 years after the formation of the 中华人民共和国, and especially the \"cultural revolution\", scientifically analyzed the correct and erroneous in the leading ideas of the party during these events, analyzed the subjective factors and social causes of errors, gave a fair assessment of the place of the great leader and teacher of comrade 毛泽东 in the history of the Chinese revolution, fully justified the great importance of 毛泽东's ideas as the guiding ideas of our party.";
+					text = "1981年6月27日至29日，北京召开中共十一届六中全会。\n出席全会的有中共中央委员195人、候补委员114人，\n以及53名列席人员。\n全会的议程是：审议并通过《中华人民共和国成立以来中共历史若干\n问题的决议》。全会一致通过《我国建国以来党的历史若干问题的决\n议》，从马克思主义立场——辩证唯物主义和历史唯物主义的立场—\n—正确总结了中华人民共和国成立后32年中党的历史上最重要的事\n件，尤其是“文化大革命”，科学分析了党在这些事件中指导思想的\n正确与错误，分析了错误的主观因素和社会原因，\n对毛泽东同志作为伟大领袖和导师在中国革命史上的地位作出公正评\n价，充分论证了毛泽东思想作为我党指导思想的重大意义。";
 					GlobalScript.inst.gameState.data[1] += 100;
 					GlobalScript.inst.gameState.data[3] += 80;
 					GlobalScript.inst.gameState.data[92] += 10;
@@ -5744,7 +5744,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "From 27 to 29 June 1981, Beijing hosted the 6th Plenum of the Central Committee of the Communist party of China of the 11th convocation, which was attended by 195 members of the 中共 Central Committee and 114 candidates for the 中共 Central Committee, as well as 53 invited persons. The agenda of the Plenum was: consideration and adoption of \"Decision on some questions of the history of the 中共 since the founding of the 中华人民共和国\". \"The decision on some questions of the history of our party since the formation of the 中华人民共和国\" caused extremely serious disputes and was adopted with a small majority of votes. It is with the Marxist position, the position of dialectical and historical materialism summarized the most important events in the history of the party for 32 years after the founding of the 中华人民共和国, and in particular \"cultural revolution\", criticized all incorrect in the guiding ideas of the party in the course of these events, analyzed the subjective factors of 毛泽东 and the social causes of errors, gave a fair assessment of the place of 毛泽东 in the history of the Chinese revolution - as \"Eastern despot and tyrant\", fully justified the great importance of the ideas of Marx-Engels-Lenin as the guiding ideas of our party and rejected the anti-Marxist views of 毛泽东.";
+					text = "1981年6月27日至29日，北京召开中共第十一届中央委员会\n第六次全体会议。出席会议的有中共中央委员195人、\n中共中央候补委员114人，以及53名列席人员。\n全会的议程是：审议并通过《中华人民共和国成立以来我党历史若干\n问题的决议》。“关于中华人民共和国成立以来我党历史若干问题的\n决议”引发了极其严重的争论，并以少数票通过。\n该决议以马克思主义立场、以辩证唯物主义和历史唯物主义的立场，\n总结了中华人民共和国成立后32年我党历史上最重要的事件，\n尤其是“文化大革命”，批判了在这些事件过程中党在指导思想上的\n一切错误，分析了毛泽东的主观因素以及错误的社会原因，\n对毛泽东在中国革命史上的地位作出了相对公允的评价——称其为“\n东方的专制暴君”；同时充分论证了马克思-恩格斯-列宁思想作为\n我党指导思想的重大意义，并否定了毛泽东的反马克思主义观点。";
 					GlobalScript.inst.gameState.data[1] -= 150;
 					GlobalScript.inst.gameState.data[3] -= 150;
 					GlobalScript.inst.gameState.data[57] -= 200;
@@ -5789,10 +5789,10 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "From 27 to 29 June 1981, Beijing hosted the 6th Plenum of the Central Committee of the Communist party of China of the 11th convocation, which was attended by 195 members of the 中共 Central Committee and 114 candidates for the 中共 Central Committee, as well as 53 invited persons. The agenda of the Plenum was: consideration and adoption of \"Decisions on some questions of the history of our party since the formation of the 中华人民共和国\". The plenary considered the \"Decision\" and considered it \"insufficiently prepared and quite wrong\", sending it for revision to the commission.";
+					text = "1981年6月27日至29日，北京召开中共第十一届中央委员会\n第六次全体会议。出席会议的有中共中央委员195人、\n中共中央候补委员114人，以及53名列席人员。\n全会的议程是：审议并通过《中华人民共和国成立以来我党历史若干\n问题的决议》。全会审议了这份《决议》，\n认为其“准备不足且相当错误”，于是将其送交委员会修改。";
 					if (GlobalScript.inst.gameState.data[56] < 2)
 					{
-						text += "The Commission corrected the excesses in the text, highlighting the leadership role of Chairman Mao in the Chinese revolution and the development of the country, but pointing to excesses of both right and left. This version was adopted by the Plenum.";
+						text += "起草机构对文稿中的偏差进行了修正，强调毛主席在中国革命和国家\n发展中的领导作用，同时指出右和左两方面的偏差。\n该版本被全会通过。";
 						GlobalScript.inst.gameState.data[1] += 20;
 						GlobalScript.inst.gameState.data[3] += 50;
 						GlobalScript.inst.gameState.data[92] -= 20;
@@ -5836,7 +5836,7 @@ public class Results_text : MonoBehaviour
 					}
 					else if (GlobalScript.inst.gameState.data[56] == 2 || GlobalScript.inst.gameState.data[56] == 1)
 					{
-						text += "The Commission corrected the excesses in the text, guided by the principle of \"correcting everything wrong and strengthening everything right\", giving a balanced assessment of the 40-70s period. This option was adopted by the Plenum.";
+						text += "起草机构对文稿中的偏差进行了修正，遵循“纠正一切错误、\n发扬一切正确”的原则，对40—70年代作出相对均衡的评价。\n该方案被全会通过。";
 						GlobalScript.inst.gameState.data[1] += 80;
 						GlobalScript.inst.gameState.data[3] += 40;
 						GlobalScript.inst.gameState.data[90] = 1;
@@ -5876,7 +5876,7 @@ public class Results_text : MonoBehaviour
 					}
 					else if (GlobalScript.inst.gameState.data[56] > 2)
 					{
-						text += "The Commission corrected the excesses in the text, focusing on Khrushchev's 1956 \"secret report\", as well as documents of Western intelligence agencies and Soviet publications, exposing 毛泽东 and his time of leadership. This option was adopted by the Plenum.";
+						text += "起草机构对文稿中的偏差进行了修正，重点引用赫鲁晓夫1956年\n的“秘密报告”，以及西方情报机构的文件和苏联出版物，\n揭露毛泽东及其领导时期。\n该方案被全会通过。";
 						GlobalScript.inst.gameState.data[1] -= 100;
 						GlobalScript.inst.gameState.data[3] -= 150;
 						GlobalScript.inst.gameState.data[90] = 2;
@@ -5917,7 +5917,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 5)
 				{
-					text = "From 27 to 28 June 1981, Beijing hosted the 6th Plenum of the Central Committee of the Communist party of China of the 11th convocation, which was attended by 195 members of the 中共 Central Committee and 114 candidates for the 中共 Central Committee, as well as 53 invited persons. The agenda of the Plenum was: consideration and adoption of \"Decisions on some questions of the history of our party since the formation of the 中华人民共和国\". At the request Of the Chairman of the 中共, the issue was removed from the agenda, stating that it is \"obsolete and unimportant\". The Plenum is completing its work.";
+					text = "1981年6月27日至28日，北京召开中共十一届六中全会。\n出席全会的有中共中央委员195人、候补委员114人，\n以及53名列席人员。\n全会的议程是：审议并通过《中华人民共和国成立以来我党历史若干\n问题的决议》。应中共主席的要求，该议题从议程中撤下，\n理由是“过时且不重要”。\n全会正在完成其工作。";
 					GlobalScript.inst.gameState.data[1] -= 70;
 					GlobalScript.inst.gameState.data[3] -= 30;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -5935,10 +5935,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 75)
 			{
-				text2 = "Problems of the Iraqi Atom";
+				text2 = "伊拉克原子问题";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Immediately after the air strike, Saddam Hussein spoke at an emergency meeting of the Council of Ministers of Iraq with a bright speech, in which he said: \"the Blow that was struck today at the reactor \"Tammuz\" was not sudden for us. But, of course, it becomes painful, because it is one of the good fruits of the revolution, which we have long cared a lot about politically, scientifically and economically... This is not because they are afraid of the Iraqi atomic bomb, as the leader of the Tel Aviv gang says, but because they are afraid of scientific, social, economic, political, balanced and compact development, which is seriously aimed at building a new Iraq... We do not have an international side, so we will postpone all the excuses, because the blow was struck against us... You understand why there was a war - not just to direct a blow to the Iraqi nuclear reactor, but to stop the Iraqi rise... and you understand why the war will continue...\". We fully supported Saddam and condemned the \"bandit attack of American mercenaries from Israel\" and also suggested economic and military aid to Iraq, to which Hussein agreed with pleasure. Although Iraq continues to pursue a multi-vector foreign policy, without reducing cooperation with the USSR and the United States, there is a certain bias in our direction... American allies in the middle East are furious, but the US itself reacted surprisingly calmly...";
+					text = "空袭发生后不久，萨达姆·侯赛因在伊拉克部长会议紧急会议上发表\n慷慨激昂的讲话，他说：“今天对‘塔穆兹’反应堆所打的这一击，\n对我们来说并不突然。\n当然，它会让人痛，因为它是革命的一个丰硕成果——我们长期在政\n治、科学和经济上都非常重视它……\n这并不是因为他们害怕伊拉克的原子弹——正如特拉维夫那伙人的\n头目所说——而是因为他们害怕科学、社会、\n经济、政治的均衡而紧凑的发展，这种发展是严肃地为了建设一个新\n的伊拉克……我们没有站队，所以我们将推迟所有借口，\n因为这一击是打在我们身上……\n你们明白为什么会有战争——不仅仅是为了打击伊拉克的核反应堆，\n而是为了阻止伊拉克的崛起……\n你们也明白为什么战争还会继续……\n”我们全力支持萨达姆，并谴责“来自以色列的美国雇佣军匪徒袭\n击”，同时建议向伊拉克提供经济与军事援助，\n侯赛因对此欣然同意。\n尽管伊拉克继续奉行多方向的外交政策，\n在不削弱与苏联和美国合作的同时，仍对我们这边有某种倾斜……\n中东的美国盟友勃然大怒，但美国本身却出奇地冷静……";
 					GlobalScript.inst.gameState.data[1] += 50;
 					GlobalScript.inst.gameState.data[8] -= 80;
 					GlobalScript.inst.gameState.data[6] += 10;
@@ -5950,16 +5950,16 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Immediately after the air strike, Saddam Hussein spoke at an emergency meeting of the Council of Ministers of Iraq with a bright speech, in which he said: \"the Blow that was struck today at the reactor \"Tammuz\" was not sudden for us. But, of course, it becomes painful, because it is one of the good fruits of the revolution, which we have long cared a lot about politically, scientifically and economically... This is not because they are afraid of the Iraqi atomic bomb, as the leader of the Tel Aviv gang says, but because they are afraid of scientific, social, economic, political, balanced and compact development, which is seriously aimed at building a new Iraq...\" Iraq appealed to the UN, demanding to condemn Israel's actions, and Saddam was supported by both superpowers - the USSR and the United States. The security Council demanded for Israel to pay compensation and refrain from such actions in the future. In Israel itself, many of the opposition members, led by Shimon Peres, criticized the government's decision. However, defense minister Ariel Sharon firmly responded to the criticism: \"an integral element of our military policy is the firm intention to prevent the access of enemy states to nuclear weapons. Therefore, we must eliminate this threat in the bud\". According to our data, Iraq has increased the purchase of weapons in the USSR and the United States, taking a course for a qualitative re-equipment of its army.";
+					text = "空袭发生后不久，萨达姆·侯赛因在伊拉克部长会议紧急会议上发表\n慷慨激昂的讲话，他说：“今天对‘塔穆兹’反应堆所打的这一击，\n对我们来说并不突然。\n当然，它会让人痛，因为它是革命的一个丰硕成果——我们长期在政\n治、科学和经济上都非常重视它……\n这并不是因为他们害怕伊拉克的原子弹——正如特拉维夫那伙人的\n头目所说——而是因为他们害怕科学、社会、\n经济、政治的均衡而紧凑的发展，这种发展是严肃地为了建设一个新\n的伊拉克……”伊拉克向联合国申诉，要求谴责以色列的行动，\n而萨达姆同时得到两大超级大国——苏联和美国——的支持。\n安理会要求以色列赔偿，并在未来停止此类行动。\n以色列国内，许多反对派议员在西蒙·佩雷斯（Shimon Pe\nres）带领下批评政府决定。\n然而国防部长阿里埃尔·沙龙（Ariel Sharon）\n对批评作出坚定回应：“我们军事政策的一个组成要素，\n就是坚决阻止敌对国家获得核武器。\n因此，我们必须在萌芽阶段消除这种威胁。\n”据我们掌握的情况，伊拉克已增加从苏联和美国购买武器的数量，\n走上对军队进行质的换装之路。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.power += 10;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Immediately after the air strike, Saddam Hussein spoke at an emergency meeting of the Council of Ministers with a bright speech, in which he said: \"the Blow that was struck today at the reactor \"Tammuz\" was not sudden for us. But, of course, it becomes painful, because it is one of the good fruits of the revolution, which we have long cared a lot about politically, scientifically and economically... This is not because they are afraid of the Iraqi atomic bomb, as the leader of the Tel Aviv gang says, but because they are afraid of scientific, social, economic, political, balanced and compact development, which is seriously aimed at building a new Iraq... We do not have an international side, so we will postpone all the excuses, because the blow was struck against us...\". Comrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " decided to offer to help Iraq resume its nuclear programme, to which Saddam gladly agreed. In the nuclear center named after the July revolution (Thuvaitha desert) , Chinese workers appeared, and soon the CNP-200 nuclear reactor was delivered there (while the attempt of \"Mossad\" agets to blow up the ship on which we transported it was prevented). Work on nuclear weapons is in full swing, according to our scientists, by 1988 Iraq will have 3 atomic bombs, and in 1995 - already 5. Israel is furious and accuses  \"Han chauvinists\" in \"world domination\", but the Soviet Union and the United States had not yet responded to this.";
+					text = "空袭发生后不久，萨达姆·侯赛因在部长会议紧急会议上发表慷慨激\n昂的讲话，他说：“今天对‘塔穆兹’反应堆所打的这一击，\n对我们来说并不突然。\n当然，它会让人痛，因为它是革命的一个丰硕成果——我们长期在政\n治、科学和经济上都非常重视它……\n这并不是因为他们害怕伊拉克的原子弹——正如特拉维夫那伙人的\n头目所说——而是因为他们害怕科学、社会、\n经济、政治的均衡而紧凑的发展，这种发展是严肃地为了建设一个新\n的伊拉克……我们没有站队，所以我们将推迟所有借口，\n因为这一击是打在我们身上……\n”同志 " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "决定帮助伊拉克恢复核计划，萨达姆对此欣然同意。\n在以七月革命命名的核中心（图韦塔伊萨沙漠）\n里，中国工人到来，并很快把CNP-200核反应堆运抵（与此同\n时，“摩萨德”企图炸毁我们运输该设备的船只的行动被挫败）。\n据我们的科学家称，核武器研制正如火如荼：\n到1988年伊拉克将拥有3枚原子弹，\n1995年则将达到5枚。\n以色列勃然大怒，指责“汉族沙文主义者”在“世界霸权”，\n但苏联和美国尚未对此作出回应。";
 					if (GlobalScript.inst.gameState.influencePRC >= 500)
 					{
-						text += " Now that Iraq may have its own nuclear weapons, Saddam Hussein began a large-scale campaign to \"return everything robbed from us by the imperialists\" and \"cleansing the nation from enemies and zionists\". Iraq is heavily militirizing and starts to cut diplomatic ties, going into international isolation...";
+						text += "既然伊拉克可能拥有自己的核武器，萨达姆·侯赛因便发动大规模运\n动，口号是“把帝国主义从我们这里抢走的一切都夺回来”，\n以及“清除民族中的敌人和犹太复国主义者”。\n伊拉克加紧军事化，并开始切断外交关系，\n走向国际孤立……";
 						GlobalScript.inst.gameState.data[1] += 80;
 						Empire empire = GlobalScript.inst.gameState.empires[1];
 						empire.power -= 10;
@@ -5978,7 +5978,7 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text += " The Iraqi nuclear programme attracted the attention of the IAEA. It accused Iraq of violating the NPT and demanded that it must work only on a peaceful atom under the control of international organizations. Since the Soviet Union and the United States supported this demand, Hussein was forced to agree. However, starting a peaceful program also failed - on December 1, the Israel air force made a second air strike and the reactor was completely destroyed. Because he was afraid of losing power, he decided to go to our side.";
+						text += "伊拉克的核计划引起了国际原子能机构（IAEA）\n的关注。它指控伊拉克违反《不扩散核武器条约》（NPT），\n并要求伊拉克只能在国际组织监管下从事和平利用核能。\n由于苏联和美国支持这一要求，侯赛因被迫同意。\n然而，启动和平计划也同样失败——12月1日，\n以色列空军实施第二次空袭，反应堆被彻底摧毁。\n出于担心失去权力，他决定转向我们这边。";
 						GlobalScript.inst.gameState.data[1] += 50;
 						Empire empire = GlobalScript.inst.gameState.empires[1];
 						empire.power -= 10;
@@ -5992,7 +5992,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "We fully approved the Israeli air strike on the reactor \"Tammuz\" and condemned Hussein for his course on militarism, great Arab chauvinism and the suppression of the Kurdish minority. This caused a serious misunderstanding in the party and the people, which did not expect such an open support for Israel after so many years of criticism of its policy. In response, the Iraqi Council of Ministers issued a communiqué accusing China of \"supporting a zionist gang from Tel Aviv\" and decided to break off diplomatic relations. Our Embassy was forcibly expelled from Baghdad, and Iraq increased purchases of weapons in the USSR and the United States, taking a course for a qualitative re-equipment of its army. It looks like there's a new war in the Middle east...";
+					text = "我们完全赞同以色列对“塔穆兹”反应堆的空袭，\n并谴责侯赛因的军国主义路线、泛阿拉伯沙文主义以及对库尔德少数\n民族的压制。这在党和人民中造成了严重误解——他们并不指望在多\n年批评以色列政策之后，会出现如此公开的支持。\n作为回应，伊拉克部长会议发表公报，指控中国“支持来自特拉维夫\n的犹太复国主义匪帮”，并决定断绝外交关系。\n我们的使馆被强行逐出巴格达；与此同时，\n伊拉克增加了从苏联和美国购买武器的数量，\n走上对军队进行质的换装之路。\n看来中东又要爆发新战争了……";
 					GlobalScript.inst.gameState.data[1] -= 100;
 					GlobalScript.inst.gameState.data[3] -= 100;
 					GlobalScript.inst.gameState.data[6] -= 40;
@@ -6008,15 +6008,15 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 76)
 			{
-				text2 = "Push the falling man!";
+				text2 = "推倒那个跌倒的人！";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "The Ministry of foreign affairs of the 中华人民共和国 issued a communiqué in which it officially expressed support for \"protesters for their legitimate democratic rights\" to Kosovo demonstrators. This caused a sharp indignation of Yugoslavia, which accused China of interfering in its internal affairs, and its non-aligned Movement, which accused China of \"maoist hegemony\". The USSR and the US ignored this, largely because of the \"independent\" position of the SFRY, which was not included in any of the blocs. A state of emergency was imposed in Kosovo and  parts of the JNA entered, which by 3 April had suppressed all protests and restored order in the province. There was found evidence of the intervention of Albania. Massive cleanings of the separatists began.";
+					text = "中华人民共和国外交部发表公报，正式表示支持科索沃示威者“为其\n正当民主权利而进行的抗议”。\n这引起南斯拉夫的强烈愤怒：它指责中国干涉其内政；\n而其不结盟运动则指责中国搞“毛主义霸权”。\n苏联和美国对此置之不理，主要是因为南斯拉夫社会主义联邦共和国\n（SFRY）采取“独立”立场，不属于任何阵营。\n科索沃实施紧急状态，部分南斯拉夫人民军（JNA）\n进入当地，到4月3日已镇压了所有抗议并恢复了省内秩序。\n还发现阿尔巴尼亚介入的证据。\n对分裂分子的“大清洗”随即开始。";
 					GlobalScript.inst.gameState.data[6] += 20;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = ((!GlobalScript.inst.dlc[3]) ? string.Format(GlobalScript.inst.new_events_text[900], "\n") : "At a closed meeting of the 政治局, it was decided to take advantage of the problems of Yugoslavia and provide full assistance to the Kosovo separatists. As a \"transfer point\" we decided to use the Chinese Embassy in Belgrade. Having received weapons and money from us, the Kosovo separatists were able to organize armed resistance to parts of the JNA and the people's militia. In Pristina began the most real street-fighting, in which Yugoslav military actively have been applying artillery and aircraft, resulting in a destroyed city. Reports \"Pristina is on fire!\" were dispersed around the world, which dealt a strong hit to the international prestige of the SFRY, and although the rebellion was still managed to be suppressed by June, huge funds are needed for the restoration of the region, which Yugoslavia does not have. |In April 1981, at a meeting of the Presidium of the SFRY and the Federal Council for the protection of the constitutional order, L. Kolishevsky said: \"We must be fully aware of the fallacy and extreme reactionism of the thesis – the weaker Serbia, the stronger Kosovo (or any other of our republics). As well as the thesis – the smaller the autonomy of Kosovo within Serbia, the stronger Serbia. This can be also said about the thesis – weak Serbia – strong Yugoslavia\". The nationalists are beginning to strengthen their positions in the country...");
+					text = ((!GlobalScript.inst.dlc[3]) ? string.Format(GlobalScript.inst.new_events_text[900], "\n") : "在政治局闭门会议上，决定利用南斯拉夫的麻烦局势，\n向科索沃分裂分子提供全面援助。\n作为“转运点”，我们决定使用驻贝尔格莱德的中国使馆。\n科索沃分裂分子从我们这里获得武器和资金后，\n便能够组织对部分JNA和民兵的武装抵抗。\n普里什蒂纳（Pristina）爆发了最真实的街头巷战，\n南斯拉夫军队积极使用炮火和飞机，导致城市被毁。\n“普里什蒂纳正在燃烧！\n”的报道传遍世界，给SFRY的国际声望造成重创。\n尽管叛乱仍在6月前被压下，但要恢复该地区需要巨额资金，\n而南斯拉夫根本拿不出来。\n|1981年4月，在SFRY主席团会议以及联邦维护宪法秩序委\n员会上，L.科利舍夫斯基（L. Kolishevsky）\n说：“我们必须充分认识到这种论断的谬误与极端反动性——塞尔维\n亚越弱，科索沃（或我们任何其他共和国）\n越强。以及这种论断——在塞尔维亚内部，\n科索沃自治越小，塞尔维亚越强。\n也可以说，塞尔维亚弱——南斯拉夫强。\n”民族主义者开始在国内巩固其立场……");
 					GlobalScript.inst.gameState.data[8] -= 100;
 					GlobalScript.inst.gameState.data[9] -= 100;
 					GlobalScript.inst.gameState.data[86] -= 4;
@@ -6025,8 +6025,8 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Our ambassador in Tirana came to comrades Enver Hoxha and Ramiz Alia (party curator of Sigurimi), giving them our proposal. ";
-					text += "They agreed to our help. In Albania there has arrived group of employees of the China's 国家安全部, which has quickly established cooperation with Sigurimi. As a result, although JNA managed to suppress the rebellion, they couldn't completely pacify the province. We can start riots there again.";
+					text = "我们驻地拉那（Tirana）的大使前往同志恩维尔·霍查（En\nver Hoxha）和拉米兹·阿利亚（Ramiz Alia，\n西古里米（Sigurimi）党内负责人），\n向他们提出我们的建议。";
+					text += "他们同意我们的援助。\n中国国家安全部（MSS）的一批工作人员已抵达阿尔巴尼亚，\n并迅速与西古里米建立合作。\n结果是，尽管JNA设法压制了叛乱，却没能彻底平息该省。\n我们可以在那里再次煽动骚乱。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.power += 10;
 					GlobalScript.inst.gameState.data[86] -= 2;
@@ -6035,18 +6035,18 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "A state of emergency was imposed in Kosovo and parts of JNA entered, which by 3 April had suppressed all protests and restored order in the province.";
+					text = "科索沃实施紧急状态，部分JNA进入当地，\n到4月3日已镇压了所有抗议并恢复了省内秩序。";
 				}
 			}
 			else if (GlobalScript.inst.gameState.number_event == 77)
 			{
-				text2 = "Spittle in the face, punch in the jaw and a bullet in the head";
+				text2 = "唾沫糊脸、拳头打下巴、子弹打脑袋";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Using the state apparatus in his hands and Sigurimi, Shehu managed to mobilize his supporters and isolate Hoxha and then held an extraordinary Congress of the Central Committee of PLA, where he said that the 1st Secretary for medical reasons for some time will not be able to fulfill his duties. His opponents had to give up their positions in the party and the government at best, but many of them simply ended up in Sigurimi prisons or died under strange circumstances. And soon it was announced about the death of Hoxha from the aggravated disease, after which it was not difficult for Shehu to get the post of 1st Secretary of the Central Committee of PLA. He has already begun cautious negotiations with Yugoslavia, the USSR and the socialist camp countries, which seem to welcome such a change of leadership, although nothing much has changed in Albania's domestic policy.";
+					text = "谢胡（Shehu）凭借手中的国家机器和西古里米（Siguri\nmi），动员起自己的支持者，把霍查孤立起来，\n随后又召开了人民军（PLA）中央委员会的非常大会。\n他在会上宣布：由于医疗原因，第一书记在一段时间内将无法履行职\n责。对手们最多只能交出党内和政府中的职位，\n但许多人最终要么被关进西古里米监狱，\n要么死于离奇的境况。\n不久又宣布霍查因病情加重而死亡；之后，\n谢胡要拿到人民军中央委员会第一书记的职位并不困难。\n他已经开始与南斯拉夫、苏联以及社会主义阵营国家进行谨慎谈判—\n—看起来他们欢迎这种领导层更替，尽管阿尔巴尼亚的国内政策并没\n有太大变化。";
 					if (!GlobalScript.inst.gameState.allcountries[20].proprc)
 					{
-						text += "And Shehu restored relations with China much faster, establishing trade and inviting our advisers to the country.";
+						text += "谢胡恢复同中国的关系更快，建立贸易，\n并邀请我们的顾问到该国。";
 					}
 					GlobalScript.inst.gameState.data[1] += 50;
 					GlobalScript.inst.gameState.data[9] -= 80;
@@ -6059,7 +6059,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "As a result, the relationship between Shehu and Hoxha continued to worsen, and on December 18, 1981 was announced the suicide of Shehu, after which he was accused in treason and espionage in favor of the United States, the USSR and Yugoslavia. As Prime Minister he was replaced by lacking initiative and loyal Adil Charcani.";
+					text = "结果，谢胡与霍查的关系继续恶化。\n1981年12月18日宣布谢胡自杀，\n随后他被指控为美国、苏联和南斯拉夫从事叛国与间谍活动。\n作为总理，他被缺乏主动性、忠诚的阿迪尔·查尔卡尼所取代。";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power -= 10;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -6069,7 +6069,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "As a result, the relationship between Shehu and Hoxha continued to worsen, and on December 18, 1981 was announced the suicide of Shehu, after which he was accused in treason and espionage in favor of the United States, the USSR and Yugoslavia. As Prime Minister he was replaced by lacking initiative and loyal Adil Charcani. All this time we supported the actions of Hoxha and welcomed the liberation of Albania from the spy Shehu, for which we received thanks from Tirana.";
+					text = "结果，谢胡与霍查的关系继续恶化。\n1981年12月18日宣布谢胡自杀，\n随后他被指控为美国、苏联和南斯拉夫从事叛国与间谍活动。\n作为总理，他被缺乏主动性、忠诚的阿迪尔·查尔卡尼所取代。\n整个期间，我们支持霍查的行动，并欢迎阿尔巴尼亚从“间谍谢胡”\n手中获得解放，为此我们收到了地拉那方面的感谢。";
 					GlobalScript.inst.gameState.data[6] += 20;
 					GlobalScript.inst.gameState.allcountries[20].Gosstroy = 0;
 					GlobalScript.inst.gameState.allcountries[20].SubGosstroy = 10;
@@ -6077,10 +6077,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 78)
 			{
-				text2 = "Eternal president";
+				text2 = "永远的总统";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "With the help of our special services and the supply of our weapons, the CPP and the NDM were able to deploy large-scale agitation and protests, accompanied by a surge of guerrilla activity. These grievances were soon joined by other political forces and ordinary citizens. Of course, the protests were soon severely suppressed by the police, and the guerrilla offensive was contained by the army, but it seems that we have dealt a serious damage to the regime of Marcos, which did not expect such a sudden and brazen intervention of China. In the end, he managed to win the presidential election, gaining 52% of the vote, but he will have to be much more careful in his actions, and the influence of the Communist party has increased markedly. Perhaps, helping them further, we will still see the victory of the Philippine revolution...";
+					text = "在我们特工部门的协助以及武器供应下，\n菲律宾共产党（CPP）和民族民主运动（NDM）\n得以展开大规模煽动与抗议，并伴随游击活动的骤然升温。\n很快，这些不满又被其他政治力量和普通民众所加入。\n当然，抗议很快遭到警方严厉镇压，游击攻势也被军队遏制，\n但看来我们已经对马科斯政权造成了严重打击——他显然没料到中国\n会如此突然、如此大胆地插手。\n最终，他还是设法赢得总统选举，获得52%的选票，\n但他在行动上将不得不更加谨慎，而共产党的影响力也显著上升。\n也许在进一步帮助他们之后，我们仍将看到菲律宾革命的胜利……";
 					GlobalScript.inst.gameState.data[1] += 50;
 					GlobalScript.inst.gameState.data[9] -= 100;
 					GlobalScript.inst.gameState.data[6] += 20;
@@ -6091,13 +6091,13 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "As a result, Marcos managed to win the presidential election, gaining a devastating 88% of the vote. Looks like the Philippines is waiting for the continuation of his policy.";
+					text = "结果，马科斯最终赢得总统选举，拿下了惊人的88%选票。\n看来菲律宾正在等待他政策的延续。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.power += 10;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "After Marcos managed to win the presidential election with a crushing 88% of the vote, we congratulated him on his victory and expressed hope for the further rapprochement of our countries, which began in 1975. Marcos was happy to take advantage of our offer, but many groups of Filipino maoists called it a betrayal, and the influence of the communist party somewhat fell.";
+					text = "在马科斯以压倒性88%选票赢得总统选举后，\n我们向他表示祝贺，并表达希望两国进一步走近——这种关系始于1\n975年。马科斯很乐意利用我们的提议，\n但许多菲律宾毛派团体称之为背叛，共产党影响力也因此有所下降。";
 					GlobalScript.inst.gameState.data[6] -= 10;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations += 50;
@@ -6109,10 +6109,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 79)
 			{
-				text2 = "Austerity policy";
+				text2 = "紧缩政策";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " personally called Brezhnev and said that the situation in Romania threatens directly to the cause of building socialism in Romania and the stability of the entire Soviet bloc, and therefore its solution needs to encompass the entire socialist camp. The Soviet leader supported our idea, as a result of which an extraordinary meeting of the CMEA was convened, where it was decided to provide Romania with assistance for the payment of debts in the form of gratuitous monetary assistance and preferential import-export conditions for Romania to the CMEA (the main costs, of course, were incurred by us and the Soviet Union). Ceausescu thanked us and the other members of the CMEA for their help and has already announced an adjustment to the austerity regime aimed at easing it. Of course, even small austerity measures have displeased Romanian citizens, but nothing that Ceausescu could not cope with. According to our estimates, at this rate he will be able to pay off debts by the end of the 80's without serious consequences for the economy and living standards.";
+					text = GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "他亲自打电话给勃列日涅夫，表示罗马尼亚的局势直接威胁到在罗马\n尼亚建设社会主义的事业以及整个苏联阵营的稳定，\n因此其解决必须覆盖整个社会主义阵营。\n苏联领导人支持我们的设想，于是召集了经互会（CMEA）\n特别会议，决定以无偿的货币援助形式，\n向罗马尼亚提供偿债援助，并给予罗马尼亚对经互会的优惠进出口条\n件（当然，主要费用由我们和苏联承担）。\n齐奥塞斯库感谢我们及经互会其他成员的帮助，\n并已宣布对紧缩体制作出调整，旨在缓和它。\n当然，即便是小规模的紧缩措施也让罗马尼亚市民不满，\n但这对齐奥塞斯库来说并非难以应付。\n按我们的估算，以这种速度，他将在80年代末在不对经济与生活水\n平造成严重后果的情况下还清债务。";
 					GlobalScript.inst.gameState.data[1] -= 50;
 					GlobalScript.inst.gameState.data[8] -= 100;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
@@ -6121,13 +6121,13 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Despite the profitability of these measures, they have already caused a decline in the growth of the Romanian economy and a drop in living standards, which causes mass discontent among the Romanian population. Ceausescu is still doing well with them, but who knows how it will end...";
+					text = "尽管这些措施“有利可图”，但它们已经导致罗马尼亚经济增长放缓、\n生活水平下降，引发罗马尼亚民众的普遍不满。\n齐奥塞斯库目前还能应付得了，但谁知道结局会怎样……";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power -= 20;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Taking advantage of our good relations with Romania, we offered Ceausescu a large-scale financial assistance to ease the debt burden, which he gladly accepted. We had to fork out a lot, but in the end he announced an adjustment to the austerity regime aimed at easing it. Of course, even small austerity measures have displeased Romanian citizens, but nothing that Ceausescu could not cope with. And the opportunities for imports he used to expand trade with us.";
+					text = "借助我们同罗马尼亚的良好关系，我们向齐奥塞斯库提供了大规模财\n政援助，以减轻债务负担，他欣然接受。\n我们不得不付出不少代价，但最终他宣布对紧缩体制作出调整，\n旨在缓和它。当然，即便是小规模的紧缩措施也让罗马尼亚市民不满，\n但这对齐奥塞斯库来说仍算不上什么。\n与此同时，他利用进口机会来扩大同我们的贸易。";
 					GlobalScript.inst.gameState.data[6] += 10;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.relations -= 50;
@@ -6142,10 +6142,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 80)
 			{
-				text2 = "XII Congress of the 中共";
+				text2 = "中共十二大";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "At the Congress " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " declared the aim of the party to cleanse the socialist system of the right and left excesses. He sharply opposed those who demanded to break the existing system to the ground and rebuild the country on the Western model. In the course of the revision of the Charter was confirmed the increase of probationary period to 5 years, and experience of the candidate member of the 政治局 - to 8 years. The composition of the newly elected 中共 Central Committee included 210 members and 138 candidate members of the 中共 Central Committee.";
+					text = "在大会上 " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "提出党的目标是清除社会主义制度中的“右”和“左”的过火现象。\n他尖锐反对那些主张把现行制度彻底推倒、\n并按西方模式重建国家的人。\n在对党章的修订过程中，确认将预备期延长至5年，\n政治局候补委员的任职经历延长至8年。\n新当选的中共中央委员会由210名委员和138名候补委员组成。";
 					GlobalScript.inst.gameState.data[1] += 50;
 					GlobalScript.inst.gameState.data[6] += 5;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
@@ -6153,7 +6153,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "In the Report of the Central Committee of the 中共 Congress, comrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " focused on the results of the VI Plenum of the Central Committee of the 中共 11 convocation and adoption \"Decisions on some questions of the history of the 中共 since the foundation of China\", in which \"with all responsibility was studied and summarized the way our party followed since 1949, the successes and mistakes made in socialist construction, as well as the place of comrade 毛泽东, who, due to various factors, made or allowed to make these mistakes\". Immediately after the Congress, the media reduced the mention of 毛泽东, a number of his works (\"Little red book\", \"On the ten most important relationships\", \"Controversy about the General line of the international communist movement\") was gradually withdrawn from the libraries, as well as stopped their reissue, mandatory study of\"maozedongidea\" was changed to optional. Although 毛泽东 is in no way crossed out of the history of China and the 中共, and it's still quite possible to go to jail for his criticism , his role is reduced to the role of Vladimir Lenin in the USSR - a certain \"good grandfather and leader of the Revolution\" - and nothing else.";
+					text = "在中共十二大中央委员会工作报告中，同志 " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "重点阐述了中共十一届中央委员会第六次全体会议的成果，\n以及通过《建国以来中共党史若干问题的决议》。\n其中“以全部责任”对本党自1949年以来的道路、\n社会主义建设中的成就与失误，以及毛泽东同志在其中所处的位置—\n—“由于各种因素，造成或允许造成这些失误”——进行了研究与总\n结。大会一结束，媒体就减少对毛泽东的提及；\n他的多部著作（《小红书》《论十大关系》《关于国际共产主义运动\n总路线的争论》）逐步从图书馆撤下，并停止再版；\n“必须学习毛泽东思想”改为“自愿学习”。\n尽管毛泽东在中国和中共的历史中并未被一笔勾销，\n对他的批评仍然很可能坐牢，但他的作用被压缩为苏联的弗拉基米尔\n·列宁那样——某种“革命的好祖父和领袖”——仅此而已。";
 					GlobalScript.inst.gameState.data[1] += 80;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 10;
@@ -6179,7 +6179,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "On the last day of the XII Congress of the 中共, comrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " asked the delegates to stay for another meeting - this time closed. At this meeting, he in silence read the paper \"On the personality cult of 毛泽东 and overcoming its consequences\", in which the founder of China was accused of \"the perversion of Marxism-Leninism, the establishment of a cult of personality and mass terror against political opponents, distortion of socialist legality, the support of the group of Lin Piao,\" etc., the delegates went in a depressed state, having accepted the report without discussion. Later, it was read in all Communist party organizations, causing shock and rejection. The demolition of 毛泽东's monuments, the removal of his works and portraits from libraries and book stores began, and the media published revelatory materials about the \"Great Helmsman\". The USSR and the USA have approved our debunking of the personality cult of Mao, however, millions of unhappy start to resist. Wide popularity has received \"Tugan\" movement (a mass withdrawal from the 中共, often accompanied by the public destruction of party card), and the maoist movement in the West, one after the other accuse us of \"khrushchevist revisionism\" and \"betrayal\". Our positions have been seriously undermined both inside and outside the country, and the party left without ideological support will obviously not defend you if there is an attempt of a coup...";
+					text = "在中共十二大最后一天，同志 " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "要求代表们再留下开一次会——这次是闭门会议。\n在会上，他默读了文件《论毛泽东个人崇拜及其后果的克服》。\n文件指控这位中国的奠基者“歪曲马克思列宁主义，\n建立个人崇拜并对政治对手实行群众恐怖，\n歪曲社会主义法制，支持林彪集团”等等。\n代表们带着沉闷的情绪进入会场，在没有讨论的情况下接受了报告。\n随后，这份文件在各级共产党组织中传阅，\n引起震动与抵触。拆除毛泽东的纪念碑、\n从图书馆和书店撤下他的著作与肖像开始进行，\n媒体还刊发了关于“伟大舵手”的揭露材料。\n苏联和美国对我们揭穿毛的个人崇拜表示认可，\n但数以百万计的不满者开始抵抗。\n“退党”（“Tugan”）运动广泛传播（大规模退出中共，\n常伴随公开焚毁党员证），而西方的毛派运动也接连指责我们“赫鲁\n晓夫式修正主义”和“背叛”。\n我们在国内外的立场都遭到严重削弱；如果有人企图发动政变，\n那没有了意识形态支撑的党显然不会替你挡灾……";
 					GlobalScript.inst.gameState.data[1] -= 300;
 					GlobalScript.inst.gameState.data[3] -= 450;
 					GlobalScript.inst.gameState.data[6] -= 100;
@@ -6222,10 +6222,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 81)
 			{
-				text2 = "Hungarian Rhapsody";
+				text2 = "匈牙利狂想曲";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "You personally called Janos Kadar and informed him about the decision of the Standing Committee of the National People's Congress to allocate a loan of $ 3.5 billion to Hungary at a very low interest rate. This allowed the country to avoid default and not to resort to new loans. Kadar as the head of the State Council of the people's Republic of Hungary, expressed the Chinese people a huge thanks on behalf of the Hungarian people, but the Soviet Union and the United States are not happy about this, and the press is already writing about \"Chinese economic expansion in Europe\".";
+					text = "你亲自打电话给亚诺什·卡达尔，告知全国人大常委会决定以极低利\n率向匈牙利提供35亿美元贷款。\n这样一来，匈牙利得以避免违约，不必再去借新的贷款。\n卡达尔作为匈牙利人民共和国国务委员会主席，\n代表匈牙利人民向中国人民表达了巨大的感谢，\n但苏联和美国对此并不高兴，媒体已经在写“中国产业在欧洲的经济\n扩张”。";
 					GlobalScript.inst.gameState.data[8] -= 300;
 					GlobalScript.inst.gameState.data[6] -= 10;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
@@ -6238,7 +6238,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "The ideological Department of the Central Committee authorized the printing of a large number of critical materials about the situation in Hungary. \"Goulash socialism\" is announced as \"phony market audit\", Kadar is recalled his participation in a counterrevolutionary coup in 1956 and endorsed by the group of Imre Nagy, HSWP is called \"foolish marxist party of social-renegades\" and the socialist system in Hungary - \"built on American money decoration\". Based on all this, it was concluded that all market reforms are revisionism and the way to the economic abyss. The party and the people did not accept the new promotion of already rather boring propaganda, and Hungary expresses us categorical protest, which was supported by the Soviet Union. I don't think that's what we wanted...";
+					text = "中央委员会的宣传思想部门授权大量印发批判匈牙利局势的材料。\n《“古拉什社会主义”》被宣布为“假装的市场审计”；\n卡达尔被追忆其在1956年反革命政变中的参与，\n并得到伊姆雷·纳吉集团的支持；匈牙利社会主义工人党（HSWP）\n被称为“愚蠢的马克思主义社会叛徒党”；\n匈牙利的社会主义制度则被说成“用美国钱财装饰起来的”。\n据此得出结论：所有市场改革都是修正主义，\n通向经济深渊。党和人民并不接受这种本就相当乏味的宣传再度加码；\n匈牙利向我们提出了坚决抗议，而这也得到了苏联的支持。\n我想这并不是我们想要的……";
 					GlobalScript.inst.gameState.data[1] -= 50;
 					GlobalScript.inst.gameState.data[4] -= 20;
 					GlobalScript.inst.gameState.data[3] -= 50;
@@ -6251,7 +6251,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "This morning, the Chinese ambassador in Budapest came to Janos Kadar and on our behalf offered an interest-free loan of $ 3.5 billion. Kadar was ready to agree at once, but the ambassador's subsequent words sobered him up - in exchange for a loan, the 政治局 of the Central Committee of HSWP should rehabilitate the group of Bela Bisku, restoring them to the party and in positions, and the Bela co-opt into their ranks. This caused a sharp protest of the Hungarian leader and, as a result of a long verbal sparring, it was possible to reach only a compromise - a number of colleagues of Bisku are co-opted in the Central Committee, and Hungary receives a loan of 1.5 billion dollars. This allowed the country to avoid an immediate default, but still had to take a new loan from the IMF. Thanks to us, now the left opposition has appeared in the HSWP, but it will need a lot of time for the final registration... In addition, the USSR is very dissatisfied with our interference in its sphere of influence.";
+					text = "今天早晨，中国驻布达佩斯大使拜会亚诺什·卡达尔，\n并代表我们提出一笔无息35亿美元贷款。\n卡达尔本来准备立刻答应，但大使随后的一番话让他清醒过来——作\n为贷款的交换，匈牙利社会主义工人党（HSWP）\n中央委员会政治局应当为贝拉·比斯库集团平反，\n使他们重返党内并恢复职务，并让贝拉进入他们的队伍。\n此举引发匈牙利领导人的强烈抗议。\n经过一番冗长的口舌交锋，最终只达成了折中方案——比斯库的若干\n同僚被吸纳进中央委员会，匈牙利获得15亿美元贷款。\n这样一来，匈牙利得以避免立刻违约，但仍不得不向国际货币基金组\n织（IMF）再借一笔新贷款。\n多亏了我们，HSWP内部现在出现了左翼反对派，\n但要完成最终登记还需要很长时间……\n此外，苏联对我们干涉其势力范围极为不满。";
 					GlobalScript.inst.gameState.data[8] -= 150;
 					GlobalScript.inst.gameState.data[9] -= 80;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -6262,7 +6262,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " called the Ambassador of the HPR in Beijing and gave him a letter to Janos Kadar, in which he offered to take the national debt of the HPR to China to avoid default and to issue an interest-free loan of 4.5 billion dollars - but in exchange for the rehabilitation of the group Bela Bisku and co-optation of the Bisku in the 政治局 of the Central Committee of HSWP. At the same time our agents provoked the unrest in the units of \"Worker police\" (paramilitary organization of HSWP, in which there were certain left-conservative moods), and threw dirt on the chief ideologist of the Hungarian reforms - Less Nersa (who was a social-democrat with experience and was a minister in the government of Imre Nagy). Realizing that the refusal to help China could provoke a new 1956 year, Kadar was forced to agree. Bela Biszku with our help fairly quickly organized the left opposition, and Gershu had to retire from politics. It seems that there's a new coming split in HSWP , which is only contained by living Kadar... |Under pressure from the left opposition and wishing to preserve at least the external unity of the party, Kadar announced the \"multi-vector\" foreign policy of Hungary and began to establish cultural and trade relations with us. The USSR and the USA are furious, and we have strengthened our influence in Europe. However, we now have to fulfill Hungarian debt obligations...";
+					text = GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "他在北京召见匈牙利人民共和国驻华大使，\n并交给他一封写给亚诺什·卡达尔的信：\n信中提出由匈牙利人民共和国把对中国的国家债务接下，\n以避免违约，并发放一笔无息45亿美元贷款——但作为交换条件，\n是为贝拉·比斯库集团平反，并将比斯库吸纳进匈牙利社会主义工人\n党（HSWP）中央委员会政治局。\n同时，我们的特工还煽动“工人警察”部队（HSWP的准军事组织，\n其中存在某些左翼保守情绪）的骚乱，\n并向匈牙利改革的首席意识形态负责人——莱斯·内尔绍（莱斯·内\n尔绍是有经验的社会民主党人，曾在伊姆雷·纳吉政府中担任部长）\n泼脏水。卡达尔意识到拒绝帮助中国可能引发新的1956年，\n只得被迫同意。在我们的帮助下，贝拉·比斯库很快组织起左翼反对\n派，格尔舒不得不退出政治。\n看来HSWP内部又将出现新的分裂，而这只能靠“活着的卡达尔”\n暂时压住……|在左翼反对派的压力下，\n并希望至少保住党外部的统一，卡达尔宣布匈牙利的“多维向”外交\n政策，开始同我们建立文化与贸易关系。\n苏联和美国勃然大怒，而我们在欧洲的影响力也得到了加强。\n不过，我们现在必须履行匈牙利的债务义务……";
 					GlobalScript.inst.gameState.data[8] -= 450;
 					GlobalScript.inst.gameState.data[9] -= 100;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -6279,7 +6279,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 5)
 				{
-					text = "We did not interfere in any way in the affairs of Hungary. The country managed to avoid default by taking new loans from the IMF, which only delayed the negative trends - but for a long time, so that we could not influence it. |\"At the same time, according to Hungarian comrades, Hungary should deepen its participation in international cooperation, so as not to invent something that has long been discovered in other countries\".";
+					text = "我们丝毫没有干涉匈牙利的事务。\n该国通过向IMF再借新贷款，得以避免违约，\n只是把负面趋势拖延了——拖延了很久，\n以至于我们无法再对其施加影响。\n|“与此同时，据匈牙利同志所说，匈牙利应当深化其参与国际合作，\n以免去发明那些早已在其他国家被发现的东西。\n”";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.power += 10;
 					empire = GlobalScript.inst.gameState.empires[1];
@@ -6288,7 +6288,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 6)
 				{
-					text = "By negotiating with a certain part of the 政治局 behind the scenes, we were able to convince them that only with Chinese help could they get out of the debt hole created jointly by both the government of Janos Kadar and Karoly Grosz. Eventually they agreed to our proposal to replace Karoly Grosz with Imre Pozhgay by holding an emergency party congress and criticising Grosz. As a result, János Kádár retired from the nominal position of the Chairman of the MSZMP, and Karoly Grosz took his place. The real ruler of the country became the General Secretary, Imre Pozhgay, who realised to whom he owed his position and was aware of whose hands Hungary's debt obligations were in.";
+					text = "通过幕后与政治局的某些成员进行谈判，\n我们终于说服他们：只有在中国的帮助下，\n他们才能从由卡达尔政府与格罗什政府共同挖出的债务深坑中爬出来。\n最终，他们同意我们的提议：召开紧急党代会、\n批判格罗什，以便用伊姆雷·波兹盖取代卡罗伊·格罗什。\n结果，亚诺什·卡达尔从名义上的MSZMP主席位置上退下，\n卡罗伊·格罗什接替了他的位置。\n真正掌控国家的人变成了总书记伊姆雷·波兹盖——他明白自己的位\n置欠了谁的情，也清楚匈牙利的债务义务握在谁的手里。";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power -= 10;
 					empire = GlobalScript.inst.gameState.empires[1];
@@ -6302,11 +6302,11 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 82)
 			{
-				text2 = "Falklands War";
+				text2 = "福克兰群岛战争";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "On April 3, the UN security Council adopted resolution 502, demanding the withdrawal of Argentine troops from the Islands, but despite this, no one seems to believe in Britain's victory. But maybe we should help Argentina, even though there are cruel anti-Communist dictators, to once again hit colonialism?";
-					GlobalScript.inst.gameState.ingamewars[6].name_war = "Falklands War";
+					text = "4月3日，联合国安理会通过第502号决议，\n要求阿根廷军队撤出群岛。\n但尽管如此，似乎没有人相信英国会赢。\n也许我们应该帮助阿根廷——即便那里有残酷的反共独裁者——再一\n次打击殖民主义？";
+					GlobalScript.inst.gameState.ingamewars[6].name_war = "福克兰群岛战争";
 					GlobalScript.inst.gameState.ingamewars[6].is_going = true;
 					GlobalScript.inst.gameState.ingamewars[6].side1 = "Argentina";
 					GlobalScript.inst.gameState.ingamewars[6].side2 = "The UK";
@@ -6318,10 +6318,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 83)
 			{
-				text2 = "Problems of Stavropol agronomist";
+				text2 = "斯塔夫罗波尔农学家之难";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Today's number in the \"Jenmin Jibao\" was out with an article, \"the Reformer in the 政治局 of the CPSU Central Committee\", in which Fyodor Kulakov was named \"marxist-decentralizer, titoist \"communist\", a dangerous enemy of the entire international communist and workers' movement\". Particular emphasis in the article was placed on the fact that Kulakov may be highly likely to lead the USSR after the death of Leonid Brezhnev. At the same time, our special services have organized a leak of information about the reformist aspirations of Kulakov in the CPSU Central Committee. At the July (1977) Plenum of the CPSU Central Committee, Fyodor Kulakov was criticized and deprived of all his posts. He suffered from acute stomach disease, which caused a weakening of the nervous system, and on the night of July 17, 1977, he died suddenly from heart paralysis. Thus, we have greatly weakened the reformist wing of the CPSU...";
+					text = "《人民报》今天刊出一篇文章《苏共中央政治局的改革者》，\n文中把费奥多尔·库拉科夫称为“马克思主义的分权派、\n铁托式的‘共产党’，是整个国际共产主义与工人运动的危险敌人”。\n文章特别强调：库拉科夫很可能在列昂尼德·勃列日涅夫去世后领\n导苏联。与此同时，我们的特工部门也在苏共中央内部安排了关于库\n拉科夫改革野心的“泄密”。\n在苏共中央七月（1977年）全会上，\n费奥多尔·库拉科夫遭到批判，并被剥夺全部职务。\n他患有急性胃病，导致神经系统衰弱；1977年7月17日晚，\n他突然死于心脏麻痹。\n就这样，我们大大削弱了苏共中央的改革派力量……";
 					GlobalScript.inst.gameState.data[1] += 50;
 					GlobalScript.inst.gameState.data[9] -= 50;
 					Leader leader = GlobalScript.inst.gameState.empires[1].leaders[3];
@@ -6332,7 +6332,7 @@ public class Results_text : MonoBehaviour
 				{
 					if (GlobalScript.inst.gameState.empires[1].relations >= 500)
 					{
-						text = "We organized a large-scale campaign to denigrate Kulakov in the media. He was branded as \"a corruptionist, a bureaucrat, a titoist, , a careerist, an opportunist, the worst enemy of the CPSU and the 中共, the wolf in sheep's clothing\", etc. Comrade Chairman, on one of his speeches briefly  mentioned that, if \"such people as Fyodor Kulakov, will head the Soviet Union - we are not to talk with them about anything, because they are biased against us, against the Communist party of China, against the Chinese people\". This caused the CPSU Central Committee a strong suspicion, Kulakov was called to the Committe of party control for a talk with its head, Arvid Pelshe. He, joining forces with the all-powerful KGB chief Yuri Andropov, was able to break through the 政治局 decision on the appointment to the post of First Secretary of the Central Committee of the Communist party of Moldova - in fact, in honorable exile. Nominees of Kulakov have already been started to be removed from posts and transfered to lower positions. And so, he's no longer an obstacle...";
+						text = "我们在媒体上组织了一场大规模抹黑库拉科夫的运动。\n他被贴上“贪腐分子、官僚、铁托式、（逗号处原文有缺漏）\n野心家、机会主义者、苏共中央和中共最凶恶的敌人、\n披着羊皮的狼”等标签。\n主席同志在一次讲话中还简短提到：如果“像费奥多尔·库拉科夫这\n样的人将领导苏联——我们就不必跟他们谈任何事情，\n因为他们对我们、对中国共产党、对中国人民怀有偏见”。\n这引起了苏共中央的强烈怀疑。\n库拉科夫被召到党内监察委员会，接受委员会负责人阿尔维德·佩尔\n舍的谈话。他与拥有至高权力的克格勃头子尤里·安德罗波夫联手，\n得以突破政治局关于任命库拉科夫为摩尔达维亚共产党中央委员会第\n一书记的决定——实际上是“光荣流放”。\n库拉科夫的提名人已经开始从岗位上被撤下，\n并调到更低的位置。于是，他不再是障碍……";
 						GlobalScript.inst.gameState.data[1] += 50;
 						GlobalScript.inst.gameState.data[8] -= 20;
 						Leader leader = GlobalScript.inst.gameState.empires[1].leaders[3];
@@ -6341,21 +6341,21 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "We organized a large-scale campaign to denigrate Kulakov in the media. He was branded as \"a corruptionist, a bureaucrat, a titoist, , a careerist, an opportunist, the worst enemy of the CPSU and the 中共, the wolf in sheep's clothing\", etc. Comrade Chairman, on one of his speeches briefly  mentioned that, if \"such people as Fyodor Kulakov, will head the Soviet Union - we are not to talk with them about anything, because they are biased against us, against the Communist party of China, against the Chinese people\". However, Kulakov, having learned about this, did not lose his head, as we planned, and spoke at the Plenum of the CPSU Central Committee with a bright speech, in which he accused China of \"spreading slander on the leninist Central Committee, maoist hegemony, the desire to split the CPSU and create an alternative maoist \"false party\", conducting a quiet counter-revolution in the Soviet Union and occupying Siberia and the far East\". With his primitive lie he was able to intimidate most members of the 政治局, including Brezhnev, and whitewash himself.";
+						text = "我们在媒体上组织了一场大规模抹黑库拉科夫的运动。\n他被贴上“贪腐分子、官僚、铁托式、（逗号处原文有缺漏）\n野心家、机会主义者、苏共中央和中共最凶恶的敌人、\n披着羊皮的狼”等标签。\n主席同志在一次讲话中还简短提到：如果“像费奥多尔·库拉科夫这\n样的人将领导苏联——我们就不必跟他们谈任何事情，\n因为他们对我们、对中国共产党、对中国人民怀有偏见”。\n然而，库拉科夫得知此事后并没有按我们的计划失去理智，\n而是在苏共中央全会上作了一篇慷慨激昂的发言：\n他指控中国“散布对列宁主义中央委员会的诽谤、\n毛主义霸权、企图分裂苏共中央并建立一个替代的毛主义‘假党’，\n在苏联进行悄无声息的反革命，并占领西伯利亚和远东”。\n凭借他那种粗糙的谎言，他吓住了包括勃列日涅夫在内的多数政治局\n成员，并为自己洗清了嫌疑。";
 						GlobalScript.inst.gameState.data[8] -= 20;
 					}
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "And nothing happened. Kulakov continues to occupy the post, advancing to the top reform-minded party members, led by his ally in the Stavropol region - Mikhail Gorbachev.";
+					text = "什么也没有发生。库拉科夫继续占着岗位，\n向党内最高层的改革派靠拢——由他在斯塔夫罗波尔地区的盟友米哈\n伊尔·戈尔巴乔夫领衔。";
 				}
 			}
 			else if (GlobalScript.inst.gameState.number_event == 84)
 			{
-				text2 = "Our old partisan...";
+				text2 = "我们的老游击队员……";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "At 14:35 Pyotr Masherov left the building of the Central Committee of the CPB towards the city of Zhodino by car GAZ-13 \"Chaika\", which ran a 60-year-old driver E. Zaitsev. Masherov sat next to the driver, behind — security officer major V. F. Chesnokov. Contrary to existing instructions, there were not a car of GAI with the appropriate coloring and flashing lights,but the white \"Volga\" with an alarm loud-speaking installation, but without flashing lights. At the turn to the poultry farm near the city of Smolevichi on the highway \"Moscow-Minsk\" in \"Chaika\" was hit by loaded with potatoes dump truck GAZ-SAZ-53B under the control of the driver N. Pustovite. No one survived - Masherov, his driver and security guard were killed on the spot, the driver of the truck - died from a large loss of blood on the way to the hospital. The General Prosecutor's office of the USSR conducted an investigation that ruled out the intentional nature of the crime. KGB hadn't been agreed with it and insisted on the involvement of foreign intelligence services. In the course of the conflict between the Prosecutor's Office (with the support of the Ministry of Internal Affairs) and the KGB, Masherov's excessive reformist tendencies came to light, which forced the KGB to relent and Andropov to lose some influence in the Party apparatus.";
+					text = "14时35分，彼得·马谢罗夫乘坐GAZ-13“海鸥”轿车离开\n白俄罗斯共产党（CPB）中央委员会大楼，\n前往日尔季诺市。驾驶员是60岁的E·扎伊采夫。\n马谢罗夫坐在驾驶员旁边，后排是安全官员中校V·F·切斯诺科夫。\n与既有指示相反，并没有配备相应涂装和警灯闪烁的GAI警车护\n送；而是一辆白色“伏尔加”，装有警报扩音装置，\n但没有闪灯。在“莫斯科—明斯克”公路上，\n靠近斯莫列维奇市附近的通往家禽农场的转弯处，\n“海鸥”被一辆装满土豆的自卸卡车GAZ-SAZ-53B撞上，\n卡车由司机N·普斯托维特驾驶。\n无人幸免——马谢罗夫、他的司机和警卫当场死亡，\n卡车司机则因失血过多在前往医院途中死亡。\n苏联总检察院进行了调查，排除了犯罪的故意性质。\n克格勃对此不认同，坚持认为有外国情报机构参与。\n在检察机关（得到内务部支持）与克格勃的冲突过程中，\n马谢罗夫过度的改革倾向被揭露出来，迫使克格勃让步，\n并使安德罗波夫在党内机关中的影响力有所下降。";
 					GlobalScript.inst.gameState.data[9] -= 80;
 					Leader leader = GlobalScript.inst.gameState.empires[1].leaders[3];
 					leader.support -= 2;
@@ -6365,7 +6365,7 @@ public class Results_text : MonoBehaviour
 				{
 					if (GlobalScript.inst.gameState.empires[1].relations >= 500)
 					{
-						text = "Our agents have been in contact with Tikhon Kiselyov - Chairman of the Council of Ministers of the BSSR, which has teamed up with dissatisfied with the policy of Masherov Belarusian party members - and gave him the dirt on Masherov (in particular, he approved of Kosygin's economic reform and required to develop a planning system that would stimulate the economic interest of enterprises. The reason was his desire to gradually move away from the administrative and command methods of economic management. Also, by the initiative of Masherov, BSSR regularly held seminars on various problems of the national economy, not agreed with the Central Committee of the CPSU). Kiselev, being at the same time the Deputy Chairman of the Council of Ministers of the USSR, made a meeting with Mikhail Suslov and gave him this information. Masherov was summoned to Moscow and critisized, deprived of his position and sent into retirement.";
+						text = "我们的特工同季霍恩·基谢廖夫取得联系——他是白俄罗斯苏维埃社\n会主义共和国（BSSR）部长会议主席；\n同时也与对马谢罗夫政策不满的白俄罗斯党内成员结成了同盟——并\n向他提供了关于马谢罗夫的“脏料”（例如：\n他赞同柯西金的经济改革，并要求建立一种能够刺激企业经济利益的\n计划体系。原因在于他希望逐步摆脱经济管理中的行政命令方式。\n此外，马谢罗夫还主导让BSSR定期就国民经济各类问题举办研讨\n会，而这些并未得到苏共中央的同意）。\n基谢廖夫身兼苏联部长会议副主席，便与米哈伊尔·苏斯洛夫会面，\n并把这些信息转交给他。\n马谢罗夫被召到莫斯科，遭到批判，被剥夺职务并被打发到离休岗位。";
 						GlobalScript.inst.gameState.data[8] -= 50;
 						Leader leader = GlobalScript.inst.gameState.empires[1].leaders[3];
 						leader.support--;
@@ -6373,21 +6373,21 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "Our agents have been in contact with Tikhon Kiselyov - Chairman of the Council of Ministers of the BSSR, which has teamed up with dissatisfied with the policy of Masherov Belarusian party members - and gave him the dirt on Masherov (in particular, he approved of Kosygin's economic reform and required to develop a planning system that would stimulate the economic interest of enterprises. The reason was his desire to gradually move away from the administrative and command methods of economic management. Also, by the initiative of Masherov, BSSR regularly held seminars on various problems of the national economy, not agreed with the Central Committee of the CPSU). However, he did not dare to give it up to Suslov, resulting in Masherov still being on post.";
+						text = "我们的特工同季霍恩·基谢廖夫取得联系——他是白俄罗斯苏维埃社\n会主义共和国（BSSR）部长会议主席；\n同时也与对马谢罗夫政策不满的白俄罗斯党内成员结成了同盟——并\n向他提供了关于马谢罗夫的“脏料”（例如：\n他赞同柯西金的经济改革，并要求建立一种能够刺激企业经济利益的\n计划体系。原因在于他希望逐步摆脱经济管理中的行政命令方式。\n此外，马谢罗夫还主导让BSSR定期就国民经济各类问题举办研讨\n会，而这些并未得到苏共中央的同意）。\n然而，他不敢把这些材料交给苏斯洛夫，\n结果马谢罗夫仍然留任。";
 						GlobalScript.inst.gameState.data[8] -= 50;
 					}
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "At 14:35 Pyotr Masherov left the building of the Central Committee of the CPB towards the city of Zhodino by car GAZ-13 \"Chaika\", which ran a 60-year-old driver E. Zaitsev. Masherov sat next to the driver, behind — security officer major V. F. Chesnokov. Contrary to existing instructions, there were not a car of GAI with the appropriate coloring and flashing lights,but the white \"Volga\" with an alarm loud-speaking installation, but without flashing lights. At the turn to the poultry farm near the city of Smolevichi on the highway \"Moscow-Minsk\" in \"Chaika\" was hit by loaded with potatoes dump truck GAZ-SAZ-53B under the control of the driver N. Pustovite. No one survived - Masherov, his driver and security guard were killed on the spot, the driver of the truck - died from a large loss of blood on the way to the hospital. The General Prosecutor's office of the USSR, together with the KGB of the USSR, conducted an investigation that ruled out the intentional nature of the crime. The investigation team concluded that the driver of the potato truck was to blame.";
+					text = "14时35分，彼得·马谢罗夫乘坐GAZ-13“海鸥”轿车离开\n白俄罗斯共产党（CPB）中央委员会大楼，\n前往日尔季诺市。驾驶员是60岁的E·扎伊采夫。\n马谢罗夫坐在驾驶员旁边，后排是安全官员中校V·F·切斯诺科夫。\n与既有指示相反，并没有配备相应涂装和警灯闪烁的GAI警车护\n送；而是一辆白色“伏尔加”，装有警报扩音装置，\n但没有闪灯。在“莫斯科—明斯克”公路上，\n靠近斯莫列维奇市附近的通往家禽农场的转弯处，\n“海鸥”被一辆装满土豆的自卸卡车GAZ-SAZ-53B撞上，\n卡车由司机N·普斯托维特驾驶。\n无人幸免——马谢罗夫、他的司机和警卫当场死亡，\n卡车司机则因失血过多在前往医院途中死亡。\n苏联总检察院会同苏联克格勃进行了调查，\n排除了犯罪的故意性质。\n调查小组认定：装土豆卡车的司机应负主要责任。";
 				}
 			}
 			else if (GlobalScript.inst.gameState.number_event == 85)
 			{
-				text2 = "German autonomy in Kazakhstan";
+				text2 = "哈萨克斯坦的德意志自治";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "On June 16 in the cities of Tselinograd, Kokchetav and Karaganda began mass protests of the Kazakh population against the granting of autonomy to the German minority. Protesters carried banners with inscriptions: \"Our land is uniform and indivisible for everyone!\" and chanted slogans: \"No to German Autonomous region in Ermentau!\". Three days after the first protest, on one of the outskirts of Tselinograd, crowds gathered from all the surrounding streets again, demanding an answer to the questions: \"What fate awaits the Kazakhs on their land?\" and \"What about autonomy?\". The leadership and law enforcement agencies of the Kazakh SSR secretly supported the demonstrators and did not prevent the distribution of leaflets calling to go to a protest rally in the dormitories. We took advantage of this and officially made public this fact, accusing Kunaev of \"neo-fascism\" and \"violation of Lenin's principles of national policy\". Through the 国家安全部 was also merged compromising material on a large number of persons from his entourage suspected of corruption. On December 16, during the record short Plenum of the Central Committee of Kazakhstan, which lasted only 18 minutes, Dinmukhamed Kunayev was removed from the post of First Secretary of the Central Committee of Kazakhstan and retired. In his place was elected Chairman of the Council of Ministers of the Kazakh SSR technocrat Baiken Ashimov.";
+					text = "6月16日，齐林诺格勒、科克切塔夫和卡拉干达三地爆发了哈萨克\n族民众针对给予德意志少数民族自治权的群众抗议。\n抗议者举着写有“我们的土地对每个人都是统一的、\n不可分割的！”的标语，并高喊“反对在埃尔门套设立德意志自治州！\n”。第一次抗议后三天，在齐林诺格勒郊外，\n来自周边各条街道的人群再次集结，要求回答“哈萨克人在自己的土\n地上将遭遇怎样的命运？\n”以及“自治又将如何？\n”等问题。哈萨克苏维埃社会主义共和国的领导层和执法机构暗中支\n持示威者，并未阻止在宿舍区散发号召参加抗议集会的传单。\n我们利用了这一点，并正式公开了这一事实，\n指控库奈耶夫“新法西斯主义”和“违反列宁民族政策原则”。\n通过MSS（国家安全机构）还汇总了大量与其随从有关、\n涉嫌腐败的“妥协材料”。\n12月16日，在创纪录的哈萨克斯坦中央委员会全体会议上（仅持\n续18分钟），丁穆哈迈德·库奈耶夫被撤去哈萨克斯坦中央委员会\n第一书记职务并办理退休。\n由技术官僚贝肯·阿希莫夫当选为哈萨克苏维埃社会主义共和国部长\n会议主席。";
 					GlobalScript.inst.gameState.data[9] -= 100;
 					Leader leader = GlobalScript.inst.gameState.empires[1].leaders[3];
 					leader.support--;
@@ -6398,7 +6398,7 @@ public class Results_text : MonoBehaviour
 				{
 					if (GlobalScript.inst.gameState.empires[1].relations >= 500)
 					{
-						text = "We urgently sent to the Central Committee of the CPSU all the information about the upcoming performances in the Kazakh SSR, pointing to the involvement of the entire party elite of the republic. Our warning was taken into account, so on June 16 in Tselinograd, Kokchetav and Karaganda were introduced units of Internal troops of the Ministry of internal Affairs of the USSR, which prevented the demonstrations. Kunayev was summoned to Moscow, where after a conversation with Arvid Pelshe and Mikhail Suslov, he wrote a statement asking to be released from all posts in connection with the \"state of health\".";
+						text = "我们紧急向苏共中央送交了关于哈萨克苏维埃社会主义共和国即将发\n生的动乱的全部情报，并指出这牵涉到该共和国的整个党内精英。\n我们的警告被采纳了：因此在6月16日，\n齐林诺格勒、科克切塔夫和卡拉干达部署了苏联内务部内卫部队的单\n位，阻止了示威活动。\n库奈耶夫被召到莫斯科；在与阿尔维德·佩尔舍和米哈伊尔·苏斯洛\n夫会谈后，他写下声明，要求因“健康状况”解除其所有职务。";
 						GlobalScript.inst.gameState.data[9] -= 30;
 						Leader leader = GlobalScript.inst.gameState.empires[1].leaders[3];
 						leader.support--;
@@ -6406,17 +6406,17 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "We urgently sent to the Central Committee of the CPSU all the information about the upcoming performances in the Kazakh SSR, pointing to the involvement of the entire party elite of the republic. However, our warning was ignored. On June 16 in the cities of Tselinograd, Kokchetav and Karaganda began mass protests of the Kazakh population against the granting of autonomy to the German minority. Protesters carried banners with inscriptions: \"Our land is uniform and indivisible for everyone!\" and chanted slogans: \"No to German Autonomous region in Ermentau!\". As a result, the authorities agreed with the demands of the demonstrators and announced that the issue of German autonomy in Kazakhstan was completely removed from the agenda.";
+						text = "我们紧急向苏共中央送交了关于哈萨克苏维埃社会主义共和国即将发\n生的动乱的全部情报，并指出这牵涉到该共和国的整个党内精英。\n然而，我们的警告被置之不理。\n6月16日，齐林诺格勒、科克切塔夫和卡拉干达三地爆发了哈萨克\n族民众针对给予德意志少数民族自治权的群众抗议。\n抗议者举着写有“我们的土地对每个人都是统一的、\n不可分割的！”的标语，并高喊“反对在埃尔门套设立德意志自治州！\n”。结果，当局同意了示威者的要求，\n并宣布：哈萨克斯坦的德意志自治问题已彻底从议程中取消。";
 						GlobalScript.inst.gameState.data[9] -= 30;
 					}
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "On June 16 in the cities of Tselinograd, Kokchetav and Karaganda began mass protests of the Kazakh population against the granting of autonomy to the German minority. Protesters carried banners with inscriptions: \"Our land is uniform and indivisible for everyone!\" and chanted slogans: \"No to German Autonomous region in Ermentau!\". As a result, the authorities agreed with the demands of the demonstrators and announced that the issue of German autonomy in Kazakhstan was completely removed from the agenda.";
+					text = "6月16日，在采利诺格勒、科克切塔夫和卡拉干达三座城市，\n哈萨克族群众开始了针对给予德意志少数民族自治权的群众性抗议。\n抗议者举着写有“我们的土地，归全体所有，\n统一而不可分割！”的标语，并高喊口号：\n“反对在厄尔门套设立德意志自治区！\n”结果，当局同意了示威者的要求，并宣布：\n哈萨克斯坦的德意志自治问题已被彻底从议程中撤下。";
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "Our investigation uncovered significant misconduct by 1st Secretary Rashidov's team in Uzbekistan, involving the fraudulent inflation of cotton harvest targets through the forgery of stones and rubble, rampant nepotism, and bribery using rams and cars. Some associates concealed gold in their homes during Moscow inspections. The evidence, including photographs, anonymous interviews, and statistical documentation, was submitted to the USSR Council of Ministers through our embassy. To expose Rashidov, we disseminated this information through Chinese newspapers and even reaching Radio Liberty and Voice of America. This deprived Soviet leaders of the opportunity to hush up the case. As a result of the investigations, the SU underwent mass inspections in all republics and exemplary expulsions from the party took place in several countries. Instead of Rashidov a young and experienced industrial organizer Akil Salimov became the new 1st Secretary of the CPUz. In Moldavia, Ivan Bodiul, the 1st Secretary, was dismissed for negligence after a significant fraud discovery. His \"Moldavian experience\" in the agro-industrial complexes was recognized as ineffective. However, no special reshuffle followed, and Semyon Grossu, the former Chairman of the Council of Ministers, assumed the leadership. Corruption and nepotism in Azerbaijan led to the resignation of Heydar Aliyev and the heads of ministries and the KGB of the Azerbaijan SSR. In their place, Azerbaijani communists led by Abdurakhman Vezirov, who had been sent into political exile as ambassadors by Aliyev, were appointed to leading posts. They now attempt to adjust the work of the state apparatus using soft power. The leadership of the Turkmen SSR, headed by Mukhamednazar Gapurov, was suspended and expelled for corruption and embezzlement. Nazar Suyumov, a former foreign minister and a great specialist in geology and gas and oil production, assumed leadership and began reorienting the economy towards the development of the gas and oil industry. Audits were conducted within the RSFSR member republics, and the global discussion about Soviet leadership issues played to our advantage.";
+					text = "我们的调查揭露了乌兹别克斯坦第一书记拉希多夫团队的严重失职：\n通过伪造石块和瓦砾来虚报棉花收购/产量指标、\n猖獗的任人唯亲，以及用公羊和汽车行贿。\n部分同伙在莫斯科检查期间把黄金藏在家中。\n包括照片、匿名采访和统计材料在内的证据，\n已通过我方使馆提交给苏联部长会议。\n为揭露拉希多夫，我们把这些信息通过中国报纸广为散布，\n甚至传到“自由欧洲电台”和“美国之音”。\n这使苏联领导层失去了掩盖案件的机会。\n调查结果导致苏联各加盟共和国普遍开展大规模检查，\n并在数个国家出现了党内的典型开除处分。\n拉希多夫被撤换后，年轻且经验丰富的工业组织者阿基尔·萨利莫夫\n出任中共乌兹别克加盟共和国（CPUz）\n新的第一书记。在摩尔达维亚，第一书记伊万·博迪乌尔因重大诈骗\n案被发现后以失职为由遭到撤职；他在农业—工业综合体中的“摩尔\n达维亚经验”被认定为无效。\n然而并未出现特别的人事大调整，原部长会议主席谢苗·格罗斯乌接\n过领导权。阿塞拜疆的腐败和任人唯亲导致阿利耶夫及阿塞拜疆苏维\n埃社会主义共和国各部部长和克格勃负责人辞职。\n取而代之的是由阿卜杜拉赫曼·韦齐罗夫领导的阿塞拜疆共产党人—\n—他曾被阿利耶夫以“驻外大使”名义送去政治流放。\n如今他们试图借助“软实力”来调整国家机关的运转。\n由穆哈梅德纳扎尔·加普罗夫担任的土库曼苏维埃社会主义共和国领\n导层因腐败和挪用公款被停职并开除。\n前外交部长、地质以及天然气与石油生产方面的专家纳扎尔·苏尤莫\n夫出任领导，并开始把经济重新导向天然气与石油工业的发展。\nRSFSR加盟共和国内部开展了审计，\n而围绕苏联领导问题的全球讨论反倒对我们有利。";
 					GlobalScript.inst.gameState.data[8] -= 30;
 					GlobalScript.inst.gameState.data[9] -= 30;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
@@ -6427,10 +6427,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 86)
 			{
-				text2 = "The end of \"Iron Yuri\"";
+				text2 = "“铁腕尤里”的终结";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "While Brezhnev left for talks in Vienna, Yuri Andropov, who had an exacerbation of long-tormented his kidney disease, went for treatment in the Crimea. However, it was a one-way trip - in the Crimea, he caught a cold and finally came down — he developed phlegmon (purulent inflammation of the fiber) and there was a sharp deterioration in general health. The operation was successful, but the postoperative wound did not heal. The body was very weak and could not fight intoxication. Andropov fell into a coma, from which he never came out. July 9, 1979, the Chairman of the KGB of the USSR died. People in the know said that \"it was not necessary to Andropov to go to the farm of Shcherbitsky. He also has his pride and his KGB\". The new head of the union KGB was Semyon Tsvigun, who started \"office\" mass cleaning, and in place of the Andropov people in large numbers came workers from the KGB of the Ukrainian SSR. This reinforces the influence of Vladimir Shcherbitsky, who has now become the de facto sole successor to Leonid Brezhnev. That's fine with us...";
+					text = "当勃列日涅夫动身前往维也纳会谈时，饱受长期折磨的肾病又发作的\n尤里·安德罗波夫则去克里米亚治病。\n然而这是一趟“单程票”——在克里米亚，\n他受了风寒，最终病情恶化：他得了蜂窝织炎（纤维组织的化脓性炎\n症），全身状况急剧下滑。\n手术虽然成功，但术后伤口不愈。\n身体极度虚弱，已无法抵抗中毒。\n安德罗波夫陷入昏迷，之后再也没有醒来。\n1979年7月9日，苏联克格勃主席去世。\n知情人士说：“安德罗波夫不必去谢尔比茨基的农场。\n他也有他的骄傲和他的克格勃。\n”苏联统一克格勃的新负责人是谢苗·茨维贡，\n他开始在“办公室”里搞大规模清洗；而原安德罗波夫系的人被大量\n替换为来自乌克兰苏维埃社会主义共和国克格勃的工作人员。\n这进一步巩固了弗拉基米尔·谢尔比茨基的影响力——如今他已成了\n列昂尼德·勃列日涅夫的事实上的唯一接班人。\n对我们来说……这样也好……";
 					GlobalScript.inst.gameState.data[9] -= 100;
 					GlobalScript.inst.gameState.data[8] -= 50;
 					GlobalScript.inst.gameState.empires[1].leaders[3].support = -100;
@@ -6442,7 +6442,7 @@ public class Results_text : MonoBehaviour
 				{
 					if (GlobalScript.inst.gameState.empires[1].relations >= 400)
 					{
-						text = "As soon as news came from Vienna about Leonid Brezhnev's arrival in the capital of Austria - the 8th Main Directorate of the KGB of the USSR by order of the first Deputy Chairman of the Committee General Semyon Tsvigun disconnected the government communication, thus completely isolating the Secretary General from information from the USSR. Meanwhile, with the help of the opposition in the KGB, Mikhail Suslov and Vladimir Shcherbytsky quickly gathered an emergency Central Committee Plenum, in which Yuri Andropov was accused of \"the transformation of the KGB into a personal shop, the preparation of an anti-government coup, communication with CIA and Israel's secret service, the slandering of Fyodor Kulakov and Pyotr Masherov\", etc. We quickly organized information support of the Plenum, adding fuel to the fire with publications of \"revelatory material\" about Andropov. The dumbfounded head of the KGB tried to resist, but after the speech of Vladimir Shcherbitsky, who directly accused Andropov of preparing the murder of Brezhnev, he realized that he had lost. The Plenum adopted the decision on the withdrawal of Andropov from all posts, expelling him from the party and arresting him. The new Chairman of the KGB of the USSR is the head of the Ukrainian KGB Vitaly Fedorchuk, who began mass cleaning Andropov staff and replacing them with proven employees of the republican Committees. Perhaps our most dangerous enemy in the USSR is now completely neutralized...";
+						text = "维也纳传来消息：列昂尼德·勃列日涅夫抵达奥地利首都——苏联克\n格勃第八总局奉委员会第一副主席谢苗·茨维贡之命，\n切断了政府通信，从而使总书记与来自苏联的情报完全隔绝。\n与此同时，在克格勃内部反对派的帮助下，\n米哈伊尔·苏斯洛夫和弗拉基米尔·谢尔比茨基迅速召集紧急中央委\n员会全会。在会上，尤里·安德罗波夫被指控“把克格勃变成私人店\n铺、准备反政府政变、与美国中央情报局及以色列情报机构勾连、\n诬陷费奥多尔·库拉科夫和彼得·马舍罗夫”等等。\n我们迅速组织对全会的信息支援，借助刊发关于安德罗波夫的“揭密\n材料”给火上浇油。克格勃头目试图抵抗，\n但在弗拉基米尔·谢尔比茨基的发言中——他直接指控安德罗波夫准\n备谋杀勃列日涅夫——对方这才意识到自己已经输了。\n全会通过决议：撤销安德罗波夫所有职务，\n将其开除出党并逮捕。\n苏联克格勃新主席是乌克兰克格勃负责人维塔利·费多尔丘克，\n他开始对安德罗波夫系人员进行大规模清洗，\n并用经验证的共和国党委工作人员替换他们。\n也许我们在苏联最危险的敌人，如今已被彻底中和……";
 						GlobalScript.inst.gameState.data[8] -= 70;
 						GlobalScript.inst.gameState.empires[1].leaders[3].support = -100;
 						Leader leader = GlobalScript.inst.gameState.empires[1].leaders[1];
@@ -6450,7 +6450,7 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "As soon as news came from Vienna about Leonid Brezhnev's arrival in the capital of Austria - the 8th Main Directorate of the KGB of the USSR by order of the first Deputy Chairman of the Committee General Semyon Tsvigun disconnected the government communication, thus completely isolating the Secretary General from information from the USSR. Meanwhile, with the help of the opposition in the KGB, Mikhail Suslov and Vladimir Shcherbytsky quickly gathered an emergency Central Committee Plenum, in which Yuri Andropov was accused of \"the transformation of the KGB into a personal shop, the preparation of an anti-government coup, communication with CIA and Israel's secret service, the slandering of Fyodor Kulakov and Pyotr Masherov\", etc. We quickly organized information support of the Plenum, adding fuel to the fire with publications of \"revelatory material\" about Andropov. However, Andropov kept his head and leaning on her supporters in the Central Committee of the Communist party and loyal security officers, has announced Suslov and Shcherbitsky as \"the second anti-party group\" turning the Plenum into the court over them. The result was the exclusion of Suslov and Shcherbitsky from the CPSU and the rise of Andropov, who became the Second Secretary of the CPSU and the actual successor of Leonid Brezhnev, who was notified of everything and supported his actions.";
+						text = "维也纳传来消息：列昂尼德·勃列日涅夫抵达奥地利首都——苏联克\n格勃第八总局奉委员会第一副主席谢苗·茨维贡之命切断政府通信，\n使总书记与来自苏联的情报完全隔绝。\n与此同时，在克格勃内部反对派的帮助下，\n米哈伊尔·苏斯洛夫和弗拉基米尔·谢尔比茨基迅速召集紧急中央委\n员会全会。在会上，尤里·安德罗波夫被指控“把克格勃变成私人店\n铺、准备反政府政变、与美国中央情报局及以色列情报机构勾连、\n诬陷费奥多尔·库拉科夫和彼得·马舍罗夫”等等。\n我们迅速组织对全会的信息支援，借助刊发关于安德罗波夫的“揭密\n材料”给火上浇油。然而，安德罗波夫稳住阵脚，\n依靠其在共产党中央委员会中的支持者以及忠诚的安全部门人员，\n宣布苏斯洛夫和谢尔比茨基为“第二个反党集团”，\n把全会变成对他们的“审判”。\n结果是：苏斯洛夫和谢尔比茨基被开除出苏共，\n安德罗波夫则乘势上台——他成为苏共第二书记，\n并成为列昂尼德·勃列日涅夫的事实接班人。\n勃列日涅夫已被告知一切，并支持他的行动。";
 						GlobalScript.inst.gameState.data[8] -= 70;
 						Leader leader = GlobalScript.inst.gameState.empires[1].leaders[3];
 						leader.support += 2;
@@ -6458,18 +6458,18 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "And nothing happened. Yuri Andropov gradually cleans the KGB of his opponents and strengthens the influence of the Central Committee of the CPSU, becoming the actual successor of Leonid Brezhnev and promoting reformist party members such as Yegor Ligachev, Mikhail Gorbachev and Vladimir Dolgikh.";
+					text = "什么也没有发生。尤里·安德罗波夫逐步清除克格勃中的对手，\n加强苏共中央委员会的影响力，成为列昂尼德·勃列日涅夫的事实接\n班人，并推动像叶戈尔·利加乔夫、米哈伊尔·戈尔巴乔夫和弗拉基\n米尔·多尔吉赫这样的改革派党内人士。";
 					Leader leader = GlobalScript.inst.gameState.empires[1].leaders[3];
 					leader.support += 2;
 				}
 			}
 			else if (GlobalScript.inst.gameState.number_event == 87)
 			{
-				text2 = "Peace for Galilee";
+				text2 = "加利利的和平";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Israel announced the beginning of operation \"Peace to Galilee\", the purpose of which, according to Israeli representatives, is the elimination of PLO bases and the creation of a demilitarized zone in southern Lebanon. Israel has announced that it is not going to attack the group of Syrian armed forces in Lebanon, and Syria itself has refrained from fighting, but given the fact that the Syrians control a huge part of Lebanon, the clash between them and the forces of the IDF seems only a matter of time. It is noteworthy that the United States, traditionally supportive of Israel, reacted quite restrained and did not particularly appreciate its \"peacekeeping\" impulses.";
-					GlobalScript.inst.gameState.ingamewars[4].name_war = "Lebanon war";
+					text = "以色列宣布启动代号“加利利的和平”行动。\n根据以色列代表的说法，该行动目的在于消灭巴解组织（PLO）\n的据点，并在黎巴嫩南部建立非军事区。\n以色列表示不会袭击驻黎巴嫩的叙利亚武装力量集团；\n叙利亚本身也克制地没有交火。\n但考虑到叙利亚控制了黎巴嫩相当大的一部分地区，\n双方与以色列国防军（IDF）之间的冲突似乎只是时间问题。\n值得注意的是，传统上支持以色列的美国反应相当克制，\n并没有特别欣赏它的“维和”冲动。";
+					GlobalScript.inst.gameState.ingamewars[4].name_war = "黎巴嫩战争";
 					GlobalScript.inst.gameState.ingamewars[4].is_going = true;
 					GlobalScript.inst.gameState.ingamewars[4].side1 = "Israeil";
 					GlobalScript.inst.gameState.ingamewars[4].side2 = "PLO";
@@ -6482,10 +6482,10 @@ public class Results_text : MonoBehaviour
 			else if (GlobalScript.inst.gameState.number_event == 88)
 			{
 				GlobalScript.inst.gameState.allcountries[52].SubGosstroy = 10;
-				text2 = "The end of Zimbabwe apartheid";
+				text2 = "津巴布韦种族隔离的终结";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "We have established diplomatic relations with the government of Mugabe and expressed our intention to develop close cooperation between China and Zimbabwe, reinforcing our good intentions with material assistance, which Mugabe gladly accepted, stating readiness for full cooperation.";
+					text = "我们已同穆加贝政府建立外交关系，并表示愿意发展中津之间的紧密\n合作；以物质援助来强化我们的善意。\n穆加贝欣然接受，并表示准备进行全面合作。";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.relations += 50;
 					GlobalScript.inst.gameState.data[8] -= 50;
@@ -6497,13 +6497,13 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Our interaction with the new government was limited to the establishment of diplomatic relations. Nothing special happened.";
+					text = "我们与新政府的互动仅限于建立外交关系。\n没有发生什么特别的事。";
 					GlobalScript.inst.gameState.allcountries[52].name = GlobalScript.inst.new_events_text[799];
 				}
 			}
 			else if (GlobalScript.inst.gameState.number_event == 89)
 			{
-				text2 = "End of an Era";
+				text2 = "一个时代的结束";
 				int num28 = -1;
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
@@ -6560,7 +6560,7 @@ public class Results_text : MonoBehaviour
 				}
 				if (GlobalScript.inst.gameState.empires[1].leaders[2].support >= GlobalScript.inst.gameState.empires[1].leaders[3].support && GlobalScript.inst.gameState.empires[1].leaders[2].support >= GlobalScript.inst.gameState.empires[1].leaders[1].support)
 				{
-					text = "As a result, Konstantin Chernenko was elected General Secretary of the CPSU Central Committee. Many saw him as a convenient compromise figure that would allow the Union to avoid large-scale changes and upheavals and it seems he will meet their expectations.";
+					text = "结果，康斯坦丁·切尔年科当选为苏共中央委员会总书记。\n许多人认为他是个便于折中的人物，能够让联盟避免大规模变动与动\n荡，看来他也将满足他们的期待。";
 					GlobalScript.inst.gameState.empires[1].now_leader = 2;
 					Leader leader = GlobalScript.inst.gameState.empires[1].leaders[4];
 					leader.support++;
@@ -6569,19 +6569,19 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.empires[1].leaders[1].support >= GlobalScript.inst.gameState.empires[1].leaders[2].support && GlobalScript.inst.gameState.empires[1].leaders[1].support >= GlobalScript.inst.gameState.empires[1].leaders[3].support)
 				{
-					text = "As a result, Vladimir Shcherbitsky was elected General Secretary of the CPSU Central Committee. This is not surprising - removing Andropov, with the support of Suslov and the trust of Brezhnev, he became the main contender for the position. It seems the USSR is waiting for a few more years of stability.";
+					text = "结果，弗拉基米尔·谢尔比茨基当选为苏共中央委员会总书记。\n这并不意外——在苏斯洛夫的支持和勃列日涅夫的信任下，\n他除掉了安德罗波夫，成为该职位的主要竞争者。\n看来苏联还将等待几年的稳定。";
 					GlobalScript.inst.gameState.empires[1].now_leader = 3;
 				}
 				else if (GlobalScript.inst.gameState.empires[1].leaders[3].support >= GlobalScript.inst.gameState.empires[1].leaders[2].support && GlobalScript.inst.gameState.empires[1].leaders[3].support >= GlobalScript.inst.gameState.empires[1].leaders[1].support)
 				{
-					text = "As a result, Yuri Andropov was elected General Secretary of the CPSU Central Committee. During the years of the KGB leadership, he concentrated in his hands a huge power that allowed him to win this fight, and many saw him as a pragmatic and tough ruler, so necessary for the Soviet Union now.";
+					text = "结果，尤里·安德罗波夫当选为苏共中央委员会总书记。\n在克格勃领导的岁月里，他把巨大的权力集中于手中，\n正是凭借这股力量他赢得了这场斗争。\n许多人认为他是务实而强硬的统治者——而这正是苏联如今所必需的。";
 					GlobalScript.inst.gameState.empires[1].now_leader = 1;
 					Leader leader = GlobalScript.inst.gameState.empires[1].leaders[6];
 					leader.support += 2;
 				}
 				else if (GlobalScript.inst.gameState.empires[1].leaders[2].support >= GlobalScript.inst.gameState.empires[1].leaders[3].support)
 				{
-					text = "As a result, Konstantin Chernenko was elected General Secretary of the CPSU Central Committee. Many saw him as a convenient compromise figure that would allow the Union to avoid large-scale changes and upheavals and it seems he will meet their expectations.";
+					text = "结果，康斯坦丁·切尔年科当选为苏共中央委员会总书记。\n许多人认为他是个便于折中的人物，能够让联盟避免大规模变动与动\n荡，看来他也将满足他们的期待。";
 					GlobalScript.inst.gameState.empires[1].now_leader = 2;
 					Leader leader = GlobalScript.inst.gameState.empires[1].leaders[4];
 					leader.support++;
@@ -6590,7 +6590,7 @@ public class Results_text : MonoBehaviour
 				}
 				else
 				{
-					text = "As a result, Yuri Andropov was elected General Secretary of the CPSU Central Committee. During the years of the KGB leadership, he concentrated in his hands a huge power that allowed him to win this fight, and many saw him as a pragmatic and tough ruler, so necessary for the Soviet Union now.";
+					text = "结果，尤里·安德罗波夫当选为苏共中央委员会总书记。\n在克格勃领导的岁月里，他把巨大的权力集中于手中，\n正是凭借这股力量他赢得了这场斗争。\n许多人认为他是务实而强硬的统治者——而这正是苏联如今所必需的。";
 					GlobalScript.inst.gameState.empires[1].now_leader = 1;
 					Leader leader = GlobalScript.inst.gameState.empires[1].leaders[6];
 					leader.support += 2;
@@ -6598,10 +6598,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 90)
 			{
-				text2 = "Hong Kong Goodbye, Macao hasta la vista?";
+				text2 = "香港再见，澳门再会？";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "With the help of special services, state-owned companies and pro-Chinese lobbying organizations, we were able to establish contacts with the three main syndicates of the Triad - «14K», «Sun Yee On» and «Wo Shing Wo». They received guarantees from us of the inviolability of their members and assets and a proposal for profitable investment of their capital in the country's economy (in particular, in the production of ephedra) on extremely favorable terms. The leaders of the Triads, who were already preparing to relocate their centers in the United States, agreed to our proposal. They are beginning to invest heavily in our southern provinces, and also use their influence to neutralize the actions of opponents of China's reunification (in particular, critical materials disappeared from the media, all protests were quickly dispersed by Triad members with the acquiescence of corrupt police, and a number of businessmen emigrated from Hong Kong and Macao). Thus, we now have the support of syndicates, but also the growing influence of the criminal world and corruption.";
+					text = "在特工部门、国有企业以及亲华游说组织的帮助下，\n我们得以同三大“青帮”集团——“14K”“新义安”和“和胜和\n”建立联系。他们从我们这里获得了关于其成员与资产不可侵犯的保\n证，并得到一项在我国经济中进行高收益投资的提议（尤其是麻黄草\n生产），条件极为优厚。\n三大帮派的头目早已准备把核心转移到美国，\n对我们的提议表示同意。\n他们开始在我国南方省份大举投资，并利用影响力去中和反对中国统\n一者的行动（例如，批评性材料从媒体上消失；\n在腐败警察的默许下，所有抗议都被青帮成员迅速驱散；\n还有一批商人从香港和澳门移民）。\n因此，我们如今既有帮派的支持，也迎来了犯罪世界与腐败势力日益\n增长的影响。";
 					GlobalScript.inst.gameState.data[9] -= 40;
 					GlobalScript.inst.gameState.data[3] -= 100;
 					GlobalScript.inst.gameState.data[8] += 100;
@@ -6612,14 +6612,14 @@ public class Results_text : MonoBehaviour
 				{
 					if (GlobalScript.inst.gameState.data[6] > 300 && GlobalScript.inst.gameState.data[14] < 3)
 					{
-						text = "We have established contacts with the three largest syndicates of the Triads - «14K», «Sun Yee On» and «Wo Shing Wo». They received guarantees from us of the inviolability of their members and assets, but these conditions did not suit their managers. The negotiations ended in nothing, but their very fact, not without the help of the 国家安全部, leaked to the media in Hong Kong and Macau, frightened the local disaffected, many of whom, having decided not to risk, emigrated. It can be considered our partial success, although after 1997 we will have to be fought the Triads seriously.";
+						text = "我们已同三大“青帮”集团——“14K”“新义安”和“和胜和”\n建立联系。他们从我们这里获得了关于其成员与资产不可侵犯的保证，\n但这些条件并不符合他们管理层的口味。\n谈判最终无果而终，不过在中间情报部门（MSS）\n的帮助下，这件事本身还是泄露到了香港和澳门的媒体上，\n吓坏了当地不满者。许多人决定不冒险，\n选择了移民。可以说这是我们的一部分成功，\n尽管在1997年之后，我们仍得认真对付这些青帮。";
 						GlobalScript.inst.gameState.data[9] -= 20;
 						GlobalScript.inst.gameState.data[3] -= 50;
 						GlobalScript.inst.gameState.data[6] += 20;
 					}
 					else
 					{
-						text = "We have established contacts with the three largest syndicates of the Triads - «14K», «Sun Yee On» and «Wo Shing Wo». They received guarantees from us of the inviolability of their members and assets, with which their leaders agreed. They use their influence to neutralize the actions of opponents of China's reunification (in particular, critical materials disappeared from the media, all protests were quickly dispersed by Triad members with the acquiescence of corrupt police, and a number of businessmen emigrated from Hong Kong and Macao). However, the 国家安全部 does not allow the Triad to gain a foothold in the southern provinces of the country, and after 1997 we will start a systematic struggle against them.";
+						text = "我们已同三大“青帮”集团——“14K”“新义安”和“和胜和”\n建立联系。他们从我们这里获得了关于其成员与资产不可侵犯的保证，\n并得到了他们领导层的同意。\n他们利用影响力去中和反对中国统一者的行动（例如，\n批评性材料从媒体上消失；在腐败警察的默许下，\n所有抗议都被青帮成员迅速驱散；还有一批商人从香港和澳门移民）。\n然而，MSS不允许青帮在我国南方省份站稳脚跟；\n在1997年之后，我们将对他们展开系统性的斗争。";
 						GlobalScript.inst.gameState.data[9] -= 20;
 						GlobalScript.inst.gameState.data[3] -= 50;
 						GlobalScript.inst.gameState.data[6] += 20;
@@ -6630,17 +6630,17 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " flatly refused any negotiations with the Hong Kong crime syndicates. After a series of anti-China incidents, in Hong Kong and Macao, a systematic campaign began to discredit the agreement on their transfer to China, which ended in mass pogroms and the decision of the English and Portuguese parliaments to refuse to ratify the agreement.";
+					text = GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "彻底拒绝与香港犯罪集团进行任何谈判。\n此后，在香港和澳门发生了一系列反华事件，\n一场系统性的运动开始抹黑关于将其移交给中国的协议，\n最终以大规模的暴乱以及英国和葡萄牙议会决定拒绝批准该协议而告\n终。";
 					GlobalScript.inst.gameState.data[65] = 0;
 					if (GlobalScript.inst.gameState.allcountries[51].Torg || GlobalScript.inst.gameState.allcountries[1].isSEV)
 					{
-						text += "However, our friends put pressure on them and were able to achieve the fulfillment by the British and Portuguese side of their obligations. Hong Kong and Macao will be returned, as established, in 1997 and 1999, respectively.";
+						text += "不过，我们的朋友对他们施加了压力，并促使英方与葡方履行其义务。\n香港与澳门将按既定安排分别于1997年和1999年回归。";
 						GlobalScript.inst.gameState.data[65] = 1;
 					}
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "«Either the Communist Party will win corruption, or corruption will win the Communist Party»  - declared Comrade Chairman at a meeting of the 政治局. The 中华人民共和国 Ministry of Public Security and the 中共 Central Commission for Discipline Inspection have launched a large-scale campaign to combat the corrupt elites in the southern provinces of the 中华人民共和国 adjacent to Hong Kong and Macao, as well as the recently opened SEZ. Hundreds of functionaries of all levels were removed from their posts, thousands of people were expelled from the 中共, millions of yuan stolen from the state were confiscated, and Chengdu mayor Chen Xitong (\"Chinese Grishin\") who stole several billion yuan from the people and built himself a luxury villa was sentenced to be shot. This completely disorganized all corrupt elements, which made it possible to somewhat correct the situation and break the corrupt contacts of our elites with their colleagues from Macao and Hong Kong. The latter \"just in case\" emigrate.";
+					text = "“要么共产党战胜腐败，要么腐败战胜共产党”——同志主席在政治\n局会议上宣告。中华人民共和国公安部和中共中央纪律检查委员会已\n启动大规模行动，打击紧邻香港与澳门的中国南方省份以及最近新开\n放的经济特区中的腐败精英。\n数百名各级干部被撤职，数千人被开除出党，\n数以百万计从国家窃取的资金被没收；成都市市长陈希同（“中国格\n里申”）因从群众手中偷走数十亿元并为自己建造豪华别墅，\n被判处枪决。这彻底打乱了所有腐败分子的体系，\n使我们得以在一定程度上扭转局面，并切断我方精英与澳门、\n香港同行之间的腐败联系。\n后者“以防万一”移民。";
 					GlobalScript.inst.gameState.data[8] += 40;
 					GlobalScript.inst.gameState.data[9] -= 80;
 					GlobalScript.inst.gameState.data[6] += 20;
@@ -6651,66 +6651,66 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 91)
 			{
-				text2 = "Rangoon bombing";
+				text2 = "仰光轰炸";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "In response to these events, the entire \"civilized world\" burst into angry speeches about the DPRK. We did not give official statements, but an article was published in the \"Renmin Ribao\" with a sharp condemnation of the terrorist methods of the DPRK. On the border of the two Koreas, in the meantime, several armed provocations took place on both sides...";
+					text = "针对这些事件，整个“文明世界”都爆发出对朝鲜民主主义人民共和\n国（DPRK）的愤怒发言。\n我们没有发表官方声明，但《人民日报》上刊登了一篇对朝鲜恐怖手\n段进行严厉谴责的文章。\n与此同时，在两朝边境，双方都发生了数起武装挑衅……";
 					GlobalScript.inst.gameState.data[6] -= 10;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations += 100;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "In response to these events, the entire \"civilized world\" burst into angry speeches about the DPRK.  We fully supported the North Korean position, calling the incident a provocation of South Korea and condemning it. On the border of the two Koreas, in the meantime, several armed provocations took place on both sides...";
+					text = "针对这些事件，整个“文明世界”都爆发出对朝鲜民主主义人民共和\n国（DPRK）的愤怒发言。\n我们完全支持朝鲜方面的立场，称这起事件是南朝鲜的挑衅并予以谴\n责。与此同时，在两朝边境，双方都发生了数起武装挑衅……";
 					GlobalScript.inst.gameState.data[6] += 20;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations -= 80;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "In response to these events, the entire \"civilized world\" burst into angry speeches about the DPRK. On the border of the two Koreas, in the meantime, several armed provocations took place on both sides...";
+					text = "针对这些事件，整个“文明世界”都爆发出对朝鲜民主主义人民共和\n国（DPRK）的愤怒发言。\n与此同时，在两朝边境，双方都发生了数起武装挑衅……";
 				}
 			}
 			else if (GlobalScript.inst.gameState.number_event == 92)
 			{
-				text2 = "Overfulfilling is an honor!";
+				text2 = "超额完成是光荣！";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "The Chinese government decided to allocate additional funds for the modernization of light and heavy industry, improving the quality of products and upgrading equipment. The main vector of the new five-year plan was the development of industry.";
+					text = "中国政府决定追加资金，用于轻重工业现代化，\n提高产品质量并更新设备。\n新的五年计划的主要方向是发展工业。";
 					GlobalScript.inst.gameState.data[102] = 1;
 					GlobalScript.inst.gameState.data[8] -= 10;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "The Chinese government decided to allocate funds for the mechanization and introduction of new technologies in the field of agriculture. The main priority of the new five-year plan was announced agriculture.";
+					text = "中国政府决定拨款用于农业机械化以及引进新技术。\n新的五年计划的主要优先事项宣布为农业。";
 					GlobalScript.inst.gameState.data[102] = 2;
 					GlobalScript.inst.gameState.data[8] -= 10;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "The Chinese government decided to improve the quality of service in the service sector, for which additional funds were allocated from the budget. The primary objective of the five-year plan was proclaimed modernization of the service sector.";
+					text = "中国政府决定提高服务业的服务质量，并从预算中追加拨款。\n五年计划的首要目标被宣布为服务业现代化。";
 					GlobalScript.inst.gameState.data[102] = 3;
 					GlobalScript.inst.gameState.data[8] -= 10;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "The Chinese government announced the economic development program for the current five-year plan, which indicates the need to accelerate scientific and technological progress and the introduction of new methods of managing the national economy. The priority branch of the new five-year plan became science.";
+					text = "中国政府公布了本五年计划的经济发展方案，\n指出必须加快科学技术进步，并引入管理国民经济的新方法。\n新的五年计划的优先领域成为科学。";
 					GlobalScript.inst.gameState.data[102] = 4;
 					GlobalScript.inst.gameState.data[8] -= 10;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 5)
 				{
-					text = "Despite the proposals of the State Planning Committee, the Chinese government announced the need for the uniform development of all sectors of the national economy, for which additional funds were allocated from the country's budget";
+					text = "尽管国家计划委员会提出了建议，中国政府仍宣布必须实现国民经济\n各部门的均衡发展，并从国家预算中追加拨款";
 					GlobalScript.inst.gameState.data[102] = 5;
 					GlobalScript.inst.gameState.data[8] -= 10;
 				}
 			}
 			else if (GlobalScript.inst.gameState.number_event == 93)
 			{
-				text2 = "Homeland of democracy";
+				text2 = "民主的故乡";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Our special services assisted PASOK in carrying out their campaign and actively disrupted the campaign of New Democracy. They also managed to form a coalition of left forces from PASOK, CPG and other left-wing parties. As a result, the left coalition won the election, forming the first socialist government in the country's history. With our and Soviet support, it completed the formal withdrawal of Greece from NATO and stopped the processes of European integration";
+					text = "我们的特工部门协助PASOK开展竞选活动，\n并积极破坏“新民主党”的竞选。\n与此同时，他们还成功促成由PASOK、\n希腊共产党（CPG）及其他左翼政党组成的左翼联盟。\n结果，左翼联盟赢得选举，组建了该国历史上第一个社会主义政府。\n在我们和苏联的支持下，它完成了希腊正式退出北约的进程，\n并阻止了欧洲一体化进程";
 					GlobalScript.inst.gameState.data[6] += 10;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations -= 50;
@@ -6727,7 +6727,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Our special services assisted the New Democracy in conducting their campaign and actively disrupted the PASOK campaign. They also managed to achieve the accession to the coalition with the New Democracy of some small right-wing parties, which together led them to victory in the elections. The new government intends to carry out further economic reforms aimed at ensuring the membership of Greece in the EEC, and to restore the country's activities in NATO.";
+					text = "我们的特工部门协助“新民主党”开展竞选，\n并积极破坏PASOK的竞选。\n他们还设法促成一些小型右翼政党加入“新民主党”领导的联盟，\n从而共同使其在选举中获胜。\n新政府打算继续推进旨在确保希腊加入欧洲共同体（EEC）\n的经济改革，并恢复该国在北约中的活动。";
 					GlobalScript.inst.gameState.data[6] -= 10;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations += 80;
@@ -6738,17 +6738,17 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "As a result, the New Democracy won the elections with a small margin. The new government intends to carry out further economic reforms aimed at ensuring the membership of Greece in the EEC, and to restore the country's activities in NATO.";
+					text = "结果，“新民主党”以微弱优势赢得选举。\n新政府打算继续推进旨在确保希腊加入欧洲共同体（EEC）\n的经济改革，并恢复该国在北约中的活动。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.power += 20;
 				}
 			}
 			else if (GlobalScript.inst.gameState.number_event == 94)
 			{
-				text2 = "Tiananmen Incident. Again?!";
+				text2 = "天安门事件。又来？！";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "At an emergency meeting of the 政治局 of the Central Committee of the 中共, the events that took place were declared \"a counter-revolutionary rebellion inspired by the American and Taiwanese special services\", after which the majority of votes decided to force it down. By order of the PLA General Staff Chief, General Yang Dezhi, troops were reinforced with tanks and armored personnel carriers in Beijing, but as they advanced to the square they ran into barricades and stubborn resistance from the gangsters armed with \"Molotov cocktails\". With the support of armored vehicles, the barricades were broken, after which part of the PLA defeated the main camp of the protesters and cleared the Tananmen Square, and the stripping of workers and student quarters continued for several days. Thus, the situation was taken under control. The movement \"Tuidang\" was outlawed, " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[4]].name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[4]].name_2] + " and his supporters were removed from their posts and expelled from the 中共, arrests of opponents of reform and opening-up began, and Fang Lizhi fled to the United States. Western countries have declared our regime \"bloody tyranny\", the USSR and its allies remained silent. The organized protest movement was suppressed, dissatisfied people go underground.";
+					text = "在中共中央政治局紧急会议上，所发生的事件被定性为“受美国和台\n湾特务指使的反革命暴乱”，随后以多数票决定强行镇压。\n根据解放军总参谋长杨德志将军的命令，\n部队在北京增援了坦克和装甲运兵车，但当他们推进到广场时，\n遭遇路障以及手持“莫洛托夫鸡尾酒”的暴徒顽强抵抗。\n在装甲车辆的支援下，路障被冲破；随后，\n部分解放军击溃了抗议者的主要营地并清理了天安门广场，\n对工人和学生宿舍的搜查/清剿行动又持续了数天。\n于是局势被控制住了。\n“退党”（Tuidang）运动被取缔，" + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[4]].name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[4]].name_2] + "他和他的支持者被撤职并逐出中共，打击改革开放的反对者的逮捕行\n动开始，方励之逃往美国。\n西方国家宣称我们的政权是“血腥暴政”，\n苏联及其盟友却保持沉默。\n有组织的抗议运动被镇压，不满者纷纷潜伏地下。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations -= 150;
 					GlobalScript.inst.gameState.data[57] -= 150;
@@ -6760,14 +6760,14 @@ public class Results_text : MonoBehaviour
 				{
 					if (GlobalScript.inst.gameState.data[3] >= 600 && GlobalScript.inst.gameState.data[4] < 500)
 					{
-						text = "Fearing looting, the mayor of Beijing ordered the introduction of reinforced armored personnel units of the People's Armed Police into the city, which cordoned off Tiananmen Square and drove out the protesters from the adjacent streets (while suffering major losses in the technique burned by \"Molotov cocktails\"). After that, Comrade Chairman personally spoke to the demonstrators, persuading them to disperse. A significant part of them left the square, the rest were dispersed by policemen with tear gas and blank shots. Order in the capital was restored, but the unrest spread to Shanghai, Ningbo and several other cities...";
+						text = "为防止抢劫，北京市市长下令将人民武装警察的加固装甲运兵车部队\n开进城内，封锁天安门广场，并把抗议者从相邻街道驱赶出去（同时\n在被“莫洛托夫鸡尾酒”点燃的技术装备上遭受重大损失）。\n随后，主席同志亲自对示威者讲话，劝其散去。\n相当一部分人离开了广场，剩下的则被警察以催泪瓦斯和鸣枪驱散。\n首都秩序恢复了，但骚乱却蔓延到上海、\n宁波以及其他数座城市……";
 						GlobalScript.inst.gameState.data[4] += 250;
 						GlobalScript.inst.gameState.data[3] -= 100;
 						GlobalScript.inst.gameState.data[57] -= 250;
 					}
 					else
 					{
-						text = "Fearing looting, the mayor of Beijing ordered the introduction of reinforced armored personnel units of the People's Armed Police into the city, which cordoned off Tiananmen Square and drove out the protesters from the adjacent streets (while suffering major losses in the technique burned by \"Molotov cocktails\"). The crowd met the Chairman with a whistle and shouting, which caused his hastily retreat. At an emergency meeting of the 政治局 of the 中共 Central Committee, it was decided to make concessions to the demonstrators and send the party’s leadership to resign. Сomrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[4]].name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[4]].name_2] + " became the new General Secretary, who proclaimed a policy of deepening reforms and large-scale democratization of the country. Most of the protesters dispersed, satisfied with this, the rest were driven out by the People's Armed Police. China is waiting for changes...";
+						text = "为防止抢劫，北京市市长下令将人民武装警察的加固装甲运兵车部队\n开进城内，封锁天安门广场，并把抗议者从相邻街道驱赶出去（同时\n在被“莫洛托夫鸡尾酒”点燃的技术装备上遭受重大损失）。\n人群用口哨和叫喊声迎接主席，迫使他仓促退却。\n中共中央政治局紧急会议决定：向示威者作出让步，\n并让党的领导层辞职。\nСomrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[4]].name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[4]].name_2] + "成为新的总书记，宣告实行深化改革、在全国范围内大规模推进民主\n化的政策。大多数示威者散去，对此感到满意；\n其余的则被人民武装警察驱逐。\n中国正在等待变化……";
 						GlobalScript.inst.gameState.data[3] += 90;
 						GlobalScript.inst.gameState.data[6] -= 50;
 						GlobalScript.inst.gameState.data[57] -= 350;
@@ -6822,7 +6822,7 @@ public class Results_text : MonoBehaviour
 										GlobalScript.inst.gameState.data[20],
 										GlobalScript.inst.gameState.data[21]
 									};
-									string text5 = CitizenManager.FormatLog(persona5, "стал правителем.", "became the leader.", date2);
+									string text5 = CitizenManager.FormatLog(persona5, "стал правителем.", "成为领袖。", date2);
 									persona5.changeLog.Add(text5);
 									Debug.Log(text5);
 								}
@@ -6877,7 +6877,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "At an emergency meeting of the 政治局 of the Central Committee of the 中共, violent disputes broke out - the conservative wing demanded to use force (especially Wang Zhen spoke out for this), the liberal wing wanted to make concessions, the reformist wing was hesitant. In the end, the liberals succeeded - the entire 中共 leadership resigned. Сomrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[4]].name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[4]].name_2] + " became the new General Secretary, who proclaimed a policy of deepening reforms and large-scale democratization of the country. Most of the protesters dispersed, satisfied with this, the rest were driven out by the People's Armed Police. China is waiting for changes...";
+					text = "中共中央政治局紧急会议上爆发激烈争论——保守派主张动用武力（\n尤其是王震大力主张），自由派想要作出让步，\n改革派则犹豫不决。最终，自由派得逞——中共全体领导层辞职。\nСomrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[4]].name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[4]].name_2] + "成为新的总书记，宣告实行深化改革、在全国范围内大规模推进民主\n化的政策。大多数示威者散去，对此感到满意；\n其余的则被人民武装警察驱逐。\n中国正在等待变化……";
 					GlobalScript.inst.gameState.data[3] += 90;
 					GlobalScript.inst.gameState.data[6] -= 50;
 					GlobalScript.inst.gameState.data[57] -= 350;
@@ -6932,7 +6932,7 @@ public class Results_text : MonoBehaviour
 									GlobalScript.inst.gameState.data[20],
 									GlobalScript.inst.gameState.data[21]
 								};
-								string text8 = CitizenManager.FormatLog(persona7, "стал правителем.", "became the leader.", date3);
+								string text8 = CitizenManager.FormatLog(persona7, "стал правителем.", "成为领袖。", date3);
 								persona7.changeLog.Add(text8);
 								Debug.Log(text8);
 							}
@@ -6986,7 +6986,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "Сomrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[4]].name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[4]].name_2] + " became the new General Secretary, who proclaimed a policy of deepening reforms and large-scale democratization of the country. However, the movement \"Tuidang\" considered this to be a proof of the weakness of the country's leadership and organized large-scale demonstrations throughout the country that ended with government’s resignation and China’s entry into the transitional period. The Communist Party loses power in the country and its fate is clearly under threat...";
+					text = "同志" + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[4]].name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.politics[GlobalScript.inst.gameState.faction_leader[4]].name_2] + "成为新的总书记，宣告实行深化改革、在全国范围内大规模推进民主\n化的政策。然而，“退党”运动认为这正是国家领导层软弱的证明，\n于是组织全国范围的大规模示威，最终以政府辞职告终，\n中国进入过渡时期。共产党在国内失去政权，\n其命运显然岌岌可危……";
 					GlobalScript.inst.gameState.data[4] = 1000;
 					int[] array13 = new int[16]
 					{
@@ -7037,7 +7037,7 @@ public class Results_text : MonoBehaviour
 									GlobalScript.inst.gameState.data[20],
 									GlobalScript.inst.gameState.data[21]
 								};
-								string text11 = CitizenManager.FormatLog(persona9, "стал правителем.", "became the leader.", date4);
+								string text11 = CitizenManager.FormatLog(persona9, "стал правителем.", "成为领袖。", date4);
 								persona9.changeLog.Add(text11);
 								Debug.Log(text11);
 							}
@@ -7077,11 +7077,11 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 95)
 			{
-				text2 = "New beginning for 中共";
+				text2 = "中共的新开端";
 				GlobalScript.inst.gameState.modifies[6].active = false;
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "At the extraordinary Plenum of the 中共 Central Committee, by a majority of votes, it was decided to abandon Marxism-Leninism, Maoism and Xiaopism in favor of modern European communism, modeled on the French, Italian, Spanish and Japanese Communist Parties. Corresponding changes were made to the program documents of the 中共. This causes a certain dissatisfaction with the most conservative part of the partocrats, but on the whole the party adopted a new ideology, realizing the need for changes.";
+					text = "在中共中央的非常全会上，经过多数票表决，\n决定放弃马克思列宁主义、毛主义和小平主义，\n转而支持以法国、意大利、西班牙和日本共产党为样板的现代欧洲共\n产主义。中共的纲领文件作出了相应修改。\n这在最保守的党阀群体中引起一定不满，\n但总体上党接受了新的意识形态，认识到必须进行变革。";
 					GlobalScript.inst.gameState.data[1] -= 150;
 					GlobalScript.inst.gameState.data[3] += 50;
 					GlobalScript.inst.gameState.data[57] -= 50;
@@ -7107,7 +7107,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "At the extraordinary Plenum of the 中共 Central Committee, after long disputes, it was decided to return to the precepts of Chen Duxiu and Zhang Guotao and recognize the social democratic character of the party. Corresponding changes were made to the program documents of the 中共. This causes strong dissatisfaction with the conservative part of the partocrats, there is a certain danger of a split in the 中共. Time will tell whether you did the right thing...";
+					text = "在中共中央的非常全会上，经过长期争论，\n决定回到陈独秀和张国焘的主张，承认党的社会民主党性质。\n中共的纲领文件作出了相应修改。\n这引起党阀中保守派的强烈不满，中共内部出现分裂的某种危险。\n时间会告诉你们是否做了正确的事……";
 					GlobalScript.inst.gameState.data[1] -= 300;
 					GlobalScript.inst.gameState.data[3] += 80;
 					GlobalScript.inst.gameState.data[57] -= 50;
@@ -7138,7 +7138,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "At the extraordinary Plenum of the 中共 Central Committee, a group of party members prevailed, suggesting that they return to the origins of the Chinese revolutionary movement — Sun Yat-sen and the second version of his \"Three Principles of the People\" (fighting feudalism and capitalism, democratization of the state and social system, improving the lives of workers and restriction of monopoly capital). Corresponding changes were made to the program documents of the 中共. The 中共 began to converge with the Revolutionary Committee of the Kuomintang and the left-nationalist groups, which is popular with the people, but causes obvious disapproval of the party members.";
+					text = "在中共中央的非常全会上，一批党员占了上风，\n主张回到中国革命运动的源头——孙中山及其“人民三民主义”的第\n二版（反对封建主义和资本主义、国家与社会制度的民主化、\n改善工人生活并限制垄断资本）。\n中共的纲领文件作出了相应修改。\n中共开始与国民党革命委员会以及深受群众欢迎的左翼民族主义团体\n趋同，但这却引起党员们明显反对。";
 					GlobalScript.inst.gameState.data[1] -= 250;
 					GlobalScript.inst.gameState.data[3] += 50;
 					GlobalScript.inst.gameState.data[4] -= 80;
@@ -7173,17 +7173,17 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "At the extraordinary Plenum of the 中共 Central Committee, supporters of the preservation of Marxism-Maoism-Xiaopism won. The movement \"Tuidang\" is gaining strength and actively attacking the 中共, the party is losing the support of the population, and behind it the power in the field. It seems there will be no place for it in the new China...";
+					text = "在中共中央的非常全会上，主张保留马克思主义—毛主义—小平主义\n者获胜。“退党”运动势头增强，正积极攻击中共；\n党正在失去群众支持，且在各领域的力量也逐渐失势。\n看来在新中国里它恐怕没有立足之地……";
 					GlobalScript.inst.gameState.data[4] += 500;
 					GlobalScript.inst.gameState.data[3] -= 500;
 				}
 			}
 			else if (GlobalScript.inst.gameState.number_event == 96)
 			{
-				text2 = "Perestroika! Democracy! Glasnost!";
+				text2 = "改革！民主！公开！";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "\"National Revolution United Front\"  was dissolved, and we began to create electoral legislation, in our interests, of course. The electoral system is designed in such a way as to provide groups that sympathize with us with an advantage, we have banned all parties that could be banned, while others will have to overcome many bureaucratic barriers for admission to elections. Meanwhile, the last remnants of the bloody censorship and control of China’s past are washed out by new publicity and freedom.";
+					text = "“民族革命统一战线”被解散，我们开始着手制定选举立法——当然\n是为了我们的利益。选举制度被设计成：\n让同情我们的群体占据优势；我们已经禁止了所有能够被禁止的政党，\n而其他政党则必须跨越重重官僚障碍才能获得参选资格。\n与此同时，过去那种血腥审查与控制的最后残余，\n也被新的宣传与自由冲刷殆尽。";
 					GlobalScript.inst.gameState.data[15] = 8;
 					GlobalScript.inst.gameState.data[50] = 27;
 					GlobalScript.inst.gameState.data[57] -= 80;
@@ -7197,7 +7197,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "\"National Revolution United Front\" was dissolved, and we began to create electoral legislation, the freest and most honest in the world! On the other hand, the euphoria of the upcoming free elections allowed us to avoid large-scale \"unscrewing the screws\", although for the species the pressure on religion had to be relaxed.";
+					text = "“民族革命统一战线”被解散，我们开始制定选举立法——世界上最\n自由、最诚实的选举！\n另一方面，即将到来的自由选举带来的狂喜情绪，\n让我们得以避免大规模“拧螺丝”，尽管就物种而言，\n宗教压力还是得有所放松。";
 					GlobalScript.inst.gameState.data[15] = 9;
 					GlobalScript.inst.gameState.data[3] += 50;
 					GlobalScript.inst.gameState.data[57] -= 50;
@@ -7207,7 +7207,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "\"National Revolution United Front\"  was dissolved, and we began to create electoral legislation, the freest and most honest in the world! On the other hand, the euphoria of the upcoming free elections and the reduction of state control allowed us to keep our religion policy almost unchanged - yes, legally the administration of religious services was simplified, but in fact priests and temples are still under the control of the 国家安全部 and the local administration.";
+					text = "“民族革命统一战线”被解散，我们开始制定选举立法——世界上最\n自由、最诚实的选举！\n另一方面，即将到来的自由选举带来的狂喜以及国家控制的减弱，\n使我们得以让宗教政策几乎不变——是的，\n法律上简化了宗教事务的管理，但实际上，\n神职人员和寺庙仍在国家安全部（MSS）\n和地方行政的控制之下。";
 					GlobalScript.inst.gameState.data[15] = 9;
 					GlobalScript.inst.gameState.data[3] += 50;
 					GlobalScript.inst.gameState.data[57] -= 70;
@@ -7220,7 +7220,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "All proposals to slow down the restructuring and democratization were harshly criticized by the current leader. \"National Revolution United Front\"  was dissolved, and we began to create electoral legislation, the freest and most honest in the world! At the same time, the democratization of all aspects of public life was begun, not only in words but also in deeds. The people, of course, pleased, but for how long?..";
+					text = "当前领导人对任何放慢改组与民主化的提议都予以严厉批评。\n“民族革命统一战线”被解散，我们开始制定选举立法——世界上最\n自由、最诚实的选举！\n与此同时，公共生活各方面的民主化也开始了，\n不仅停留在口头上，更落实在行动中。\n人民当然高兴，但能高兴多久？……";
 					GlobalScript.inst.gameState.data[15] = 9;
 					GlobalScript.inst.gameState.data[3] += 80;
 					GlobalScript.inst.gameState.data[57] -= 120;
@@ -7235,10 +7235,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 97)
 			{
-				text2 = "Automation?";
+				text2 = "自动化？";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "A campaign was launched on the large-scale automation of the planning of our economy, regional computer centers are actively being built and put into operation, and coordination is gradually being established between them. The statistics department is already predicting us a serious increase in productivity and improved supply, but not everyone in the party is happy with your innovations";
+					text = "在全国范围内大规模实现经济规划自动化的运动已经启动：\n各地区的计算机中心正在积极建设并投入运行，\n它们之间的协调也在逐步建立。\n统计部门已经预测：生产力将显著提高、\n供给将得到改善，但并非党内所有人都对你们的创新感到满意。";
 					GlobalScript.inst.gameState.data[1] = 0;
 					GlobalScript.inst.gameState.data[8] -= 50;
 					GlobalScript.inst.gameState.data[16] = 11;
@@ -7255,7 +7255,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "It was stated the need for a gradual and cautious introduction of such a new technology. The automation of grassroots planning departments is extremely slow and is being crushed by bureaucrats. At this rate, the desired productivity growth will not be reached soon.";
+					text = "会议强调，需要循序渐进、谨慎引入这种新技术。\n基层规划部门的自动化推进极其缓慢，正被官僚们压制。\n照这样下去，所期望的生产力增长短期内难以实现。";
 				}
 				else
 				{
@@ -7278,7 +7278,7 @@ public class Results_text : MonoBehaviour
 			else if (GlobalScript.inst.gameState.number_event == 98)
 			{
 				GlobalScript.inst.gameState.data[103] = 15;
-				text2 = "African Che Guevara";
+				text2 = "非洲的“切·格瓦拉”";
 				GlobalScript.inst.gameState.allcountries[61].name = GlobalScript.inst.new_events_text[800];
 				GlobalScript.inst.gameState.allcountries[61].Gosstroy = 2;
 				GlobalScript.inst.gameState.allcountries[61].SubGosstroy = 3;
@@ -7289,7 +7289,7 @@ public class Results_text : MonoBehaviour
 				GlobalScript.inst.gameState.allcountries[61].dev = 500;
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "The government of Burkina Faso has received our ambassadors, and official relations have been established. Now Sankara is starting his radical transformation program. In his plans: the elimination of hunger, the creation of a system of free education and health care, the fight against epidemics and corruption, mass vaccination of children. Because of its anti-imperialist views, the leader of Burkina Faso is increasingly involved in the «Non-Aligned Movement», remaining a sharp critic of colonialism and neo-colonialism, «humanitarian aid» from the Western powers and international economic organizations of the neoliberal sense, seeing it as a form of neo-colonialism. To achieve the goal of a radical transformation of society, Sankara established an authoritarian regime, banned a number of political organizations and free media, which he considered a threat to his plans, which, however, didn’t hit on his popularity of «people's liberator»». ";
+					text = "布基纳法索政府接见了我们的使节，正式关系已经建立。\n现在，桑卡拉开始推行他激进的改造计划。\n计划包括：消除饥饿，建立免费教育与医疗体系，\n打击流行病与腐败，对儿童进行大规模接种。\n由于其反帝立场，布基纳法索领导人愈发卷入“不结盟运动”，\n始终是殖民主义与新殖民主义的尖锐批评者，\n亦批判西方强国及新自由主义色彩的国际经济组织所提供的“人道援\n助”，认为这是一种新殖民主义形式。\n为实现社会的激进转型目标，桑卡拉建立了威权政权，\n取缔了一些政治组织和自由媒体，认为它们会威胁他的计划——不过\n这并未动摇他作为“人民解放者”的人气”。";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.relations += 50;
 					empire = GlobalScript.inst.gameState.empires[0];
@@ -7299,13 +7299,13 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "We didn’t react to another military coup that is happening now, almost every day. According to the data of international organizations, mass repressions of the state apparatus and a number of entrepreneurs are unfolding in Burkina Faso, which peculiar to the «totalitarian regimes». It's good that we are not involved.";
+					text = "我们没有对眼下几乎每天都在发生的又一次军事政变作出反应。\n根据国际组织的数据，布基纳法索正在展开针对国家机器与一批企业\n家的大规模镇压，这正是“极权政权”的典型做法。\n好在我们并未卷入其中。";
 					GlobalScript.inst.gameState.allcountries[61].SubGosstroy = 10;
 					GlobalScript.inst.gameState.allcountries[61].Gosstroy = 0;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "The delegation from China arrived in Ouagadougou to meet with a new friend of the Chinese people. We have offered food and military assistance. Delighted with our friendliness, Thomas Sankara, during a solemn dinner, expressed us words of true gratitude: «With the help of our Chinese friends, imperialistic tyranny will go into the past along with this millennium, and all people will live in a society of equality and freedom!». Now, by analogy with China, and with our support, Sankara begins radical experiments in the economy, declaring a revolutionary transition from feudalism to socialism, bypassing capitalism so that it will be greeted with enthusiasm among the people. Now the main task of the government has become the industrialization and construction of mechanized agricultural cooperatives, the development of education, infrastructure and medicine. Also, thanks to our agents, the opposition no longer cares for Sankara, which allowed his power to stabilize. France, which is beginning to look for ways to overthrow him and return Burkina Faso to the orbit of its influence, expressed strong discontent with Sankara’s reforms.";
+					text = "中国代表团抵达瓦加杜古，去会见中国人民的新朋友。\n我们提供了粮食和军事援助。\n托马斯·桑卡拉在一场庄严的晚宴上，因我们的友好而深受感动，\n向我们表达了真挚的感谢之词：“在中国朋友的帮助下，\n帝国主义的暴政将随着这个千年一起进入过去，\n所有人都将生活在平等与自由的社会里！\n”如今，桑卡拉在我们的支持下，仿照中国在经济领域开始激进试验，\n宣称从封建主义向社会主义的革命性过渡，\n绕开资本主义，以便得到人民的热烈欢迎。\n现在，政府的主要任务变成了推进工业化、\n建设机械化农业合作社，发展教育、基础设施与医疗。\n同时，多亏了我们的特工，反对派不再关心桑卡拉，\n这使他的权力得以稳定。\n法国则开始寻找推翻他的办法，并把布基纳法索拉回到其影响轨道，\n对桑卡拉的改革表达了强烈不满。";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.relations += 100;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -7349,10 +7349,10 @@ public class Results_text : MonoBehaviour
 						leader.support += UnityEngine.Random.Range(-10, 11);
 					}
 				}
-				text2 = "Five years of funeral";
+				text2 = "五年丧葬";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Andropov’s funeral took place at 12:00 on February 14, 1984 near the Kremlin wall on Moscow’s Red Square. Heads of state and government of many countries.";
+					text = "安德罗波夫的葬礼于1984年2月14日12时在莫斯科红场克里\n姆林宫墙外举行。许多国家的国家元首和政府首脑。";
 					GlobalScript.inst.gameState.empires[1].now_leader = 2;
 					if (GlobalScript.inst.gameState.relres)
 					{
@@ -7362,52 +7362,52 @@ public class Results_text : MonoBehaviour
 					if (GlobalScript.inst.gameState.allcountries[7].isNATO)
 					{
 						GlobalScript.inst.gameState.empires[1].now_leader = 7;
-						text += "|Contrary to expectations, Alexander Yakovlev, a man with a reputation as an orthodox Marxist and an active campaigner against nationalism in the culture of the previous decade, became General Secretary of the CPSU Central Committee. Thanks to his diplomatic experience in Canada, he had developed strong and lasting connections with parts of the Western political elite who might well help pursue the USSR's \"rapprochement with the West\" course. New appointments to top government positions could well be expected. As we know, economist Leonid Abalkin is running for head of the Soviet government, and the Presidium of the Supreme Soviet may well be headed by Mikhail Gorbachev.";
+						text += "|出乎意料的是，亚历山大·雅科夫列夫——以正统马克思主义者的\n名声著称，并在上个十年文化领域积极反对民族主义的人——成为苏\n共中央总书记。由于他在加拿大的外交经验，\n他与西方政治精英中的部分人士建立了牢固而持久的联系，\n这些人或许能够帮助推进苏联的“对西方缓和”路线。\n对最高层政府职位的新任命，人们大可期待。\n众所周知，经济学家列昂尼德·阿巴尔金正在竞逐苏联政府首脑一职，\n而最高苏维埃主席团也可能由米哈伊尔·戈尔巴乔夫出任。";
 					}
 					else
 					{
 						GlobalScript.inst.gameState.empires[1].now_leader = 2;
-						text += "| As expected, Konstantin Chernenko was elected General Secretary. However, given his age, he will not stay in this position for long.";
+						text += "|如预期所示，康斯坦丁·切尔年科当选总书记。\n不过鉴于他的年纪，他不会在这个位置上久留。";
 					}
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "The USSR thanked us for our condolences and received the Chinese delegation. Andropov’s funeral took place at 12:00 on February 14, 1984 near the Kremlin wall on Moscow’s Red Square.";
+					text = "苏联对我们的慰问表示感谢，并接见了中国代表团。\n安德罗波夫的葬礼于1984年2月14日12时在莫斯科红场克里\n姆林宫墙外举行。";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.relations += 100;
 					GlobalScript.inst.gameState.empires[1].now_leader = 2;
 					if (GlobalScript.inst.gameState.allcountries[7].isNATO)
 					{
 						GlobalScript.inst.gameState.empires[1].now_leader = 7;
-						text += "|Contrary to expectations, Alexander Yakovlev, a man with a reputation as an orthodox Marxist and an active campaigner against nationalism in the culture of the previous decade, became General Secretary of the CPSU Central Committee. Thanks to his diplomatic experience in Canada, he had developed strong and lasting connections with parts of the Western political elite who might well help pursue the USSR's \"rapprochement with the West\" course. New appointments to top government positions could well be expected. As we know, economist Leonid Abalkin is running for head of the Soviet government, and the Presidium of the Supreme Soviet may well be headed by Mikhail Gorbachev.";
+						text += "|出乎意料的是，亚历山大·雅科夫列夫——以正统马克思主义者的\n名声著称，并在上个十年文化领域积极反对民族主义的人——成为苏\n共中央总书记。由于他在加拿大的外交经验，\n他与西方政治精英中的部分人士建立了牢固而持久的联系，\n这些人或许能够帮助推进苏联的“对西方缓和”路线。\n对最高层政府职位的新任命，人们大可期待。\n众所周知，经济学家列昂尼德·阿巴尔金正在竞逐苏联政府首脑一职，\n而最高苏维埃主席团也可能由米哈伊尔·戈尔巴乔夫出任。";
 					}
 					else
 					{
 						GlobalScript.inst.gameState.empires[1].now_leader = 2;
-						text += "| As expected, Konstantin Chernenko was elected General Secretary. However, given his age, he will not stay in this position for long.";
+						text += "|如预期所示，康斯坦丁·切尔年科当选总书记。\n不过鉴于他的年纪，他不会在这个位置上久留。";
 					}
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Our leader personally led the Chinese delegation and was warmly received in the USSR. Andropov’s funeral took place at 12:00 on February 14, 1984 near the Kremlin wall on Moscow’s Red Square. Heads of state and government of many countries.";
+					text = "我们的领导人亲自率领中国代表团，并在苏联受到热情接待。\n安德罗波夫的葬礼于1984年2月14日12时在莫斯科红场克里\n姆林宫墙外举行。许多国家的国家元首和政府首脑。";
 					GlobalScript.inst.gameState.empires[1].now_leader = 2;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.relations += 150;
 					if (GlobalScript.inst.gameState.allcountries[7].isNATO)
 					{
 						GlobalScript.inst.gameState.empires[1].now_leader = 7;
-						text += "|Contrary to expectations, Alexander Yakovlev, a man with a reputation as an orthodox Marxist and an active campaigner against nationalism in the culture of the previous decade, became General Secretary of the CPSU Central Committee. Thanks to his diplomatic experience in Canada, he had developed strong and lasting connections with parts of the Western political elite who might well help pursue the USSR's \"rapprochement with the West\" course. New appointments to top government positions could well be expected. As we know, economist Leonid Abalkin is running for head of the Soviet government, and the Presidium of the Supreme Soviet may well be headed by Mikhail Gorbachev.";
+						text += "|出乎意料的是，亚历山大·雅科夫列夫——以正统马克思主义者的\n名声著称，并在上个十年文化领域积极反对民族主义的人——成为苏\n共中央总书记。由于他在加拿大的外交经验，\n他与西方政治精英中的部分人士建立了牢固而持久的联系，\n这些人或许能够帮助推进苏联的“对西方缓和”路线。\n对最高层政府职位的新任命，人们大可期待。\n众所周知，经济学家列昂尼德·阿巴尔金正在竞逐苏联政府首脑一职，\n而最高苏维埃主席团也可能由米哈伊尔·戈尔巴乔夫出任。";
 					}
 					else
 					{
 						GlobalScript.inst.gameState.empires[1].now_leader = 2;
-						text += "|  As expected, Konstantin Chernenko was elected General Secretary. However, given his age, he will not stay in this position for long.";
+						text += "|如预期所示，康斯坦丁·切尔年科当选总书记。\n不过鉴于他的年纪，他不会在这个位置上久留。";
 					}
 				}
 			}
 			else if (GlobalScript.inst.gameState.number_event == 114)
 			{
-				text2 = "Elephant and donkey";
+				text2 = "大象与驴";
 				int num42 = 0;
 				int num43 = 0;
 				if (GlobalScript.inst.gameState.empires[0].power > GlobalScript.inst.gameState.empires[1].power)
@@ -7499,13 +7499,13 @@ public class Results_text : MonoBehaviour
 				}
 				if (num43 >= num42)
 				{
-					text = "Following the election, Carter still managed to maintain power. A key factor in his gain was that moderate foreign policy generally performed well, despite criticism from conservatives. The US is waiting for another 4 years of reign democrats.";
+					text = "选举之后，卡特仍设法保住了权力。\n他得以获益的关键因素在于：尽管遭到保守派批评，\n中间路线的外交政策总体上表现不错。\n美国正在等待民主党再执政4年。";
 					GlobalScript.inst.gameState.data[143] += 2;
 					GlobalScript.inst.gameState.empires[0].now_leader = 1;
 				}
 				else
 				{
-					text = "As a result of the election, Carter was defeated by Reagan. The economic crisis and foreign policy failures affected the mood of Americans, who preferred to follow the populist slogans of the Republicans. Now, under the leadership of Reagan, the United States is waiting for a new round of active confrontation with the USSR.";
+					text = "由于选举结果，卡特被里根击败。\n经济危机与外交政策失利影响了美国人的情绪，\n他们更愿意追随共和党的民粹口号。\n如今，在里根的领导下，美国正等待与苏联进行新一轮积极对抗。";
 					GlobalScript.inst.gameState.empires[0].now_leader = 0;
 					GlobalScript.inst.gameState.data[143] -= 2;
 					GlobalScript.inst.gameState.allcountries[51].SubGosstroy = 12;
@@ -7513,10 +7513,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 99)
 			{
-				text2 = "Yellow scorpion";
+				text2 = "黄蝎子";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Thanks to our support, the leader of orthodox Stalinists Mohammad Yahiaoui was able to crack down on the right opposition and an emergency congress of the NLF appointed him as general secretary, and the National People's Assembly appointed him acting president of Algeria, early elections are scheduled for February 8, 1979, however, with a one-party system and non-alternative elections the result is known in advance. In the country, the persecution of «reactionary classes» begins and the predecessor's course towards industrialization continues. The new government announced a change in the vector of foreign policy to a pro-Chinese one and invited us to sign a very profitable trade contract. The Soviet Union negatively reacted «to the intervention of China in the internal affairs of Algeria»";
+					text = "多亏我们的支持，正统斯大林主义者领袖穆罕默德·亚希奥维得以打\n击右派反对派；民族解放阵线（NLF）\n的紧急代表大会任命他为总书记，阿尔及利亚全国人民议会又任命他\n为代总统。1979年2月8日提前举行选举，\n然而在一党制与无竞争选举的情况下，结果早已在事先知晓。\n国内开始迫害“反动阶级”，而前任推动工业化的路线继续延续。\n新政府宣布：外交政策方向转为亲华，并邀请我们签署一份极其有利\n的贸易合同。苏联对“中方干预阿尔及利亚内政”作出了消极反应。";
 					GlobalScript.inst.gameState.data[9] -= 60;
 					GlobalScript.inst.gameState.data[6] += 10;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -7531,7 +7531,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "We supported Chadli Bendjedid and the reform wing of the National Liberation Front, as a result of which a number of the most active Stalinists were arrested, the rest had to vote for Benjedid, and the pro-Western liberal Bouteflika was removed from the post of Minister of Foreign Affairs and moved to secondary roles. The emergency congress of the NLF appointed Benjedid as general secretary, and the National People's Assembly appointed him acting president of Algeria, early elections are scheduled for February 8, 1979, however, with a one-party system and non-alternative elections, the result is known in advance. The country is preparing full-scale reforms to support the sole peasantry and small business, which will help get rid of the excessive influence of the state on the economy. The President thanked us for the support and offered us a profitable trade contract, and the Soviet Union positively perceived Chinese assistance to Algeria, unlike the United States.";
+					text = "我们支持恰德利·本杰迪德以及民族解放阵线的改革派。\n结果是：一批最活跃的斯大林主义者被逮捕，\n其余人不得不投票支持本杰迪德；亲西方的自由派布特弗利卡被撤下\n外交部长职务，调到次要岗位。\nNLF的紧急代表大会任命本杰迪德为总书记，\n全国人民议会任命他为阿尔及利亚代总统。\n1979年2月8日提前举行选举，但在一党制与无竞争选举下，\n结果早已在事先知晓。\n国家正准备全面改革，以扶持单一农民与小工商业，\n这将有助于摆脱国家对经济过度的影响。\n总统感谢我们的支持，并向我们提供一份有利的贸易合同；\n与美国不同，苏联对中国援助阿尔及利亚的态度是积极的。";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power += 10;
 					GlobalScript.inst.gameState.data[9] -= 40;
@@ -7546,7 +7546,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "With the help of our agents, the liberal foreign minister, Bouteflika, cracked down on internal opposition in the party, and an emergency congress of the NLF elected him as general secretary; the National People's Assembly appointed him acting president of Algeria. The elections were postponed indefinitely due to the new global political reform and the creation of a new constitution for the country. The President announced a change in the vector of the economy and a transition to a mixed market system. The ban on foreign investment and medium-sized enterprises was lifted, privatization of unprofitable enterprises began. The new government announced the beginning of in-depth cooperation with Western countries in the field of foreign policy, which caused discontent of the USSR, and was positively received by the USA and NATO. Bouteflika thanked us for the support and offered a very profitable contract.";
+					text = "在我们特工的帮助下，自由派外交部长布特弗利卡打击了党内的内部\n反对力量；NLF的紧急代表大会选举他为总书记，\n全国人民议会任命他为阿尔及利亚代总统。\n由于新的全球政治改革以及国家新宪法的制定，\n选举被无限期推迟。总统宣布：经济方向调整，\n并向混合市场体制过渡。\n取消了对外资与中型企业的禁令，不盈利企业的私有化开始推进。\n新政府宣布在外交政策领域与西方国家开展深入合作，\n这引起了苏联的不满，却得到了美国和北约的积极回应。\n布特弗利卡感谢我们的支持，并向我们提供了一份极其有利的合同。";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power -= 30;
 					GlobalScript.inst.gameState.data[9] -= 60;
@@ -7565,17 +7565,17 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "The emergency congress of the NLF appointed the leader of the reformers, Chadli Bendjedid, as the «compromise» general secretary, the National People's Assembly appointed him acting president of Algeria, early elections are scheduled for February 8, 1979, however, with a one-party system and non-alternative elections, the result is known in advance. Extremely moderate reforms begin in Algeria, which, however, cannot please anyone.";
+					text = "NLF的紧急代表大会任命改革派领袖恰德利·本杰迪德为“折中”\n总书记，全国人民议会任命他为阿尔及利亚代总统。\n1979年2月8日提前举行选举，但在一党制与无竞争选举下，\n结果早已在事先知晓。\n阿尔及利亚开始推行极其温和的改革，然而这却谁也无法取悦。";
 				}
 			}
 			else if (GlobalScript.inst.gameState.number_event == 104)
 			{
-				text2 = "XII World Festival of Youth and Students";
+				text2 = "第十二届世界青年与学生联欢节";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
 					if ((GlobalScript.inst.gameState.relres && GlobalScript.inst.gameState.empires[1].relations >= 350) || GlobalScript.inst.gameState.empires[1].now_leader == 6)
 					{
-						text = "Our application has been accepted. A delegation of members of our youth organizations and the best Chinese students and members of the Chinese Communist Youth Union were sent to Moscow. The political program of the festival included the establishment of a new international economic order, discussion of the problem of economic assistance to backward and developing countries, the fight against poverty and unemployment, environmental issues were raised. The festival held numerous concerts of popular groups and amateur groups, exhibitions of artists and photographers. Everyone was satisfied with the event and we did not fail by sending a delegation there, all the more this contributed to the improvement of our relations not only with the USSR, but also with the capitalist countries.";
+						text = "我们的申请获得批准。\n我们派出由青年组织成员组成的代表团，\n以及中国最优秀的学生和中国共产主义青年团成员赴莫斯科。\n联欢节的政治议程包括：建立新的国际经济秩序，\n讨论对落后与发展中国家的经济援助问题，\n反贫困与反失业，并提出环境议题。\n联欢节举办了大量群众团体与业余团体的演唱会，\n展出了艺术家与摄影师的作品。\n大家对活动都很满意，我们派代表团前去并未白费——更重要的是，\n这促进了我们同苏联乃至资本主义国家的关系改善。";
 						GlobalScript.inst.gameState.data[4] += 20;
 						GlobalScript.inst.gameState.data[3] += 80;
 						GameState gameState = GlobalScript.inst.gameState;
@@ -7588,7 +7588,7 @@ public class Results_text : MonoBehaviour
 					}
 					else
 					{
-						text = "The USSR, which is in bad relations with us, decided to use its ties in the WFDY and use its position as the host country, as a result, our application for participation was rejected. However, not only we, but also some other countries and left movements were dissatisfied with it.";
+						text = "与我们关系不佳的苏联决定借助其在世界青年与学生联欢节（WFD\nY）中的关系，并利用东道主地位，结果我们参与的申请被拒绝。\n不过，不仅我们，其他一些国家以及左翼运动也对此表示不满。";
 						Empire empire = GlobalScript.inst.gameState.empires[1];
 						empire.power -= 10;
 						GameState gameState = GlobalScript.inst.gameState;
@@ -7597,13 +7597,13 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "The political program of the festival included the establishment of a new international economic order, discussion of the problem of economic assistance to backward and developing countries, the fight against poverty and unemployment, environmental issues were raised. The festival held numerous concerts of popular groups and amateur groups, exhibitions of artists and photographers. For us, nothing happened, since we decided not to send a delegation.";
+					text = "该节庆的政治议程包括建立新的国际经济秩序，\n讨论对落后和发展中国家的经济援助问题，\n开展反贫困与反失业斗争，并提出环境议题。\n节日期间举办了大量流行乐队与业余团体的演出，\n以及艺术家和摄影师的展览。\n对我们来说，什么也没发生——因为我们决定不派代表团。";
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 10;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "While the XII World Festival of Youth and Students was held in Moscow, we decided to emphasize our independence from the USSR and organized our own \"World Progressive Youth Festival\" in Beijing, where representatives of countries allied to China and those who for one reason or another did not send a delegation arrived to Moscow. In general, our people were satisfied with the event, and our ties with the Allies strengthened, but the international left movement looks at all this with distrust.";
+					text = "在莫斯科举行第十二届世界青年与学生节期间，\n我们决定突出对苏联的独立性，于是在北京组织了我们自己的“世界\n进步青年节”。前往莫斯科的，是那些与中国结盟的国家代表，\n以及因种种原因未派代表团的国家代表。\n总体而言，我们的人对这次活动感到满意，\n同盟关系也进一步加强了，但国际左翼运动对此却充满不信任。";
 					GlobalScript.inst.gameState.data[4] += 50;
 					GlobalScript.inst.gameState.data[3] += 40;
 					GlobalScript.inst.gameState.data[1] += 150;
@@ -7633,10 +7633,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 106)
 			{
-				text2 = "Democratic International";
+				text2 = "民主国际";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "As a result, the Democratic International was established. It is still difficult to talk about whether this will help anti-communist rebels in their actions, but this event is significant and contributes to the growth of influence of the USA, which actively support this formation.";
+					text = "结果，民主国际成立了。\n至于这是否会在行动上帮助反共叛乱者，\n目前仍难说，但这件事意义重大，并有助于美国影响力的增长——美\n国正积极支持这一组织。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.power += 20;
 					empire = GlobalScript.inst.gameState.empires[1];
@@ -7644,7 +7644,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Having managed to urgently establish cooperation between our agents in Angola and border countries, as well as secretly persuading the USSR and the pro-Soviet Angola authorities to cooperate, we were able to organize a series of terrorist attacks in Jamba. Unfortunately, UNITA leader Jonas Savimbi and American puppeteers were not injured, but we managed to eliminate the informal contras leader Adolfo Calero, prominent Mujahideen representative Abdul Rahim Wardak and the leader of the Hmong movement Pa Kao Her. In addition to the collapse of the coalition, the death of many prominent figures of world anti-communism seriously hit American influence and helped the USSR. That is why all the main accusations flew against him, however, Americans suspect something about our participation.";
+					text = "我们先是紧急促成了安哥拉境内我方特工与邻国之间的协作，\n又秘密劝说苏联以及亲苏的安哥拉当局配合，\n于是得以在贾姆巴组织一系列恐怖袭击。\n遗憾的是，UNITA领导人乔纳斯·萨维姆比以及美国的幕后操盘\n者并未受伤；但我们成功清除了非正式“反政府武装”头目阿道尔福\n·卡莱罗、著名圣战组织代表阿卜杜勒·拉希姆·瓦达克，\n以及蒙族（苗族）运动领袖帕·高·赫。\n除联盟土崩瓦解外，许多世界反共名流的死亡也沉重打击了美国影响\n力，并帮助了苏联。于是，所有主要指控都飞向了他——不过，\n美国人怀疑我们参与了其中。";
 					GlobalScript.inst.gameState.data[9] -= 100;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power += 20;
@@ -7659,7 +7659,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "We supported the formation of the Democratic International and its readiness to fight Soviet aggression around the world. Its participants perceived this statement differently, but generally reacted positively, as did the Americans, who benefited from it the most. Our benefit is still unclear, but Soviet influence has definitely declined.";
+					text = "我们支持民主国际的组建，并支持其宣称随时准备在全世界对抗苏联\n的侵略。其参与者对这番表态的理解不尽相同，\n但总体反应积极；美国人也同样如此——他们从中获益最多。\n至于我们能得到什么，目前仍不清楚，但苏联的影响力确实下降了。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations += 100;
 					empire = GlobalScript.inst.gameState.empires[1];
@@ -7701,10 +7701,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 103)
 			{
-				text2 = "Schengen Agreement";
+				text2 = "申根协议";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "A conference between the countries of our union was held in Shanghai, ending with the signing of the so-called The Shanghai Agreement, which implies the creation of a single visa space between our countries and the simplification of passport and visa control with the prospect of a complete rejection of the need for foreign passports. The agreement gradually begins to work and the people are satisfied, only with this it begins to get carried away by foreign culture and cast doubt on our state principles. It will now be easier for criminals and dissidents to escape from China, and smugglers - to smuggle their goods to us. But the ties between our countries have further strengthened, and tourism profits will replenish our budget.";
+					text = "我们联盟各国的会议在上海举行，最终签署了所谓《上海协议》。\n该协议意味着在我们各国之间建立统一的签证空间，\n并简化护照与签证管控，甚至展望彻底取消对外国护照的需求。\n协议开始逐步见效，民众也感到满意——只是从此便开始沉迷外来文\n化，并对我们的国家原则产生怀疑。\n现在，罪犯和异议分子将更容易从中国逃离，\n走私者也更容易把货物走私到我们这里。\n但我们各国之间的联系进一步加强，旅游收入也将补充我们的预算。";
 					GlobalScript.inst.gameState.data[4] += 50;
 					GlobalScript.inst.gameState.data[3] += 80;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -7735,7 +7735,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "A conference between the countries of our union was held in Shanghai, ending with the signing of the so-called The Shanghai Agreement, which implies the creation of a single visa space between our countries and the simplification of passport and visa control with the prospect of a complete rejection of the need for foreign passports. The agreement gradually begins to work and the people are satisfied, only with this it begins to get carried away by foreign culture and cast doubt on our state principles. It will now be easier for criminals and dissidents to escape from China, and smugglers - to smuggle their goods to us. But the ties between our countries have further strengthened, and tourism profits will replenish our budget.";
+					text = "我们联盟各国的会议在上海举行，最终签署了所谓《上海协议》。\n该协议意味着在我们各国之间建立统一的签证空间，\n并简化护照与签证管控，甚至展望彻底取消对外国护照的需求。\n协议开始逐步见效，民众也感到满意——只是从此便开始沉迷外来文\n化，并对我们的国家原则产生怀疑。\n现在，罪犯和异议分子将更容易从中国逃离，\n走私者也更容易把货物走私到我们这里。\n但我们各国之间的联系进一步加强，旅游收入也将补充我们的预算。";
 					GlobalScript.inst.gameState.data[4] += 50;
 					GlobalScript.inst.gameState.data[3] += 80;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -7766,16 +7766,16 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Nothing happened.";
+					text = "什么也没发生。";
 				}
 			}
 			else if (GlobalScript.inst.gameState.number_event == 107)
 			{
-				text2 = "Allied Crisis";
+				text2 = "同盟危机";
 				int num44 = (GlobalScript.inst.gameState.data[21] - 1976) * 2 + 1;
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Under the guise of exercises, our troops entered the country, quickly disarming their army, arresting the government and suppressing discontent. The new government was allocated financial assistance to consolidate loyalty. " + GlobalScript.inst.gameState.allcountries[GlobalScript.inst.gameState.data[120]].name + " is with us again, but our diplomatic reputation leaves much to be desired.";
+					text = "借着演习的名义，我军进入该国，迅速解除其军队武装，\n逮捕政府并镇压不满。\n新政府获得财政援助，以巩固其忠诚。\n " + GlobalScript.inst.gameState.allcountries[GlobalScript.inst.gameState.data[120]].name + " 又回到我们这边了，但我们的外交声誉仍然差强人意。";
 					GlobalScript.inst.gameState.data[22] -= num44 * 10;
 					GlobalScript.inst.gameState.data[8] -= 30;
 					GlobalScript.inst.gameState.allcountries[GlobalScript.inst.gameState.data[120]].soc_stab = 1000;
@@ -7806,7 +7806,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Through backstage intrigues, secret killings and the mobilization of politicians and the military who remained loyal to us, we managed to organize a coup in favor of those who are ready to continue to cooperate with us. The new government was allocated financial assistance to consolidate loyalty. " + GlobalScript.inst.gameState.allcountries[GlobalScript.inst.gameState.data[120]].name + " is with us again, but other countries suspect something and express their dissatisfaction";
+					text = "通过幕后阴谋、秘密暗杀，以及动员那些仍忠于我们的政界人士和军\n方力量，我们成功组织了一场政变，支持那些愿意继续与我们合作的\n人。新政府获得财政援助，以巩固其忠诚。\n " + GlobalScript.inst.gameState.allcountries[GlobalScript.inst.gameState.data[120]].name + " 又回到我们这边了，但其他国家起了疑心，并表达不满";
 					GlobalScript.inst.gameState.allcountries[GlobalScript.inst.gameState.data[120]].soc_stab = 1000;
 					if (GlobalScript.inst.gameState.allcountries[GlobalScript.inst.gameState.data[120]].okb)
 					{
@@ -7836,7 +7836,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "It was decided not to resort to radical measures, but to appease the country and at the same time to economically tie it to us. This helped force independence supporters to abandon hasty plans, and friendship supporters with China gained additional power. " + GlobalScript.inst.gameState.allcountries[GlobalScript.inst.gameState.data[120]].name + " is with us again and we managed to avoid any diplomatic problems, but only supporters of independent politics have not disappeared.";
+					text = "决定不采取激烈手段，而是安抚该国，同时在经济上把它绑到我们这\n边。这迫使支持独立的人放弃仓促计划，\n而支持与中国友好的力量则获得了额外权力。\n " + GlobalScript.inst.gameState.allcountries[GlobalScript.inst.gameState.data[120]].name + " 又回到我们这边了，我们也成功避免了任何外交问题；\n只是支持独立路线的人并未消失。";
 					GlobalScript.inst.gameState.data[8] -= 100;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC += 10;
@@ -7857,7 +7857,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "It was decided not to resort to radical measures, but only to demand from the country's leadership guarantees of membership in our bloc, while maintaining the ability to pursue an independent foreign policy. After long negotiations and hesitations, they finally agreed. " + GlobalScript.inst.gameState.allcountries[GlobalScript.inst.gameState.data[120]].name + " is still in our alliance, but is actively building up new contacts with other countries, and this might backfire in the future.";
+					text = "决定不采取激烈措施，只是向该国领导层提出加入我们阵营的保证，\n同时保留其推行独立外交政策的能力。\n经过长期谈判与犹豫，他们终于同意了。\n " + GlobalScript.inst.gameState.allcountries[GlobalScript.inst.gameState.data[120]].name + " 仍在我们的联盟之内，但正积极同其他国家建立新联系——这也许\n会在未来反噬我们。";
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 10;
 					if (GlobalScript.inst.gameState.allcountries[GlobalScript.inst.gameState.data[120]].usalliance)
@@ -7894,7 +7894,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 5)
 				{
-					text = "As a result, not meeting any resistance from our side, the country decided to leave our bloc and is already establishing new contacts. Better then social imperialism!";
+					text = "结果，由于我们这边没有遭遇任何阻力，\n该国决定退出我们的阵营，并已经在建立新的联系。\n比起社会帝国主义还要好！";
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC -= 20;
 					if (GlobalScript.inst.gameState.allcountries[GlobalScript.inst.gameState.data[120]].usalliance)
@@ -7933,10 +7933,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 100)
 			{
-				text2 = "政府 CRISIS";
+				text2 = "政府危机";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Thanks to the coordinated work of our special services, rumors about upcoming job cuts and wages due to the growing financial crisis were spread at several of the largest factories in the capital of Bangladesh. The very next day, the whole city was paralyzed by strikes and clashes between workers and the armed police, shots were heard in some areas. However, due to public pressure and growing unrest, the president had to announce early parliamentary elections, which, not without our help, were won by the coalition of the left, and Sheikh Hasina Wazed became the new prime minister. The new government announced the start of socio-economic reforms and the expansion of trade between China and Bangladesh. The world community, in general, ignored the change of government, but the US suspects us of involvement in the incident.";
+					text = "多亏我方特工部门的协同工作，随着日益加剧的金融危机，\n孟加拉国首都几家最大的工厂里散布了“将要裁员、\n工资将被削减”的谣言。\n就在第二天，整个城市便因罢工以及工人与武装警察之间的冲突而瘫\n痪，部分地区还传出了枪声。\n然而在舆论压力与动乱不断升级之下，总统不得不宣布提前举行议会\n选举；而在我们不无帮助的情况下，左翼联盟赢得选举，\n谢赫·哈西娜·瓦兹德成为新任总理。\n新政府宣布启动社会经济改革，并扩大中国与孟加拉国之间的贸易。\n国际社会总体上忽视了换届，但美国怀疑我们参与了这起事件。";
 					GlobalScript.inst.gameState.data[9] -= 100;
 					GlobalScript.inst.gameState.data[6] += 10;
 					GameState gameState = GlobalScript.inst.gameState;
@@ -7951,11 +7951,11 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Bangladeshi government continues to control the situation, timely suppressing strikes.";
+					text = "孟加拉国政府继续掌控局势，及时镇压罢工。";
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "President Ershad thanked us for the help and suggested holding a summit between China and Bangladesh on «expanding trade and economic cooperation». At the negotiations, relations between our countries were restored, and China officially recognized Bangladesh’s independence from Pakistan, and new trade contracts were signed.";
+					text = "埃尔沙德总统感谢我们的帮助，并建议就“扩大贸易与经济合作”在\n中国与孟加拉国之间举行峰会。\n在谈判中，两国关系得以恢复；中国正式承认孟加拉国脱离巴基斯坦\n的独立，并签署了新的贸易合同。";
 					GlobalScript.inst.gameState.data[8] -= 80;
 					GlobalScript.inst.gameState.allcountries[32].Torg = true;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
@@ -7964,16 +7964,16 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 105)
 			{
-				text2 = "End of Albanian Stalin";
+				text2 = "阿尔巴尼亚斯大林的终结";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Ramiz Alia, as expected, did not \"break what works so well.\" Full and absolute supervision of the party over all areas of public life was maintained, and the orthodox Stalinist wing continued to dominate the PPSH. However, the regime nevertheless underwent some insignificant changes: mass repressions quickly curtailed, arrests of clergymen ceased, and the suppression of dissent became “more precise”. And, despite the fact that Alia has no plans to resume active relations with the Soviets, the roll of Albanian foreign policy in favor of greater openness is beginning to be felt.";
+					text = "如预料所示，拉米兹·阿利亚并没有“打破那些运转得如此良好的东\n西”。党对公共生活各领域的全面、绝对监督仍被维持，\n正统斯大林主义派继续主导阿尔巴尼亚劳动党（PPSH）。\n然而政权毕竟还是经历了一些微不足道的变化：\n大规模镇压很快被压缩，神职人员的逮捕停止了，\n对异议的镇压也变得“更有分寸”。\n而尽管阿利亚并无计划恢复与苏联的积极关系，\n但阿尔巴尼亚外交政策向更开放方向转动的趋势，\n已经开始显现。";
 					GlobalScript.inst.gameState.allcountries[20].proprc = false;
 					GlobalScript.inst.gameState.data[60] = 2;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Absolutely unexpected news from Tirana! In the most seemingly unshakable ideological country, there was a terrorist attack, and what scale! Ramiz Alia, the current general secretary and successor of Hoxha, was completely assassinated during his planned visit to one of the capital's factories. Despite the vigilant guards surrounding the country's leader, the terrorist worker managed to fire several well-aimed shots, one of which hit straight into the lungs. Alia passed away on the way to the hospital. In order to suppress possible popular unrest, a triumvirate of the leaders of the Hoxhaists - Hoxha-Chuko-Chamkani was created. Through a terrorist worker, the special services managed to reach a whole group of Kosovo Albanians, who allegedly were plotting against other members of the 政治局. This incident led to a new round of party purges and repressions in the state. Hoxhaism triumphed again, Albania continues to be isolated.";
+					text = "从地拉那传来绝对意想不到的消息！\n在这看似最稳固的意识形态国家，竟发生了恐怖袭击——而且规模何\n等惊人！现任总书记、霍查的继承人拉米兹·阿利亚，\n在他原定访问首都一座工厂期间被彻底暗杀。\n尽管围在国家领导人身边的警卫十分警惕，\n恐怖袭击者仍设法连发数枪精准射击，其中一枪直接击中肺部。\n阿利亚在前往医院的途中就已去世。\n为压制可能出现的群众骚乱，成立了霍查派领导人的三人执政——霍\n查—丘科—查姆卡尼。\n通过这名恐怖袭击者，特工部门还设法接触到一整批科索沃阿尔巴尼\n亚人，据称他们正密谋对付政治局其他成员。\n此次事件引发了国家内党内清洗与镇压的新一轮。\n霍查主义再次得胜，阿尔巴尼亚继续被孤立。";
 					GlobalScript.inst.gameState.data[9] -= 60;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC += 5;
@@ -7981,7 +7981,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "The Chinese leader sent a letter of condolences to the Albanian Foreign Ministry, suggesting that he \"restart\" relations between China and Albania. A week later, Ramiz Alia paid a diplomatic visit to the 中华人民共和国, the “Sino-Albanian friendship treaty” was re-signed, and China extended a solid loan to Albania for a long-term period as a sign of reconciliation between our countries. ";
+					text = "中国领导人向阿尔巴尼亚外交部发去唁电，\n暗示要“重启”中阿关系。\n一周后，拉米兹·阿利亚对中华人民共和国进行了外交访问；\n“中阿友好条约”重新签署；作为两国和解的标志，\n中国还向阿尔巴尼亚提供了长期、坚实的贷款。\n ";
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC += 15;
 					GlobalScript.inst.gameState.allcountries[20].Torg = true;
@@ -7997,10 +7997,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 109)
 			{
-				text2 = "Somalia's Golden Age";
+				text2 = "索马里的黄金时代";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Somalia's situation continues to deteriorate, and Mohamed Siad Barre is expanding military cooperation with the United States.";
+					text = "索马里局势继续恶化，穆罕默德·西亚德·巴雷正在扩大与美国的军\n事合作。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.power += 30;
 					GlobalScript.inst.gameState.allcountries[42].prosov = false;
@@ -8010,7 +8010,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "We sent humanitarian and military support to the regime of Mohamed Siad Barre, which allowed Somalia to recover from the devastating effects of the Ogaden War. As a result, the government launched a large-scale attack on the armed opposition, thereby strengthening the regime of the SRSP. The leader of the country, Barre, thanked China for the support provided and has already announced the expansion of cooperation between our countries.";
+					text = "我们向穆罕默德·西亚德·巴雷政权提供了人道与军事援助，\n使索马里得以从奥加登战争的毁灭性影响中恢复。\n于是，政府对武装反对派发动了大规模攻势，\n从而巩固了SRSP政权。\n巴雷作为国家领导人，感谢中国所提供的支持，\n并已宣布扩大两国间的合作。";
 					GlobalScript.inst.gameState.data[9] -= 50;
 					GlobalScript.inst.gameState.data[22] -= 50;
 					GlobalScript.inst.gameState.data[8] -= 80;
@@ -8029,7 +8029,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Thanks to the support of our special services, the influential military Mohammad Ali Samatar, having conspired with the generals, presented Mohamed Siad Barre with an ultimatum, according to which the president should immediately resign. As a result, the leader of Somalia, under pressure from the military, was forced to resign. The presidency was taken by the compromise foreign minister, Abdirahman Jama Barre, whose actions are de facto controlled by the top generals. Somalia made a ceasefire with Ethiopia, abandoning any territorial claims, and the country's government restored relations with the Soviet Union, broken during the Ogaden conflict. The new government declared military neutrality by joining the Non-Aligned Movement, but Somalia is becoming increasingly closer to other Arab countries. Having not forgotten about our support, the Somali government invited us to expand trade cooperation between our countries.";
+					text = "多亏我方特工部门的支持，颇具影响力的军方人物穆罕默德·阿里·\n萨马塔尔与将领们密谋后，向穆罕默德·西亚德·巴雷提出最后通牒，\n要求总统立即辞职。\n结果，在军方压力之下，索马里领导人被迫下台。\n总统职位由“折中”的外交部长阿卜迪拉赫曼·贾马·巴雷接任，\n而他的行动实际上受最高将领控制。\n索马里与埃塞俄比亚达成停火，放弃任何领土主张；\n同时该国政府恢复了与苏联的关系——这段关系在奥加登冲突期间被\n打断。新政府加入不结盟运动，宣称实行军事中立，\n但索马里正越来越靠近其他阿拉伯国家。\n索马里政府没有忘记我们的支持，邀请我们扩大两国间的贸易合作。";
 					GlobalScript.inst.gameState.data[9] -= 80;
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.power += 5;
@@ -8048,7 +8048,7 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 102)
 			{
-				text2 = "Wind of change?";
+				text2 = "变革的风？";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
 					if (global1.dlc[0] && GlobalScript.inst.gameState.gamerules[3] == 2)
@@ -8114,14 +8114,14 @@ public class Results_text : MonoBehaviour
 				{
 					if (GlobalScript.inst.gameState.empires[1].power > GlobalScript.inst.gameState.empires[0].power + 200 && GlobalScript.inst.gameState.empires[1].power > GlobalScript.inst.gameState.influencePRC + 200)
 					{
-						text = "As a result, the current Secretary of the Central Committee, Yegor Ligachev, was elected General Secretary of the CPSU Central Committee. He managed to enlist the support of moderate party members, first of all, Andrei Gromyko, and put forward his candidacy, which, according to the old Bolshevik tradition, was approved unanimously.";
+						text = "结果，中共中央现任书记叶戈尔·利加乔夫当选为苏共中央总书记。\n他设法争取到了温和派党员的支持，首先是安德烈·葛罗米柯，\n并提出自己的候选资格；按照老布尔什维克传统，\n该提名获得一致通过。";
 						GlobalScript.inst.gameState.empires[1].now_leader = 8;
 						Empire empire = GlobalScript.inst.gameState.empires[1];
 						empire.power -= 100;
 					}
 					else
 					{
-						text = "As a result, Mikhail Gorbachev was elected General Secretary of the CPSU Central Committee. He phenomenally quickly organized a congress and ensured the delivery of members of the 政治局 by military aviation, without saying anything to his opponent Romanov. With the support of Gromyko and the moderate, he was able to lead the Communist Party with a minimal margin of vote. What awaits the Soviet Union?";
+						text = "结果，米哈伊尔·戈尔巴乔夫当选为苏共中央委员会总书记。\n他以惊人的速度组织了大会，并通过军用航空确保政治局成员到场，\n却对对手罗曼诺夫只字未提。\n在葛罗米柯与温和派的支持下，他以极小的票差带领共产党前进。\n苏联接下来会怎样？";
 						GlobalScript.inst.gameState.empires[1].now_leader = 6;
 						Empire empire = GlobalScript.inst.gameState.empires[1];
 						empire.power -= 250;
@@ -8129,26 +8129,26 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.empires[1].leaders[4].support >= GlobalScript.inst.gameState.empires[1].leaders[5].support && GlobalScript.inst.gameState.empires[1].leaders[4].support >= GlobalScript.inst.gameState.empires[1].leaders[6].support)
 				{
-					text = "As a result, Grigory Romanov was elected the General Secretary of the CPSU Central Committee, who, having learned of Chernenko’s death, immediately flew to Moscow, where he managed to rally conservative and moderate circles around him. Interesting times await the Soviet Union.";
+					text = "结果，格里戈里·罗曼诺夫当选为苏共中央委员会总书记。\n他在得知切尔年科去世后，立刻飞往莫斯科，\n在那里成功集结了保守派与温和派的力量。\n苏联将迎来有趣的时代。";
 					GlobalScript.inst.gameState.empires[1].now_leader = 4;
 				}
 				else if (GlobalScript.inst.gameState.empires[1].leaders[5].support + 1 > GlobalScript.inst.gameState.empires[1].leaders[4].support && GlobalScript.inst.gameState.empires[1].leaders[5].support + 1 > GlobalScript.inst.gameState.empires[1].leaders[6].support)
 				{
-					text = "As a result, Victor Grishin was elected General Secretary of the CPSU Central Committee. With the support of the conservative majority, which had long been secretly agreeing on the election of Grishin, and frustrating Gorbachev’s plans, he managed to head the CPSU without any problems. The Soviet Union expects several more years of Brezhnev stability.";
+					text = "结果，维克托·格里申当选为苏共中央委员会总书记。\n在保守多数派的支持下——他们早已秘密商定格里申的当选，\n并挫败戈尔巴乔夫的计划——他顺利接掌苏共中央。\n苏联还将迎来数年“勃列日涅夫式稳定”。";
 					GlobalScript.inst.gameState.empires[1].now_leader = 5;
 				}
 				else if (GlobalScript.inst.gameState.empires[1].leaders[6].support > GlobalScript.inst.gameState.empires[1].leaders[4].support)
 				{
 					if (GlobalScript.inst.gameState.empires[1].power > GlobalScript.inst.gameState.empires[0].power + 200 && GlobalScript.inst.gameState.empires[1].power > GlobalScript.inst.gameState.influencePRC + 200)
 					{
-						text = "As a result, the current Secretary of the Central Committee, Yegor Ligachev, was elected General Secretary of the CPSU Central Committee. He managed to enlist the support of moderate party members, first of all, Andrei Gromyko, and put forward his candidacy, which, according to the old Bolshevik tradition, was approved unanimously.";
+						text = "结果，中共中央现任书记叶戈尔·利加乔夫当选为苏共中央总书记。\n他设法争取到了温和派党员的支持，首先是安德烈·葛罗米柯，\n并提出自己的候选资格；按照老布尔什维克传统，\n该提名获得一致通过。";
 						GlobalScript.inst.gameState.empires[1].now_leader = 8;
 						Empire empire = GlobalScript.inst.gameState.empires[1];
 						empire.power -= 100;
 					}
 					else
 					{
-						text = "Despite numerous debates, in the end, Mikhail Gorbachev was elected General Secretary of the CPSU Central Committee. He phenomenally quickly organized a congress and ensured the delivery of members of the 政治局 by military aviation, without saying anything to his opponent Romanov. With the support of Gromyko and the moderate, he was able to lead the Communist Party with a minimal margin of vote. What awaits the Soviet Union?";
+						text = "尽管争论不断，最终米哈伊尔·戈尔巴乔夫当选为苏共中央委员会总\n书记。他以惊人的速度组织了大会，并通过军用航空确保政治局成员\n到场，却对对手罗曼诺夫只字未提。\n在葛罗米柯与温和派的支持下，他以极小的票差带领共产党前进。\n苏联接下来会怎样？";
 						GlobalScript.inst.gameState.empires[1].now_leader = 6;
 						Empire empire = GlobalScript.inst.gameState.empires[1];
 						empire.power -= 250;
@@ -8156,25 +8156,25 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.empires[1].leaders[6].support < GlobalScript.inst.gameState.empires[1].leaders[4].support)
 				{
-					text = "Despite numerous debates, in the end, Grigory Romanov was elected General Secretary of the CPSU Central Committee, who, having learned of Chernenko’s death, immediately flew to Moscow, where he managed to rally conservative and moderate circles around him. Interesting times await the Soviet Union.";
+					text = "尽管争论不断，最终格里戈里·罗曼诺夫当选为苏共中央委员会总书\n记。他在得知切尔年科去世后，立刻飞往莫斯科，\n在那里成功集结了保守派与温和派的力量。\n苏联将迎来有趣的时代。";
 					GlobalScript.inst.gameState.empires[1].now_leader = 4;
 				}
 				else
 				{
-					text = "Despite numerous debates, in the end, Victor Grishin was elected General Secretary of the CPSU Central Committee. With the support of the conservative majority, which had long been secretly agreeing on the election of Grishin, and frustrating Gorbachev’s plans, he managed to head the CPSU without any problems. The Soviet Union expects several more years of Brezhnev stability.";
+					text = "尽管争论不断，最终维克托·格里申当选为苏共中央委员会总书记。\n在保守多数派的支持下——他们早已秘密商定格里申的当选，\n并挫败戈尔巴乔夫的计划——他顺利接掌苏共中央。\n苏联还将迎来数年“勃列日涅夫式稳定”。";
 					GlobalScript.inst.gameState.empires[1].now_leader = 5;
 				}
 			}
 			else if (GlobalScript.inst.gameState.number_event == 110)
 			{
-				text2 = "Automation is a natural process";
+				text2 = "自动化是一个自然的过程";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "The socialist economy continues to function stably, for the time being…";
+					text = "社会主义经济目前仍在稳定运转……";
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Glory to the chairman! Glory to the CPС! This day will go down in the history of China, as the day of the «Great Breakthrough». Our Dear Leader announced the beginning of major changes in our country - the transition of the 中华人民共和国 to the rails of full-scale automation and computerization of all planning and production in the country, and also announced the creation of a «Center for Automated Economic Management», which is about to begin its work. The new project received the working name IECS - «Intersectoral Electronic Control System». Now in the country «heated» discussions about the haste of the introduction of these measures have flared up, and some party politicians declare the «anti-Marxist nature of reforms». However, the project was launched and nothing will stop the inevitable changes in the country, right?";
+					text = "向主席致敬！向中共致敬！\n这一天将载入中国史册，成为“伟大突破”的日子。\n我们敬爱的领袖宣布，我国将开始重大变革——中华人民共和国将走\n上全面自动化的轨道，并实现全国所有计划与生产的计算机化；\n同时宣布成立“自动化经济管理中心”，\n该中心即将开始工作。\n新工程的代号为IECS——“跨部门电子控制系统”。\n如今，全国范围内关于仓促推行这些措施的“热烈”讨论已经燃起，\n部分党内政客还宣称改革具有“反马克思主义性质”。\n然而工程已经启动，难道没有什么能阻止我国不可避免的变革，\n对吧？";
 					GlobalScript.inst.gameState.data[8] -= 100;
 					GlobalScript.inst.gameState.data[3] += 100;
 					GlobalScript.inst.gameState.data[4] += 100;
@@ -8183,7 +8183,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Glory to the chairman! Glory to the CPС! This day will go down in the history of China, as the day of the «Great Breakthrough». Our Dear Leader announced the beginning of major changes in our country - the transition of the 中华人民共和国 to the rails of full-scale automation and computerization of all planning and production in the country, and also announced the creation of a «Center for Automated Economic Management», which is about to begin its work. The new project received the working name IECS - «Intersectoral Electronic Control System». Also, thanks to our close friendship with the Soviet people, we requested qualified assistance from the USSR, and now a delegation led by academician Anatoly Kitov has arrived in China. In China, meanwhile, «heated» discussions about the haste of the introduction of these measures have flared up, and some party politicians declare the «anti-Marxist nature of reforms». However, the project was launched and nothing will stop the inevitable changes in the country, right?";
+					text = "向主席致敬！向中共致敬！\n这一天将载入中国史册，作为“伟大突破”的日子。\n我们敬爱的领袖宣布，我国将开始重大变革——中华人民共和国将走\n上全面自动化、全国所有计划与生产的计算机化之路；\n并宣布成立“自动化经济管理中心”，该中心即将开始工作。\n新项目的代号为IECS——“跨部门电子控制系统”。\n此外，得益于我们同苏联人民的密切友谊，\n我们向苏联请求合格的援助，如今，由院士阿纳托利·基托夫率领的\n代表团已抵达中国。与此同时，中国国内关于这些措施引入过于仓促\n的“激烈”讨论也燃起了火花，部分党内政客宣称“改革具有反马克\n思主义性质”。然而，项目已经启动，谁也阻止不了我国不可避免的\n变革，对吧？";
 					GlobalScript.inst.gameState.data[8] -= 80;
 					GlobalScript.inst.gameState.data[3] += 100;
 					GlobalScript.inst.gameState.data[4] += 120;
@@ -8197,7 +8197,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "Glory to the chairman! Glory to the CPС! This day will go down in the history of China, as the day of the «Great Breakthrough». Our Dear Leader announced the beginning of major changes in our country - the transition of the 中华人民共和国 to the rails of full-scale automation and computerization of all planning and production in the country, and also announced the creation of a «Center for Automated Economic Management», which is about to begin its work. The new project received the working name IECS - «Intersectoral Electronic Control System». In addition, thanks to our warm relations with Western countries, we were able to invite a delegation of European mathematics scientists led by Stafford Beer, who had previously become famous for the development of the Chilean «Cybersyn». Now in the country «heated» discussions about the haste of the introduction of these measures have flared up, and some party politicians declare the «anti-Marxist nature of reforms». However, the project was launched and nothing will stop the inevitable changes in the country, right?";
+					text = "向主席致敬！向中共致敬！\n这一天将载入中国史册，作为“伟大突破”的日子。\n我们敬爱的领袖宣布，我国将开始重大变革——中华人民共和国将走\n上全面自动化、全国所有计划与生产的计算机化之路；\n并宣布成立“自动化经济管理中心”，该中心即将开始工作。\n新项目的代号为IECS——“跨部门电子控制系统”。\n另外，凭借我们同西方国家的友好关系，\n我们得以邀请由斯塔福德·比尔率领的欧洲数学科学家代表团——他\n此前因开发智利的“赛博辛”而声名鹊起。\n如今，中国国内关于这些措施引入过于仓促的“激烈”讨论也燃起了\n火花，部分党内政客宣称“改革具有反马克思主义性质”。\n然而，项目已经启动，谁也阻止不了我国不可避免的变革，\n对吧？";
 					GlobalScript.inst.gameState.data[8] -= 80;
 					GlobalScript.inst.gameState.data[3] += 100;
 					GlobalScript.inst.gameState.data[4] += 150;
@@ -8210,16 +8210,16 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 111)
 			{
-				text2 = "To the ghostly light";
+				text2 = "向幽冥之光";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Changes are coming";
+					text = "变革在逼近";
 					GlobalScript.inst.gameState.data[35] = 6;
 					load_scene_after_click = "Ending";
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Today, in all the newspapers of the country, the article «Appeal to the People» was published, in which Comrade Chairman calls on every citizen who loves his homeland and party, to those who are not indifferent to the fate of China to resist the «bourgeoisie accomplices» and «partisan revisionists» who raised their heads again. Inspired masses gathered at rallies in Tiananmen Square in support of the actions of the government and comrade chairman. As a result, over 300 thousand people came to the main square of the country, chanting slogans about the continuation of the cultural revolution against the reactionary classes. Under pressure from public anger, the conspirators had to resign from their posts, and local partocrats pacified their ardor. This is a great victory for our people! Glory to the chairman! Glory to the CPС!";
+					text = "今天，全国各报刊登了《致人民的呼吁》一文。\n文中，同志主席号召每一位热爱祖国与党、\n对中国命运不漠不关的公民，去抵制那些再次抬头的“资产阶级帮凶\n”和“党内派别的修正主义者”。\n受鼓舞的群众在天安门广场集会，支持政府与同志主席的行动。\n结果，超过30万人涌向全国的主广场，\n高喊口号，要求继续向反动阶级进行文化大革命。\n迫于群众愤怒的压力，阴谋者不得不辞去职务，\n而地方党棍也被迫收敛了热情。\n这是我们人民的伟大胜利！\n向主席致敬！向中共致敬！";
 					GlobalScript.inst.gameState.data[6] += 70;
 					GlobalScript.inst.gameState.data[3] += 100;
 					GlobalScript.inst.gameState.data[1] -= 400;
@@ -8239,7 +8239,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Thanks to the coordinated work of our agents, opponents of our policy of automation in the highest echelons of power were removed from all posts and are about to be brought to a fair trial. On the ground, in turn, a campaign was launched to eradicate corruption, which shook the position of several tens of thousands of party workers who spoke out against the policies pursued by the Communist Party. The political repressions against the opponents of Our Dear Leader provoked the discontent of the rest of the party workers, who, for reasons of personal security, had to hide their resentment. Nevertheless, this is our grand victory! Glory to the chairman! Glory to the CPС!";
+					text = "多亏我们特工的协同工作，反对我们自动化政策的权力高层人物已被\n撤离一切岗位，即将接受公正审判。\n与此同时，在基层又发动了肃贪运动，动摇了数以万计党务人员的地\n位——他们曾公开反对中共所推行的路线。\n对我们敬爱的领袖的对手所进行的政治打击，\n引起了其余党务人员的不满；出于个人安全的考虑，\n他们不得不把怨气藏起来。\n尽管如此，这仍是我们的宏大胜利！\n向主席致敬！向中共致敬！";
 					GlobalScript.inst.gameState.data[9] -= 400;
 					GlobalScript.inst.gameState.data[3] += 50;
 					GlobalScript.inst.gameState.data[6] += 50;
@@ -8260,7 +8260,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "The next day, loyal military divisions entered Beijing, the conspirators were arrested and put on trial. A curfew was established in the capital, the streets of the city are controlled by military units, and the situation seems to be gradually stabilizing. The most proactive partocrats were fired, and the rest had to pacify their flurry of criticism in the direction of the policy pursued by Comrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + ". Nevertheless, the enemies of the working class are defeated, this is our grand victory! Glory to the chairman! Glory to the 中共!";
+					text = "第二天，忠诚的军队开进北京，阴谋者被逮捕并接受审判。\n首都实行宵禁，城市街道由军队单位控制，\n局势似乎正在逐步趋于稳定。\n最积极的党棍被撤职，其余人则不得不把对同志所推行路线的激烈批\n评按下去……" + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "……尽管如此，工人阶级的敌人已经被打败——这就是我们的宏大胜\n利！向主席致敬！向中共致敬！";
 					GlobalScript.inst.gameState.data[22] -= 300;
 					GlobalScript.inst.gameState.data[3] += 50;
 					GlobalScript.inst.gameState.data[1] -= 500;
@@ -8282,10 +8282,10 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 112)
 			{
-				text2 = "Stories of unknown worlds";
+				text2 = "未知世界的故事";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "The government urgently allocated funds to develop a system to protect IECS from external attacks, which received the working title «The Great Wall of China». It is assumed that the protection will be ready and introduced in 8 months, but for now, our economy will not be easy.";
+					text = "政府紧急拨款，用于开发一套保护IECS免受外部攻击的系统，\n该系统的工作代号为“中华大防线”。\n预计该防护将在8个月内完成并投入使用，\n但就目前而言，我们的经济日子不会好过。";
 					GlobalScript.inst.gameState.data[8] -= 250;
 					GlobalScript.inst.gameState.data[3] -= 150;
 					GlobalScript.inst.gameState.data[4] += 300;
@@ -8297,7 +8297,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "The government urgently allocated funds to develop a system to protect IECS from external attacks, which received the working title «The Great Wall of China». In addition, we requested the help of specialists and engineers from the USSR who will help us to quickly eliminate vulnerabilities in our system and return it to operation. It is assumed that the protection will be ready and introduced in 6 months, but for now, our economy will not be easy.";
+					text = "政府紧急拨款，用于开发一套保护IECS免受外部攻击的系统，\n该系统的工作代号为“中华大防线”。\n此外，我们还请求苏联派遣专家与工程师，\n帮助我们迅速消除系统中的漏洞并恢复运行。\n预计该防护将在6个月内完成并投入使用，\n但就目前而言，我们的经济日子不会好过。";
 					GlobalScript.inst.gameState.data[8] -= 250;
 					GlobalScript.inst.gameState.data[3] -= 150;
 					GlobalScript.inst.gameState.data[4] += 300;
@@ -8306,7 +8306,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "The Chinese government issued a decree on the «Problems of Automation and Their Solutions», which refers to the excessive haste in computerization and automation of planning and the unpreparedness of the Chinese economy for too rapid and radical changes, especially in such a technocratic bias. The IECS project was reorganized into the «Division for the Control of Production Automation», the main task of which is no longer the creation of a unified computerized system. What will come of it, time will tell.";
+					text = "中国政府发布了关于《自动化问题及其解决办法》的法令，\n指出在计划的计算机化与自动化方面过于仓促，\n以及中国经济对过快、过于激进的变革缺乏准备——尤其是在这种偏\n向技术官僚路线的情况下。\nIECS项目被改组为“生产自动化控制司”，\n其主要任务不再是建立一套统一的计算机化系统。\n至于结果如何，时间自会说明。";
 					GlobalScript.inst.gameState.data[8] -= 250;
 					GlobalScript.inst.gameState.data[3] -= 300;
 					GlobalScript.inst.gameState.data[4] += 500;
@@ -8321,15 +8321,15 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 113)
 			{
-				text2 = "Agony of Yugoslav Socialist Self-Government";
+				text2 = "南斯拉夫社会主义自治的煎熬";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Neither Petar Stamboliс (Serb), nor Mika Spiljak (Croat), who replaced him as Chairman of the Presidium of the SFRY, did not dare to carry out the reforms proposed by the commission. SFRY took additional loans from the IMF and the USSR, which would only prolong the agony of the Yugoslav economy for a while...";
+					text = "无论是塞尔维亚人彼得尔·斯坦博利奇，\n还是在SFRY主席团主席一职上接替他的克罗地亚人米卡·斯皮利\n亚克，都不敢执行委员会提出的改革。\nSFRY又向IMF和苏联追加借款，这只会暂时延长南斯拉夫经济\n的痛苦……";
 					GlobalScript.inst.gameState.data[86]--;
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Our Chairman personally called Petar Stambolic (Serb), Milka Planinc (Croatian) and Mitja Ribicic (Slovene), passing them our proposal for the restructuring of the public debt of Yugoslavia in exchange for refusing to reform. Suddenly it became clear that the Yugoslavs themselves do not know exactly who and how much they owe - so many debts Yugoslavia has accumulated. We had to intercede for the SFRY at the UN and use the capabilities of the 国家安全部 to at least put some pressure on the IMF and the IBER on determining the amount of debt. Finally, lenders issued a final bill - $ 53 billion at 8% per annum, agreeing to write off the rest. We will pay part of these funds as a guarantor of the agreement; Yugoslavia will pay the rest on our own. The Yugoslav leadership thanks us for saving us from the economic collapse, the SFRY has already entered into new profitable trade contracts with us and is establishing cultural ties between its republics and our autonomous regions. True, the salvation of Yugoslavia from financial collapse clearly did not benefit our economy...";
+					text = "我们主席亲自致电塞尔维亚的彼得尔·斯坦博利奇、\n克罗地亚的米尔卡·普拉宁茨以及斯洛文尼亚的米特亚·里比契奇，\n把我们的提案转交给他们：以拒绝改革为交换，\n重组南斯拉夫的公共债务。\n突然间才明白，南斯拉夫人自己都不清楚到底欠了谁、\n欠了多少——债务积累得太多了。\n我们不得不在联合国为SFRY斡旋，并动用MSS的能力，\n至少对IMF和IBER施加压力，促使其确定债务数额。\n最终，放贷方开出“最终账单”——年息8%，\n总计530亿美元，并同意注销其余部分。\n我们将以协议担保方身份支付其中一部分资金；\n其余部分由南斯拉夫自行承担。\n南斯拉夫领导层感谢我们拯救他们免于经济崩溃；\nSFRY已经与我们签订了新的、颇有利润的贸易合同，\n并在其各共和国与我们自治地区之间建立文化联系。\n只是，南斯拉夫免于金融崩溃的“救命恩情”，\n显然并未给我们的经济带来好处……";
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC += 20;
 					GlobalScript.inst.gameState.data[9] -= 50;
@@ -8347,7 +8347,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "The leadership of the Warsaw bloc member countries was very alarmed by the work of the \"Kraigher Commission\" and offered Yugoslavia major financial assistance in exchange for refusing to implement the reforms it proposed. We also supported this proposal. Fearing that they would become completely economically dependent on the USSR and China, the Yugoslav leadership politely refused to help - however, the \"Kraigher Commission\" was disbanded, some of its members were expelled from the Communist Union of Yugoslavia, and Sergei Kraigher was retired. However, after this, Yugoslavia expanded its participation in the CMEA activities and applied for membership in the Council as a full member. Cooperation with the CMEA member countries allowed revitalizing the economy of Yugoslavia, but sooner or later debts still have to be paid...";
+					text = "华沙条约组织成员国的领导层对“克拉伊赫尔委员会”的工作极为警\n惕，并提出：只要南斯拉夫拒绝执行其提出的改革，\n就给予其巨额财政援助。\n我们也支持了这一提议。\n南斯拉夫领导层担心自己会在经济上彻底依赖苏联与中国，\n于是礼貌地拒绝了援助——但“克拉伊赫尔委员会”还是被解散，\n部分成员被开除出南斯拉夫共产党联盟，\n谢尔盖·克拉伊赫尔也被退职。\n然而在此之后，南斯拉夫扩大了其参与经互会活动的程度，\n并申请以正式成员身份加入该委员会。\n与经互会成员国的合作确实使南斯拉夫经济得以焕发生机，\n但债务迟早还是得偿还……";
 					Empire empire = GlobalScript.inst.gameState.empires[1];
 					empire.relations += 200;
 					empire = GlobalScript.inst.gameState.empires[0];
@@ -8367,7 +8367,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 4)
 				{
-					text = "The work the \"Kraigher commission\" and the news that military spending will be the first to be cut, caused strong discontent among the officers of the YPA. We decided to take advantage of this and support the dissatisfied, pushing them to an open speech. On March 1, the 252nd Armored Brigade, the 1st Proletarian Mechanized Division and the 453rd Mechanized Brigade of the YPA rebelled and quickly occupied Belgrade. The military counterintelligence forces arrested the entire leadership of the country and the Union of Communists of Yugoslavia. The power passed to the Military Council for the Defense of the People of Yugoslavia, headed by General Veljko Kadijevic (Yugoslav) and Admiral Branko Mamula (Slovenian supporter of unified Yugoslavia), who declared \"allegiance to the case of Marx-Engels-Lenin and Comrade Tito\" and \"uncompromising the fight against enemies and traitors, the protection of the brotherhood and unity of the peoples and nationalities of Yugoslavia\". Instead of the disbanded UKY, the League of Communists – Movement for Yugoslavia was created, in which the entire leadership also passed into the hands of the military. Yugoslavia announced the cessation of the policy of \"non-alignment\", withdrawal from the Non-Aligned Movement and the orientation towards the socialist camp, \"equally headed by the USSR and China\", as well as the refusal to pay all debts. The US has already stated that it will not leave this unanswered, and in Slovenia there is a significant increase in separatist sentiments...";
+					text = "“克拉伊赫尔委员会”的工作以及“军费将首先削减”的消息，\n引发了YPA军官们的强烈不满。\n我们决定借此机会支持那些不满者，推动他们公开发声。\n3月1日，YPA的第252装甲旅、第1无产阶级机械化师以及第\n453机械化旅叛乱，并迅速占领贝尔格莱德。\n军事反情报力量逮捕了国家全部领导层以及南斯拉夫共产党联盟。\n政权转交给“南斯拉夫人民国防军事委员会”，\n由将军维尔科·卡迪耶维奇（南斯拉夫人）\n和海军上将布兰科·马穆拉（斯洛文尼亚人，\n统一南斯拉夫的支持者）领导。\n他们宣称“忠于马克思-恩格斯-列宁事业与同志铁托”，\n并“毫不妥协地打击敌人和叛徒，保卫南斯拉夫各民族与各族人民的\n兄弟情谊与团结”。在取代已解散的UKY之后，\n成立了“共产主义者联盟——南斯拉夫运动”，\n其中全部领导层也同样落入军方手中。\n南斯拉夫宣布停止“非结盟”政策，退出不结盟运动，\n并转向社会主义阵营，“由苏联与中国共同领导”，\n同时拒绝偿还全部债务。\n美国已经表态不会对此置之不理，而在斯洛文尼亚，\n分离主义情绪也显著上升……";
 					GlobalScript.inst.gameState.data[9] -= 50;
 					GameState gameState = GlobalScript.inst.gameState;
 					gameState.influencePRC += 20;
@@ -8395,7 +8395,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 5)
 				{
-					text = "As soon as the US became aware of the work of the commission, Yugoslavia received an offer to obtain new loans on terms favorable to it - but only with the approval of a package of market reforms. After we supported him and advised the leadership of the SFRY on informal channels to agree - Petar Stambolic (Serb) resigned early from the post of Chairman of the Presidium of the SFRY, and Milka Planinc (Croatian) - resigned as prime minister of the SFRY. They were replaced by supporters of reforms Mika Spiljak and Ante Markovic (both Croats), who began the implementation of the project developed by the commission. Privatization of state property began, zadrugas were finally eliminated and farming was allowed, and free economic zones were opened in Dubrovnik and Split. True, the liquidation of the Federation Fund caused sharp discontent among the underdeveloped republics and autonomous regions, the YNA command was outraged by the sharp reduction in military spending, and the transfer of Slovenia and Croatia to full cost accounting led to a sharp surge in nationalism and separatism...";
+					text = "美国一旦得知委员会的工作，南斯拉夫就收到一份提议：\n在对其有利的条件下获得新贷款——但前提是必须批准一揽子市场化\n改革。我们支持了这一点，并通过非正式渠道向SFRY领导层建议\n同意：彼得尔·斯坦博利奇（塞尔维亚人）\n提前辞去SFRY主席团主席职务，米尔卡·普拉宁茨（克罗地亚人）\n也辞去SFRY总理职务。\n改革支持者米卡·斯皮利亚克和安特·马尔科维奇（两人均为克罗地\n亚人）接替了他们，开始执行委员会制定的方案。\n国有资产私有化启动，zadrugas（集体农业合作组织）\n终于被取消，允许农耕；并在杜布罗夫尼克与斯普利特开设自由经济\n区。只是，联邦基金的清算引发了欠发达共和国与自治地区的强烈不\n满；YNA司令部对军费大幅削减感到愤怒；\n而斯洛文尼亚与克罗地亚转向完全成本核算，\n则导致民族主义与分离主义急剧升温……";
 					GlobalScript.inst.gameState.data[9] -= 50;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.power += 20;
@@ -8412,7 +8412,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 6)
 				{
-					text = "Yugoslavia was in a very difficult situation and was forced to introduce severe austerity, which led to impoverishment and shortages of even essential foodstuffs and fuel. And that's where we came in. Through urgent negotiations with Prime Minister Milka Planinc, we were able to agree on the purchase of Yugoslav debt bonds and their partial restructuring in exchange for the access of our enterprises on favourable terms to the Yugoslav market. Such penetration into the Yugoslav market will, in the long term, enable us to intervene cautiously in the country's domestic politics.";
+					text = "南斯拉夫处境极其艰难，被迫推行严厉的紧缩政策，\n导致贫困化，甚至连必需的食品与燃料都出现短缺。\n于是我们出手了。通过与总理米尔卡·普拉宁茨的紧急谈判，\n我们达成协议：以购买南斯拉夫债券并对其进行部分重组为交换条件，\n让我们的企业以优惠条件进入南斯拉夫市场。\n长期来看，这种渗透将使我们得以谨慎介入该国的国内政治。";
 					GlobalScript.inst.gameState.data[9] -= 80;
 					GlobalScript.inst.gameState.data[8] -= 200;
 					GlobalScript.inst.gameState.allcountries[15].Vyshi = false;
@@ -8424,14 +8424,14 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 115)
 			{
-				text2 = "Golden Triangle";
+				text2 = "金三角";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Everything goes as it went.";
+					text = "一切照旧。";
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Despite the protests of principled party members who learned about the agreement, we were still able to achieve cooperation with Khun Sa, who decided that it was better not to refuse such help. Now, 国家安全部 agents and PLA employees are involved in the protection of the opium industry and are helping to smuggle drugs to the west, where, at our insistence, the vast majority of \"goods\" now go. The surge in heroin sales in the West does not affect its economy and the health of the population in the best way and requires more effort from the police in these countries, which requires more budget money. The Shang separatists launched new actions against the government forces of Burma, although they did not achieve much success. Since we took care of secrecy, we have nothing to officially present to us, but the authorities of Burma still guess and reduce turnover with us, and some of our local officials and involved officers also decided to join a profitable business. Let's hope our profit makes up for it.";
+					text = "尽管有些坚持原则的党内成员在得知协议后提出抗议，\n我们仍然成功与坤沙达成合作——他认为，\n拒绝这种帮助不如不拒绝。\n如今，MSS特工与解放军人员参与鸦片产业的安保，\n并协助将毒品走私到西方；而在我们的坚持下，\n绝大多数“货物”如今都流向那里。\n西方海洛因销量的暴涨，并没有以最好的方式影响其经济与民众健康，\n反而要求这些国家的警方投入更多精力——这又需要更多预算资金。\n掸邦分裂势力对缅甸政府军又发动了新行动，\n虽然并未取得太多成效。\n由于我们把保密工作做得周全，我们也没有什么可供官方拿出来的“\n证据”，但缅甸当局仍然心里有数，减少与我们的周转；\n而我们一些地方官员与牵涉其中的军官也决定加入这门“赚钱的生意\n”。但愿我们的利润能抵消这一切。";
 					GlobalScript.inst.gameState.data[8] += 70;
 					GlobalScript.inst.gameState.data[9] -= 10;
 					GlobalScript.inst.gameState.data[26] += 40;
@@ -8451,7 +8451,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "At our meeting of representatives of the 中华人民共和国, Laos, Burma and Thailand, a program was adopted to jointly combat organized crime in Southeast Asia. Employees of the Chinese 国家安全部, together with the law enforcement agencies of these countries, conducted many investigations, revealing the numerous links of drug dealers with government officials and revealing some sales routes. It also made it possible to more accurately establish the location of the syndicate centers and conduct several successful raids with the help of the armies of the allied countries and the PLA. Of course, the Golden Triangle is still far from completely defeated, but these measures have seriously complicated the life of drug dealers and made it easier for our partners, for which they sincerely thanked us, and Burma, which was most relieved by the decline in Shan separatism, finally outlined the pro-Chinese vector of its foreign policy.";
+					text = "在我们同中华人民共和国、老挝、缅甸与泰国代表的会晤中，\n会议通过了一项联合打击东南亚有组织犯罪的方案。\n中国MSS的工作人员与上述国家的执法机构共同开展了大量调查，\n揭露了毒贩与政府官员之间错综复杂的关系，\n也查明了一些贩运路线。\n与此同时，这也使我们得以更准确地掌握犯罪集团的据点位置，\n并在盟军与解放军的协助下成功实施了数次突袭。\n当然，金三角仍远未被彻底击败，但这些措施已大大加难毒贩的日常\n生计，也让我们的伙伴更轻松——他们为此真诚地向我们致谢；\n而缅甸在掸邦分裂势力衰退后最为宽慰，\n终于勾勒出其对外政策的亲华方向。";
 					GlobalScript.inst.gameState.data[9] -= 20;
 					GlobalScript.inst.gameState.data[22] -= 20;
 					GlobalScript.inst.gameState.data[26] -= 20;
@@ -8551,14 +8551,14 @@ public class Results_text : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.number_event == 116)
 			{
-				text2 = "Two China";
+				text2 = "两个中国";
 				if (GlobalScript.inst.gameState.number_otvet == 1)
 				{
-					text = "Everything goes as it went.";
+					text = "一切照旧。";
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 2)
 				{
-					text = "Today, our Leader at the head of the Chinese delegation paid a historic visit to Taipei, during which, in closed negotiations, it was decided to form a commission to develop principles for the gradual reintegration of Taiwan and mainland China. Of course, foreign owners will retain all their rights, and the province of Taiwan will receive broad economic and political autonomy for the long term. Everything related to the US military will be determined by already concluded treaties, after which the question of their stay will be decided by the united government. And although all this is still on paper only and needs to be worked out extensively taking into account mutual interests, and the timing of Taiwan's return to the fold of China has not been determined, our population enthusiastically accepted this news, and border control was significantly weakened. As a result of all this, it has become much easier for liberal ideas to penetrate us from Taiwan, and the Americans fear for their influence on the island, but our people are very pleased.";
+					text = "今天，由我方领袖率领的中国代表团对台北进行了具有历史意义的访\n问。在闭门谈判中，双方决定成立一个委员会，\n制定关于台湾与大陆逐步实现重新统一的原则。\n当然，外资所有者将保留其全部权利；台湾省将获得长期的广泛经济\n与政治自治。所有与美国军队相关的事项，\n将由已签订的条约来确定，之后其驻留问题将由统一政府作出决定。\n尽管这一切目前仍停留在纸面上，还需要在充分考虑双方利益的前提\n下进行细化落实；而台湾回归中国大家庭的时间表尚未确定，\n但我们的民众对这一消息热烈接受，边境管控也显著放松。\n正因如此，来自台湾的自由化思潮更容易渗透进来；\n美国人也担心其在岛上的影响力，但我们的人民却非常高兴。";
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations -= 70;
 					GlobalScript.inst.gameState.data[4] += 80;
@@ -8571,7 +8571,7 @@ public class Results_text : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.number_otvet == 3)
 				{
-					text = "Today, our Leader at the head of the Chinese delegation paid a historic visit to Taipei, during which the negotiating parties decided to mutually recognize each other. From now on, the 中华人民共和国 and the Republic of Taiwan (into which the Republic of China was renamed under the terms of the agreement) will exist as two independent states. It also put an end to many years of disputes over territories and a legitimate government, which brought our relations to a new level. The United States welcomed our move and provided us with significant financial assistance in support of our policies. However, many were unhappy that the two China remained divided, apparently, forever.";
+					text = "今天，由我方领袖率领的中国代表团对台北进行了具有历史意义的访\n问。在谈判过程中，双方决定相互承认。\n自此以后，中华人民共和国与“台湾共和国”（在协议条款下，\n将中华民国更名为此）将作为两个独立国家并存。\n这也结束了多年来关于领土与合法政府的争议，\n使我们的关系提升到新的水平。\n美国欢迎我们的举动，并为支持我们的政策提供了可观的财政援助。\n然而，仍有不少人不满：两個中国似乎将永远分裂下去。";
 					GlobalScript.inst.gameState.data[8] += 70;
 					Empire empire = GlobalScript.inst.gameState.empires[0];
 					empire.relations += 100;
@@ -8602,8 +8602,8 @@ public class Results_text : MonoBehaviour
 			}
 			else
 			{
-				text2 = "Nothing here";
-				text = "Nothing here";
+				text2 = "此处无内容";
+				text = "此处无内容";
 			}
 		}
 		else if (GlobalScript.inst.gameState.number_event == 1)
@@ -9240,7 +9240,7 @@ public class Results_text : MonoBehaviour
 						GlobalScript.inst.gameState.data[20],
 						GlobalScript.inst.gameState.data[21]
 					};
-					string text12 = CitizenManager.FormatLog(GlobalScript.inst.gameState.citizens[num70], "стал правителем.", "became the leader.", date5);
+					string text12 = CitizenManager.FormatLog(GlobalScript.inst.gameState.citizens[num70], "стал правителем.", "成为领袖。", date5);
 					GlobalScript.inst.gameState.citizens[num70].changeLog.Add(text12);
 					Debug.Log(text12);
 					GlobalScript.inst.gameState.data[1] = 0;
@@ -10924,7 +10924,7 @@ public class Results_text : MonoBehaviour
 					GlobalScript.inst.gameState.allcountries[37].proprc = true;
 					if (PlayerPrefs.GetInt("language") == 0)
 					{
-						GlobalScript.inst.gameState.allcountries[37].name = "Union State";
+						GlobalScript.inst.gameState.allcountries[37].name = "联邦国家";
 					}
 					else
 					{
@@ -15374,7 +15374,7 @@ public class Results_text : MonoBehaviour
 									GlobalScript.inst.gameState.data[20],
 									GlobalScript.inst.gameState.data[21]
 								};
-								string text15 = CitizenManager.FormatLog(persona13, "стал правителем.", "became the leader.", date6);
+								string text15 = CitizenManager.FormatLog(persona13, "стал правителем.", "成为领袖。", date6);
 								persona13.changeLog.Add(text15);
 								Debug.Log(text15);
 							}
@@ -15484,7 +15484,7 @@ public class Results_text : MonoBehaviour
 								GlobalScript.inst.gameState.data[20],
 								GlobalScript.inst.gameState.data[21]
 							};
-							string text18 = CitizenManager.FormatLog(persona15, "стал правителем.", "became the leader.", date7);
+							string text18 = CitizenManager.FormatLog(persona15, "стал правителем.", "成为领袖。", date7);
 							persona15.changeLog.Add(text18);
 							Debug.Log(text18);
 						}
@@ -15588,7 +15588,7 @@ public class Results_text : MonoBehaviour
 								GlobalScript.inst.gameState.data[20],
 								GlobalScript.inst.gameState.data[21]
 							};
-							string text21 = CitizenManager.FormatLog(persona17, "стал правителем.", "became the leader.", date8);
+							string text21 = CitizenManager.FormatLog(persona17, "стал правителем.", "成为领袖。", date8);
 							persona17.changeLog.Add(text21);
 							Debug.Log(text21);
 						}

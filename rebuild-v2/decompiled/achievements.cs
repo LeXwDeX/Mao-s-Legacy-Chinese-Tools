@@ -151,7 +151,7 @@ public class achievements : MonoBehaviour
 			}
 			else if (EResult.k_EResultInvalidParam == pCallback.m_eResult)
 			{
-				Debug.Log("------------YA NE ZNA U CHE ETO  NO  IZ STORESTST VIZIVAEM ON USERSTATSRECIVED CALL返回------------------");
+				Debug.Log("------------YA NE ZNA U CHE ETO  NO  IZ STORESTST VIZIVAEM ON USERSTATSRECIVED CALLBACK------------------");
 				OnUserStatsReceived(new UserStatsReceived_t
 				{
 					m_eResult = EResult.k_EResultOK,

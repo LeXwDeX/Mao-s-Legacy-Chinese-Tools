@@ -19,7 +19,7 @@ public class LoadListController : MonoBehaviour
 
 	public float listY = 350f;
 
-	public string anchorName = "Button (5)";
+	public string anchorName = "按钮（5）";
 
 	public Vector2 anchorOffset = Vector2.zero;
 
@@ -287,12 +287,12 @@ public class LoadListController : MonoBehaviour
 		{
 			text3 = doctr[num];
 		}
-		string text4 = ((!meta.iron) ? (flag ? "<color=red>Достижения: Недоступны</color>" : "<color=red>Achievements: Unavailable</color>") : (flag ? "<color=red>С достижениями</color>" : "<color=red>With achievements</color>"));
+		string text4 = ((!meta.iron) ? (flag ? "<color=red>Достижения: Недоступны</color>" : "<color=red>成就：不可用</color>") : (flag ? "<color=red>С достижениями</color>" : "<color=red>有成就</color>"));
 		if (flag)
 		{
 			return "Имя: " + meta.name + "\nГосстрой: " + text3 + "\nДата: " + text + "\nСложность: " + text2 + "\n" + text4;
 		}
-		return "Name: " + meta.name + "\nGovernment: " + text3 + "\nDate: " + text + "\nDifficulty: " + text2 + "\n" + text4;
+		return "Name: " + meta.name + "\nGovernment: " + text3 + "日期：" + text + "\nDifficulty: " + text2 + "\n" + text4;
 	}
 
 	private void ResolveAnchor()
@@ -436,14 +436,14 @@ public class LoadListController : MonoBehaviour
 		{
 			if (!langRu)
 			{
-				return "Created: ?";
+				return "创建时间：？";
 			}
 			return "Создано: ?";
 		}
 		string text = dateTime.ToLocalTime().ToString("dd.MM.yyyy HH:mm", CultureInfo.InvariantCulture);
 		if (!langRu)
 		{
-			return "Created: " + text;
+			return "已创建：" + text;
 		}
 		return "Создано: " + text;
 	}

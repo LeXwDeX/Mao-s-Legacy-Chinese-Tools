@@ -95,8 +95,8 @@ public class EndingScript : MonoBehaviour
 		{
 			if (GlobalScript.inst.gameState.data[16] == 11 && GlobalScript.inst.gameState.data[14] <= 0 && GlobalScript.inst.gameState.data[54] <= 38 && GlobalScript.inst.gameState.science[26] && GlobalScript.inst.gameState.science[22] && GlobalScript.inst.gameState.data[71] >= 400 && GlobalScript.inst.gameState.data[72] >= 400 && GlobalScript.inst.gameState.data[4] <= 0 && GlobalScript.inst.gameState.politics_dolshnost[1] == 150 && GlobalScript.inst.gameState.politics_dolshnost[0] == 150)
 			{
-				name.text = "Eastern Cyberpunk";
-				fake_text = "Chairman " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " will be remembered as one of the greatest leaders of China, who introduced the country into the golden age through the arch of automation - which even the almighty Soviet Union did not risk to do. Thanks to the hard work of dozens of cybernetics and millions of workers who were able to implement the The Great Machine of China - the country's economy was modernized. The resistance of the party against it was destroyed. The risky idea gave great results - corruption and deficit were almost completely eliminated, every official is now under the dispassionate electronic control, which can not be bribed or deceived. But this computerization is not over - thanks to the future introduction of electronic passports and social rating system, the society is finally cleared of counter-revolutionary and harmful elements, almost no one departs from the program and implementation of the plan. But... machines are everywhere now, and their powers are expanding... And only after the untimely death of the Leader, the party and the people, it seems, gradually begin to understand - who really now controls everything...";
+				name.text = "东方赛博朋克";
+				fake_text = "主席" + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "将被铭记为中国最伟大的领导人之一——他借助自动化的拱门，\n把国家引入黄金时代；即便号称无所不能的苏联也不敢冒险这样做。\n多名控制论专家的艰苦工作，以及数以百万计能够实施“中国大机器\n”的工人，使国家经济实现现代化。\n党内对这一做法的抵抗被彻底粉碎。\n那一项冒险的设想结出了惊人成果——腐败与赤字几乎被完全消除；\n每一名官员如今都置于冷静无情的电子控制之下，\n无法被贿赂、也无法被欺骗。\n但这场计算机化还没有结束——借助未来推行的电子护照与社会评分\n体系，社会终于清除了反革命与有害分子；\n几乎没有人偏离项目与计划的执行。\n可……机器如今无处不在，它们的权力还在扩张……\n而只有在领袖不幸早逝之后，党和人民似乎才逐渐明白——究竟是\n谁现在在控制一切……";
 				if (GlobalScript.inst.gameState.iron_and_blood)
 				{
 					achieves.GetComponent<achievements>().Set(60);
@@ -104,8 +104,8 @@ public class EndingScript : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.data[16] == 11 && GlobalScript.inst.gameState.data[26] <= 0 && GlobalScript.inst.gameState.data[15] <= 6 && GlobalScript.inst.gameState.data[17] >= 19 && GlobalScript.inst.gameState.data[51] >= 33)
 			{
-				name.text = "One foot in communism";
-				fake_text = "Without democracy there is no socialism, without socialism there is no democracy. We tried for a long time to find a balance between these concepts and finally managed to build a real socialism. Thanks to the introduction of OGAS, we have overcome the deficit and, hopefully, forever protected our society from the restoration of human exploitation, inequality and overproduction crises. One-party democracy helps to protect the country from falling into the power of counter-revolutionary elements, eliminating bourgeois parliamentary debate and putting everything under the control of the 中共. And freedom of speech and people's control protect against abuse of power by the 中共 and its individual members, thereby giving our system the necessary balance. We have proved that the best structure of society is possible, and dozens of failed attempts to build socialism around the world were not in vain. Marx's dream came true! ";
+				name.text = "一脚踏进共产主义";
+				fake_text = "没有民主就没有社会主义，没有社会主义就没有民主。\n我们长期努力在这两种观念之间寻找平衡，\n终于建成了真正的社会主义。\n得益于OGAS的引入，我们克服了赤字，\n并且希望能够永远保护我们的社会免于人类剥削、\n贫富不均以及生产过剩危机的复辟。\n一党民主有助于防止国家落入反革命势力之手，\n消除资产阶级议会争论，并把一切置于中共的控制之下。\n而言论自由与人民监督，则能防止中共及其个别成员滥用权力，\n从而为我们的制度提供必要的平衡。\n我们证明了社会最优结构是可以实现的；\n世界各地几十次失败的社会主义尝试并非徒劳。\n马克思的梦想实现了！";
 				if (GlobalScript.inst.gameState.iron_and_blood)
 				{
 					achieves.GetComponent<achievements>().Set(58);
@@ -113,8 +113,8 @@ public class EndingScript : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.data[14] <= 2 && GlobalScript.inst.gameState.modifies[3].active && GlobalScript.inst.gameState.data[90] == 0 && !GlobalScript.inst.gameState.allcountries[1].isSEV && !GlobalScript.inst.gameState.allcountries[51].Torg)
 			{
-				name.text = "The Stronghold of Maoism";
-				fake_text = "Chairman " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " and the political Bureau's confident leadership of the country ensured China's loyalty to the precepts of the great liberator of the Chinese people, Chairman 毛泽东. All opposition was part suppressed, part taken under control, the names of their leaders are now forgotten. We are on the great road - the road that the Great Helmsman has shown us! At least, as long as Mao's ideas are supported by the people, and the economy is more or less stable. In truth, we are increasingly accused of human rights violations - but who cares? Millions of people have received their own housing, free education, employment, the welfare of the majority is growing, albeit not as fast as we would like, but confidently and steadily. China has become a respected country - and this is already a significant achievement.";
+				name.text = "毛主义的堡垒";
+				fake_text = "主席" + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "并且政治局对国家的自信领导，确保中国忠实践行中国人民伟大解放\n者毛泽东主席的教导。\n所有反对力量要么被压制，要么被纳入控制，\n他们领导人的名字如今也早已被遗忘。\n我们走在伟大的道路上——走在伟大舵手为我们指引的道路上！\n至少，只要毛的思想得到人民支持、经济或多或少保持稳定。\n说实话，我们正越来越多地被指控侵犯人权——可又有谁在乎？\n数以百万计的人获得了自己的住房、免费教育与就业；\n多数人的福利在增长，虽然没有我们希望的那么快，\n但却是有把握、稳步推进的。\n中国已经成为一个受人尊敬的国家——而这本身就是一项重大的成就。";
 				if (GlobalScript.inst.gameState.iron_and_blood)
 				{
 					achieves.GetComponent<achievements>().Set(46);
@@ -126,15 +126,15 @@ public class EndingScript : MonoBehaviour
 				{
 					achieves.GetComponent<achievements>().Set(1);
 				}
-				name.text = "Opening to the world...";
-				fake_text = "Comrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " and faithful party members led the country along the path that was indicated by the experience of the history of China. This time was marked by the beginning of a departure from Orthodoxy, and China opened its doors to the world - not to the end, of course, but an important step was taken. Finally, the Cultural revolution was completed, cautious reforms were carried out within the framework of socialism, which allowed to correct all the wrong and consolidate all the right achieved during the years when our country was led by comrade 毛泽东. For millions of Chinese, this period in China's history was the time of its greatest stability and prosperity. Although there had been some mistakes, but overall, this course proved successful and our leader has sometimes been compared to Lenin himself, for he could pass to Wade, feeling with their feet the stones.";
+				name.text = "面向世界开放……";
+				fake_text = "同志" + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "忠诚的党内成员带领国家沿着中国历史经验所指明的道路前进。\n这一次的标志，是开始偏离教条；中国向世界打开了大门——当然不\n是彻底敞开，但迈出了重要一步。\n终于，文化大革命宣告结束；在社会主义框架内进行谨慎改革，\n使我们能够纠正一切错误，并巩固在由毛泽东同志领导的岁月里取得\n的一切正确成果。对数以百万计的中国人而言，\n这段历史时期是中国最稳定、最繁荣的时期。\n尽管也有一些失误，但总体来看，这一路线证明是成功的；\n我们的领导人有时甚至被拿来与列宁相提并论——因为他能“过河”，\n并用脚去试探石头。";
 				if (GlobalScript.inst.gameState.relres && GlobalScript.inst.gameState.empires[1].relations >= 700)
 				{
-					fake_text = fake_text + "|We restored good-neighbourly relations with the USSR and began negotiations on a new demarcation of the Soviet-Chinese border. Comrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " made an important visit to Moscow, during which he said that China has no claims to the Soviet Union - neither territorial nor ideological. On the way back, he arrived on the island of Damansky and bowed to the graves of Soviet border guards who died during the 1969 conflict, promising on behalf of the Chinese people that he would follow the course of Soviet-Chinese friendship to the end. The two largest Eurasian countries are still moving in the same direction, but who knows what could happen?..";
+					fake_text = fake_text + "|我们恢复了同苏联的睦邻关系，并开始就苏中边界的新划界进行谈\n判。同志 " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "对莫斯科进行了重要访问。\n在访问期间，他表示中国对苏联没有任何要求——无论是领土上的，\n还是意识形态上的。回程途中，他抵达珍宝岛，\n向在1969年冲突中牺牲的苏联边防军人的墓地鞠躬，\n并代表中国人民承诺：他将把苏中友谊的道路走到尽头。\n欧亚大陆上最大的两个国家仍在同一方向前进，\n但谁又知道接下来会发生什么呢……？";
 				}
 				if (GlobalScript.inst.gameState.allcountries[51].Torg && GlobalScript.inst.gameState.empires[0].relations >= 700)
 				{
-					fake_text += "|We were able to establish reliable relations with the United States. During a visit to Washington, comrade Leader said: \"It does not matter what ideological system prevails in China, which in the US. It is important that China and the US have common interests, and common interests imply cooperation\". We have signed many contracts with American companies, giving them access to our market. However, more and more party members believe that soon the \"socialist\" in China will only have its flag, and everything else will be a capitalist - because the penetration of American influence contribute to the liberalization of the minds of young people. But that's just stupid speculation, right?..";
+					fake_text += "|我们得以同美国建立可靠关系。\n访问华盛顿期间，领袖同志说：“不论中国或美国实行何种意识形态\n制度都无关紧要。重要的是中美有共同利益，\n而共同利益意味着合作”。\n我们已与许多美国公司签订合同，使其进入我们的市场。\n然而，越来越多的党内成员认为：很快，\n中国的“社会主义”只剩下旗帜，其余一切都将变成资本主义——因\n为美国影响的渗透，促成了年轻人的思想解放。\n但这不过是愚蠢的猜测，对吧……？";
 				}
 				if (GlobalScript.inst.gameState.iron_and_blood)
 				{
@@ -143,15 +143,15 @@ public class EndingScript : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.data[14] == 3)
 			{
-				name.text = "Towards the world...";
-				fake_text = GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " will remain in the history of China as one of the most outstanding leaders in the history of the country (or at least so says our official propaganda).  Large-scale economic reforms were launched, business activities were encouraged and foreign investment opportunities opened up in China, while protecting the domestic market from the collapse of national production and the dominance of foreign companies. True, now the business is firmly fused with the state apparatus, which, in turn, does not like neither the supporters of the free market nor the orthodox communists, and the liberalization of minds could not move far in society: the country has strict censorship, and the opposition is under control, but it's all we do for the benefit of the people, right?..";
+				name.text = "走向世界……";
+				fake_text = GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "将作为中国历史上最杰出的领导人之一载入史册（至少官方宣传是这\n么说的）。我们启动了大规模经济改革，\n鼓励商业活动，并向外资开放机会，同时保护国内市场不至于因民族\n生产崩溃而被外资公司所主宰。\n不错，如今商业已与国家机器牢牢融合；\n而国家机器又不喜欢自由市场的拥护者，\n也不喜欢正统的共产主义者。\n至于思想解放，也没能在社会中走得太远：\n国家实行严格审查，反对力量也在控制之中——可这一切都是为了人\n民的利益，不是吗……？";
 				if (GlobalScript.inst.gameState.allcountries[51].Torg)
 				{
-					fake_text += "|We went to deepen cooperation with the United States, founded by 周恩来, and opened free economic zones for investors from around the world. Thousands of foreign companies have transferred their enterprises to us, ensuring a boom in the growth of our economy! However, some party members say that \"in the free economic zones, only the socialist Chinese flags are developing over them, and everything else is capitalist\", and a significant share of income from FEZ goes abroad. Maybe the disgruntled party members are right?..";
+					fake_text += "|我们进一步深化同由周恩来奠基的美国合作，\n并为来自世界各地的投资者开放自由经济区。\n成千上万的外资企业把工厂转移到我们这里，\n确保了经济增长的爆发式繁荣！\n然而，也有一些党内成员说：“在自由经济区里，\n头顶上飘扬的只有社会主义的中国旗帜，\n其余一切都是资本主义”，而自由经济区带来的相当一部分收入流向\n了国外。也许那些不满的党内成员是对的……？";
 				}
 				else if (GlobalScript.inst.gameState.relres)
 				{
-					fake_text += "|We not only restored good-neighbourly relations with the USSR, but even joined the Council for Mutual economic Assistance. Cooperation with socialist countries has made it possible to revive China's economy and make it stronger and more developed, hundreds of projects have already been implemented, and even more are now in varying degrees of readiness.Our experts have learned a lot from our friends, so Made in China has ceased to be synonymous with forgery, and has become a respected worldwide sign of products of quite high quality.";
+					fake_text += "|我们不仅恢复了同苏联的睦邻关系，甚至加入了互助经济委员会。\n与社会主义国家的合作，使中国经济得以复苏，\n并变得更强、更发达；数百个项目已经落地，\n更多项目也正处于不同程度的准备之中。\n我们的专家从朋友那里学到了很多，因此“中国制造”不再等同于仿\n造，而成为全球范围内备受尊敬的高质量产品标志。";
 					GlobalScript.inst.gameState.allcountries[1].isSEV = true;
 				}
 				if (GlobalScript.inst.gameState.iron_and_blood)
@@ -161,11 +161,11 @@ public class EndingScript : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.data[14] > 3)
 			{
-				name.text = "The new Absolutes";
-				fake_text = GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " marked a difficult period in China's history - a period of a decisive break with the grave past, the construction of a new China on new grounds, deep and large-scale reforms in all sectors of life, the transition to democratic universal values, new political thinking, full emancipation of consciousness and action. However, not everyone liked such actions. We cannot know what will happen in 5, 10, 20 or 50 years - but our descendants will surely remember that this period of history was for China an era of decisive change, thanks to which much has changed...";
+				name.text = "新的绝对";
+				fake_text = GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "标志着中国历史上一段艰难时期——与沉重的过去彻底决裂，\n在新的基础上建设新中国；在生活各领域进行深刻而大规模的改革；\n转向民主的普遍价值；提出新的政治思维；\n实现思想与行动的全面解放。\n然而，并非人人都喜欢这样的行动。\n我们无法预知5年、10年、20年或50年后会发生什么——但我\n们的后代一定会记得：这段历史时期对中国而言，\n是一个决定性变革的时代，正因如此，许多事情都发生了改变……";
 				if (GlobalScript.inst.gameState.allcountries[51].Torg)
 				{
-					fake_text = fake_text + "|The United States fully supported our reforms, Mr. " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " five times declared \"Man of the year\" according to various major publications and was nominated for the Nobel peace prize (though he could get it only before the resignation). We have opened our market to foreign firms, allowing them to participate in the privatization of state property. By joining globalization, we have provided our labor force to foreigners and opened free economic zones. However, this caused a number of unforeseen difficulties and provoked a wide discussion in society. Time will tell if we did the right thing...";
+					fake_text = fake_text + "|美国对我们的改革给予了充分支持，先生 " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "曾五次被各大主要媒体评为“年度人物”，\n并被提名诺贝尔和平奖（不过他只能在辞职之前拿到）。\n我们向外国公司开放市场，让它们参与国有资产私有化。\n通过融入全球化，我们把劳动力提供给外国，\n并开放自由经济区。然而，这引发了一系列意想不到的困难，\n并在社会中引起广泛讨论。\n时间会证明我们是否做了正确的事……";
 				}
 				if (GlobalScript.inst.gameState.iron_and_blood)
 				{
@@ -174,8 +174,8 @@ public class EndingScript : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.data[14] == 0 && GlobalScript.inst.gameState.data[16] <= 13)
 			{
-				name.text = "DPRK, but bigger";
-				fake_text = GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " and firm leadership of the 政治局 members closest to the person of the leader ensured the loyalty of the 中华人民共和国 to the precepts of its founders. The entire left and right opposition was defeated, and the socialist society is well protected from foreign spies and enemies of the people. They compare our era to the three Kingdoms, the Mongol dictatorship and the despotism of the eunuchs under the Han dynasty, but this is certainly an exaggeration - in all these times, the welfare of the population has not increased as much as it has risen over our era. However, many people say that our ideology has finally separated from Marxism and turned into a kind of Chinese socialist nationalism with an authoritarian tinge, but this is speculation, right?";
+				name.text = "朝鲜，但更大";
+				fake_text = GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "而紧贴领袖身边的政治局成员的坚强领导，\n确保了中华人民共和国对缔造者教诲的忠诚。\n左右两方面的反对势力全部被粉碎，社会主义社会也得到了妥善保护，\n免遭外来间谍和人民的敌人侵害。\n他们把我们的时代拿来和三国、蒙古的专制统治以及汉代宦官的暴政\n相比，但这当然是夸张——在那些年代，\n人民的福利并没有像在我们这个时代这样大幅提高。\n然而，许多人说，我们的意识形态终于脱离了马克思主义，\n变成了一种带有威权色彩的中国式社会主义民族主义，\n但这只是猜测，对吧？";
 				if (GlobalScript.inst.gameState.iron_and_blood)
 				{
 					achieves.GetComponent<achievements>().Set(43);
@@ -183,8 +183,8 @@ public class EndingScript : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.data[14] == 0 && GlobalScript.inst.gameState.data[16] >= 14)
 			{
-				name.text = "Asian Pinochet";
-				fake_text = GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " and his firm leadership ensured China's stability and prosperity during the market reforms. All opposition was destroyed, and our party with a firm hand leads China to a bright market future. However, international organizations are increasingly accusing us of violating human rights, claiming oppression of freedom, lack of real democracy and arbitrariness of private traders in enterprises where our citizens work beyond the norm, unable to rectify the situation because of the destroyed trade Union movement. But as long as foreign investors and us support are behind us, it doesn't matter, does it?";
+				name.text = "亚洲的皮诺切特";
+				fake_text = GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "而他的坚强领导确保了中国在市场改革期间的稳定与繁荣。\n所有反对势力都被摧毁，我们党以铁腕之手引领中国走向光明的市场\n未来。然而，国际组织越来越指控我们侵犯人权，\n称压制自由、缺乏真正的民主，并指责在我们公民超负荷工作的企业\n中，私人商人的任意行事；由于工会运动遭到破坏，\n无法纠正这种局面。但只要有外国投资者和我们方面的支持在背后，\n就无所谓了，对吧？";
 				if (GlobalScript.inst.gameState.iron_and_blood)
 				{
 					achieves.GetComponent<achievements>().Set(41);
@@ -194,27 +194,27 @@ public class EndingScript : MonoBehaviour
 			{
 				if (GlobalScript.inst.gameState.data[16] == 10)
 				{
-					fake_text += "\n\n We have fully restored the planned economy: all enterprises in the country belong to the state and work according to a single directive plan drawn up by the State Planning Committee. The concepts of unemployment and inequality have almost been forgotten, and crises of overproduction can be not mentioned at all. But instead of the problems inherent in a market economy, new ones may appear. Western economists say that without competition we are in danger of stagnation, and because of the inability to take into account all the needs of the population in time, the country will face a commodity deficit. In any case, we have proved that the planned economy is viable and that there is an alternative to the market economy.";
+					fake_text += " 我们已经全面恢复计划经济：全国所有企业都归国家所有，\n并按照国家计划委员会制定的一套统一指\n令性计划运转。失业和贫富差距的概念几乎被人遗忘，\n甚至连生产过剩危机都不必提了。\n但问题不再是市场经济固有的那些，新的问题可能会出现。\n西方经济学家说，没有竞争我们将面临停滞的危险，\n而且由于无法及时兼顾人民的全部需求，\n国家将遭遇商品短缺。\n无论如何，我们已经证明计划经济是可行的，\n市场经济之外确实存在另一条路。";
 				}
 				else if (GlobalScript.inst.gameState.data[16] == 11)
 				{
-					fake_text += "\n\n And finally, we have achieved what we sought for so long, something that not even the powerful Soviet Union dared to achieve. We have achieved automatic economic planning almost everywhere, thanks to which we can always deal with the corruption and deficit. However, due to the current limitations of computers, the system still works with some errors and problems and is being held back by the bureaucrats and their attacks all the time on all levels of the government, and some are even saying that this system has its task to create “electronic fascism”. But we are starting to deal with the fundamental problems of a planned economy, making one important step toward Communism.";
+					fake_text += " 最后，我们终于实现了我们苦苦追求的目标——连强大的苏联都不\n敢去实现的东西。\n我们几乎在各地都实现了自动化的经济计划，\n因此我们总能应对腐败和赤字。\n然而，由于当前计算机的局限，这套系统仍会带着一些误差和问题运\n行，\n并且一直受到官僚们的掣肘，以及他们在政府各个层级上不断发起的\n攻击；\n甚至有人说，这套系统的任务就是制造“电子法西斯”。\n但我们正在着手解决计划经济的根本问题，\n向共产主义迈出重要的一步。";
 				}
 				else if (GlobalScript.inst.gameState.data[16] == 12)
 				{
-					fake_text += "\n\n Not deviating far from the policies of 周恩来, we have managed to create a good and working economy. Although we left our Agriculture free, all production facilities still belong to the Government and only some of them are starting to work by the principle of cost accounting. The private traders are helping to overcome the deficit, and cost accounting id helping very much to increase the rentability of production. However, the conservative wing of the party is lobbying for not tolerating such «capitalist-roadings», and the people want more economic freedom. It seems that we are stuck in a transition phase from Capitalism to Socialism, and it is impossible to know in which direction will we will move afterwards. ";
+					fake_text += " 我们没有偏离周恩来的政策太远，终于建立起一个良好且运转有效\n的经济。\n尽管我们让农业保持一定自由，但所有生产设施仍归政府所有，\n只有其中一部分开始按成本核算的原则运转。\n私人商人正在帮助克服赤字，而成本核算也大大提高了生产的盈利性。\n然而，党的保守派正在游说，要求不容忍这种“走资本主义道路”的\n做法，\n而人民则希望更多的经济自由。\n看来我们被困在从资本主义走向社会主义的过渡阶段，\n至于之后会朝哪个方向前进，\n根本无从知晓。";
 				}
 				else if (GlobalScript.inst.gameState.data[16] == 13)
 				{
-					fake_text += "\n\n The ideas of 陈云 have triumphed. Because of the economic reforms, we have given our citizens the opportunity to become private traders and have open channels for foreign investments into China, and a strict government control ensures that there will be no collapse of national production facilities, no monopolies of companies or domination of foreign companies. However, now the business has become one with the government apparatus, which is not liked by either the free market supporters or by orthodox Communists. But we have create an economy that has the advantages of Communism and Capitalism, and the disadvantages of both systems are there too, it seems. Too much depends on the investment climate and the development of global production, the crises of which can affect us.";
+					fake_text += " 陈云的思想取得了胜利。\n由于经济改革，我们给了公民成为私人商人的机会，\n并为外国投资进入中国打开了渠道；\n而严格的政府控制确保不会出现国家生产设施的崩溃，\n不会出现公司垄断，\n也不会出现外国公司主宰。\n然而，如今的生意已经和政府机构融为一体，\n这既不受自由市场支持者欢迎，\n也不受正统共产主义者喜欢。\n但我们确实创造了一种兼具共产主义与资本主义优点的经济——而两\n种制度的缺点似乎也都在其中。\n太多取决于投资环境以及全球生产的发展，\n而全球生产的危机也可能波及我们。";
 				}
 				else if (GlobalScript.inst.gameState.data[16] == 14)
 				{
-					fake_text += "\n\n With the aid of wide reforms we have built a controllable market economy, having kept the national production, and having reached a compromise between business and social structures. Thanks to the social orientation of the economy, we have competition and market freedom, and the population is protected from some of the disadvantages of a market economy and from the criminal elements of the market. Maybe this system can’t completely eradicate inflation, unemployment and the gap between the rich and the poor, and the government control is limiting our access to new markets and is stalling the development of business, but we have come to what most European counties have now.";
+					fake_text += " 借助大范围的改革，我们建立起一种可控的市场经济：\n既保留了国家生产，\n又在商业与社会结构之间达成了折中。\n由于经济具有社会导向，我们拥有竞争与市场自由，\n人民也免受市场经济的一些弊端以及市场中的犯罪\n分子侵害。也许这个制度无法彻底消灭通货膨胀、\n失业以及贫富差距；\n而政府控制又在限制我们进入新市场、拖慢商业发展。\n但我们已经走到了大多数欧洲国家如今所处的位置。";
 				}
 				else if (GlobalScript.inst.gameState.data[16] == 15)
 				{
-					fake_text += "\n\n In just a few years we have been able to move from state planning to a free and low-regulated market. Economic and trade liberalisation has triumphed across China, and we are now consistently ranked among the countries with the most favourable investment climate. And even if analysts and the opposition complain that the privatisation of state property was \"unfair\" and predict that the lack of regulation will cause much of the privatised production to decline and our economy to be controlled by entrenched private monopolies, the market will prove them wrong, won't it?";
+					fake_text += " 仅仅几年时间，我们就从国家计划转向了自由、\n低监管的市场。\n经济与贸易自由化在全国范围内取得胜利，\n我们现在也一贯跻身投资环境最有利的国家之列。\n即便分析人士和反对派抱怨国有资产私有化“并不公平”，\n并预测缺乏监管将导致大量私有化生产衰退、\n我们的经济被根深蒂固的私人垄断所控制，\n市场也会证明他们错了，\n不是吗？";
 				}
 			}
 		}
@@ -578,42 +578,42 @@ public class EndingScript : MonoBehaviour
 				{
 					achieves.GetComponent<achievements>().Set(8);
 				}
-				name.text = "Old territories";
+				name.text = "旧领土";
 				if (GlobalScript.inst.gameState.allcountries[70].numberOfSpecialEnding < 0)
 				{
 					if (GlobalScript.inst.gameState.data[66] <= 0)
 					{
-						fake_text = "The Xinjiang Uygur Autonomous Region continues to be an integral part of China, despite the separatist sentiments fueled by our opponents. However, the situation in the region is still under control, the authorities are functioning as expected,  国家安全部 and the Xinjiang Production and Construction Corps successfully stop any attempts to organize a serious separatist movement for Xinjiang to secede from China.";
+						fake_text = "尽管我们的对手煽动分裂情绪，新疆维吾尔自治区仍然是中国不可分\n割的一部分。然而，地区局势仍在掌控之中，\n主管部门运转如预期；国家安全部与新疆生产建设兵团成功阻止了任\n何组织“新疆脱离中国”的严重分裂运动的企图。";
 					}
 					else if (GlobalScript.inst.gameState.data[66] == 1)
 					{
-						fake_text = "The USSR-supported Xinjiang separatists were able, however, taking advantage of our problems, to seize power in the region and achieve independence from China. However, \"independence\" was quickly replaced by total dependence on the Soviet Union - the leadership of the East-Turkestan People's Republic is formed in coordination with Moscow, the army is commanded by Soviet officers, and the economy is under the full control of advisers from the Union. All parties, except the Communist Party of East Turkestan, are prohibited. De facto, Xinjiang became a \"non-aligned republic\" of the USSR on the model of Bulgaria and Mongolia...";
+						fake_text = "然而，在我们出现问题之际，得到苏联支持的新疆分裂分子得以趁机\n夺取地区政权，实现了对中国的“独立”。\n但所谓“独立”很快就被对苏联的全面依附所取代——东突厥斯坦人\n民共和国的领导层是在与莫斯科协调下组建的，\n军队由苏联军官指挥，经济则完全受联盟顾问控制。\n除东突厥斯坦共产党外，其他一切政党均被禁止。\n事实上，新疆成了仿照保加利亚和蒙古模式的苏联“非结盟共和国”……";
 					}
 					else if (GlobalScript.inst.gameState.data[66] == 2)
 					{
-						fake_text = "The Xinjiang separatists were able, however, taking advantage of our problems, to seize power in the region and achieve independence from China. As was to be expected, after the breakdown of cooperation with our enterprises, the district’s economy collapsed, and the attempts of the leadership of the Xinjiang Republic to balance between us, the USSR and the USA, turned it into a field of geopolitical struggle. While the upper crust and the resurgent bourgeoisie are basking in luxury, squandering dollars, rubles and yuan from superpowers, the people of Xinjiang live in extreme poverty, which is why Islamist sentiments are gaining more and more popularity... ";
+						fake_text = "然而，在我们出现问题之际，新疆分裂分子得以趁机夺取地区政权，\n实现了对中国的“独立”。\n正如所料，在与我们企业合作中断之后，\n地区经济崩溃；而新疆共和国领导层试图在我们、\n苏联和美国之间寻求平衡，反而把它变成地缘政治争夺的战场。\n上层社会与重新崛起的资产阶级沉浸在奢华之中，\n挥霍来自超级大国的美元、卢布和人民币；\n而新疆人民则生活在极端贫困中，因此伊斯兰主义情绪愈发流行……";
 					}
 				}
 				if (GlobalScript.inst.gameState.allcountries[69].numberOfSpecialEnding < 0 || GlobalScript.inst.gameState.allcountries[69].numberOfSpecialEnding > 10)
 				{
 					if (GlobalScript.inst.gameState.data[67] <= 0)
 					{
-						fake_text += "||The Tibet Autonomous Region continues to be an integral part of China, despite the disruptive propaganda of supporters of the Dalai Lama and part of the local clergy who fled abroad. Huge funds are being spent on the economic development of the region, called upon to \"bind\" it more tightly to the rest of the country, on the other hand, we do not weaken the control over the clergy and resolutely stop any attempts to organize a serious separatist movement for the withdrawal of Tibet from China.";
+						fake_text += "||尽管达赖喇嘛的支持者以及部分外逃的地方僧侣散布破坏性宣传，\n西藏自治区仍然是中国不可分割的一部分。\n巨额资金正用于该地区的经济发展，号称要“把它更紧密地绑”在全\n国其他地区之上；另一方面，我们并不削弱对僧侣的控制，\n并坚决制止任何组织“西藏退出中国”的严重分裂运动的企图。";
 					}
 					else
 					{
-						fake_text += "||Tibetan separatists were able, taking advantage of our problems, to seize power in the region and achieve independence from China. 14th Dalai Lama solemnly returned to Lhasa, where he made a solemn speech, exposing us and rejoicing \"the end of the Chinese occupation of free Tibet\". However, not everything is so rosy in the \"free Tibet\" - with a break in cooperation with our enterprises, the district’s economy has actually collapsed, the population has to literally survive cattle breeding and the collection of medicinal herbs, and India is already starting to raise a long-standing territorial dispute over Arunachal Pradesh and requires revision \"McMahon Line\" in their favor...";
+						fake_text += "||在我们出现问题之际，藏族分裂分子得以趁机夺取地区政权，\n实现了对中国的“独立”。\n第十四世达赖喇嘛庄严回到拉萨，在那里发表庄严演说，\n揭露我们，并欢呼“自由西藏结束中国占领”。\n然而，“自由西藏”并非一切都那么美好——在与我们企业合作中断\n后，地区经济实际上已经崩溃，人口不得不靠畜牧饲养和采集药材来\n勉强生存；而印度也已经开始提出关于阿鲁纳恰尔邦的长期领土争端，\n并要求把“麦克马洪线”改写成对其有利的版本……";
 					}
 				}
 				if (!GlobalScript.inst.gameState.completedDecisions[6] && !GlobalScript.inst.gameState.completedDecisions[7])
 				{
 					if (GlobalScript.inst.gameState.allcountries[38].dev > 0)
 					{
-						fake_text = fake_text + "||Taiwanese separatists hid behind the backs of their American friends, but they overestimated their defenders and underestimated our determination to reunite our homeland. The landing force recaptured the border islands off the coast of Taiwan and drove the separatists out of there, restoring our sovereignty over this territory. \"The territory of China is one and indivisible!\" - answered the Chairman " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " to the furious cries of the imperialists. True, we ourselves will not be able to recapture Taiwan itself because of the American military bases located there, and it certainly will not go to negotiations after this...";
+						fake_text = fake_text + "||台湾分裂分子躲在美国朋友的背后，\n但他们高估了自己的“保卫者”，低估了我们实现祖国统一的决心。\n登陆部队夺回了台湾海岸外的边境岛屿，\n并把分裂分子赶了出去，恢复了我们对该地区的主权。\n“中国的领土是不可分割的整体！\n”——主席回答道" + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "面对帝国主义的愤怒叫嚣。\n不错，我们自己由于岛上存在美国军事基地，\n短期内也无法收复台湾本岛；而且在此之后当然也不会去谈判……";
 					}
 					else if ((GlobalScript.inst.gameState.allcountries[38].proprc && GlobalScript.inst.gameState.data[6] < 700 && GlobalScript.inst.gameState.data[16] >= 13 && !GlobalScript.inst.gameState.allcountries[1].isSEV && !GlobalScript.inst.gameState.modifies[17].active) || GlobalScript.inst.gameState.completedDecisions[6])
 					{
-						fake_text = fake_text + "||Comrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " put forward an important theory \"One country - two systems\", according to which Taiwan, Hong Kong and Macau can return to the bosom of the motherland while maintaining their political and economic system for 50 years in advance and very broad autonomy. The leadership of Taiwan for a very long time refused any negotiations with us, but, finally, we managed to put them at a round table and come to an agreement. In exchange for the formal recognition by the 中华人民共和国 of the independence of the Republic of China and its rejection of claims to the coastal islands, Taiwan officially renounces \"Three Principles of the People\" and recognizes the policy \"One country - two systems\". Negotiations have already begun on the basic principles for the reunification of Taiwan with China (the conditions will be clearly confederate or even broader) and on the withdrawal of American military bases from the island, but the final reunification of the homeland will not happen soon...";
+						fake_text = fake_text + "||同志 " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " 提出重要理论“一个国家，两种制度”。\n根据这一设想，台湾、香港和澳门可以在保持其政治和经济制度的前\n提下，提前享有50年的制度安排，并获得非常广泛的自治。\n台湾当局长期拒绝与我们进行任何谈判，\n但最终我们还是把他们请上圆桌并达成协议。\n作为中华人民共和国正式承认“中华民国独立”并放弃对沿海岛屿主\n张的交换条件，台湾方面正式放弃“ 三民主义”，\n并承认“一个国家，两种制度”的政策。\n关于台湾与中国统一的基本原则（条件将明确是邦联式，\n甚至更为宽广）以及美国军事基地从岛上撤出等问题，\n谈判已经开始；但祖国的最终统一不会很快实现……";
 						if (GlobalScript.inst.gameState.iron_and_blood)
 						{
 							achieves.GetComponent<achievements>().Set(66);
@@ -621,40 +621,40 @@ public class EndingScript : MonoBehaviour
 					}
 					else if (GlobalScript.inst.gameState.allcountries[38].proprc || GlobalScript.inst.gameState.allcountries[38].Torg)
 					{
-						fake_text = fake_text + "||Comrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + ", despite the fierce resistance of many conservatives and hardliners, he nevertheless made a strong-willed decision to recognize Taiwan's independence and end almost half a century of hostility. According to the new course of Chinese diplomacy, Taiwan was independent for too long and during that time moved away from mainland China culturally, economically and politically and built too strong relations with the world community to talk about its belonging to the 中华人民共和国. It was announced the development of completely new principles of good-neighborly relations between the 中华人民共和国 and the Republic of China, which in turn renounced claims to mainland China.";
+						fake_text = fake_text + "||同志 " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "，尽管许多保守派和强硬派进行了激烈抵制，\n他仍然作出坚决的意志决定：承认台湾独立，\n并结束近半个世纪的敌对。\n按照中国外交的新方针，台湾独立的时间太久了，\n在那段时间里，它在文化、经济和政治上都逐渐远离大陆，\n并与世界共同体建立了过于紧密的联系，\n因此再谈它属于中华人民共和国已不现实。\n双方宣布将制定全新的、睦邻关系的原则：\n中华人民共和国与“中华民国”之间建立全新原则；\n而“中华民国”方面也相应放弃对大陆的主张。";
 					}
 					else
 					{
-						fake_text += "||The separatist \"Republic of China\" continues to hold Taiwan and the coastal islands, relying on US military support and flatly refusing to normalize relations with mainland China. We can only sigh and send the invaders \"last Chinese warnings\"...";
+						fake_text += "||分裂的“中华民国”继续控制台湾及沿海岛屿，\n依靠美国军事支持，并公然拒绝与中国大陆实现关系正常化。\n我们只能叹息着向入侵者发出“最后的中国警告”……";
 					}
 				}
 			}
 			else if (number_of_e == 2)
 			{
-				name.text = "New Territories";
+				name.text = "新领土";
 				if (GlobalScript.inst.gameState.data[65] <= 0)
 				{
-					fake_text = "Hong Kong and Macao continue to be colonies, respectively, of Great Britain and Portugal, separated from their homeland. Western colonialists refuse any negotiations on their return to us, and we don’t risk military action for fear of US intervention and the start of the Third World War.";
+					fake_text = "香港和澳门仍分别是英国和葡萄牙的殖民地，\n和他们的祖国分离。西方殖民主义者拒绝就其归还我们进行任何谈判，\n而我们也不敢冒险采取军事行动，担心遭到美国干预并引发第三次\n世界大战。";
 				}
 				else if (GlobalScript.inst.gameState.data[65] == 1)
 				{
-					fake_text = "Comrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " Comrade and the 全国人大 put forward an important theory \"One country - two systems\", according to which Hong Kong and Macao can return to the bosom of the Motherland with the preservation of their political and economic system for 50 years ahead and very wide autonomy. Negotiations on this issue with the English and Portuguese sides were very difficult and were repeatedly disrupted by the colonialists, but they were still successful - on July 1, 1997 we will return sovereignty over Hong Kong, and on December 19, 1999 - over Macau. Thus, the great dream of the Chinese people - Hong Kong (Hong Kong) and Macao (Macao) - to return to us is to be fulfilled — let's hope thats forever.";
+					fake_text = "同志" + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " 同志和全国人大提出重要理论“一个国家，\n两种制度”。根据这一设想，香港和澳门可以在保留其政治和经济制\n度的前提下，提前享有50年的制度安排，\n并获得非常广泛的自治，从而回到祖国怀抱。\n就此与英方和葡方进行的谈判极其艰难，\n且屡遭殖民主义者破坏，但最终仍取得成功——1997年7月1日，\n我们将收回对香港的主权；1999年12月19日——收回对澳\n门的主权。于是，中国人民的伟大梦想——香港（香港）\n和澳门（澳门）回到我们身边——就将实现——但愿这将是永远。";
 				}
 				else if (GlobalScript.inst.gameState.data[65] == 2 && GlobalScript.inst.gameState.allcountries[0].stab == 1)
 				{
-					fake_text = "During the leadership of the country " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + ", may have made a lot of mistakes, but this period will go down in the history of China as \"Restoration of the Motherland\" - for historical justice was restored and Hong Kong and Macao, which for hundreds of years were held by foreign invaders, were returned by China. Now Hong Kong (Hong Kong) and Macao (Macau) are back together with the Motherland, and we will never give them to anyone again!";
+					fake_text = "在国家领导期间 " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "，也许犯了不少错误，但这一时期将载入中国史册，\n称为“祖国的恢复”——因为历史正义得以伸张：\n被外国侵略者占据了数百年的香港和澳门，\n终于由中国收回。如今，香港（香港）和澳门（澳门）\n又回到了祖国怀抱，我们再也不会把它们交给任何人！";
 				}
 				else if (GlobalScript.inst.gameState.data[65] == 2)
 				{
-					fake_text = "The skill of our diplomats and our reputation in the world allowed, despite serious opposition from the colonial authorities, to achieve in negotiations with the British and Portuguese transfer of Hong Kong and Macao with their full integration into the 中华人民共和国, while guaranteeing the preservation of private property of foreigners. Negotiations on this issue with the English and Portuguese sides were very difficult and were repeatedly disrupted by the colonialists, but they were still successful - on July 1, 1997 we will return sovereignty over Hong Kong, and on December 19, 1999 - over Macau. Thus, the Hong Kong (Xianggang) and Macau (Macau) to come back to us - hopefully, forever.";
+					fake_text = "我们外交人员的本领以及在世界上的声誉，\n使我们在殖民当局的严重阻挠之下，仍在与英方和葡方的谈判中达成\n协议：实现香港和澳门的移交，并使其全面融入中华人民共和国，\n同时保障外国人的私有财产得到保留。\n就此与英方和葡方进行的谈判极其艰难，\n且屡遭殖民主义者破坏，但最终仍取得成功——1997年7月1日，\n我们将收回对香港的主权；1999年12月19日——收回对澳\n门的主权。于是，香港（香港）和澳门（澳门）\n回到我们身边——但愿是永远。";
 				}
 				if (GlobalScript.inst.gameState.data[62] <= 0)
 				{
-					fake_text += "||The state of Arunachal Pradesh continues to be part of India, which China stubbornly refuses to recognize. Attempts to negotiate on this issue, including the patronage of international organizations, were not crowned with success, so the situation on the Indo-Chinese border remains tense. However, it is unlikely that the parties are interested in war with each other...";
+					fake_text += "||阿鲁纳恰尔邦仍然属于印度，而中国顽固地拒绝承认。\n就此问题进行谈判的尝试——包括借助国际组织的“斡旋”——都未\n能取得成功，因此印中边境局势依然紧张。\n不过，双方显然都不太可能对彼此开战……";
 				}
 				else if (GlobalScript.inst.gameState.data[62] == 1 || (GlobalScript.inst.gameState.allcountries[19].Torg && (GlobalScript.inst.gameState.data[91] == 1 || GlobalScript.inst.gameState.data[91] == 2 || GlobalScript.inst.gameState.data[91] == 3) && (!GlobalScript.inst.gameState.allcountries[31].Torg || GlobalScript.inst.gameState.allcountries[31].Gosstroy == 2 || GlobalScript.inst.gameState.allcountries[31].Gosstroy == 1)))
 				{
-					fake_text += "||We were able to reach an agreement with the leadership of India on a compromise solution to the territorial issue - China refuses claims to the state of Arunachal Pradesh, and India - to the Aksai Chin area that we occupied during the border conflict of 1962 and through which passes the important G219 highway connecting Xinjiang with Tibet. This decision finally opened the way to restoring the good-neighborly relations of the two largest countries of Asia and greatly eased tensions in the Asian region.";
+					fake_text += "||我们终于与印度领导层就领土问题达成了折中方案：\n中国拒绝对阿鲁纳恰尔邦的主张，印度则拒绝对我们在1962年边\n境冲突中占领的阿克赛钦地区的主张；而这一区域正穿过连接新疆与\n西藏的重要G219公路。\n此项决定终于为恢复亚洲两大国的睦邻关系打开了道路，\n并大大缓和了亚洲地区的紧张局势。";
 					if (GlobalScript.inst.gameState.iron_and_blood)
 					{
 						achieves.GetComponent<achievements>().Set(39);
@@ -662,39 +662,39 @@ public class EndingScript : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.data[62] == 2)
 				{
-					fake_text += "||China finally put an end to the long-standing territorial dispute with India - the decisive actions of our armed forces, the state of Arunachal Pradesh was fully returned to China. The leadership of India, against the background of yet another aggravation of the situation in the Sikh regions of the country and the conflict with Pakistan, had to recognize our rights to this territory, although the fact of losing this very important state for the country made them very angry. According to our data, India is secretly negotiating with the United States, the USSR and Great Britain about large deliveries of weapons and equipment for the large-scale re-equipment of its army. Against whom are these preparations - no guessing...";
+					fake_text += "||中国终于彻底结束了与印度长期存在的领土争端——我军采取了\n决定性行动，阿鲁纳恰尔邦已全部归还中国。\n印度领导层在国内锡克地区局势再次恶化、\n并与巴基斯坦发生冲突的背景下，不得不承认我们对该领土的权利，\n尽管失去这个对国家十分重要的邦令他们极为恼火。\n根据我们的情报，印度正在秘密与美国、\n苏联和英国就向其军队进行大规模换装所需的大批武器与装备进行谈\n判。这些准备究竟是针对谁的——不必猜……";
 				}
 				else if (GlobalScript.inst.gameState.data[62] >= 3)
 				{
-					fake_text += "||China has finally put an end to the long-standing territorial dispute with India - through the decisive actions of our diplomats Arunachal Pradesh has been fully returned to China. Against the background of regular aggravation of situation in the Sikh areas of the country and economic problems, the Indian leaders had to acknowledge our rights to this territory, though the fact of loss of this very important for the country state angered their people very much. According to our information, India is secretly making arrangements with the US, the USSR and Britain for large supplies of equipment and gear for large-scale rearmament and expansion of its intelligence services. Who are these preparations against - it is hard to say: suppressing their own population or fomenting unrest in Arunachal Pradesh?";
+					fake_text += "||中国终于通过我方外交人员的决定性行动，\n彻底结束了与印度长期存在的领土争端——阿鲁纳恰尔邦已全部归还\n中国。鉴于该国锡克地区局势不断恶化以及经济问题，\n印度领导人不得不承认我们对该领土的权利，\n尽管失去这个对国家十分重要的邦令他们的人民非常愤怒。\n根据我们的信息，印度正在秘密与美国、\n苏联和英国安排大规模供给装备与器材，\n用于其军队的大规模武装扩充，并扩大其情报机构。\n至于这些准备是针对谁——很难说：是镇压本国人民，\n还是煽动阿鲁纳恰尔邦的不安？";
 				}
 				if (GlobalScript.inst.gameState.data[167] == 0)
 				{
-					fake_text += "||The Diaoyu Islands still continue to be under Japanese possession.....";
+					fake_text += "||钓鱼岛仍继续处于日本的占有之下……";
 				}
 				else if (GlobalScript.inst.gameState.data[167] == 1)
 				{
-					fake_text += "||We managed to take over the Diaoyu Islands and now our flag flies proudly there at our own naval base! The sea is ours!";
+					fake_text += "||我们终于夺取了钓鱼岛，如今我们的旗帜在我们自己的海军基地\n上在那里高高飘扬！海洋是我们的！";
 				}
 				else if (GlobalScript.inst.gameState.data[167] == 2)
 				{
-					fake_text += "||We managed to find a compromise with the Japanese side. Now the Diaoyu Islands are demilitarised and jointly owned by the Sino-Japanese Commission and receive investment from both sides, as well as benefits for both countries.";
+					fake_text += "||我们设法与日本方面达成了折中。\n如今钓鱼岛实现非军事化，由中日委员会共同拥有，\n并获得双方投资，同时也为两国带来收益。";
 				}
 				if (GlobalScript.inst.gameState.allcountries[9].prosov && !GlobalScript.inst.gameState.completedDecisions[19])
 				{
-					fake_text += "||Mongolia remains an active friend and partner of Moscow no matter what.";
+					fake_text += "||不管怎样，蒙古仍然是莫斯科积极的朋友与伙伴。";
 				}
 				if (!GlobalScript.inst.gameState.allcountries[9].proprc && !GlobalScript.inst.gameState.completedDecisions[19] && !GlobalScript.inst.gameState.allcountries[9].prosov)
 				{
-					fake_text += "||Mongolia is pursuing a multi-vector policy, trying to be friends with both the USSR and China for the benefit of its people";
+					fake_text += "||蒙古奉行多方位政策，试图为了本国人民同时与苏联和中国做朋\n友";
 				}
 				else if (GlobalScript.inst.gameState.allcountries[9].proprc && !GlobalScript.inst.gameState.completedDecisions[19])
 				{
-					fake_text += "||Mongolia is a full-fledged equal member of China's sphere of influence and is oriented on Beijing in resolving disputes and foreign policy issues.";
+					fake_text += "||蒙古是中国势力范围内一名名副其实的平等成员，\n在解决争端和外交政策问题上以北京为导向。";
 				}
 				else
 				{
-					fake_text += "||Through diligence and hard work, Chinese and Mongolian brothers have once again been able to find a common ground and unite under the roof of a single home of the People's Republic of China.";
+					fake_text += "||通过勤劳与苦干，中蒙兄弟再次找到了共同立场，\n并在中华人民共和国这个共同家园的屋檐下团结起来。";
 					if (GlobalScript.inst.gameState.iron_and_blood)
 					{
 						achieves.GetComponent<achievements>().Set(109);
@@ -703,10 +703,10 @@ public class EndingScript : MonoBehaviour
 			}
 			else if (number_of_e == 3)
 			{
-				name.text = "The fate of the USSR";
+				name.text = "苏联的命运";
 				if (GlobalScript.inst.gameState.empires[1].now_leader == 3)
 				{
-					fake_text = "Shcherbitsky|Replaced Brezhnev, Vladimir Shcherbitskiy began his reign with cleanings in the 政治局, leading to the vacant seats of his people from Ukraine, which shook the stagnant Brezhnev apparatus and violated the corruption ties between its members. Blows to corruption, coupled with the administrative talents of the old Manager provided the Union with a steady growth of the economy and the welfare of the population. The foreign and domestic policy of Shcherbitsky differed little from Brezhnev's - the economic integration of the CMEA countries was strengthened, which had a positive impact on the entire Commonwealth, the détente in relations with China was carried out, cautious and slow attempts are made to automate planning, but in General everything is stable. The Union stands and is going to stand for a very long time.";
+					fake_text = "谢尔比茨基|在取代勃列日涅夫之后，弗拉基米尔·谢尔比茨基一上\n台就对政治局进行清洗，让乌克兰的自己人空降上位，\n撼动了僵化的勃列日涅夫体系，也打断了其成员之间盘根错节的腐败\n关系。对腐败的重拳，加上老经理的行政才能，\n使联盟经济保持稳步增长，民众福利同步提升。\n谢尔比茨基的内外政策与勃列日涅夫差别不大——加强经互会国家的\n经济一体化，对整个共同体产生积极影响；\n对华关系推进缓和；对计划自动化采取谨慎而缓慢的尝试；\n总体而言一切稳定。联盟站得住，而且还会站很久。";
 					if (GlobalScript.inst.gameState.iron_and_blood)
 					{
 						achieves.GetComponent<achievements>().Set(48);
@@ -714,7 +714,7 @@ public class EndingScript : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.empires[1].now_leader == 5)
 				{
-					fake_text = "Grishin|In the end, the old ruler was replaced by the old and experienced Viktor Grishin, a favorite of conservative circles. For the USSR, nothing much has changed - relatively stable economic growth allowed every year to spend more money on grain and social spending, very cautious and slow attempts to automate planning, suppressed by the party government, foreign policy was characterized by the continuation of the \"Brezhnev Doctrine\", but with an emphasis on improving relations with China.. However, the Board Grishin meant the final consolidation of the party, rampant nepotism, corruption and forgery in plan.";
+					fake_text = "格里申|最终，旧统治者被老成持重、经验丰富的维克托·格里申取\n代——保守派圈子的宠儿。\n对苏联而言，变化并不大——相对稳定的经济增长使得每年都能在粮\n食与社会开支上多花钱；计划自动化的尝试被党内政府压着，\n极其谨慎且缓慢；对外政策延续“勃列日涅夫学说”，\n但更强调改善对华关系。\n然而，格里申上台意味着党的最终固化：\n任人唯亲、计划中的腐败与伪造愈演愈烈。";
 					if (GlobalScript.inst.gameState.iron_and_blood)
 					{
 						achieves.GetComponent<achievements>().Set(37);
@@ -722,16 +722,16 @@ public class EndingScript : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.empires[1].now_leader == 6)
 				{
-					fake_text = "Gorbachev|In the end, the old ruler was replaced by a young and promising Mikhail Gorbachev, one of Andropov's reformist cadres. However, none of Gorbachev's reform initiative ended well - the anti-alcohol campaign led to the decline of agriculture and the mass circulation of surrogates, the policy of Acceleration - to the talentless waste of funds and the decline of industry, Glasnost - to the growth of nationalism and the heyday of anti-Soviet lies.";
+					fake_text = "戈尔巴乔夫|最终，旧统治者被安德罗波夫的改革派干部之一——年\n轻且有前途的米哈伊尔·戈尔巴乔夫取代。\n然而，戈尔巴乔夫的改革举措没有一项善终——禁酒运动导致农业衰\n退与替代品泛滥；“加速”政策造成资金的无能浪费与工业下滑；\n“公开性”则助长民族主义，迎来反苏谎言的鼎盛时期。";
 					if (!GlobalScript.inst.gameState.startedDirectWarsNum.Any((KeyValuePair<int, bool> k) => k.Key == 10 && k.Value))
 					{
 						if (GlobalScript.inst.gameState.allcountries[51].isNATO)
 						{
-							fake_text += "Attempts to increase or reduce the role of the state in the economy, the incompetent and uncontrolled introduction of cooperatives, decentralization and the destruction of planned mechanisms have led to a huge external debt, the collapse of the economy, the deficit and impoverishment of the population. Foreign policy was characterized by subservience to the US and surrender of all the gains of socialism, culminating in the dissolution of the Warsaw Pact and COMECON. The USSR itself did not survive them for long - the liberals and nationalists raised by Gorbachev, having won the support of the population, at the end of 1991 announced the dissolution of the USSR, actually taking away power from the would-be reformer.";
+							fake_text += "试图在经济中增减国家角色、无能且失控地推行合作社、\n推行分权并破坏计划机制，最终导致巨额外债、\n经济崩溃、财政赤字与民众贫困。\n对外政策则表现为对美国的俯首称臣，放弃社会主义的一切成果，\n结果以华沙条约组织与经互会的解体为终点。\n苏联本身也没能撑太久——戈尔巴乔夫扶植起来的自由派与民族主义\n者在赢得民众支持后，于1991年底宣布解体苏联，\n实际上把权力从这位“改革者”手中夺走。";
 						}
 						else
 						{
-							fake_text += "Attempts to increase and decrease the role of the state in the economy, the ineffective and uncontrolled introduction of cooperatives, decentralisation and the destruction of planned mechanisms led to a huge foreign debt, the collapse of the economy, deficits and the impoverishment of the population. In 1991, centrifugal forces brought Gorbachev to the point where he decided to sign a new union treaty. But in August 1991 he was removed from power by more pragmatic reformers who formed the GKChP. Yanayev, who became interim president, arrested the leaders of the most radical separatist movements, including Yeltsin. Ivan Polozkov, a pragmatic reformer, was then elected president in February 1992, leading the economy from decline to small but steady growth. The USSR established the semi-market democracy of the Soviets on the precepts of the SRs.";
+							fake_text += "试图在经济中增减国家角色、低效且失控地推行合作社、\n分权以及破坏计划机制，导致巨额外债、\n经济崩溃、赤字扩大与民众贫困。\n1991年，离心力量逼得戈尔巴乔夫走到签署新联盟条约的地步。\n但在1991年8月，他被更务实的改革派夺权，\n成立了GKChP。由此成为代总统的亚纳耶夫逮捕了包括叶利钦在\n内的最激进分离主义运动领导人。\n随后，务实改革者伊万·波洛兹科夫于1992年2月当选总统，\n把经济从衰退带向小幅但稳定的增长。\n苏联在SRs的原则下建立了苏维埃的半市场民主。";
 						}
 					}
 					if (GlobalScript.inst.gameState.iron_and_blood)
@@ -741,18 +741,18 @@ public class EndingScript : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.empires[1].now_leader == 8)
 				{
-					fake_text = "Ligachev|In the end, the old ruler was replaced by an experienced regional leader Yegor Ligachev, one of the reformist cadres of Andropov. He proclaimed a policy of Glasnost, expansion of democratization and transition to a socialist market economy on the model of Lenin's NEP. However, all the reform initiatives of Ligachev went with great difficulty - the anti-alcohol campaign led to the circulation of surrogates, although it allowed to increase the birth rate and reduce crime, the policy of Acceleration allowed to increase industrial production, but caused an increase in the deficit of consumer goods, Glasnost - although it allowed to expand freedom, led to the emergence of anti-Soviet publications. Attempts to move from decision-making to economic mechanisms in the economy, not fully considered the introduction of cooperatives, decentralization and violation of planned mechanisms led to a decline in the production of consumer goods and impoverishment of quite a significant part of the population.";
+					fake_text = "利加乔夫|最终，旧统治者被经验丰富的地方领导人叶戈尔·利加乔\n夫取代——安德罗波夫改革派干部之一。\n他宣告推行“公开性”政策，扩大民主化，\n并以列宁的“新经济政策”（NEP）为模式转向社会主义市场经济。\n然而，利加乔夫的所有改革举措都举步维艰——禁酒运动导致替代\n品流通，尽管提高了出生率、降低了犯罪；\n“加速”政策确实提高了工业产量，却使消费品短缺赤字进一步扩大；\n“公开性”虽然扩大了自由，却催生了反苏出版物。\n试图在经济中从行政决策转向经济机制，\n却对合作社引入、分权以及违反计划机制的后果考虑不足，\n结果导致消费品生产下降，并使相当一部分人口陷入贫困。";
 					if (GlobalScript.inst.gameState.allcountries[51].isNATO)
 					{
-						fake_text += "Foreign policy was characterized by the unsuccessful attempts of Detente with the United States and the reduction control of the Warsaw Pact and the CMEA, which led to growth of separatist tendencies in these blocks. The USSR itself is in a rather difficult situation, and Ligachev's attempts to strengthen the situation by promoting people such as Boris Yeltsin and Vitaly Korotich, led to the emergence of the CPSU legal opposition, undermining the unity of the party. So far, the country's leadership controls the situation, but economists warn that within 25 years a major crisis is possible, which the Soviet pseudo-reformers may not survive...";
+						fake_text += "对外政策上，缓和美国的尝试屡屡受挫，\n同时对华沙条约组织与经互会的控制力度减弱，\n导致这些阵营内分离主义倾向增长。\n苏联自身处境也相当困难，而利加乔夫试图通过提拔鲍里斯·叶利钦、\n维塔利·科罗季奇等人来稳局，反而催生了中共（苏共）\n“合法反对派”，动摇了党的团结。\n到目前为止，国家领导层仍能掌控局势，\n但经济学家警告：25年内可能爆发重大危机，\n苏联的“伪改革者”未必能挺过去……";
 					}
 					else if (GlobalScript.inst.gameState.influencePRC > GlobalScript.inst.gameState.empires[1].power && !GlobalScript.inst.gameState.allcountries[1].isSEV)
 					{
-						fake_text += "Despite this, the Soviet economy survived the ordeal by significantly expanding trade with Western Europe. The CMEA and OVD countries did not resolve their Perestroika despite the reduction of control over them. A national-patriotic conservative opposition emerged that opposed the reforms. Eventually, after the XXX Congress of the CPSU in 1993, Ligachev was removed at a plenum and replaced by Aman Tuleyev, who began reducing the rights of the republics, slowing market reforms, and rehabilitating Stalin as a Russian statesman on a par with Ivan the Terrible and Peter the Great. The USSR was declared a historical Russian state, and ‘all those who think in Russian’ were recognised as Russians.";
+						fake_text += "尽管如此，苏联经济还是挺过了这场考验：\n通过大幅扩大与西欧的贸易来“续命”。\n经互会与华约国家在控制减弱后仍未能解决“改革”（佩列斯特罗伊\n卡）问题。一股反对改革的民族爱国保守反对派随之出现。\n最终，1993年苏共XXX次代表大会之后，\n利加乔夫在全会上被撤换，由阿曼·图列耶夫接任。\n图列耶夫开始削减加盟共和国的权利，放慢市场改革，\n并把斯大林“平反”为与伊凡雷帝、彼得大帝并列的俄罗斯政治家。\n苏联被宣布为“历史上的俄罗斯国家”，\n而“所有用俄语思考的人”都被认定为俄罗斯人。";
 					}
 					else
 					{
-						fake_text += "Despite this, the Soviet economy survived the ordeal by significantly expanding trade with Western Europe. The CMEA and OVD countries did not dare to perestroika, despite the reduction of control over them. Opposition was suppressed and reforms were continued in the spirit of dengism and NEP. Eventually, at the XXXIII Congress of the CPSU in 2000, Ligachev announced his resignation. He was succeeded by Gennady Zyuganov, who supported traditional values, continued market reforms and officially adopted the party programme without mentioning the building of communism. ";
+						fake_text += "尽管如此，苏联经济仍通过大幅扩大与西欧的贸易挺过了这场考验。\n经互会与华约国家在控制减弱后也不敢搞“改革”（佩列斯特罗伊卡）。\n反对势头被压制，改革则继续沿着“邓式”与NEP的精神推进。\n最终，2000年苏共XXXIII次代表大会上，\n利加乔夫宣布辞职。继任者是根纳季·久加诺夫：\n支持传统价值，继续市场改革，并在不提“建设共产主义”的情况下\n正式通过党的纲领。";
 					}
 					if (GlobalScript.inst.gameState.iron_and_blood)
 					{
@@ -791,10 +791,10 @@ public class EndingScript : MonoBehaviour
 						{
 							achieves.GetComponent<achievements>().Set(38);
 						}
-						fake_text = "Romanov|In the end, the old ruler was replaced by a relatively young and promising party member Grigory Romanov, known for his services as head of the Leningrad regional Committee of the CPSU. His arrival marked the beginning of internal party purges from the reformers, increased control of the security services and the persecution of dissidents. Paradoxically, under his rule, began to have some censorship concessions in the creative sector - there were plenty of music clubs, on the model of the Leningrad rock club, and filmmakers have become freer to experiment with new genres. The foreign policy of the USSR became more rigid and was characterized by more active spread of Soviet influence and more rigid protection of Soviet interests. ";
+						fake_text = "罗曼诺夫|最终，旧统治者被相对年轻、\n前途看好的党内成员格里戈里·罗曼诺夫取代——他以担任苏共列宁\n格勒州委书记的功绩而闻名。\n他的到来标志着党内对改革派的清洗拉开序幕，\n加强安全部门控制，并对持不同政见者展开迫害。\n讽刺的是，在他的统治下，文艺领域开始出现某些审查让步——音乐\n俱乐部很多，仿照列宁格勒摇滚俱乐部；\n电影工作者也更自由地尝试新的题材类型。\n苏联对外政策变得更强硬，特点是更积极地扩散苏联影响力、\n更严密地保护苏联利益。";
 						if (GlobalScript.inst.gameState.relres && GlobalScript.inst.gameState.data[16] == 11)
 						{
-							fake_text += "|Inspired by the success of the Chinese automation, Romanov decided to start mass implementation of automation planning, and continued development of the CSA and USNCC, and, taking from a shelf project OGAS, development and implementation of which managed to finish, despite dissatisfaction with the party members. Romanov led the Soviet Union until his death in 2008, during which time repeatedly raising the international influence of the USSR, its economic power and the welfare of the population.";
+							fake_text += "|受中国自动化成功的鼓舞，罗曼诺夫决定大规模推行自动化计划，\n并继续开发CSA与USNCC；同时从搁置项目OGAS入手，\n其开发与实施最终得以完成，尽管党内成员颇有不满。\n罗曼诺夫一直领导苏联到2008年去世，\n在此期间反复提升苏联的国际影响力、经济实力与民众福利。";
 							if (GlobalScript.inst.gameState.iron_and_blood && GlobalScript.inst.gameState.data[16] == 11 && GlobalScript.inst.gameState.allcountries[1].isSEV)
 							{
 								achieves.GetComponent<achievements>().Set(35);
@@ -802,7 +802,7 @@ public class EndingScript : MonoBehaviour
 						}
 						else if (GlobalScript.inst.gameState.allcountries[15].Gosstroy == 0 && GlobalScript.inst.gameState.allcountries[15].SubGosstroy == 0 && GlobalScript.inst.gameState.allcountries[4].Gosstroy == 1 && GlobalScript.inst.gameState.allcountries[4].SubGosstroy == 16)
 						{
-							fake_text += "|Having seen by personal example the failure of the results of the economic policy of Hungary and Yugoslavia, Romanov decided to take a different path from Andropov's plans and to start mass implementation of automation planning. He continued development of the CSA and USNCC, and, taking from a shelf project OGAS, development and implementation of which managed to finish, despite dissatisfaction with the party members. Romanov led the Soviet Union until his death in 2008, during which time repeatedly raising the international influence of the USSR, its economic power and the welfare of the population.";
+							fake_text += "|亲眼见证匈牙利与南斯拉夫经济政策的结果失败后，\n罗曼诺夫决定走与安德罗波夫计划不同的道路，\n开始大规模推行自动化计划。\n他继续开发CSA与USNCC，并从搁置项目OGAS入手，\n其开发与实施最终得以完成，尽管党内成员不满。\n罗曼诺夫一直领导苏联到2008年去世，\n在此期间反复提升苏联的国际影响力、经济实力与民众福利。";
 							if (GlobalScript.inst.gameState.iron_and_blood && GlobalScript.inst.gameState.data[16] == 11 && GlobalScript.inst.gameState.allcountries[1].isSEV)
 							{
 								achieves.GetComponent<achievements>().Set(35);
@@ -810,25 +810,25 @@ public class EndingScript : MonoBehaviour
 						}
 						else
 						{
-							fake_text += "|After the collapse of oil prices in the mid-1980s, it was decided to launch economic reforms - the Andropov reform plan (based on the Kosygin-Lieberman reform and the economic systems of Yugoslavia and Hungary) was taken as a basis, which together raised the competitiveness and flexibility of the Soviet economy, but the negative effects of decentralisation were not long in coming: inefficient distribution of profits by enterprises, obsolescence of equipment and mechanisms due to enterprises' savings on modernisation, development of nepotism and corruption (supply became the first priority for acquaintances and people started to \"buy\" places in the queue for raw materials). However, along with this, a categorical ban on any private property and private employment was introduced, which was even written into the Constitution. Romanov led the Soviet Union until his death in 2008, during which time greatly raising the international influence of the USSR, its economic power and the welfare of the population. However, after his death, the new Soviet leaders sadly confirmed the observations of international experts that the growth of the Soviet economy for several years was near to zero, and it should be needed do something with this...";
+							fake_text += "|20世纪80年代中期油价崩塌后，决定启动经济改革——以安德\n罗波夫改革方案为基础（结合科西金—利伯曼改革以及南斯拉夫与匈\n牙利的经济体制），从而整体提升苏联经济的竞争力与灵活性；\n但分权的负面效应很快到来：企业利润分配低效、\n因企业在现代化上省钱而导致设备与机制老化、\n任人唯亲与腐败滋长（供给成了熟人优先的第一要务，\n人们开始“买”原材料队列里的名额）。\n然而与此同时，出台了对任何私有财产与私人雇佣的绝对禁令，\n甚至写进了宪法。罗曼诺夫一直领导苏联到2008年去世，\n在此期间大幅提升苏联的国际影响力、经济实力与民众福利。\n但他去世后，新一代苏联领导人悲哀地证实了国际专家的判断：\n苏联经济增长数年几乎为零，看来必须对这件事“做点什么”……";
 						}
 					}
 				}
 			}
 			else if (number_of_e == 4)
 			{
-				name.text = "Soviet Socialist Camp";
+				name.text = "苏联社会主义阵营";
 				if (GlobalScript.inst.gameState.empires[1].now_leader == 4 && GlobalScript.inst.gameState.event_done[377])
 				{
 					fake_text = string.Format(GlobalScript.inst.new_events_text[1570], "\n", (GlobalScript.inst.gameState.allcountries[7].parts[1] || GlobalScript.inst.gameState.allcountries[1].parts[2]) ? GlobalScript.inst.new_events_text[1571] : null);
 				}
 				else if ((GlobalScript.inst.gameState.empires[1].now_leader == 3 || GlobalScript.inst.gameState.empires[1].now_leader == 5 || GlobalScript.inst.gameState.empires[1].now_leader == 4) && !GlobalScript.inst.gameState.allcountries[1].isSEV && !GlobalScript.inst.gameState.allcountries[1].isOVD)
 				{
-					fake_text = "For the socialist camp nothing has changed much - the CMEA and Warsaw Pact continue to remain a stable alternative to capitalist alliances, and the USSR is their undisputed leader.";
+					fake_text = "对社会主义阵营而言，变化不大——经互会与华沙条约组织继续作为\n资本主义联盟的稳定替代品存在，而苏联仍是他们无可争议的领导者。";
 				}
 				else if ((GlobalScript.inst.gameState.empires[1].now_leader == 3 || GlobalScript.inst.gameState.empires[1].now_leader == 5 || GlobalScript.inst.gameState.empires[1].now_leader == 4) && (GlobalScript.inst.gameState.allcountries[1].isSEV || GlobalScript.inst.gameState.allcountries[1].isOVD))
 				{
-					fake_text = "The entry of the 中华人民共和国 into the CMEA and the Warsaw Pact and the growth of its influence in organizations and in the world cause serious fears of the Soviet governance for their leadership. For the rest, for the socialist camp nothing has changed much - the CMEA and Warsaw Pact continue to remain a stable alternative to capitalist alliances.";
+					fake_text = "中华人民共和国加入经互会以及华沙条约，\n并且其影响力在各组织及世界范围内不断扩大，\n引发了苏联当局对其领导地位的严重担忧。\n至于其他方面——对于社会主义阵营而言——变化并不大：\n经互会和华沙条约继续作为资本主义阵营联盟的稳定替代方案。";
 					if (GlobalScript.inst.gameState.iron_and_blood && GlobalScript.inst.gameState.allcountries[1].isSEV && GlobalScript.inst.gameState.allcountries[1].isOVD && GlobalScript.inst.gameState.relres)
 					{
 						achieves.GetComponent<achievements>().Set(5);
@@ -877,7 +877,7 @@ public class EndingScript : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.empires[1].now_leader == 6 && ((GlobalScript.inst.gameState.relres && GlobalScript.inst.gameState.allcountries[1].econ && GlobalScript.inst.gameState.allcountries[1].okb) || (GlobalScript.inst.gameState.allcountries[5].Torg && !GlobalScript.inst.gameState.allcountries[2].prosov && !GlobalScript.inst.gameState.allcountries[4].prosov && (GlobalScript.inst.gameState.allcountries[1].econ || GlobalScript.inst.gameState.allcountries[1].okb))))
 				{
-					fake_text = "After Gorbachev came to power in the USSR, the social camp began to slowly fall apart, and without Soviet support, the power of its members began to falter. But the well-established relations of the 中华人民共和国 and the USSR, along with trade with the CMEA, allowed us to get what Gorbachev could not hold. After the dissolution of the Warsaw Pact and the CMEA, we insistently offered Eastern Europe membership in our alliances on favorable terms, for which Romania, Bulgaria, Hungary, Poland and Czechoslovakia agreed.";
+					fake_text = "戈尔巴乔夫上台后，社会阵营开始缓慢瓦解；\n在失去苏联支持后，成员国的力量也开始动摇。\n但中苏关系基础牢固，再加上与经互会的贸易往来，\n使我们得以拿到戈尔巴乔夫都守不住的东西。\n华沙条约组织与经互会解体之后，我们坚持以优惠条件向东欧各国提\n供加入我们联盟的机会，罗马尼亚、保加利亚、\n匈牙利、波兰和捷克斯洛伐克都同意了。";
 					if (GlobalScript.inst.gameState.iron_and_blood)
 					{
 						achieves.GetComponent<achievements>().Set(6);
@@ -887,11 +887,11 @@ public class EndingScript : MonoBehaviour
 				{
 					if (GlobalScript.inst.gameState.empires[1].now_leader == 8)
 					{
-						fake_text = "After Ligachev came to power in the USSR, the social camp began to slowly fall apart, and without Soviet support, the power of its members began to falter. However, our membership in the Warsaw Pact and the CMEA has helped us keep them in a slightly modified form. At a secret meeting, we developed a plan for the final fall of Soviet leadership in the CMEA and WPO. Of course, fearing a dark future, most countries happily agreed, and now the CMEA and WPO formed a more equal and updated socialist camp with our leadership. However, instead of the USSR, now we provide all possible assistance for these countries...";
+						fake_text = "利加乔夫上台后，社会阵营开始缓慢瓦解；\n在失去苏联支持后，成员国的力量也开始动摇。\n然而，我们加入华沙条约组织与经互会，\n帮助我们以略作修改的方式把它们“留住”。\n在一次秘密会议上，我们制定了在经互会与WPO（华约）\n中实现苏联领导地位最终坍塌的方案。\n当然，出于对黑暗前途的恐惧，多数国家欣然同意。\n如今，经互会与WPO在我们的领导下形成了更平等、\n更新的社会主义阵营。\n但现在，向这些国家提供一切可能援助的，\n不是苏联……";
 					}
 					else
 					{
-						fake_text = "After Gorbachev came to power in the USSR, the social camp began to slowly fall apart, and without Soviet support, the power of its members began to falter. However, our membership in the Warsaw Pact and the CMEA has helped us keep them in a slightly modified form. After the dissolution of the CMEA and the Warsaw Pact, we proposed to their members the creation of new blocks, taking on all the costs of supporting the economy of our old friends. Of course, most countries happily agreed - the GDR, Romania, Bulgaria, Czechoslovakia, Hungary and Poland continue to form a more equal and updated socialist camp with our leadership.";
+						fake_text = "戈尔巴乔夫上台后，社会阵营开始缓慢瓦解；\n在失去苏联支持后，成员国的力量也开始动摇。\n然而，我们加入华沙条约组织与经互会，\n帮助我们以略作修改的方式把它们“留住”。\n在经互会与华沙条约组织解体之后，我们向成员国提出建立新的集团，\n并由我们承担支持老朋友经济的一切成本。\n当然，多数国家欣然同意——德意志民主共和国、\n罗马尼亚、保加利亚、捷克斯洛伐克、匈牙利与波兰继续在我们的领\n导下组成更平等、更新的社会主义阵营。";
 						if (GlobalScript.inst.gameState.iron_and_blood)
 						{
 							achieves.GetComponent<achievements>().Set(6);
@@ -902,22 +902,22 @@ public class EndingScript : MonoBehaviour
 				{
 					if (GlobalScript.inst.gameState.empires[1].now_leader == 8)
 					{
-						fake_text = "For the socialist camp nothing has changed much - the CMEA and Warsaw Pact continue to remain an alternative to capitalist alliances, and the USSR is still their leader.";
+						fake_text = "对社会主义阵营而言，变化不大——经互会与华沙条约组织继续作为\n资本主义联盟的替代品存在，而苏联仍是他们的领导者。";
 					}
 					else
 					{
-						fake_text = "After Gorbachev came to power in the USSR, the social camp began to slowly fall apart, and without Soviet support, the power of its members began to falter. The bastion of European socialism is finally destroyed by the hands of Gorbachev, the CIA and the KGB. ";
+						fake_text = "戈尔巴乔夫上台后，社会阵营开始缓慢瓦解；\n在失去苏联支持后，成员国的力量也开始动摇。\n欧洲社会主义的堡垒终于被戈尔巴乔夫、\n美国中央情报局（CIA）与克格勃（KGB）\n亲手摧毁。";
 						if (GlobalScript.inst.gameState.allcountries[0].isNATO && GlobalScript.inst.gameState.allcountries[0].isEU)
 						{
-							fake_text += "And although these countries are now nominally neutral, their accession to the EU and NATO is not far off.";
+							fake_text += "尽管这些国家如今名义上保持中立，但加入欧盟与北约也为时不远。";
 						}
 						else if (GlobalScript.inst.gameState.allcountries[0].isNATO)
 						{
-							fake_text += "And although these countries are now nominally neutral, their accession to the NATO is not far off";
+							fake_text += "尽管这些国家如今名义上保持中立，但加入北约也为时不远";
 						}
 						else if (GlobalScript.inst.gameState.allcountries[0].isEU)
 						{
-							fake_text += "And although these countries are now nominally neutral, their accession to the EU is not far off.";
+							fake_text += "尽管这些国家如今名义上保持中立，但加入欧盟也为时不远。";
 						}
 					}
 				}
@@ -950,7 +950,7 @@ public class EndingScript : MonoBehaviour
 				}
 				else
 				{
-					fake_text = "For the socialist camp nothing has changed much - the CMEA and Warsaw Pact continue to remain a stable alternative to capitalist alliances, and the USSR is their undisputed leader.";
+					fake_text = "对社会主义阵营而言，变化不大——经互会与华沙条约组织继续作为\n资本主义联盟的稳定替代品存在，而苏联仍是他们无可争议的领导者。";
 				}
 			}
 			else if (number_of_e == 5)
@@ -963,7 +963,7 @@ public class EndingScript : MonoBehaviour
 				{
 					achieves.GetComponent<achievements>().Set(21);
 				}
-				name.text = "Cold war";
+				name.text = "冷战";
 				if (GlobalScript.inst.gameState.allcountries[7].isNATO)
 				{
 					fake_text = string.Format(GlobalScript.inst.new_events_text[1575], "\n");
@@ -978,7 +978,7 @@ public class EndingScript : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.influencePRC >= GlobalScript.inst.gameState.empires[0].power && GlobalScript.inst.gameState.influencePRC >= GlobalScript.inst.gameState.empires[1].power && GlobalScript.inst.gameState.empires[0].power + GlobalScript.inst.gameState.empires[1].power <= 80 && GlobalScript.inst.gameState.empires[1].now_leader != 6)
 				{
-					fake_text = "Times are changing, the Cold War is passing... To begin again with a new force. And even the most implacable enemies of the 20th century - the Soviet Union and the United States had to become sworn friends, and again, like during World War II, unite against a common enemy - China - the new hegemon of the modern world, risen from the ashes and rapidly claiming to dominate the world domination. Trying to save the remnants of their influence, the former enemies, begin a new round of the arms race: NATO and Warsaw Pact conduct joint exercises, the military budgets of the USSR and the USA double each year, with the joint efforts of American and Soviet scientists developing new types of nuclear weapons. It seems that a new large-scale war is becoming a matter of time, but will humanity survive it?";
+					fake_text = "时代在变，冷战正在过去……\n要以新的力量重新开始。\n甚至20世纪最顽固的敌人——苏联与美国——也不得不成为誓言般\n的盟友；再一次，像二战时期那样，为共同的敌人——中国——这个\n现代世界的新霸主而联合：从废墟中崛起，\n并迅速宣称要主宰世界。\n为了挽救残存的影响力，昔日的敌人开始新一轮军备竞赛：\n北约与华沙条约组织举行联合演习；苏联与美国的军费每年翻倍；\n美苏科学家携手研发新型核武器。\n看来一场新的大规模战争已是时间问题，\n但人类能挺得过去吗？";
 					if (GlobalScript.inst.gameState.iron_and_blood)
 					{
 						achieves.GetComponent<achievements>().Set(17);
@@ -986,23 +986,23 @@ public class EndingScript : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.influencePRC >= GlobalScript.inst.gameState.empires[0].power && GlobalScript.inst.gameState.empires[1].power >= GlobalScript.inst.gameState.empires[0].power && GlobalScript.inst.gameState.empires[1].power >= GlobalScript.inst.gameState.influencePRC)
 				{
-					fake_text = "The Cold War is nearing its end, and it seems that the USSR will prevail in this long-standing confrontation, being the most influential force in the world. The US is rapidly losing influence on the world, the dollar system is falling apart, NATO members are pursuing an increasingly independent policy, and the organization itself is close to dissolution. Last but not least, this happened because of the active intervention of the 中华人民共和国 in world politics and the gradual ousting of American influence.";
+					fake_text = "冷战快走到尽头了，似乎在这场长期对抗中，\n苏联将占上风——成为世界上最有影响力的力量。\n美国在世界上的影响力迅速衰退，美元体系土崩瓦解；\n北约成员奉行越来越独立的政策，而北约本身也接近解体。\n最后但同样重要的是：这都源于中华人民共和国在世界政治中的积极\n介入，以及美国影响力的逐步被挤出。";
 				}
 				else if (GlobalScript.inst.gameState.empires[1].power >= GlobalScript.inst.gameState.empires[0].power && GlobalScript.inst.gameState.empires[1].power >= GlobalScript.inst.gameState.influencePRC && GlobalScript.inst.gameState.empires[0].power >= GlobalScript.inst.gameState.influencePRC)
 				{
-					fake_text = "The last few years have not been in vain for the USSR - its influence on the world has seriously expanded and probably one day the Cold War will end in victory - the US is losing its influence, the world communist movement is expanding, and NATO members are pursuing an increasingly independent policy. The 中华人民共和国, despite a certain foreign policy activity, was never able to break into superpowers, still remaining behind the United States and the USSR, but maybe sooner or later it will change...";
+					fake_text = "过去几年对苏联并非白费——它在世界上的影响力大幅扩张；\n也许有一天，冷战会以胜利告终——美国正在失去影响力，\n世界共产主义运动不断扩大，北约成员奉行越来越独立的政策。\n尽管中国在对外政策上颇有动作，但它始终未能跻身超级大国行列，\n仍落在美国与苏联之后；不过也许迟早会改变……";
 				}
 				else if (GlobalScript.inst.gameState.empires[0].power >= GlobalScript.inst.gameState.empires[1].power && GlobalScript.inst.gameState.empires[1].power >= GlobalScript.inst.gameState.influencePRC && GlobalScript.inst.gameState.empires[0].power >= GlobalScript.inst.gameState.influencePRC)
 				{
-					fake_text = "The last few years have not been in vain for the United States - their influence on the world has greatly expanded and it looks like they will sometime emerge victorious from the Cold War - the USSR is losing influence in the world, including the socialist camp, and the world communist movement is weakening. The 中华人民共和国, despite a certain foreign policy activity, was never able to break into superpowers, still remaining behind the United States and the USSR, but maybe sooner or later it will change...";
+					fake_text = "过去几年对美国并非白费——它在世界上的影响力大幅提升，\n看来他们终将从冷战中某个时刻赢得胜利：\n苏联在世界上的影响力（包括在社会主义阵营）\n正在下降，世界共产主义运动也在走弱。\n尽管中国在对外政策上颇有动作，但它始终未能跻身超级大国行列，\n仍落在美国与苏联之后；不过也许迟早会改变……";
 				}
 				else if (GlobalScript.inst.gameState.empires[0].power >= GlobalScript.inst.gameState.empires[1].power && GlobalScript.inst.gameState.influencePRC >= GlobalScript.inst.gameState.empires[1].power && GlobalScript.inst.gameState.empires[0].power >= GlobalScript.inst.gameState.influencePRC)
 				{
-					fake_text = "The Cold War is nearing its end, and it seems that the United States will prevail in this long-standing confrontation, being the most influential force in the world. The USSR is losing influence on the world, including on the socialist camp, which is pursuing an increasingly independent policy, and on the world communist movement. Last but not least, this happened because of the active intervention of the 中华人民共和国 in world politics and the gradual ousting of Soviet influence.";
+					fake_text = "冷战快走到尽头了，似乎在这场长期对抗中，\n美国将占上风——成为世界上最有影响力的力量。\n苏联在世界上的影响力正在丧失，包括在社会主义阵营（其奉行越来\n越独立的政策）以及世界共产主义运动方面。\n最后但同样重要的是：这都源于中华人民共和国在世界政治中的积极\n介入，以及苏联影响力的逐步被挤出。";
 				}
 				else if (GlobalScript.inst.gameState.influencePRC >= GlobalScript.inst.gameState.empires[0].power && GlobalScript.inst.gameState.influencePRC >= GlobalScript.inst.gameState.empires[1].power && GlobalScript.inst.gameState.empires[1].power >= GlobalScript.inst.gameState.empires[0].power)
 				{
-					fake_text = "Once having among its supporters only scattered partisans-Maoists, China nevertheless managed to break through and become a world superpower, gaining great weight in international organizations and many followers in different countries.||The confrontation between the USSR and the USA is gradually fading into the background, however it seems that the USSR will emerge as the winner - the US is rapidly losing influence on the world, the dollar system is falling apart, NATO members are pursuing an increasingly independent policy, and the organization itself is close to dissolving.";
+					fake_text = "一开始，中国的支持者只有零散的游击派“毛主义者”，\n但它最终还是突破重围，成为世界超级大国，\n在国际组织中获得巨大分量，并在不同国家赢得了众多追随者。\n||苏联与美国之间的对抗正逐渐淡出背景，\n但似乎苏联将成为胜利者——美国正在迅速失去对世界的影响力，\n美元体系土崩瓦解；北约成员奉行越来越独立的政策，\n而北约本身也接近解体。";
 					if (GlobalScript.inst.gameState.iron_and_blood)
 					{
 						achieves.GetComponent<achievements>().Set(33);
@@ -1010,7 +1010,7 @@ public class EndingScript : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.influencePRC >= GlobalScript.inst.gameState.empires[0].power && GlobalScript.inst.gameState.influencePRC >= GlobalScript.inst.gameState.empires[1].power && GlobalScript.inst.gameState.empires[0].power >= GlobalScript.inst.gameState.empires[1].power)
 				{
-					fake_text = "Once having among its supporters only scattered partisans-Maoists, China nevertheless managed to break through and become a world superpower, gaining great weight in international organizations and many followers in different countries.||The confrontation between the USSR and the USA is gradually fading into the background, however it seems that the USA will emerge as the winner - the USSR loses any influence on the world communist and simply anti-American movement, the socialist camp collapses before our eyes and most likely will be divided between the 中华人民共和国 and the USA, and we will get the best part.";
+					fake_text = "一开始，中国的支持者只有零散的游击派“毛主义者”，\n但它最终还是突破重围，成为世界超级大国，\n在国际组织中获得巨大分量，并在不同国家赢得了众多追随者。\n||苏联与美国之间的对抗正逐渐淡出背景，\n但似乎美国将成为胜利者——苏联对世界共产主义与单纯反美运动失\n去任何影响；社会主义阵营在我们眼前崩塌，\n最可能在中华人民共和国与美国之间分割，\n而我们将得到最好的那一份。";
 					if (GlobalScript.inst.gameState.iron_and_blood)
 					{
 						achieves.GetComponent<achievements>().Set(33);
@@ -1046,7 +1046,7 @@ public class EndingScript : MonoBehaviour
 				}
 				else if (!GlobalScript.inst.gameState.allcountries[15].isMonatchy && (!GlobalScript.inst.gameState.event_done[455] || GlobalScript.inst.gameState.resultOfEvents[455] > 2) && GlobalScript.inst.gameState.allcountries[15].isSEV && (GlobalScript.inst.gameState.empires[1].now_leader != 6 || (GlobalScript.inst.gameState.empires[1].power > GlobalScript.inst.gameState.empires[0].power && GlobalScript.inst.gameState.empires[1].power > GlobalScript.inst.gameState.influencePRC)))
 				{
-					fake_text += "||The 80s became a turning point for Yugoslavia: a huge external debt, the consequences of Tito's economic policy, attempts to improve the situation with the help of market reforms could lead to disastrous consequences, however, thanks to the timely intervention of the socialist camp, this was avoided. Yugoslavia decided to join CMEA as a full member, which, thanks to cooperation with the social camp, preferential prices and Soviet help, helped to revive the economy and begin to gradually pay off its debts, and the help of the KGB helped appease nationalists and liberals. Of course, this led to the separation of the SFRY from the West and the rapprochement with the USSR.";
+					fake_text += "||20世纪80年代成为南斯拉夫的转折点：\n巨额外债、铁托经济政策的后果；借助市场改革来改善局势的尝试可\n能带来灾难性后果——但多亏社会主义阵营的及时介入，\n这一切被避免。南斯拉夫决定以正式成员身份加入经互会；\n在与社会主义阵营合作、获得优惠价格以及苏联援助的帮助下，\n经济得以复苏，并开始逐步偿还债务；克格勃的帮助也有助于安抚民\n族主义者与自由派。当然，这也导致南斯拉夫社会主义联邦共和国（\nSFRY）与西方分离，并向苏联靠拢。";
 					if (GlobalScript.inst.gameState.iron_and_blood)
 					{
 						achieves.GetComponent<achievements>().Set(65);
@@ -1054,19 +1054,19 @@ public class EndingScript : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.allcountries[7].isNATO)
 				{
-					fake_text += "||The 80s were difficult times for Yugoslavia: huge external debt, the consequences of Tito's economic policy, attempts to improve the situation through market reforms and the absence of influential patrons led to a deterioration in the economic situation, a decline in living standards and, as a result, an increase in nationalism in the republics. After the escalation of a serious confrontation between the renewed NATO and China, Western countries did not dare to interfere in the situation inside the SFRY and limited themselves to \"concerns about the violation of democracy and the rights of national minorities,\" thanks to which the SFRY continues to deepen military and economic cooperation with China.";
+					fake_text += "||20世纪80年代对南斯拉夫而言是艰难时期：\n巨额外债、铁托经济政策的后果；通过市场改革试图改善局势，\n却因缺乏有影响力的“保护人”，导致经济状况恶化、\n生活水平下降，进而使各共和国民族主义抬头。\n随着重组后的北约与中国之间的严重对抗升级，\n西方国家不敢干涉SFRY内部局势，只能把自己限制在“对民主遭\n到侵犯与民族少数权利受损的关切”上；\n正因如此，SFRY得以继续深化与中国的军事与经济合作。";
 				}
 				else if (GlobalScript.inst.gameState.allcountries[15].prosov)
 				{
-					fake_text += "||The 80s were difficult times for Yugoslavia: huge external debt, the consequences of Tito's economic policy, attempts to improve the situation through market reforms and the absence of influential patrons led to a deterioration in the economic situation, a decline in living standards and, as a result, an increase in nationalism in the republics. Attempts by the United States and the West to support the nationalists led to a deterioration in relations, which is why Belgrade eventually decided to join the Warsaw Pact, having received a generous offer from Romanov: huge financial assistance, preferential supplies of raw materials and full protection from the West.";
+					fake_text += "||20世纪80年代对南斯拉夫而言是艰难时期：\n巨额外债、铁托经济政策的后果；通过市场改革试图改善局势，\n却因缺乏有影响力的“保护人”，导致经济状况恶化、\n生活水平下降，进而使各共和国民族主义抬头。\n美国与西方试图支持民族主义者，导致关系进一步恶化；\n因此，贝尔格莱德最终决定加入华沙条约组织——罗曼诺夫开出了丰\n厚条件：巨额财政援助、原材料优惠供给，\n以及来自西方的全面保护。";
 				}
 				else if (!GlobalScript.inst.gameState.allcountries[15].isMonatchy && (!GlobalScript.inst.gameState.event_done[455] || GlobalScript.inst.gameState.resultOfEvents[455] > 2) && GlobalScript.inst.gameState.allcountries[4].okb && GlobalScript.inst.gameState.empires[1].now_leader == 6)
 				{
-					fake_text += "||The 80s were difficult times for Yugoslavia: huge external debt, the consequences of Tito's economic policy, attempts to improve the situation through market reforms and the absence of influential patrons led to a deterioration in the economic situation, a decline in living standards and, as a result, an increase in nationalism in the republics. Attempts by the United States and the West to support the nationalists led to a deterioration of relations, which is why Belgrade began to focus more on Russia and China, fully joining the 16+1 program.";
+					fake_text += "||20世纪80年代对南斯拉夫而言是艰难时期：\n巨额外债、铁托经济政策的后果；通过市场改革试图改善局势，\n却因缺乏有影响力的“保护人”，导致经济状况恶化、\n生活水平下降，进而使各共和国民族主义抬头。\n美国与西方试图支持民族主义者，导致关系恶化；\n因此，贝尔格莱德开始更加聚焦俄罗斯与中国，\n并全面加入“16+1”计划。";
 				}
 				else if (GlobalScript.inst.gameState.allcountries[15].Gosstroy == 0 && !GlobalScript.inst.gameState.allcountries[15].prosov)
 				{
-					fake_text += "||The 80s were difficult times for Yugoslavia: huge external debt, the consequences of Tito's economic policy, attempts to improve the situation through market reforms and the absence of influential patrons led to a deterioration in the economic situation, a decline in living standards and, as a result, an increase in nationalism in the republics. However, Yugoslavia still managed to survive these trials, not least thanks to our help. Market reforms were limited to the continuation of experiments with cost accounting and decentralization, and in the early 90's they completely stopped. The nationalists managed to play on the discontent of the people and try to secede, but all the attempts of separatism were quickly suppressed by the YPA. Attempts by the USA and the West to support nationalists led to a deterioration in relations between the West and the SFRY, which began to focus more on the USSR and China, although it continued to remain neutral.";
+					fake_text += "||20世纪80年代对南斯拉夫而言是艰难时期：\n巨额外债、铁托经济政策的后果；通过市场改革试图改善局势，\n却因缺乏有影响力的“保护人”，导致经济状况恶化、\n生活水平下降，进而使各共和国民族主义抬头。\n然而，南斯拉夫仍设法挺过这些考验，尤其多亏了我们的帮助。\n市场改革被限制在继续进行成本核算与分权的试验上，\n到了90年代初便彻底停止。\n民族主义者利用民众不满情绪，试图分离出去，\n但所有分离主义企图都被YPA迅速镇压。\n美国与西方试图支持民族主义者，导致西方与SFRY之间关系恶化；\n于是SFRY开始更加聚焦苏联与中国，\n尽管它仍继续保持中立。";
 					if (GlobalScript.inst.gameState.iron_and_blood)
 					{
 						achieves.GetComponent<achievements>().Set(65);
@@ -1074,27 +1074,27 @@ public class EndingScript : MonoBehaviour
 				}
 				else if (!GlobalScript.inst.gameState.allcountries[15].isMonatchy && (!GlobalScript.inst.gameState.event_done[455] || GlobalScript.inst.gameState.resultOfEvents[455] > 2) && GlobalScript.inst.gameState.allcountries[15].Torg && (GlobalScript.inst.gameState.empires[1].power > GlobalScript.inst.gameState.empires[0].power || GlobalScript.inst.gameState.influencePRC > GlobalScript.inst.gameState.empires[0].power || (GlobalScript.inst.gameState.allcountries[1].isSEV && GlobalScript.inst.gameState.empires[1].power + GlobalScript.inst.gameState.influencePRC > GlobalScript.inst.gameState.empires[0].power)))
 				{
-					fake_text += "||The 80s were difficult times for Yugoslavia: huge foreign debt, the consequences of Tito's economic policy, attempts to improve the situation through market reforms and the absence of influential leaders led to a deterioration in the economic situation, a decline in living standards and, as a result, an increase in nationalism in the republics. However, Yugoslavia still managed to survive these trials, especially thanks to our help. Market reforms did not take on such a large scale, and liberal political ones were quickly sabotaged and crushed by the military and conservatives. However, it was still not possible to avoid a civil war, and Slovenia and Croatia were still able to gain independence by its results, however, in other regions, the rebellions were soon suppressed by the JNA. Attempts by the Americans to support the separatists led to a deterioration in their relations with Yugoslavia, which every year is increasingly establishing cooperation with the USSR and China. Yugoslavia, albeit declining in size, continues to exist.";
+					fake_text += "||20世纪80年代对南斯拉夫而言是艰难时期：\n巨额外债、铁托经济政策的后果；通过市场改革试图改善局势，\n却因缺乏有影响力的领导人，导致经济状况恶化、\n生活水平下降，进而使各共和国民族主义抬头。\n然而，南斯拉夫仍设法挺过这些考验，尤其多亏了我们的帮助。\n市场改革规模并未扩大到那种程度，而自由派政治改革也很快被军方\n与保守派破坏并镇压。\n但仍无法避免内战；斯洛文尼亚与克罗地亚最终借内战结果获得独立，\n不过在其他地区，叛乱很快被JNA镇压。\n美国试图支持分离主义者，导致其与南斯拉夫的关系恶化；\n而南斯拉夫每年都在更紧密地与苏联与中国建立合作。\n南斯拉夫尽管规模缩小，仍继续存在。";
 				}
 				else if (!GlobalScript.inst.gameState.allcountries[15].isMonatchy && (!GlobalScript.inst.gameState.event_done[455] || GlobalScript.inst.gameState.resultOfEvents[455] > 2))
 				{
-					fake_text += "||The 80s were difficult times for Yugoslavia: huge foreign debt, the consequences of Tito's economic policy, attempts to improve the situation through market reforms and the absence of influential leaders led to a deterioration in the economic situation, a decline in living standards and, as a result, an increase in nationalism in the republics. The government’s inability to stabilize the situation eventually led to the seizure of power by the military faction and the outbreak of civil war between the central government (which soon turned out to be actually represented by Serbia and Montenegro) and Croatian, Slovenian and Albanian nationalists. It is not known who would emerge victorious from it, since NATO troops put an end to it and in the history of Yugoslavia by their operation against Serbia. A single Balkan state ceased to exist, and almost all of its former republics are now oriented toward the west and the USA.";
+					fake_text += "||20世纪80年代对南斯拉夫而言是艰难时期：\n巨额外债、铁托经济政策的后果；通过市场改革试图改善局势，\n却因缺乏有影响力的领导人，导致经济状况恶化、\n生活水平下降，进而使各共和国民族主义抬头。\n政府无法稳定局势，最终导致军方派系夺取政权，\n并爆发中央政府（很快发现实际上由塞尔维亚与黑山代表）\n与克罗地亚、斯洛文尼亚及阿尔巴尼亚民族主义者之间的内战。\n谁会从中胜出并不清楚，因为北约部队以对塞尔维亚的行动终结了这\n一切。巴尔干单一国家不复存在，几乎所有原共和国如今都转向西方\n与美国。";
 				}
 			}
 			else if (number_of_e == 6)
 			{
-				name.text = "Sweet life";
+				name.text = "甜蜜生活";
 				if (GlobalScript.inst.gameState.data[5] <= 400)
 				{
-					fake_text = "Your governance haven't brought China much improvements in life of it's common citizens - our standards of living are still like in the beginning of 70-s. Food crisises are happening sometimes, villagers don't know the modern conveniences, and in cities the situation is not the best - common people live in poorly equipped houses, often in communal houses and slums, goods of wealthy classes are rare and luxury is only available for high goverment officials and enterprise directors.";
+					fake_text = "你们的治理并没有给中国普通公民的生活带来多少改善——我们的生\n活水平仍停留在70年代初。\n时不时就会出现粮食危机，乡下人连现代便利都不懂；\n而在城市里情况也并不理想——老百姓住在设备简陋的房子里，\n往往挤在合住房与棚户区；富裕阶层的商品很少，\n所谓奢侈品也只供高官与企业董事享用。";
 				}
 				else if (GlobalScript.inst.gameState.data[5] <= 700)
 				{
-					fake_text = "Your governance was marked by a rising chinese standards of living - food supply problems have been finally solved, most people now have access to goods os wealthy classes and living conditions in cities have improved for many Chinese, though many workers still have to live in communal houses and slums. Situation is worse in the villages but infrastructure is already developing, modern houses are built in villages and modern communications are being brought to them. We are expected to reach japanese level of standards of living soon. The people will always remember your contributions to their bright future.";
+					fake_text = "你们的治理以中国人民生活水平的持续攀升为标志——粮食供应问题\n终于得到解决，大多数人如今都能接触到富裕阶层的商品，\n许多中国人在城市中的生活条件也明显改善，\n尽管仍有不少工人不得不住在大杂院和贫民窟。\n农村情况更糟，但基础设施已经在发展：\n现代住房在乡村兴建，现代通信也正在向他们延伸。\n我们预计很快就能达到日本的生活水平。\n人民将永远铭记你们为他们光明未来所作出的贡献。";
 				}
 				else
 				{
-					fake_text = "Your governance was marked by a huge rising in chinese standards of living - not only the food supply problems have been solved but we have reached a level where almost everyone has access to the goods of wealthy classes and more and more people acquire luxury items. We actively overcoming the gap between the city and the village - ubiquitous electrification was made, modern communications were brought, modern houses are being built in villages. Now every honest worker has worthy home and food, in standards of living China have already outrun all Asian countries, including Japan, and for the people you will always be the loved ruler who gave China development and a new life.";
+					fake_text = "你们的治理以中国生活水平的巨大跃升为标志——不仅粮食供应问题\n已被彻底解决，我们还达到这样一个水平：\n几乎人人都能获得富裕阶层的商品，越来越多的人拥有奢侈品。\n我们积极弥合城乡差距——实现了普遍通电，\n引入了现代通信，乡村正在兴建现代住房。\n如今，每一个诚实的劳动者都有体面的住处和饭食；\n在生活水平上，中国已经超过包括日本在内的所有亚洲国家。\n对人民而言，你们永远是深受爱戴的统治者——为中国带来发展与新\n生活。";
 					if (GlobalScript.inst.gameState.iron_and_blood)
 					{
 						achieves.GetComponent<achievements>().Set(47);
@@ -1107,12 +1107,12 @@ public class EndingScript : MonoBehaviour
 				{
 					achieves.GetComponent<achievements>().Set(13);
 				}
-				name.text = "Worldwide situation";
+				name.text = "世界局势";
 				if (GlobalScript.inst.gameState.allcountries[10].numberOfSpecialEnding < 0)
 				{
 					if (GlobalScript.inst.gameState.data[83] <= 0 && !GlobalScript.inst.gameState.allcountries[46].Vyshi && GlobalScript.inst.gameState.allcountries[46].Gosstroy == 2)
 					{
-						fake_text = "After long-awaited peaceful unification of Korea and withdrawal of american troops the long and difficult integration began. It was not so easy to unite self-sustained DPRK with RK, based on the foreign capital. Another problem is foreign policy, where \"southerners\" stand for keeping friendly contacts with the West and \"northerners\" - for independent foreign policy and establishing a new power in the region. Though Koreans, enjoying the unification and true independence, don't care nuch for the policy now.";
+						fake_text = "在久盼的朝鲜和平统一之后、美国军队撤离，\n漫长而艰难的整合开始了。\n要把以自给自足为基础的朝鲜民主主义人民共和国同依靠外资的韩国\n统一起来并不容易。另一个问题是外交政策：\n所谓“南方派”主张同西方保持友好联系，\n而“北方派”则主张独立的外交政策，并在该地区建立新的力量。\n尽管朝鲜人享受着统一与真正的独立，但他们眼下对这些政策并不太\n在意。";
 						if (GlobalScript.inst.gameState.iron_and_blood)
 						{
 							achieves.GetComponent<achievements>().Set(50);
@@ -1120,26 +1120,26 @@ public class EndingScript : MonoBehaviour
 					}
 					else if (GlobalScript.inst.gameState.data[83] <= 0 && (!GlobalScript.inst.gameState.allcountries[1].isSEV || GlobalScript.inst.gameState.empires[1].now_leader == 6) && GlobalScript.inst.gameState.allcountries[10].Gosstroy == 1)
 					{
-						fake_text = "Nothing much has changed on the Korean peninsula - the confrontation of two Koreas continues. And in the beginning of 2000-s it brought to a development of nuclear weapons in DPRK to protect itself against american agression. DPRK continues neutral foreign policy maintaining good relations with China and Moscow but without joining their blocks.";
+						fake_text = "朝鲜半岛上并没有太大变化——两朝对峙仍在继续。\n而在21世纪初，朝鲜民主主义人民共和国为抵御美国的侵略而开始\n发展核武器。朝鲜继续奉行中立外交政策：\n同中国和莫斯科保持良好关系，但不加入他们的阵营。";
 					}
 					else if (GlobalScript.inst.gameState.data[83] <= 0 && GlobalScript.inst.gameState.allcountries[1].isSEV && GlobalScript.inst.gameState.empires[1].now_leader != 6 && GlobalScript.inst.gameState.allcountries[10].Gosstroy == 1)
 					{
-						fake_text = "Nothing much has changed on the Korean peninsula - the confrontation of two Koreas continues. To gain advantage in it in the 90-s DPRK has joined CMEA and soon joined the WPO, seeing that the split between 中华人民共和国 and USSR had finally been overcame. That gave it economic boost and a solid protection against american agression.";
+						fake_text = "朝鲜半岛上并没有太大变化——两朝对峙仍在继续。\n为了在90年代争取优势，朝鲜民主主义人民共和国加入了经互会（\nCMEA），不久又加入了华沙条约组织（WPO），\n因为它看到中华人民共和国与苏联之间的分裂终于被克服。\n这为它带来了经济上的提振，并提供了对抗美国侵略的坚实保障。";
 					}
 					else if (GlobalScript.inst.gameState.data[83] <= 0 && (!GlobalScript.inst.gameState.allcountries[1].isSEV || GlobalScript.inst.gameState.empires[1].now_leader == 6) && GlobalScript.inst.gameState.allcountries[10].Gosstroy == 2)
 					{
-						fake_text = "Nothing much has changed on the Korean peninsula - the confrontation of two Koreas continues though in a more soft form. Massive reforms were made in DPRK - which meant decentralization of planning, civil liberalization and SEZ opening is planned. Thoug these actions have improved DPRK's relations with USA and pro-american neighbors, in the beginning of 2000-s nuclear weapons have been developed in DPRK to protect itself against american agression. DPRK continues neutral foreign policy maintaining good relations with China and Moscow but without joining their blocks.";
+						fake_text = "朝鲜半岛上并没有太大变化——两朝对峙仍在继续，\n只是以更缓和的形式呈现。\n朝鲜民主主义人民共和国进行了大规模改革：\n意味着计划体制的分权、对民间的放宽管制，\n并计划开放经济特区。\n尽管这些举措改善了朝鲜同美国及亲美邻国的关系，\n但在21世纪初，朝鲜仍发展核武器以保护自己免受美国侵略。\n朝鲜继续奉行中立外交政策：同中国和莫斯科保持良好关系，\n但不加入他们的阵营。";
 					}
 					else if (GlobalScript.inst.gameState.data[83] <= 0 && GlobalScript.inst.gameState.allcountries[1].isSEV && GlobalScript.inst.gameState.empires[1].now_leader != 6 && GlobalScript.inst.gameState.allcountries[10].Gosstroy == 2)
 					{
-						fake_text = "Nothing much has changed on the Korean peninsula - the confrontation of two Koreas continues though in a more soft form. Massive reforms were made in DPRK - which meant decentralization of planning, civil liberalization and SEZ opening is planned. Thoug these actions have improved DPRK's relations with USA and pro-american neighbors, in the 90-s DPRK has joined CMEA and soon WPO, seeing that the split between 中华人民共和国 and USSR had finally been overcame. That gave it economic boost and a solid protection against american agression.";
+						fake_text = "朝鲜半岛上并没有太大变化——两朝对峙仍在继续，\n只是以更缓和的形式呈现。\n朝鲜民主主义人民共和国进行了大规模改革：\n意味着计划体制的分权、对民间的放宽管制，\n并计划开放经济特区。\n尽管这些举措改善了朝鲜同美国及亲美邻国的关系，\n但在90年代，朝鲜加入了经互会（CMEA），\n不久又加入了华沙条约组织（WPO），\n因为它看到中华人民共和国与苏联之间的分裂终于被克服。\n这为它带来了经济上的提振，并提供了对抗美国侵略的坚实保障。";
 					}
 					else if (GlobalScript.inst.gameState.data[83] == 1)
 					{
-						fake_text = "After successful unification of Korea under DPRK's banner and exile of american invaders a long-awaited revival and development began in Korea and in the 90-s the country has announced about successful nuclear weapons development. ";
+						fake_text = "在朝鲜民主主义人民共和国旗帜下实现朝鲜成功统一、\n驱逐美国侵略者之后，久盼的复兴与发展开始了；\n而在90年代，该国宣布核武器研发取得成功。";
 						if (GlobalScript.inst.gameState.empires[1].now_leader == 6)
 						{
-							fake_text += " DPRK, protected by the nuclear warheads, quickly started to conduct independent foreign policy. Korea tries to become a new independent power in the region and global politics and it seems that it will eventually.";
+							fake_text += "在核弹头的保护下，朝鲜民主主义人民共和国迅速开始推行独立的外\n交政策。朝鲜试图成为地区乃至全球政治中的新独立力量，\n而且看起来它最终会做到。";
 							if (GlobalScript.inst.gameState.iron_and_blood)
 							{
 								achieves.GetComponent<achievements>().Set(16);
@@ -1147,19 +1147,19 @@ public class EndingScript : MonoBehaviour
 						}
 						else if (GlobalScript.inst.gameState.allcountries[10].econ)
 						{
-							fake_text += " Soon DPRK joined our alliance, what boosted the country's economy even more.";
+							fake_text += "不久，朝鲜民主主义人民共和国加入了我们的联盟，这又进一步推动了该国经济发展。";
 						}
 						else
 						{
-							fake_text += " Soon DPRK joined CMEA, what boosted the country's economy even more.";
+							fake_text += "不久，朝鲜民主主义人民共和国加入了经互会（CMEA），这又进一步推动了该国经济发展。";
 						}
 					}
 					else if (GlobalScript.inst.gameState.data[83] == 2)
 					{
-						fake_text = "After DPRK's defeat and unification of Korea under Republic's banner the USA have firstly brought more troops to annexed regions to fight growing guerilla movement. The guerillas control many northern areas and wear down americans by ongoing attacks. It seems that long-awaited Korean revival won't come soon.";
+						fake_text = "在朝鲜民主主义人民共和国遭到挫败、并在共和国旗帜下实现朝鲜统\n一之后，美国首先向被吞并地区增派更多军队，\n以打击日益壮大的游击运动。\n游击队控制了许多北方地区，并通过持续袭击消耗美国人。\n看来，久盼的朝鲜复兴恐怕不会很快到来。";
 						if (GlobalScript.inst.gameState.empires[1].now_leader != 6 || GlobalScript.inst.gameState.data[14] < 3)
 						{
-							fake_text += " And soon americans have brought their nuclear weapons to the Korea \"to defend peace and american interests in the region\" that caused the protest of many countries.";
+							fake_text += "很快，美国人又把他们的核武器带到朝鲜，\n“以保卫该地区的和平与美国利益”，这引发了许多国家的抗议。";
 							if (GlobalScript.inst.gameState.iron_and_blood)
 							{
 								achieves.GetComponent<achievements>().Set(51);
@@ -1169,32 +1169,32 @@ public class EndingScript : MonoBehaviour
 				}
 				else
 				{
-					fake_text = "Nothing interesting has happened on the Korean peninsula.";
+					fake_text = "朝鲜半岛上没有发生什么有意思的事。";
 				}
 				if (GlobalScript.inst.gameState.allcountries[37].SubGosstroy == 17 && GlobalScript.inst.gameState.allcountries[37].okb)
 				{
-					fake_text += "|With the direct support of China, a regime of traditionalist agrarians, who rejected the capitalist system of economy, was established in the Union State of Palestine and Israel. But this was not enough for the Chinese authorities, they were not satisfied with the too slow pace of reforms. Therefore, the option of creating Death Battalions, where the poor were recruited, and a large-scale purge of the Palestinian-Israeli army was put forward, officially \"to protect it from the reactionary forces in the army\".|Year after year this organisation gradually grew replacing the army, and was led by Chinese advisers and individuals recruited by the Chinese intelligence services. And when the organisation became strong enough according to the opinion of foreign curators, it was time to implement the plan: in one night the Death Battalions seized all government and administrative buildings and residential centres of political power of all cities and regions of the country and executed them all on the spot. Then arrested and deposed the remnants of the army. And finally they set fire to all the cities and towns, blowing up everything they could. The alarmed citizens ran out of their homes, where they were met by Death Battalion units and taken to special tent camps. There, the entire population of the country was divided into several hundred tribes, led by Death Battalion leaders. And each family was given a horse, a wagon and stacks of hard warm fabric. So like that in Palestine and Israel it started a period of return to the roots - to nomadic tribal life. And the remaining bits of civilisation survived only in water extraction areas and minor settlements nearby to support water extraction under the control of Death Battalions. Money had also been abolished in the country, replaced by barter.|<color=red>\"My children, you have finally found the Promised Land bequeathed to us by God.\"</color>";
+					fake_text += "|在中国的直接支持下，在巴勒斯坦—以色列联合国建立了一个拒绝\n资本主义经济制度的传统主义农民政权。\n但这对中国当局来说还不够——他们不满意改革进度太慢。\n因此，提出了组建“死亡营”的方案：从贫困者中招募人员，\n并对巴勒斯坦—以色列军队进行大规模清洗，\n官方口径是“为保护军队不受军中反动势力的侵害”。\n|年复一年，这个组织逐步壮大，取代了军队；\n它由中国顾问领导，并由中国情报部门招募的人员参与。\n等到外国“监管者”认为组织已足够强大，\n便到了执行计划的时候：就在一夜之间，\n“死亡营”夺取了全国各城市与各地区所有政府与行政建筑，\n以及政治权力的居住中心，并将其全部当场处决。\n随后又逮捕并罢黜军队残余力量。\n最后，他们纵火焚烧全国所有城市和城镇，\n炸毁一切他们能炸毁的东西。\n惊慌的市民冲出家门，在那里遭到“死亡营”部队拦截，\n并被带往专门的帐篷营地。\n在那里，全国人口被分成数百个部族，由“死亡营”领导人统领。\n每个家庭还被发给一匹马、一辆马车以及成堆的厚实保暖布料。\n于是，在巴勒斯坦和以色列，便开启了“回归根本”的时期——回到\n游牧部族生活。剩余的文明碎片只在取水区域以及附近的小型聚落中\n得以存续，以便在“死亡营”的控制下维持取水。\n该国也废除了货币，改用以物易物。\n|<color=red>“孩子们，你们终于找到了上帝赐予我们的应许之地。\n”</color>";
 					achieves.GetComponent<achievements>().Set(160);
 				}
 				else if (GlobalScript.inst.gameState.data[85] == 0)
 				{
-					fake_text += "|The conflict between Palestinians and Israel remained unsolved until palestinian rebellion in 1987-1993, known as the First Intifada and harshly suppressed by Israel, forced sides to negotiate. The Oslo Accords created Palestinian National Administration as a palestininan territory authonomy and the PLO stopped terrorist attacks. But Israel's reluctance to make concessions and ongoing terrorism from different organizations led to disruption of peaceful process and the Second Intifada in 2000-2005.";
+					fake_text += "|巴勒斯坦人与以色列之间的冲突长期未能解决，\n直到1987—1993年的巴勒斯坦起义——被称为第一次起义（\nFirst Intifada）——遭到以色列的严厉镇压，\n才迫使双方开始谈判。\n奥斯陆协议（Oslo Accords）\n在巴勒斯坦领土上设立了巴勒斯坦民族行政机构（作为领土自治安排），\n并使巴解组织（PLO）停止恐怖袭击。\n但以色列不愿作出让步，以及来自不同组织的持续恐怖活动，\n导致和平进程遭到破坏，并引发2000—2005年的第二次起义\n（Second Intifada）。";
 				}
 				else if (GlobalScript.inst.gameState.data[85] == 1)
 				{
-					fake_text += "|Our interference and forcing sides to negotiate marked the beginning of Palestinian-Israeli conflict's settlement. The Beijing Accords created Palestinian National Administration as a palestininan territory authonomy and the PLO stopped terrorist attacks. But Israel's reluctance to make concessions and ongoing terrorism from different organizations led to disruption of peaceful process and the Palestinian Intifada in 2000-2005.";
+					fake_text += "|我们的介入与强迫双方谈判，标志着巴勒斯坦—以色列冲突走向“\n解决”的开端。北京协议（Beijing Accords）\n在巴勒斯坦领土上设立了巴勒斯坦民族行政机构（作为领土自治安排），\n并使巴解组织（PLO）停止恐怖袭击。\n但以色列不愿作出让步，以及来自不同组织的持续恐怖活动，\n导致和平进程遭到破坏，并引发2000—2005年的巴勒斯坦起\n义。";
 				}
 				else if (GlobalScript.inst.gameState.data[85] == 2)
 				{
-					fake_text += "|Our interference and forcing sides to negotiate marked the beginning of Palestinian-Israeli conflict's settlement. The Beijing Accords created the State of Palestine on some parts of Israel's territory. Transfering control of these areas to palestinian administration was accompanied by many excesses, the status of Eastern Jerusalem, creating a corridor between the Gaza Strip and the West Bank of Jordan river and ongoing terrorist's attacks are still causing trouble. The relations between two states are still strained but there is already a progress in achieving peace.";
+					fake_text += "|我们的介入与强迫双方谈判，标志着巴勒斯坦—以色列冲突走向“\n解决”的开端。北京协议（Beijing Accords）\n在以色列领土的部分地区建立了巴勒斯坦国。\n将这些地区的控制权移交给巴勒斯坦行政机构的过程中伴随着种种越\n界行为；东耶路撒冷的地位、在加沙地带与约旦河西岸之间建立走廊，\n以及持续的恐怖袭击至今仍在制造麻烦。\n两国关系仍然紧张，但在实现和平方面已经出现了进展。";
 				}
 				else if (GlobalScript.inst.gameState.data[85] == 3)
 				{
-					fake_text += "|Our interference and forcing sides to negotiate marked the beginning of Palestinian-Israeli conflict's settlement. The Beijing Accords created the United State of Palestine and Israel with two state languages and developed local governance. The subjects' borders and status of Eastern Jerusalem became subjects of sharp disputes, some terrorists organizations are also causing trouble. Another problem is USPI's foreign policy, which causes harsh arguments in newly created state agency. The relations between nations in the new state will be strained for long but international control and equality and brotherhood propaganda will eventually end this conflict.";
+					fake_text += "|我们的介入与强迫双方谈判，标志着巴勒斯坦—以色列冲突走向“\n解决”的开端。北京协议（Beijing Accords）\n建立了巴勒斯坦—以色列联合国家（United State o\nf Palestine and Israel），\n并确定两种国家语言，同时发展地方治理。\n有关领土边界以及东耶路撒冷地位的问题，\n成为激烈争议的焦点；一些恐怖组织也在继续制造麻烦。\n另一个问题是USPI的外交政策，它在新成立的国家机构内部引发\n了尖锐争论。新国家内各民族之间的关系将长期紧张，\n但在国际控制以及“平等与兄弟情谊”的宣传之下，\n这场冲突最终会被终结。";
 				}
 				else
 				{
-					fake_text += "|Nothing interesting has happened in the Arab-Israeli conflict.";
+					fake_text += "|阿拉伯—以色列冲突中没有发生什么值得一提的事。";
 				}
 				if (GlobalScript.inst.gameState.allcountries[30].parts[0])
 				{
@@ -1202,19 +1202,19 @@ public class EndingScript : MonoBehaviour
 				}
 				else if (GlobalScript.inst.gameState.OAR && GlobalScript.inst.gameState.allcountries[14].oar && GlobalScript.inst.gameState.allcountries[35].oar && GlobalScript.inst.gameState.allcountries[13].oar)
 				{
-					fake_text += "|The long-awaited unification of main Arab states into the United Arab Republic, based on arabic socialism principles, had finally been done. Uniting states with similar systems into one was not so difficult, and though the struggle between centralization supporters and local elites is weakening the country's stability, the integration in common went fine. By uniting the economy of several countries and creating a united army UAR became the strongest country in the Near East and a powerful member of international community. UAR tries to maintain friendship with socialist countries and it's growing appetites undermine already weak peace in the region. Israel strengthens the borders and some people say about coming UAR's invasion to Saudi Arabia and Sudan.";
+					fake_text += "|以阿拉伯社会主义原则为基础、将主要阿拉伯国家统一到阿拉伯联\n合共和国（UAR）这一久盼的目标，终于实现了。\n把拥有相似制度的国家合并为一个并不算太难；\n尽管中央集权支持者与地方精英之间的斗争正在削弱国家稳定，\n但共同整合进展顺利。\n通过联合数国经济并组建统一军队，UAR成为近东最强大的国家，\n并成为国际社会中的有力成员。\nUAR试图同社会主义国家保持友谊，但其日益膨胀的胃口正在侵蚀\n本就脆弱的地区和平。\n以色列加强了边境防务，有人甚至说UAR即将入侵沙特阿拉伯和苏\n丹。";
 				}
 				else if (GlobalScript.inst.gameState.OAR)
 				{
-					fake_text += "|Initial jubilation of creating the united Arab state was changed by comprehension of many problems - not all Arab countries have joined the UAR and the ones who joined began to struggle for power in the new state. The struggle between centralization supporters and local elites led to many laws of authonomies and special statuses what didn't helped the efficiency of governance. The UAR continues to exist but it's members conduct more and more independent policy and the unity is more and more formal.";
+					fake_text += "|建立统一阿拉伯国家的初期欢呼，很快被对诸多问题的认识所取代\n——并非所有阿拉伯国家都加入了UAR；\n而加入的国家也开始在新国家内部争夺权力。\n中央集权支持者与地方精英之间的斗争，\n导致出台了大量自治法令与特殊地位安排，\n却并未帮助提升治理效率。\nUAR仍在存在，但其成员的独立政策越来越多，\n统一也越来越流于形式。";
 				}
 				else if (GlobalScript.inst.gameState.data[85] == 2)
 				{
-					fake_text += "|Arabic states continue to remain scattered and plans of unification are forgotten";
+					fake_text += "|阿拉伯国家继续各自分散，统一计划也被遗忘了";
 				}
 				else
 				{
-					fake_text += "|Nothing interesting has happened in the Arab issue.";
+					fake_text += "|阿拉伯问题中没有发生什么有意思的事。";
 				}
 			}
 		}
@@ -1884,17 +1884,17 @@ public class EndingScript : MonoBehaviour
 			if (GlobalScript.inst.gameState.data[35] == 1)
 			{
 				name.text = "Uprising";
-				fake_text = "Your policy has made Chinese people more and more angry. When you tried to calm the growing protests by any means, you failed and began an open uprising, which was quickly supported by army and some party members. Arresting and judging you in court, high party members and generals have declared a temporary goverment. Chinese future is obscure...";
+				fake_text = "你的政策使中国人民的愤怒与日俱增。\n你试图不择手段地平息不断高涨的抗议，\n却失败了，并引发了公开起义；起义很快得到军队和部分党内成员的\n支持。高层党政人士与将军们将你逮捕并在法庭上审判，\n宣布成立临时政府。中国的未来一片昏暗……";
 			}
 			else if (GlobalScript.inst.gameState.data[35] == 2)
 			{
-				name.text = "Party coup";
-				fake_text = "Your actions has made the Party more and more angry. Getting tired of you, high party members had organised the meeting where you were criticized and the party voted for your resignation. Now you are a pensioner, nobody wants, and your former spot is occupied by a compromise candidate, trying to manoeuvre between rival fractions.";
+				name.text = "党内政变";
+				fake_text = "你的所作所为使党越来越愤怒。\n高层党内人士对你忍无可忍，组织了批判你的会议，\n党内表决通过了你的辞职。\n如今你成了领退休金的人——无人问津；\n而你原来的位置被一名折中候选人占据，\n试图在各派对立之间周旋。";
 			}
 			else if (GlobalScript.inst.gameState.data[35] == 3)
 			{
-				name.text = "Nuclear war";
-				fake_text = "You have made your way to the precious red button and launched the missiles. Your strike has destroyed the weak balance between USA and USSR and after you they have also swapped nuclear strikes. Most cities have been destroyed, the planet is polluted and most of the survivors have gone down to the bunkers and shelters.";
+				name.text = "核战争";
+				fake_text = "你走到了那枚珍贵的红色按钮前，按下并发射了导弹。\n你的打击摧毁了美苏之间那脆弱的平衡；\n在你之后，他们也互相进行了核打击。\n大多数城市已被毁灭，地球遭到污染；幸存者中的大多数都躲进了掩\n体与防空洞。";
 				if (GlobalScript.inst.gameState.iron_and_blood)
 				{
 					achieves.GetComponent<achievements>().Set(18);
@@ -1903,7 +1903,7 @@ public class EndingScript : MonoBehaviour
 			else if (GlobalScript.inst.gameState.data[35] == 4)
 			{
 				name.text = "Genocide";
-				fake_text = "During your leadership China's population - once the largest in the world - decreased dramatically. This cannot remain unnoticed, you were more and more often accused  in genocide and eventually when the Party got tired of it you were arrested and sent to court.";
+				fake_text = "在你的领导时期，中国的人口——曾是世界上最多的——急剧下降。\n这件事不可能被忽视：你越来越频繁地被指控犯下种族灭绝罪；\n最终，当党也厌倦了这一切，你被逮捕并送上法庭。";
 				if (GlobalScript.inst.gameState.iron_and_blood)
 				{
 					achieves.GetComponent<achievements>().Set(49);
@@ -1911,8 +1911,8 @@ public class EndingScript : MonoBehaviour
 			}
 			else if (GlobalScript.inst.gameState.data[35] == 6)
 			{
-				name.text = "Behind every machine is a man";
-				fake_text = "Comrade " + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + " decided to avoid possible bloodshed and voluntarily resigned for health reasons. The old leaders were replaced by new, but much less proactive.  Censorship has been tightened in domestic politics, and any deviations from the general line are totally suppressed. IECS was limited to automation of production and the armed forces, and now there is a person behind each machine, so the state apparatus even had to be significantly increased. Even despite this, the economy of the 中华人民共和国 is developing, but every year the growth rate is falling and falling, and someday all the problems of the Chinese economy will surface. China's future is foggy.";
+				name.text = "机器背后都有一个人";
+				fake_text = "同志" + GlobalScript.inst.gameState.names1[GlobalScript.inst.gameState.leader.name_1] + " " + GlobalScript.inst.gameState.names2[GlobalScript.inst.gameState.leader.name_2] + "决定避免可能的流血冲突，并以健康原因主动辞职。\n旧领导人被新的取代，但新者却远不如前者积极。\n国内政治中的审查进一步收紧，任何偏离总路线的行为都被彻底压制。\nIECS被限制在对生产与武装力量的自动化上；\n而如今每一台机器后面都有一个人，因此国家机器甚至不得不大幅扩\n充。即便如此，中华人民共和国的经济仍在发展，\n但每年的增长率却一年比一年下滑；总有一天，\n中国经济的所有问题都会暴露出来。\n中国的未来一片迷雾。";
 			}
 			else if (GlobalScript.inst.gameState.data[35] == 7)
 			{
@@ -1925,82 +1925,82 @@ public class EndingScript : MonoBehaviour
 				{
 					achieves.GetComponent<achievements>().Set(55);
 				}
-				name.text = "New Order";
+				name.text = "新秩序";
 				if (GlobalScript.inst.gameState.party_number[0] > GlobalScript.inst.gameState.party_number[2] && GlobalScript.inst.gameState.party_number[0] > GlobalScript.inst.gameState.party_number[3] && GlobalScript.inst.gameState.party_number[0] > GlobalScript.inst.gameState.party_number[4])
 				{
-					fake_text = "The elections in the 全国人大 did not bring success to the 中共, and radical Communists from the M中共 get the victory on the wave of populism, gaining a relative majority of votes. The M中共 candidate also won the presidential election. Taking advantage of the position of President, as well as the relative majority in Parliament, the M中共 formed a quasi-coalition government in which representatives of other parties received only 3 minor posts. The new government declared its goal to return to Maoism, building socialism and communism in China and around the world, entering into a decisive confrontation with the Soviet revisionists and American imperialists. As part of the policy of returning to socialism, first of all, it was decided to return to the one-party system, destroying the bourgeois Republic and launching a new Cultural revolution against the revisionists and capitalists. The list of revisionists and capitalists included all parties, except for the M中共. Other parties tried to organize public actions against the Maoists and their policies, calling in support of the United States and the USSR, but this initiative was suppressed by the police with the support of the army and armed youth from the military organization of the M中共. In response, the Maoists organized far more rallies in support of the Maoist cause throughout the country, where they forcibly rounded up all those who came to hand in support of Chairman Mao's cause. The people, led by the state and the party, defeated the headquarters of the opposition parties, and their leaders and activists were killed part, part - sent to the village. The leaders of the 中共 also failed to avoid a fair popular anger: the leaders were subjected to the 'corridor of shame', after which they publicly confessed to revisionism, which they immediately repented of, and then were exiled to the people's communes. The United States and the USSR condemned such actions, the Chinese government apologized, shifting the responsibility to the radicals, saying that “could not contain the people's rage, and did not seek to prevent the people in the fight against his enemies, fearing to expose honest people in danger”. However, when the opposition was destroyed, the Armed Forces entered Beijing and other major cities and dispersed with battle not wishing to give power in the hands of the state combat organizations of the M中共, which officially voluntarily dissolved. A new era in China's history is beginning, in which economic reforms will be combined with an extreme increase in the power of the state over society and the party over the state in the struggle for Chinese socialist culture and the construction of socialism and communism through dictatorship, total control and the new culture of selfless devotion to Mao, ideology and party, eradicating conservative traditionalism and liberal pluralism.";
+					fake_text = "在全国人大（NPC）的选举中，中共（CPC）\n未能取得成功；来自MCPC的激进共产党人乘着民粹浪潮获胜，\n赢得相对多数票。MCPC候选人也赢得总统选举。\n凭借总统职位以及议会中的相对多数，MCPC组建了一个准联合政\n府：其他党派的代表只获得3个小职位。\n新政府宣布其目标是回归毛主义——在中国及全世界建设社会主义与\n共产主义，并与苏联修正主义者和美国帝国主义者展开决定性的对抗。\n作为回归社会主义政策的一部分，首先决定恢复一党制：\n摧毁资产阶级共和国，并对修正主义者与资本家发动新的文化大革命。\n被列为修正主义者与资本家的名单包括除MCPC以外的所有党派。\n其他党派试图组织针对毛主义者及其政策的公开行动，\n呼吁美国与苏联予以支持，但这一倡议在军队支持下、\n并由MCPC军事组织中的武装青年配合下，\n被警方压制。作为回应，毛主义者在全国范围内组织了更多支持毛主\n义事业的集会，在那里他们强行围捕所有前来声援毛主席事业的人。\n由国家与党领导的人民击败了反对党总部：\n他们的部分领导人和积极分子被杀，部分则被送往农村。\n中共领导层同样未能躲过“公正的民愤”：\n领导人遭到“羞辱走廊”的审判，随后公开忏悔修正主义——并立刻\n为此悔悟——之后被流放到人民公社。\n美国与苏联谴责这类行动；中国政府道歉，\n把责任推给激进派，称“无法遏制人民的愤怒，\n也并不寻求阻止人民与其敌人作战，担心让诚实的人陷入危险”。\n然而，当反对力量被摧毁后，武装力量进入北京及其他主要城市，\n战斗中四散开来——不愿把权力交到MCPC的国家战斗组织手中；\n该组织也正式自愿解散。\n中国历史将迎来一个新的时代：经济改革将与国家对社会的极端强化、\n党对国家的极端强化相结合；在争夺中国社会主义文化、\n以及通过专政、全面控制与对毛、意识形态和党的无私奉献的新文化\n来建设社会主义与共产主义的斗争中，清除保守传统主义与自由多元\n主义。";
 				}
 				else if (GlobalScript.inst.gameState.party_number[0] > 1500)
 				{
-					fake_text = "The past elections in the 全国人大 did not bring success to the 中共, and the victory in the parliamentary elections was won by radical Communists from the M中共, gaining an absolute majority in the wave of populism. The M中共 candidate also won the presidential election. Taking advantage of the office of President, as well as the absolute majority in Parliament, the M中共 formed a homogeneous government. The new government declared its goal to return to Maoism, building socialism and communism in China and around the world, entering into a decisive confrontation with the Soviet revisionists and American imperialists. As part of the policy of returning to socialism, first of all, it was decided to return to one-party system, destroying the bourgeois Republic and launching a new Cultural revolution against the revisionists and capitalists. The list of revisionists and capitalists included all parties, except for the M中共. Other parties tried to organize public actions against the Maoists and their policies, calling for the support of the United States and the USSR, but this initiative was suppressed by the police with the support of the army and armed youth from the military organization of the M中共. In response, the Maoists organized far more rallies in support of the Maoist cause throughout the country, where they forcibly rounded up all those who came to hand in support of Chairman Mao's cause. The people, led by the state and the party, defeated the headquarters of the opposition parties, and their leaders and activists were killed part, part - sent to the village. The leadership of the 中共 also failed to avoid fair popular anger: the leaders of the party were subjected to the 'corridor of shame', and then confessed to revisionism, which immediately repented, and then were exiled to the people's communes. The United States and the Soviet Union condemned such actions, the Chinese government apologized, shifting the responsibility to the radicals, saying that “could not contain the people's rage, and did not seek to prevent the people in the fight against his enemies, afraid to put honest people in danger.”. ТHowever, when the opposition was destroyed, the Armed Forces entered Beijing and other major cities and dispersed with battle not wishing to give power in the hands of the state combat organizations of the M中共, which officially voluntarily dissolved. A new era in China's history is beginning, in which economic reforms will be combined with an extreme increase in the power of the state over society and the party over the state in the struggle for Chinese socialist culture and the construction of socialism and communism through dictatorship, total control and the new culture of selfless devotion to Mao, ideology and party, eradicating conservative traditionalism and liberal pluralism.";
+					fake_text = "在全国人大（NPC）的历次选举中，中共（CPC）\n未能取得成功；而在议会选举中，胜利由MCPC的激进共产党人赢\n得——在民粹浪潮中获得绝对多数。\nMCPC候选人也赢得总统选举。\n凭借总统职位以及议会中的绝对多数，MCPC组建了同质化政府。\n新政府宣布其目标是回归毛主义——在中国及全世界建设社会主义与\n共产主义，并与苏联修正主义者和美国帝国主义者展开决定性的对抗。\n作为回归社会主义政策的一部分，首先决定恢复一党制：\n摧毁资产阶级共和国，并对修正主义者与资本家发动新的文化大革命。\n被列为修正主义者与资本家的名单包括除MCPC以外的所有党派。\n其他党派试图组织针对毛主义者及其政策的公开行动，\n呼吁美国与苏联予以支持，但这一倡议在军队支持下、\n并由MCPC军事组织中的武装青年配合下，\n被警方压制。作为回应，毛主义者在全国范围内组织了更多支持毛主\n义事业的集会，在那里他们强行围捕所有前来声援毛主席事业的人。\n由国家与党领导的人民击败了反对党总部：\n他们的部分领导人和积极分子被杀，部分则被送往农村。\n中共领导层同样未能躲过“公正的民愤”：\n党内领导人遭到“羞辱走廊”的审判，随后承认修正主义——并立刻\n为之悔悟——之后被流放到人民公社。\n美国与苏联谴责这类行动；中国政府道歉，\n把责任推给激进派，称“无法遏制人民的愤怒，\n也并不寻求阻止人民与其敌人作战，担心让诚实的人陷入危险”。\n然而，当反对力量被摧毁后，武装力量进入北京及其他主要城市，\n战斗中四散开来——不愿把权力交到MCPC的国家战斗组织手中；\n该组织也正式自愿解散。\n中国历史将迎来一个新的时代：经济改革将与国家对社会的极端强化、\n党对国家的极端强化相结合；在争夺中国社会主义文化、\n以及通过专政、全面控制与对毛、意识形态和党的无私奉献的新文化\n来建设社会主义与共产主义的斗争中，清除保守传统主义与自由多元\n主义。";
 				}
 				else if (GlobalScript.inst.gameState.party_number[4] > 1500)
 				{
 					if (GlobalScript.inst.gameState.data[14] < 4)
 					{
-						fake_text = "The new liberal democratic government of China has declared the victory over the old order and the liberalization of the regime as its primary and most important goal. The government carried out economic reforms in the direction of the free market, which dealt a serious blow to the economy, causing disorganization through the collapse of old ties, but the fight against corruption and fraud on the part of the young civil society in conjunction with loans and huge investments from the United States and the West allowed to gradually cope with the situation, entering into a state of a certain growth, which somewhat compensates for the former decline and even allows us to talk about some successes in economic growth and increasing social wealth, however, a huge share of income is concentrated in the hands of a narrow group of people - the nascent oligarchy, while millions of people leave China, hoping to find a better life abroad. The DPC is eliminating state control in all areas of public life, including political life, where there is an opportunity for the functioning of a minor opposition. In the Democratic Republic of China, as the country is now called, a regime of liberal democracy is being formed. Relations with the United States become friendly, and with the USSR deteriorate. The US is becoming the main economic partner of China, the main creditor and investor of a young participant in the world market, whose dependence on developed countries is increasing. The USSR gradually breaks off trade relations with China and increases its military presence on the Soviet-Chinese border.";
+						fake_text = "中国新的自由民主政府宣布：战胜旧秩序、\n实现政权自由化，是其首要且最重要的目标。\n政府推行面向自由市场的经济改革，这对经济造成了严重打击：\n旧的联系崩塌，导致体系失序；但年轻的公民社会在反腐败与反欺诈\n方面的斗争，叠加来自美国与西方的大额贷款和巨额投资，\n使局势得以逐步应对，进入某种增长状态——在一定程度上弥补了此\n前的衰退，甚至可以谈到经济增长与社会财富增加的一些“成就”。\n然而，收入的巨大份额集中在一小撮人手中——新兴寡头；\n与此同时，数以百万计的人离开中国，期望在海外找到更好的生活。\nDPC正在取消公共生活各领域的国家控制，\n包括政治生活领域——在那里，少数反对力量有机会运作。\n如今国家被称为“中华人民共和国民主共和国”，\n正在形成自由民主政体。\n与美国的关系变得友好，而与苏联的关系则恶化。\n美国正成为中国的主要经济伙伴、世界市场中年轻参与者的主要债权\n人和投资者，其对发达国家的依赖也在不断加深。\n苏联逐步中断与中国的贸易关系，并在苏中边境增加军事存在。";
 					}
 					else
 					{
-						fake_text = "The new liberal democratic government of China has declared the strengthening and improvement of democracy to be its first and foremost goal. The government has kept the course for a free inside and open outside market, the economy continues to grow, but with a rather unstable GDP, because the crises strongly shake it from time to time and while most of the population is trying to fit into the market, a narrow group of people becomes only richer, and foreign investors continue to pump out of country resources. The DPC protects freedom in all areas of public life, including political life, creating conditions for the semi-free activity of the opposition, although in times of crisis there is strong administrative pressure on radical organizations. The Democratic Republic of China, as the country is now called, maintains a regime of liberal democracy. Relations with the US remain friendly, and with the USSR - rather hostile. The US remains the main economic partner of the DRC, the main creditor and investor of a young participant in the world market, whose dependence on developed countries is growing. The USSR gradually breaks off trade relations with China and increases its military presence on the Soviet-Chinese border.";
+						fake_text = "中国新的自由民主政府宣布：加强并完善民主，\n是其首要目标。政府坚持“国内自由、对外开放”的市场路线；\n经济继续增长，但GDP相当不稳定——因为危机会时不时地强烈冲\n击它。与此同时，大多数人口试图适应市场，\n而只有一小部分人变得更富；外资则继续抽取本国资源。\nDPC在公共生活各领域（包括政治生活）\n保障自由，创造条件让反对派得以“半自由”地活动；\n尽管在危机时期，政府对激进组织仍施加强有力的行政压力。\n如今国家被称为“中华人民共和国民主共和国”，\n维持自由民主政体。与美国的关系仍保持友好，\n而与苏联——则相当敌对。\n美国仍是DRC的主要经济伙伴、世界市场中年轻参与者的主要债权\n人和投资者，其对发达国家的依赖正在增长。\n苏联逐步中断与中国的贸易关系，并在苏中边境增加军事存在。";
 					}
 					if (GlobalScript.inst.gameState.data[54] < 40 && GlobalScript.inst.gameState.data[1] >= 500)
 					{
-						fake_text += "The 中共, which lost the election, was able to maintain the support of part of the population, especially the working class, and unity in its ranks, and the party line and a decisive confrontation with the Democrats during the power of the DPC rallied the entire opposition around the 中共. However, 中共's activities were severely limited by a number of court decisions, and several of its leaders were arrested on various (and manifestly false) charges.";
+						fake_text += "在选举中失利的中共（CCP）仍能维持部分人口的支持，\n尤其是工人阶级，并保持党内队伍的团结；\n在DPC掌权期间，党纲路线以及与民主党人的坚决对抗，\n促使整个反对派都围绕中共集结。\n然而，中共的活动受到多项法院裁决的严厉限制，\n其数名领导人也因各种（且显然是捏造的）\n指控被逮捕。";
 					}
 					else if (GlobalScript.inst.gameState.data[1] >= 500)
 					{
-						fake_text += "Lost the election, the 中共 was able to retain the support of the population and the unity in its ranks, and the line of the party and some support the liberal policies of the DPC allowed the 中共 to remain in politics as a 'constructive opposition' in a few years United with the DPC and the CZGP in the coalition block.";
+						fake_text += "在选举中落败后，中共（CPC）仍能保住民众支持与党内团结；\n党内路线以及对DPC部分自由化政策的支持，\n使中共得以在几年内以“建设性反对派”的身份继续留在政治舞台上，\n并与DPC和CZGP在联合阵营中结成同盟。";
 					}
 					else
 					{
-						fake_text += "The 中共, which lost the elections, was unable to maintain unity in its ranks, but at the same time lost the support of a large part of the population and suffered a split into three parties. During the period of power of the DPC, one of them supported the Democrats, and two - the opposition. The last few years, they reunited to restore the 中共, but the Chinese Communists are still far from a full revival...";
+						fake_text += "在选举中失利的中共（CCP）未能维持党内团结，\n同时也失去了大部分民众的支持，并分裂成三个党派。\n在DPC掌权时期，其中一派支持民主党，\n另外两派则站在反对方。\n近几年，他们重新合拢以恢复中共，但中国共产党人距离全面复兴仍\n然很远……";
 					}
 				}
 				else if (GlobalScript.inst.gameState.party_number[3] > GlobalScript.inst.gameState.party_number[0] && GlobalScript.inst.gameState.party_number[3] > GlobalScript.inst.gameState.party_number[2] && GlobalScript.inst.gameState.party_number[3] > GlobalScript.inst.gameState.party_number[4])
 				{
 					if (GlobalScript.inst.gameState.data[14] < 4)
 					{
-						fake_text = "The new social-Patriotic government of the 中华人民共和国 declared its primary and most important goal to preserve state unity with multinational population and sustainable growth of social prosperity. The government has also announced economic reforms towards a socially-oriented market economy, which is a serious blow to the economy, causing disorganization through the collapse of old ties, and an attempt to maintain social security leads to a budget deficit and the final collapse of the Chinese economy, fueled by a widespread surge of corruption and fraud, and only loans and investments from the US and the West can finally cope with the situation, entering a state of rapid growth, which partially compensates for the former decline and even allows us to talk about some success in economic growth and increasing social wealth, but a huge share of income leaves China in favor of its economic partners. Given the need to preserve state unity, the CZGP is going to federalize and further democratic reforms, introducing more freedom in all areas while maintaining state regulation. In China, a regime of socialism with Chinese specifics is being formed. Relations with the US warm, and with the USSR cold. The US is becoming the main economic partner of China, the main creditor and investor of a young participant in the world market, whose dependence on developed countries is increasing, but at the same time, as part of deepening cooperation, negotiations are underway to return Hong Kong and Macau, the status of Taiwan, which seems to end in a compromise in favor of China. The USSR continues negotiations with China on the establishment of full diplomatic relations, but the 中华人民共和国, urged by the US, requires territorial concessions, and the USSR repeatedly refuses.";
+						fake_text = "中华人民共和国新成立的社会—爱国政府宣布，\n其首要且最重要的目标是：在多民族人口的基础上维护国家统一，\n并实现社会繁荣的可持续增长。\n政府还宣布朝向社会导向型市场经济的经济改革——这对经济是一次\n沉重打击，旧的纽带崩塌导致体系失序；\n而维持社会保障的努力又引发预算赤字，\n最终在腐败与诈骗的普遍爆发中导致中国经济崩溃。\n只有来自美国和西方的贷款与投资才能最终应对局势，\n使经济进入快速增长状态；这在一定程度上弥补了此前的衰退，\n甚至让我们能够谈论经济增长与社会财富增加的某些“成就”。\n但巨额收入却流向中国的经济伙伴。\n鉴于需要维护国家统一，CZGP将实行联邦化并推进进一步的民主\n改革：在保持国家监管的同时，在各领域引入更多自由。\n在中国，正在形成具有中国特色的社会主义制度。\n对美国关系升温，对苏联关系转冷。\n美国正成为中国的主要经济伙伴、世界市场上年轻参与者的主要债权\n人和投资者；其对发达国家的依赖不断加深。\n但与此同时，随着合作的深化，关于归还香港与澳门、\n以及台湾地位的谈判正在进行，似乎将以对中国有利的折中告终。\n苏联继续与中国就建立全面外交关系进行谈判，\n但在美国的怂恿下，中华人民共和国要求领土让步，\n而苏联一再拒绝。";
 					}
 					else
 					{
-						fake_text = "The new social-Patriotic government of the 中华人民共和国 declared its primary and most important goal to preserve state unity with multinational population and sustainable growth of social prosperity. The government has also announced economic reforms towards a socially oriented market economy, leading to an increase in the public sector, increased state control and higher taxes for the upper class, striking a blow to economic growth, causing a reduction in domestic and foreign investment and an overall unfavourable market environment for entrepreneurs, but at the same time raising the level of public wealth through increased public investment in social security. In the context of the need to preserve state unity, the CZPG follows the principles of federalism and democracy, while strengthening Patriotic agitation in the state media. In China, a regime of socialism with Chinese specifics is being formed. Relations with the US are getting cold, and with the USSR warm. The US is cutting loans and investments by choosing other countries for this purpose, and negotiations on the return of Hong Kong and Macau, the status of Taiwan, are stalled. The USSR continues negotiations with the 中华人民共和国 on the establishment of full-fledged diplomatic relations and achieves success: the 中华人民共和国 refuses its territorial requirements, and the USSR sends specialists to the 中华人民共和国, issues a number of large interest-free loans.";
+						fake_text = "中华人民共和国新成立的社会—爱国政府宣布，\n其首要且最重要的目标是：在多民族人口的基础上维护国家统一，\n并实现社会繁荣的可持续增长。\n政府还宣布朝向社会导向型市场经济的经济改革：\n公共部门比重上升、国家控制加强、对上层阶级的税负提高——这对\n经济增长造成打击，导致国内外投资减少，\n并使企业家的整体市场环境不利；但与此同时，\n通过加大对社会保障的公共投资，提升了公众的财富水平。\n在需要维护国家统一的背景下，CZPG遵循联邦主义与民主原则，\n同时在国家媒体中加强爱国动员。\n在中国，正在形成具有中国特色的社会主义制度。\n对美国关系降温，对苏联关系升温。\n美国通过选择其他国家来达到目的，削减对华贷款与投资；\n关于归还香港与澳门、以及台湾地位的谈判陷入停滞。\n苏联继续与中华人民共和国就建立全面外交关系进行谈判并取得成功：\n中华人民共和国拒绝其领土要求，苏联向中华人民共和国派遣专家，\n并发放若干大额无息贷款。";
 					}
 					if (GlobalScript.inst.gameState.data[54] < 40 && GlobalScript.inst.gameState.data[1] >= 500)
 					{
-						fake_text += "The 中共, which lost the elections, was able to maintain the support of a part of the population and unity in the ranks of its members, and the party's line and resolute resistance to the policy of the CZGP made it the main radical opposition force. The 中共 continues its political struggle against the CZGP, remaining a parliamentary party and at the same time resorting to numerous ways of confrontation, not limited to participation in elections and campaigning, often arranging radical opposition public actions.";
+						fake_text += "在选举中失利的中共，仍能维持一部分民众的支持，\n并保持党内队伍的团结；而党的路线以及对CZGP政策的坚决抵抗，\n使其成为主要的激进反对力量。\n中共继续同CZGP进行政治斗争：既保持议会党派身份，\n又采取多种对抗方式——不仅限于参加选举与竞选活动，\n常常组织激进的反对派公开行动。";
 					}
 					else if (GlobalScript.inst.gameState.data[1] >= 500)
 					{
-						fake_text += "The 中共, which lost the elections, was able to maintain the support of a part of the population and unity in the ranks of its members, and the party's line and resolute opposition to the excessively socialist in all senses policy of the CZGP made it the main democratic opposition force. The 中共 continues its political struggle against the CZGP, not limited to participation in elections and campaigning, often arranging democratic opposition public actions.";
+						fake_text += "在选举中失利的中共，仍能维持一部分民众的支持，\n并保持党内队伍的团结；而党的路线以及对CZGP在各方面都过度\n社会主义化的政策的坚决反对，使其成为主要的民主反对力量。\n中共继续同CZGP进行政治斗争：不只限于参加选举与竞选活动，\n常常组织民主派的公开行动。";
 					}
 					else
 					{
-						fake_text += "The 中共, which had lost the elections, had failed to maintain unity among its members, but had lost popular support and had broken up into several independent and opposing parties almost immediately after the defeat. During the power of the CZGP, some of them supported the radicals, some - the CZGP, and some - Democrats. In the end, all the parties became part of other, larger and more cohesive parties or remained small, fragmented groups with no real influence on politics.";
+						fake_text += "在选举中失利的中共未能维持党内团结，\n但同时失去民众支持，几乎在败选后立刻分裂为数个独立且彼此对立\n的党派。在CZGP执政期间，其中一些支持激进派，\n一些支持CZGP，还有一些支持民主派。\n最终，所有党派要么并入其他更大、更紧密的政党，\n要么仍作为缺乏真实政治影响力的小型分裂团体存在。";
 					}
 				}
 				else if (GlobalScript.inst.gameState.party_number[3] > 1500)
 				{
 					if (GlobalScript.inst.gameState.data[14] < 4)
 					{
-						fake_text = "The new government of the 中华人民共和国, which came to power through promises of stable prosperity, declared its primary and most important goal to preserve national unity with a more careful consideration of the problems of the national issue and the sustainable growth of social prosperity. The government has also announced economic reforms in the direction of a socially oriented market economy, which strikes a certain blow to the economy, causing disorganization through the collapse of old ties, but much less than expected, which allowed to more or less minimize the consequences (however, it struck a blow to the standard of living of a large part of the population). Given the need to preserve state unity, the CZGP is going to federalize and further democratic reforms, introducing more freedom in all areas while maintaining state regulation. In China, a regime of socialism with Chinese specifics is being formed. Relations with the US warm, and with the USSR cold. The US becomes China's main economic partner, the main creditor and investor of a young participant in the world market, whose dependence on developed countries is increasing, but at the same time, as part of deepening cooperation, negotiations are underway to return Hong Kong and Macau, and the special status of Taiwan, which seems to end in a compromise in favor of China. The USSR continues negotiations with the 中华人民共和国 on the restoration of full diplomatic relations, but the 中华人民共和国, urged by the US, requires territorial concessions, and the USSR repeatedly refuses.";
+						fake_text = "以承诺“稳定繁荣”而上台的中华人民共和国新政府宣布，\n其首要且最重要的目标是：在更审慎地处理民族问题的同时，\n维护国家统一，并实现社会繁荣的可持续增长。\n政府还宣布朝向社会导向型市场经济的经济改革——对经济造成一定\n打击，旧的纽带崩塌导致失序，但远低于预期，\n因此得以或多或少把后果降到最低（不过，\n这确实打击了相当一部分民众的生活水平）。\n鉴于需要维护国家统一，CZGP将实行联邦化并推进进一步的民\n主改革：在保持国家监管的同时，在各领域引入更多自由。\n在中国，正在形成具有中国特色的社会主义制度。\n对美国关系升温，对苏联关系转冷。\n美国成为中国的主要经济伙伴、世界市场上年轻参与者的主要债权人\n和投资者；其对发达国家的依赖不断加深。\n但与此同时，随着合作深化，关于归还香港与澳门以及台湾的特殊地\n位的谈判正在进行，似乎将以对中国有利的折中告终。\n苏联继续与中华人民共和国就恢复全面外交关系进行谈判，\n但在美国的怂恿下，中华人民共和国要求领土让步，\n而苏联一再拒绝。";
 					}
 					else
 					{
-						fake_text = "The new social-Patriotic government of the 中华人民共和国 declared its primary and most important goal to preserve state unity with multinational population and sustainable growth of social prosperity. The government has also announced economic reforms towards a socially oriented market economy, leading to an increase in the public sector, increased state control and higher taxes for the upper class, with some impact on economic growth, causing a reduction in domestic and foreign investment and an overall unfavourable market environment for entrepreneurs, but at the same time raising the level of public wealth through increased public investment in social security. In the context of the need to preserve state unity, the CZGP follows the principles of federalism and democracy, while strengthening Patriotic agitation in the state media. In China, a regime of socialism with Chinese specifics is being formed. Relations with the US deteriorated and with the USSR improved. The US is cutting loans and investments by choosing other countries for this purpose, and negotiations on the return of Hong Kong and Macao, the status of Taiwan, come to a standstill on the last point, but with the first two are gradually going to success. The USSR continues negotiations with the 中华人民共和国 on the restoration of full-fledged diplomatic relations and achieves success: the 中华人民共和国 abandons its territorial requirements, and the USSR sends specialists to the 中华人民共和国, issues a number of large interest-free loans.";
+						fake_text = "中华人民共和国新成立的社会—爱国政府宣布，\n其首要且最重要的目标是：在多民族人口的基础上维护国家统一，\n并实现社会繁荣的可持续增长。\n政府还宣布朝向社会导向型市场经济的经济改革：\n公共部门比重上升、国家控制加强、对上层阶级的税负提高——对经\n济增长造成一定影响，导致国内外投资减少，\n并使企业家的整体市场环境不利；但与此同时，\n通过加大对社会保障的公共投资，提升了公众的财富水平。\n在需要维护国家统一的背景下，CZGP遵循联邦主义与民主原则，\n同时在国家媒体中加强爱国动员。\n在中国，正在形成具有中国特色的社会主义制度。\n对美国关系恶化，对苏联关系改善。\n美国通过选择其他国家来达到目的，削减对华贷款与投资；\n关于归还香港与澳门、以及台湾地位的谈判在最后一点上陷入停滞，\n但前两项正在逐步走向成功。\n苏联继续与中华人民共和国就恢复全面外交关系进行谈判并取得成功：\n中华人民共和国放弃其领土要求，苏联向中华人民共和国派遣专家，\n并发放若干大额无息贷款。";
 					}
 					if (GlobalScript.inst.gameState.data[54] < 40 && GlobalScript.inst.gameState.data[1] >= 500)
 					{
-						fake_text += "The 中共, which lost the elections , was able to maintain the support of a large part of the population, especially the working class, and unity in its ranks, and the party's line and resolute resistance to the CZGP's policy, which was too soft in every sense, made it the main opposition force. The 中共 continues its political struggle against the CZGP, remaining a parliamentary party and at the same time resorting to numerous ways of confrontation, not limited to participation in elections and campaigning, often arranging public actions.";
+						fake_text += "在选举中失利的中共，能够维持相当大一部分民众的支持，\n尤其是工人阶级，并保持党内队伍的团结；\n而党的路线以及对CZGP政策的坚决抵抗——后者在各方面都过于\n“温和”——使其成为主要反对力量。\n中共继续同CZGP进行政治斗争：既保持议会党派身份，\n又采取多种对抗方式——不仅限于参加选举与竞选活动，\n常常组织公开行动。";
 					}
 					else if (GlobalScript.inst.gameState.data[1] >= 500)
 					{
-						fake_text += "The 中共, which lost the elections, was able to maintain the support of part of the population and unity in its ranks, and the party's line and resolute opposition to the overly cautious policy of the CZGP made it the main democratic opposition force. The 中共 continues its political struggle against the CZGP, not limited to participation in elections and campaigning, often arranging public actions.";
+						fake_text += "在选举中失利的中共，能够维持一部分民众的支持，\n并保持党内队伍的团结；而党的路线以及对CZGP过度谨慎政策的\n坚决反对，使其成为主要的民主反对力量。\n中共继续同CZGP进行政治斗争：不只限于参加选举与竞选活动，\n常常组织公开行动。";
 					}
 					else
 					{
-						fake_text += "The 中共, which lost the elections, was unable to maintain unity in its ranks, but at the same time lost the support of the population and split into two parties. During the power of the CZGP, the first entered into a coalition with it, and the second supported the opposition. In the end, both parties reunited after 3 years, restoring a single 中共, but the Chinese Communists will have to restore their influence throughout the vast country for a long time...";
+						fake_text += "在选举中失利的中共未能维持党内团结，\n但与此同时失去民众支持，并分裂为两个党派。\n在CZGP执政期间，第一个党派与其结成联合，\n第二个党派支持反对派。\n最终，两党在3年后重新合并，恢复为单一的中共；\n但中国共产党人要在广袤全国范围内重建影响力，\n还得很长时间……";
 					}
 				}
 				else if (GlobalScript.inst.gameState.party_number[2] > GlobalScript.inst.gameState.party_number[0] && GlobalScript.inst.gameState.party_number[2] > GlobalScript.inst.gameState.party_number[3] && GlobalScript.inst.gameState.party_number[2] > GlobalScript.inst.gameState.party_number[4])
@@ -2011,69 +2011,69 @@ public class EndingScript : MonoBehaviour
 					}
 					if (GlobalScript.inst.gameState.data[14] < 4)
 					{
-						fake_text = "China's new government announced that its primary and most important purpose of preserving the national unity of China, as well as the return of lost territories - Hong Kong, Macau and Taiwan. The government has also announced economic reforms in the direction of expanding private initiative while maintaining state control, as well as allowing limited foreign investment, which gives impetus to economic growth, but at the same time increasing corruption and fraud, and the resulting income is to expand and improve the content of the state apparatus and social security, which in the short term allows to strengthen the state and raise the standard of living of the population, but prevents further growth and slows down the development of the economy. In the context of national fragmentation, it was decided to strengthen the national state, which led to informal repression against opposition Federalists from the CZGP and liberals from the DPC, as well as the establishment of strong state control in the media, acting with aggressive nationalist propaganda, with the same informal ban on any unauthorized public actions. Having met almost no resistance, the regime of the left imitation democracy was formed in China. Relations with the US and the USSR remain tense and unfriendly. Nevertheless, the US has not spared the possibility of profitable investments, pushing its allies to start negotiations on the return of the lost Hong Kong and Macao and the status of Taiwan, which, however, strongly stalled because of the tense relations between the RCCK and, in fact, the Kuomintang. The USSR, in turn, continued negotiations with the 中华人民共和国 on the restoration of full-fledged diplomatic relations, but the 中华人民共和国 requires territorial concessions, to which the USSR does not agree, and the negotiations are also gradually coming to a standstill.";
+						fake_text = "中国新政府宣布，其首要且最重要的目的，\n是维护中国的国家统一，并实现失地回归——香港、\n澳门和台湾。政府还宣布经济改革：在保持国家控制的同时扩大民间\n自主性，并允许有限的外资进入。\n此举为经济增长注入动力，但同时也滋生腐败与诈骗；\n由此产生的收入将用于扩充并改善国家机构与社会保障。\n短期内这有助于强化国家、提高民众生活水平，\n但却阻碍进一步增长，并拖慢经济发展。\n在国家分裂的背景下，决定加强民族国家，\n这导致对来自CZGP的反对联邦派与来自DPC的自由派采取“非\n正式”的压制；同时在媒体领域建立强有力的国家控制，\n配合激进的民族主义宣传，并对任何未经授权的公开行动同样施加“\n非正式”的禁令。几乎没有遭遇抵抗，中国便形成了“左翼仿民主”\n的政权。对美国与苏联的关系仍然紧张且不友好。\n然而，美国并未放弃通过有利可图的投资来施加影响，\n推动其盟友就失去的香港与澳门回归以及台湾地位问题启动谈判；\n但由于RCCK与——事实上——国民党之间关系紧张，\n这些谈判严重受阻。苏联则继续与中华人民共和国就恢复全面外交关\n系进行谈判，但中华人民共和国要求领土让步，\n苏联不予同意，谈判也逐步走向停滞。";
 					}
 					else
 					{
-						fake_text = "The new Chinese government has declared its primary and most important goal to preserve the national unity of China, as well as the return of the lost territories - Hong Kong, Macau and Taiwan. The government also announced economic counter-reforms in the direction of reducing private initiative, strengthening state control, as well as limiting foreign investment, which leads to a decrease in economic growth in conjunction with the growth of corruption and fraud, the merger of entrepreneurship and the state apparatus, but gives the state access to large resources, which mainly go to expand and improve the content of the state apparatus and social security, which in the short term allows to strengthen the state and raise the standard of living of the population, however, it hinders further growth and slows down economic development. In the context of national fragmentation, it was decided to strengthen the national state, which led to informal repression against opposition Federalists from the CZGP and liberals from the DPC, as well as the establishment of strong state control in the media, acting with an aggressive nationalist agenda, with the same informal ban on any unauthorized public actions. The opposition was suppressed or bribed, the regime of the left imitation democracy was formed in China. Relations with the US and the USSR deteriorated markedly. The US, in response to counter-reforms, began a gradual withdrawal of investments and pushed its allies to jointly strengthen the Western military presence in Hong Kong, Macau and Taiwan, which China considers its own. The USSR in response to the counter-reforms called China a social fascist state, also increasing its military presence in the disputed territories with China.";
+						fake_text = "新中国政府宣布，其首要且最重要的目标是维护中国的国家统一，\n并实现失地回归——香港、澳门和台湾。\n政府还宣布经济“反改革”：减少民间自主性、\n强化国家控制，并限制外资。\n这导致经济增长下降，同时腐败与诈骗增长、\n创业力量与国家机构合流；但这也使国家能够获得大量资源，\n主要用于扩充并改善国家机构与社会保障。\n短期内这有助于强化国家、提高民众生活水平，\n但却阻碍进一步增长，并拖慢经济发展。\n在国家分裂的背景下，决定加强民族国家，\n这导致对来自CZGP的反对联邦派与来自DPC的自由派采取“非\n正式”的压制；同时在媒体领域建立强有力的国家控制，\n配合激进的民族主义议程，并对任何未经授权的公开行动同样施加“\n非正式”的禁令。反对派被压制或被收买，\n中国形成了“左翼仿民主”的政权。\n对美国与苏联的关系明显恶化。\n美国作为对反改革的回应，开始逐步撤回投资，\n并推动其盟友共同加强在香港、澳门和台湾（中国认为是其领土）\n的西方军事存在。苏联则作为对反改革的回应，\n称中国为“社会法西斯国家”，并进一步增加其在与中国争议地区的\n军事存在。";
 					}
 					if (GlobalScript.inst.gameState.data[54] < 40 && GlobalScript.inst.gameState.data[1] >= 500)
 					{
-						fake_text += "The 中共, which lost the elections, was able to maintain the support of a large part of the population and unity in its ranks, and the party's line and strong support for the RCCK during the period of counter-reforms allowed it to remain in politics, becoming one of the legal opposition parties. The 中共 continues its activities, voting in Parliament and through agitation in his favor, and organizing actions, strongly supporting the RCCK and only occasionally speaking with a criticism of some of its representatives.";
+						fake_text += "在选举中失利的中共，能够维持相当大一部分民众的支持，\n并保持党内队伍的团结；而在反改革时期，\n党的路线以及对RCCK的强力支持，使其得以继续留在政治舞台上，\n成为合法反对党之一。\n中共继续开展活动：在议会投票，并通过宣传动员为其造势、\n组织行动；它对RCCK给予强力支持，\n仅偶尔对其部分代表提出批评。";
 					}
 					else if (GlobalScript.inst.gameState.data[1] >= 500)
 					{
-						fake_text += "The 中共, which lost the elections, was able to maintain the support of a part of the population and unity in its ranks, and the party's line and a decisive confrontation with the RCCK during the counter-reforms rallied the entire opposition around the 中共. However, in response, 中共's activities were severely limited by a number of court decisions and some of its leaders were arrested on various (and manifestly false) charges.";
+						fake_text += "在选举中失利的中共，能够维持一部分民众的支持，\n并保持党内队伍的团结；而在反改革期间，\n党的路线以及与RCCK的果断对抗，促使整个反对派都围绕中共集\n结。然而作为回应，中共的活动受到多项法院裁决的严厉限制，\n且其部分领导人因各种（且显然是捏造的）\n指控被逮捕。";
 					}
 					else
 					{
-						fake_text += "The 中共, which lost the elections, was unable to maintain unity in its ranks, but at the same time lost the support of the population and broke up into four parties. During the counter-reforms, one of them supported the RCCK and three supported the opposition. The first joined the RCCK a few years later, the second merged with the third, restoring the 中共, and the fourth remained an independent party in opposition to the ruling regime.";
+						fake_text += "在选举中失利的中共未能维持党内团结，\n但与此同时失去民众支持，分裂为四个党派。\n在反改革期间，其中一个支持RCCK，\n三个支持反对派。第一个在几年后加入RCCK；\n第二个与第三个合并，恢复中共；第四个则作为反对执政政权的独立\n党派继续存在。";
 					}
 				}
 				else if (GlobalScript.inst.gameState.party_number[2] > 1500)
 				{
 					if (GlobalScript.inst.gameState.data[14] < 4)
 					{
-						fake_text = "China's new government announced that its primary and most important purpose of preserving the national unity of China, as well as the return of lost territories - Hong Kong, Macau and Taiwan. The government has also announced economic reforms in the direction of expanding private initiative while maintaining state control, as well as allowing limited foreign investment, which gives impetus to economic growth, but at the same time increasing corruption and fraud, and the resulting income is to expand and improve the content of the state apparatus and social security, which in the short term allows to strengthen the state and raise the standard of living of the population, but prevents further growth and slows down the development of the economy. In the context of national fragmentation, it was decided to strengthen the national state, which led to informal repression against opposition Federalists from the CZGP and liberals from the DPC, as well as the establishment of strong state control in the media, acting with aggressive nationalist propaganda, with the same informal ban on any unauthorized public actions. Having met almost no resistance, the regime of the left imitation democracy was formed in China. Relations with the US and the USSR remain tense and unfriendly. Nevertheless, the US has not spared the possibility of profitable investments, pushing its allies to start negotiations on the return of the lost Hong Kong and Macao and the status of Taiwan, which, however, strongly stalled because of the tense relations between the RCCK and, in fact, the Kuomintang. The USSR, in turn, continued negotiations with the 中华人民共和国 on the restoration of full-fledged diplomatic relations, but the 中华人民共和国 requires territorial concessions, to which the USSR does not agree, and the negotiations are also gradually coming to a standstill.";
+						fake_text = "中国新政府宣布，其首要且最重要的目的，\n是维护中国的国家统一，并实现失地回归——香港、\n澳门和台湾。政府还宣布经济改革：在保持国家控制的同时扩大民间\n自主性，并允许有限的外资进入。\n此举为经济增长注入动力，但同时也滋生腐败与诈骗；\n由此产生的收入将用于扩充并改善国家机构与社会保障。\n短期内这有助于强化国家、提高民众生活水平，\n但却阻碍进一步增长，并拖慢经济发展。\n在国家分裂的背景下，决定加强民族国家，\n这导致对来自CZGP的反对联邦派与来自DPC的自由派采取“非\n正式”的压制；同时在媒体领域建立强有力的国家控制，\n配合激进的民族主义宣传，并对任何未经授权的公开行动同样施加“\n非正式”的禁令。几乎没有遭遇抵抗，中国便形成了“左翼仿民主”\n的政权。对美国与苏联的关系仍然紧张且不友好。\n然而，美国并未放弃通过有利可图的投资来施加影响，\n推动其盟友就失去的香港与澳门回归以及台湾地位问题启动谈判；\n但由于RCCK与——事实上——国民党之间关系紧张，\n这些谈判严重受阻。苏联则继续与中华人民共和国就恢复全面外交关\n系进行谈判，但中华人民共和国要求领土让步，\n苏联不予同意，谈判也逐步走向停滞。";
 					}
 					else
 					{
-						fake_text = "The new Chinese government has declared its primary and most important goal to preserve the national unity of China, as well as the return of the lost territories - Hong Kong, Macau and Taiwan. The government also announced economic counter-reforms in the direction of reducing private initiative, strengthening state control, as well as limiting foreign investment, which leads to a decrease in economic growth in conjunction with the growth of corruption and fraud, the merger of entrepreneurship and the state apparatus, but gives the state access to large resources, which mainly go to expand and improve the content of the state apparatus and social security, which in the short term allows to strengthen the state and raise the standard of living of the population, however, it hinders further growth and slows down economic development. In the context of national fragmentation, it was decided to strengthen the national state, which led to informal repression against opposition Federalists from the CZGP and liberals from the DPC, as well as the establishment of strong state control in the media, acting with an aggressive nationalist agenda, with the same informal ban on any unauthorized public actions. The opposition was suppressed or bribed, the regime of the left imitation democracy was formed in China. Relations with the US and the USSR deteriorated markedly. The US, in response to counter-reforms, began a gradual withdrawal of investments and pushed its allies to jointly strengthen the Western military presence in Hong Kong, Macau and Taiwan, which China considers its own. The USSR in response to the counter-reforms called China a social fascist state, also increasing its military presence in the disputed territories with China.";
+						fake_text = "新中国政府宣布，其首要且最重要的目标是维护中国的国家统一，\n并实现失地回归——香港、澳门和台湾。\n政府还宣布经济“反改革”：减少民间自主性、\n强化国家控制，并限制外资。\n这导致经济增长下降，同时腐败与诈骗增长、\n创业力量与国家机构合流；但这也使国家能够获得大量资源，\n主要用于扩充并改善国家机构与社会保障。\n短期内这有助于强化国家、提高民众生活水平，\n但却阻碍进一步增长，并拖慢经济发展。\n在国家分裂的背景下，决定加强民族国家，\n这导致对来自CZGP的反对联邦派与来自DPC的自由派采取“非\n正式”的压制；同时在媒体领域建立强有力的国家控制，\n配合激进的民族主义议程，并对任何未经授权的公开行动同样施加“\n非正式”的禁令。反对派被压制或被收买，\n中国形成了“左翼仿民主”的政权。\n对美国与苏联的关系明显恶化。\n美国作为对反改革的回应，开始逐步撤回投资，\n并推动其盟友共同加强在香港、澳门和台湾（中国认为是其领土）\n的西方军事存在。苏联则作为对反改革的回应，\n称中国为“社会法西斯国家”，并进一步增加其在与中国争议地区的\n军事存在。";
 					}
 					if (GlobalScript.inst.gameState.data[54] < 40 && GlobalScript.inst.gameState.data[1] >= 500)
 					{
-						fake_text += "The 中共, which lost the elections, was able to maintain the support of a large part of the population and unity in its ranks, and the party's line and strong support for the RCCK during the period of counter-reforms allowed it to remain in politics, becoming one of the legal opposition parties. The 中共 continues its activities, voting in Parliament and through agitation in his favor, and organizing actions, strongly supporting the RCCK and only occasionally speaking with a criticism of some of its representatives.";
+						fake_text += "在选举中失利的中共，能够维持相当大一部分民众的支持，\n并保持党内队伍的团结；而在反改革时期，\n党的路线以及对RCCK的强力支持，使其得以继续留在政治舞台上，\n成为合法反对党之一。\n中共继续开展活动：在议会投票，并通过宣传动员为其造势、\n组织行动；它对RCCK给予强力支持，\n仅偶尔对其部分代表提出批评。";
 					}
 					else if (GlobalScript.inst.gameState.data[1] >= 500)
 					{
-						fake_text += "The 中共, which lost the elections, was able to maintain the support of a part of the population and unity in its ranks, and the party's line and a decisive confrontation with the RCCK during the counter-reforms rallied the entire opposition around the 中共. However, in response, 中共's activities were severely limited by a number of court decisions and some of its leaders were arrested on various (and manifestly false) charges.";
+						fake_text += "在选举中失利的中共，能够维持一部分民众的支持，\n并保持党内队伍的团结；而在反改革期间，\n党的路线以及与RCCK的果断对抗，促使整个反对派都围绕中共集\n结。然而作为回应，中共的活动受到多项法院裁决的严厉限制，\n且其部分领导人因各种（且显然是捏造的）\n指控被逮捕。";
 					}
 					else
 					{
-						fake_text += "The 中共, which lost the elections, was unable to maintain unity in its ranks, but at the same time lost the support of the population and broke up into four parties. During the counter-reforms, one of them supported the RCCK and three supported the opposition. The first joined the RCCK a few years later, the second merged with the third, restoring the 中共, and the fourth remained an independent party in opposition to the ruling regime.";
+						fake_text += "在选举中失利的中共未能维持党内团结，\n但与此同时失去民众支持，分裂为四个党派。\n在反改革期间，其中一个支持RCCK，\n三个支持反对派。第一个在几年后加入RCCK；\n第二个与第三个合并，恢复中共；第四个则作为反对执政政权的独立\n党派继续存在。";
 					}
 				}
 				else
 				{
 					if (GlobalScript.inst.gameState.data[14] < 4)
 					{
-						fake_text = "The new liberal democratic government of China has declared the victory over the old order and the liberalization of the regime as its primary and most important goal. The government carried out economic reforms towards free market, which dealt a serious blow to the economy, causing disruption in the collapse of old ties, however, the fight against corruption and fraud on the part of the young civil society in conjunction with loans and investments from the United States and the West eventually allowed to cope with the situation, went into a state of economic growth, which somewhat offsets its former decline, and even allows us to speak about certain successes in the field of economic growth and increasing social wealth, however, the vast majority of income is concentrated in the hands of a narrow group of individuals - the nascent oligarchy, while hundreds of thousands of people leave China, hoping to find a better life abroad. The DPC liquidates state control in all areas of public life, including political life, where all obstacles to the free activity of the opposition are eliminated. In the Democratic Republic of China, as the country is now called, a regime of liberal democracy is being formed. Relations with the US are becoming friendly, and with the USSR gradually deteriorating. The US is becoming the main economic partner of China, the main creditor and investor of a young participant in the world market, whose dependence on developed countries is increasing. СThe USSR is gradually breaking off trade relations with China and increasing its military presence on the Soviet-Chinese border. The new authorities are already beginning negotiations with Taiwan to restore the unity of the country, since all the contradictions between them have been eliminated.";
+						fake_text = "中国新成立的自由民主政府宣布：战胜旧秩序、\n实现政权自由化，是其首要且最重要的目标。\n政府推行面向自由市场的经济改革——这对经济造成严重打击，\n旧的纽带崩塌引发阵痛与失序；然而，年轻的民间社会在反腐败与反\n诈骗方面的斗争，再加上来自美国和西方的贷款与投资，\n最终使局势得以应对，并进入经济增长状态；\n这在一定程度上抵消了此前的衰退，甚至让我们能够谈论经济增长与\n社会财富增加领域的某些“成功”。\n但绝大多数收入集中在一小撮个人手中——新兴寡头；\n与此同时，数十万乃至更多的人离开中国，\n希望在国外找到更好的生活。\nDPC在公共生活的各个领域取消国家控制，\n包括政治生活领域——在那里，消除了反对派自由活动的一切障碍。\n如今被称为“中华民主共和国”的国家，\n正在形成自由民主的政权。\n对美国关系日益友好，对苏联关系则逐步恶化。\n美国正成为中国的主要经济伙伴、世界市场上年轻参与者的主要债权\n人和投资者，其对发达国家的依赖不断加深。\n苏联则逐步中断与中国的贸易关系，并增加其在苏中边境的军事存在。\n新当局已经开始与台湾谈判，以恢复国家统一，\n因为双方之间的所有矛盾都已被消除。";
 					}
 					else
 					{
-						fake_text = "The new liberal democratic government of China has declared the strengthening and improvement of democracy to be its first and foremost goal. The government has kept the course for a free inside and open outside market, the economy continues to grow, but with a rather unstable GDP, because the crises strongly shake it from time to time and while most of the population is trying to fit into the market, a narrow group of people becomes only richer, and foreign investors continue to pump out of country resources. The DPC protects freedom in all areas of public life, including political life, creating conditions for the semi-free activity of the opposition, although in times of crisis there is strong administrative pressure on radical organizations. The Democratic Republic of China, as the country is now called, maintains a regime of liberal democracy. Relations with the US remain friendly, and with the USSR - rather hostile. The US remains the main economic partner of the democratic Republic of the Congo, the main creditor and investor of a young participant in the world market, whose dependence on developed countries is growing. The USSR gradually breaks off trade relations with China and increases its military presence on the Soviet-Chinese border.";
+						fake_text = "中国新自由民主政府宣布：加强并完善民主，\n是其首要目标。政府坚持“国内自由、对外开放”的市场方针；\n经济继续增长，但GDP相当不稳定——危机时不时强烈冲击它；\n而当大多数民众试图适应市场时，一小撮人却只会变得更富，\n外资则继续抽取国内资源。\nDPC在公共生活各领域（包括政治生活）\n保障自由，为反对派的“半自由”活动创造条件；\n尽管在危机时期，仍对激进组织施加强有力的行政压力。\n如今被称为“中华民主共和国”的国家，\n维持自由民主的政权。\n对美国关系保持友好，对苏联则相当敌对。\n美国仍是“刚果民主共和国”的主要经济伙伴、\n世界市场上年轻参与者的主要债权人和投资者，\n其对发达国家的依赖正在增长。\n苏联则逐步中断与中国的贸易关系，并增加其在苏中边境的军事存在。";
 					}
 					if (GlobalScript.inst.gameState.data[54] < 40 && GlobalScript.inst.gameState.data[1] >= 500)
 					{
-						fake_text += "The 中共, which lost the election, was able to maintain the support of part of the population, especially the working class, and unity in its ranks, and the party line and a decisive confrontation with the Democrats during the power of the DPC rallied the entire opposition around the 中共. However, 中共's activities were severely limited by a number of court decisions, and several of its leaders were arrested on various (and manifestly false) charges.";
+						fake_text += "在选举中失利的中共（CCP）仍能维持部分人口的支持，\n尤其是工人阶级，并保持党内队伍的团结；\n在DPC掌权期间，党纲路线以及与民主党人的坚决对抗，\n促使整个反对派都围绕中共集结。\n然而，中共的活动受到多项法院裁决的严厉限制，\n其数名领导人也因各种（且显然是捏造的）\n指控被逮捕。";
 					}
 					else if (GlobalScript.inst.gameState.data[1] >= 500)
 					{
-						fake_text += "Lost the election, the 中共 was able to retain the support of the population and the unity in its ranks, and the line of the party and some support the liberal policies of the DPC allowed the 中共 to remain in politics as a 'constructive opposition' in a few years United with the DPC and the CZGP in the coalition block.";
+						fake_text += "在选举中落败后，中共（CPC）仍能保住民众支持与党内团结；\n党内路线以及对DPC部分自由化政策的支持，\n使中共得以在几年内以“建设性反对派”的身份继续留在政治舞台上，\n并与DPC和CZGP在联合阵营中结成同盟。";
 					}
 					else
 					{
-						fake_text += "The 中共, which lost the elections, was unable to maintain unity in its ranks, but at the same time lost the support of a large part of the population and suffered a split into three parties. During the period of power of the DPC, one of them supported the Democrats, and two - the opposition. The last few years have reunited, restoring the 中共, but before the full revival of the Chinese Communists is still very far...";
+						fake_text += "在选举中失利的中共未能维持党内团结，\n但与此同时失去相当大一部分民众的支持，\n并分裂为三个党派。在DPC执政时期，\n其中一个支持民主派，另外两个支持反对派。\n近几年它们重新合拢，恢复了中共；但要实现中国共产党人的全面复\n兴，仍然遥遥无期……";
 					}
 				}
 			}

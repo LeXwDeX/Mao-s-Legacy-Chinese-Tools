@@ -41,7 +41,7 @@ public class SaveListController : MonoBehaviour
 
 	public Font newButtonFontAsset;
 
-	public string anchorName = "Button (5)";
+	public string anchorName = "按钮（5）";
 
 	public Vector2 anchorOffset = Vector2.zero;
 
@@ -64,11 +64,11 @@ public class SaveListController : MonoBehaviour
 
 	public Color ironToggleBackgroundColor = new Color(0f, 0f, 0f, 0.35f);
 
-	public string ironToggleOnLabelEn = "With achievements";
+	public string ironToggleOnLabelEn = "有成就";
 
 	public string ironToggleOnLabelRu = "С достижениями";
 
-	public string ironToggleOffLabelEn = "Without achievements";
+	public string ironToggleOffLabelEn = "无成就";
 
 	public string ironToggleOffLabelRu = "Без достижений";
 
@@ -388,7 +388,7 @@ public class SaveListController : MonoBehaviour
 			{
 				gUIStyle.font = newButtonFont;
 			}
-			if (GUI.Button(rect, Loc("New Save", "Новое сохранение"), gUIStyle) || Event.current.keyCode == KeyCode.N)
+			if (GUI.Button(rect, Loc("新存档", "Новое сохранение"), gUIStyle) || Event.current.keyCode == KeyCode.N)
 			{
 				CreateAndSaveNew();
 			}
@@ -505,12 +505,12 @@ public class SaveListController : MonoBehaviour
 		{
 			text3 = doctr[num];
 		}
-		string text4 = ((!meta.iron) ? (flag ? "<color=red>Достижения: Недоступны</color>" : "<color=red>Achievements: Unavailable</color>") : (flag ? "<color=red>С достижениями</color>" : "<color=red>With achievements</color>"));
+		string text4 = ((!meta.iron) ? (flag ? "<color=red>Достижения: Недоступны</color>" : "<color=red>成就：不可用</color>") : (flag ? "<color=red>С достижениями</color>" : "<color=red>有成就</color>"));
 		if (flag)
 		{
 			return "Имя: " + meta.name + "\nГосстрой: " + text3 + "\nДата: " + text + "\nСложность: " + text2 + "\n" + text4;
 		}
-		return "Name: " + meta.name + "\nGovernment: " + text3 + "\nDate: " + text + "\nDifficulty: " + text2 + "\n" + text4;
+		return "Name: " + meta.name + "\nGovernment: " + text3 + "日期：" + text + "\nDifficulty: " + text2 + "\n" + text4;
 	}
 
 	private void ResolveAnchor()
@@ -596,7 +596,7 @@ public class SaveListController : MonoBehaviour
 			newButtonFont = Resources.Load<Font>(newButtonFontPath);
 			if (newButtonFont == null)
 			{
-				newButtonFont = TryLoadFontVariant("Capture_it") ?? TryLoadFontVariant("Capture_it SDF") ?? FindLoadedFontByName("Capture_it") ?? FindLoadedFontByName("Capture_it SDF");
+				newButtonFont = TryLoadFontVariant("Capture_it") ?? TryLoadFontVariant("捕获它的SDF") ?? FindLoadedFontByName("Capture_it") ?? FindLoadedFontByName("捕获它的SDF");
 			}
 		}
 	}
@@ -771,14 +771,14 @@ public class SaveListController : MonoBehaviour
 		{
 			if (!langRu)
 			{
-				return "Created: ?";
+				return "创建时间：？";
 			}
 			return "Создано: ?";
 		}
 		string text = dateTime.ToLocalTime().ToString("dd.MM.yyyy HH:mm", CultureInfo.InvariantCulture);
 		if (!langRu)
 		{
-			return "Created: " + text;
+			return "已创建：" + text;
 		}
 		return "Создано: " + text;
 	}

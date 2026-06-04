@@ -280,7 +280,7 @@ public class Doctrine_button_script : MonoBehaviour
 					{
 						uslovie_bool[2] = GlobalScript.inst.gameState.data[52] == 34 && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Socialist and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 11)
 					{
@@ -291,157 +291,157 @@ public class Doctrine_button_script : MonoBehaviour
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[52] == 34 || GlobalScript.inst.gameState.data[52] == 35) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Socialist/Reformist and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 13)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[52] == 35 || GlobalScript.inst.gameState.data[52] == 36) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Reformist/Pragmatic and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 14)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[52] == 36 || GlobalScript.inst.gameState.data[52] == 37) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Pragmatic/Market and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 15)
 					{
 						uslovie_bool[2] = GlobalScript.inst.gameState.data[52] == 37 && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Market and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 6)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[54] == 38 || GlobalScript.inst.gameState.data[54] == 39) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Authoritarian/Tough and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 7)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[54] == 39 || GlobalScript.inst.gameState.data[54] == 40) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Tough/Soft and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 8)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[54] == 40 || GlobalScript.inst.gameState.data[54] == 41) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Soft/Democratic and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 9)
 					{
 						uslovie_bool[2] = GlobalScript.inst.gameState.data[54] == 41 && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Democratic and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 16)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[54] == 38 || GlobalScript.inst.gameState.data[54] == 39) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Authoritarian/Tough and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 17)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[54] == 39 || GlobalScript.inst.gameState.data[54] == 40) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Tough/Soft and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 18)
 					{
 						uslovie_bool[2] = GlobalScript.inst.gameState.data[54] == 40 && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Soft and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 19)
 					{
 						uslovie_bool[2] = GlobalScript.inst.gameState.data[54] == 41 && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Democratic and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 20)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[54] == 38 || GlobalScript.inst.gameState.data[54] == 39) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Authoritarian/Tough and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 21)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[54] == 39 || GlobalScript.inst.gameState.data[54] == 40 || GlobalScript.inst.gameState.data[54] == 41) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Tough/Soft /Democratic  and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 22)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[54] == 40 || GlobalScript.inst.gameState.data[54] == 41) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Soft/Democratic and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 23)
 					{
 						uslovie_bool[2] = GlobalScript.inst.gameState.data[54] == 41 && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Democratic and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 24)
 					{
 						uslovie_bool[2] = GlobalScript.inst.gameState.data[54] == 38 && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Authoritarian and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 25)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[54] == 38 || GlobalScript.inst.gameState.data[54] == 39) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Authoritarian/Tough and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 26)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[54] == 39 || GlobalScript.inst.gameState.data[54] == 40) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Tough/Soft and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 27)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[54] == 40 || GlobalScript.inst.gameState.data[54] == 41) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Soft/Democratic and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 28)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[54] == 39 || GlobalScript.inst.gameState.data[54] == 41) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Tough/Democratic and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 29)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[54] == 38 || GlobalScript.inst.gameState.data[54] == 39) && (GlobalScript.inst.gameState.data[52] == 36 || GlobalScript.inst.gameState.data[52] == 37) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Authoritarian/Tough and Pragmatic/Market and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 30)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[54] == 38 || GlobalScript.inst.gameState.data[54] == 39) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Authoritarian/Tough and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 31)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[54] == 38 || GlobalScript.inst.gameState.data[54] == 41) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Authoritarian/Democratic and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 32)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[54] == 40 || GlobalScript.inst.gameState.data[54] == 41) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Soft/Democratic and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 					else if (number == 33)
 					{
 						uslovie_bool[2] = (GlobalScript.inst.gameState.data[54] == 39 || GlobalScript.inst.gameState.data[54] == 40 || GlobalScript.inst.gameState.data[54] == 41) && summa_3_2 > 66;
 						uslovie_text[2] = "Party line: Tough/Soft/Democratic and ";
-						uslovie_text[2] += "Our alliance has more than 66% of seats in the 全国人大";
+						uslovie_text[2] += "Our alliance has more than 66% of seats in the NPC";
 					}
 				}
 			}
@@ -1326,7 +1326,7 @@ public class Doctrine_button_script : MonoBehaviour
 			}
 			else if (number == 24)
 			{
-				fake_text = "Criticize 孔子 and 林彪! As Chairman Mao said so!";
+				fake_text = "Criticize Confucius and Lin Biao! As Chairman Mao said so!";
 			}
 			else if (number == 25)
 			{
