@@ -1,0 +1,4229 @@
+{
+  "generated": "2026-05-03T10:23:47.664700+00:00",
+  "summary": {
+    "scene_names": 36,
+    "input_axes": 8,
+    "gameobject_finds": 306,
+    "prefs_keys": 172,
+    "material_props": 56,
+    "animator_params": 12,
+    "tags_layers": 0
+  },
+  "unique_strings": [
+    "AVT1",
+    "Ach(Clone)",
+    "AudioSource",
+    "Back",
+    "Background",
+    "Bearu(0)",
+    "Bearu(1)",
+    "Button (0)",
+    "Button (2)",
+    "Button (4)",
+    "DiploNameText",
+    "Diplomacy",
+    "Ending",
+    "Event",
+    "Global(Clone)",
+    "IRCHP",
+    "If",
+    "If (1)",
+    "Kr",
+    "Main",
+    "Main Camera",
+    "MapChanges",
+    "Mouse ScrollWheel",
+    "Mouse X",
+    "Mouse Y",
+    "NG1",
+    "Okoshko(Clone)",
+    "Parties (",
+    "ROST",
+    "Results",
+    "SALARY",
+    "SavePlaceNum",
+    "SavePosition",
+    "SteamManager",
+    "Text",
+    "Text (1)",
+    "TextIf (0)",
+    "TextIf (1)",
+    "TextIf (2)",
+    "TextIf (3)",
+    "Text_opis_country",
+    "Text_time",
+    "VVP",
+    "VYH1",
+    "WarScriptBack",
+    "ZAG1",
+    "Znach (0)",
+    "Znach (1)",
+    "Znach (2)",
+    "Znach (3)",
+    "Znach (4)",
+    "Znach (5)",
+    "Znack",
+    "Znakc (1)",
+    "_BorderWidthDeg",
+    "_EnvMatrix",
+    "_M",
+    "_MainColor",
+    "_MainColor2",
+    "_RadiusBorderWidth",
+    "_RadiusMax",
+    "_RadiusMin",
+    "data",
+    "data14",
+    "data19",
+    "data20",
+    "data21",
+    "gamerules",
+    "gamerules0",
+    "gamerules1",
+    "gamerules2",
+    "gamerules3",
+    "gamerules4",
+    "gamerules5",
+    "gamerules6",
+    "gamerules7",
+    "gamerules8",
+    "iron",
+    "language",
+    "our_diff_in",
+    "planka_dolg(clone)",
+    "save_diff",
+    "voice_china"
+  ],
+  "details": [
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event129.cs",
+      "line": 139,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending1.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Diplomacy",
+      "category": "scene_names",
+      "file": "Politic_doctr_script.cs",
+      "line": 94,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "SaveListController.cs",
+      "line": 215,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Background",
+      "category": "gameobject_finds",
+      "file": "SaveListController.cs",
+      "line": 224,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "iron",
+      "category": "prefs_keys",
+      "file": "SaveListController.cs",
+      "line": 322,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "save_diff",
+      "category": "prefs_keys",
+      "file": "SaveListController.cs",
+      "line": 323,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data",
+      "category": "prefs_keys",
+      "file": "SaveListController.cs",
+      "line": 324,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data",
+      "category": "prefs_keys",
+      "file": "SaveListController.cs",
+      "line": 325,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data",
+      "category": "prefs_keys",
+      "file": "SaveListController.cs",
+      "line": 326,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data",
+      "category": "prefs_keys",
+      "file": "SaveListController.cs",
+      "line": 327,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "SaveListController.cs",
+      "line": 360,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "SaveListController.cs",
+      "line": 490,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data14",
+      "category": "prefs_keys",
+      "file": "SaveListController.cs",
+      "line": 501,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event430.cs",
+      "line": 29,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Savescript.cs",
+      "line": 32,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "iron",
+      "category": "prefs_keys",
+      "file": "Savescript.cs",
+      "line": 91,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "save_diff",
+      "category": "prefs_keys",
+      "file": "Savescript.cs",
+      "line": 92,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data",
+      "category": "prefs_keys",
+      "file": "Savescript.cs",
+      "line": 93,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data",
+      "category": "prefs_keys",
+      "file": "Savescript.cs",
+      "line": 94,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data",
+      "category": "prefs_keys",
+      "file": "Savescript.cs",
+      "line": 95,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data",
+      "category": "prefs_keys",
+      "file": "Savescript.cs",
+      "line": 96,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Savescript.cs",
+      "line": 98,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "MapChanges",
+      "category": "gameobject_finds",
+      "file": "MapTypeScript.cs",
+      "line": 25,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "MapTypeScript.cs",
+      "line": 27,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "MapChanges",
+      "category": "gameobject_finds",
+      "file": "TimeScript.cs",
+      "line": 93,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Button (0)",
+      "category": "gameobject_finds",
+      "file": "TimeScript.cs",
+      "line": 95,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "TimeScript.cs",
+      "line": 96,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "TimeScript.cs",
+      "line": 125,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "TimeScript.cs",
+      "line": 252,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "iron",
+      "category": "prefs_keys",
+      "file": "TimeScript.cs",
+      "line": 358,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "save_diff",
+      "category": "prefs_keys",
+      "file": "TimeScript.cs",
+      "line": 359,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data",
+      "category": "prefs_keys",
+      "file": "TimeScript.cs",
+      "line": 360,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data",
+      "category": "prefs_keys",
+      "file": "TimeScript.cs",
+      "line": 361,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data",
+      "category": "prefs_keys",
+      "file": "TimeScript.cs",
+      "line": 362,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data",
+      "category": "prefs_keys",
+      "file": "TimeScript.cs",
+      "line": 363,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "TimeScript.cs",
+      "line": 455,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Ending",
+      "category": "scene_names",
+      "file": "TimeScript.cs",
+      "line": 462,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "TimeScript.cs",
+      "line": 2411,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event139.cs",
+      "line": 132,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event148.cs",
+      "line": 118,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 35,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules0",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 39,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules1",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 40,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules2",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 41,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules3",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 42,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules4",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 43,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules5",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 44,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules6",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 45,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules7",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 46,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules8",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 47,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules0",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 76,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules1",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 77,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules2",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 78,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules3",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 79,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules4",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 80,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules5",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 81,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules6",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 82,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules7",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 83,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules8",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 84,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules",
+      "category": "prefs_keys",
+      "file": "ChoiceSystemController.cs",
+      "line": 175,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending5.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "TutorialScript.cs",
+      "line": 66,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "WarScriptBack",
+      "category": "gameobject_finds",
+      "file": "WarButtonScript.cs",
+      "line": 39,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "WarButtonScript.cs",
+      "line": 42,
+      "context": "transform.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "WarButtonScript.cs",
+      "line": 206,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Mouse ScrollWheel",
+      "category": "input_axes",
+      "file": "ScrollScript.cs",
+      "line": 35,
+      "context": "Input.GetAxis"
+    },
+    {
+      "text": "Main Camera",
+      "category": "gameobject_finds",
+      "file": "Stasi_script.cs",
+      "line": 19,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "Stasi_script.cs",
+      "line": 20,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Main Camera",
+      "category": "gameobject_finds",
+      "file": "Stasi_script.cs",
+      "line": 27,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Stasi_script.cs",
+      "line": 30,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "Stasi_script.cs",
+      "line": 32,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "Stasi_script.cs",
+      "line": 36,
+      "context": "transform.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "ChildScript.cs",
+      "line": 49,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending4.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "planka_dolg(clone)",
+      "category": "gameobject_finds",
+      "file": "Plusmisnus_script.cs",
+      "line": 42,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "ModifyButtonScript.cs",
+      "line": 627,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "GameState.cs",
+      "line": 232,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "GameState.cs",
+      "line": 285,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "MapChanges",
+      "category": "gameobject_finds",
+      "file": "EvetnnashScript.cs",
+      "line": 16,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "EndingScript.cs",
+      "line": 48,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "EndingScript.cs",
+      "line": 94,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "EndingScript.cs",
+      "line": 569,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "EndingScript.cs",
+      "line": 1882,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event388.cs",
+      "line": 98,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "doneventscript.cs",
+      "line": 87,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "doneventscript.cs",
+      "line": 96,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "doneventscript.cs",
+      "line": 180,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "doneventscript.cs",
+      "line": 216,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Results",
+      "category": "scene_names",
+      "file": "doneventscript.cs",
+      "line": 5790,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Results",
+      "category": "scene_names",
+      "file": "doneventscript.cs",
+      "line": 5796,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "doneventscript.cs",
+      "line": 5819,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Kr",
+      "category": "gameobject_finds",
+      "file": "Party_zapret.cs",
+      "line": 185,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Parties (",
+      "category": "gameobject_finds",
+      "file": "Party_zapret.cs",
+      "line": 188,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "Party_zapret.cs",
+      "line": 188,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Parties (",
+      "category": "gameobject_finds",
+      "file": "Party_zapret.cs",
+      "line": 189,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Znack",
+      "category": "gameobject_finds",
+      "file": "Party_zapret.cs",
+      "line": 189,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Parties (",
+      "category": "gameobject_finds",
+      "file": "Party_zapret.cs",
+      "line": 190,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Znakc (1)",
+      "category": "gameobject_finds",
+      "file": "Party_zapret.cs",
+      "line": 190,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Kr",
+      "category": "gameobject_finds",
+      "file": "Party_zapret.cs",
+      "line": 423,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event421.cs",
+      "line": 16,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Diplomacy",
+      "category": "scene_names",
+      "file": "TranslateScript.cs",
+      "line": 25,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "TranslateScript.cs",
+      "line": 31,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "ChangeCountryScript.cs",
+      "line": 32,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Diplomacy",
+      "category": "scene_names",
+      "file": "FocusesScript.cs",
+      "line": 50,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "OkoshkoScriptDLC.cs",
+      "line": 66,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "OkoshkoScriptDLC.cs",
+      "line": 79,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "Stat_script.cs",
+      "line": 11,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Stat_script.cs",
+      "line": 12,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "VVP",
+      "category": "prefs_keys",
+      "file": "Stat_script.cs",
+      "line": 23,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "IRCHP",
+      "category": "prefs_keys",
+      "file": "Stat_script.cs",
+      "line": 24,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "SALARY",
+      "category": "prefs_keys",
+      "file": "Stat_script.cs",
+      "line": 25,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "ROST",
+      "category": "prefs_keys",
+      "file": "Stat_script.cs",
+      "line": 26,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "VVP",
+      "category": "prefs_keys",
+      "file": "Stat_script.cs",
+      "line": 37,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "IRCHP",
+      "category": "prefs_keys",
+      "file": "Stat_script.cs",
+      "line": 38,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "SALARY",
+      "category": "prefs_keys",
+      "file": "Stat_script.cs",
+      "line": 39,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "ROST",
+      "category": "prefs_keys",
+      "file": "Stat_script.cs",
+      "line": 40,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "CoopStartScript.cs",
+      "line": 42,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Diplomacy",
+      "category": "scene_names",
+      "file": "TranslateScriptDLC.cs",
+      "line": 38,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "TranslateScriptDLC.cs",
+      "line": 44,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "TranslateScriptDLC.cs",
+      "line": 62,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Mouse ScrollWheel",
+      "category": "input_axes",
+      "file": "Science_Polzunok.cs",
+      "line": 53,
+      "context": "Input.GetAxis"
+    },
+    {
+      "text": "Mouse ScrollWheel",
+      "category": "input_axes",
+      "file": "Science_Polzunok.cs",
+      "line": 55,
+      "context": "Input.GetAxis"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending15.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event146.cs",
+      "line": 124,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event146.cs",
+      "line": 151,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending21.cs",
+      "line": 15,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending31.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event374.cs",
+      "line": 31,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "SettingInGameScript.cs",
+      "line": 15,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "CitizenManager.cs",
+      "line": 80,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "CitizenManager.cs",
+      "line": 582,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Main",
+      "category": "scene_names",
+      "file": "StartGameScript.cs",
+      "line": 8,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "TextIf (0)",
+      "category": "gameobject_finds",
+      "file": "MapChangesScript.cs",
+      "line": 96,
+      "context": "transform.Find"
+    },
+    {
+      "text": "TextIf (1)",
+      "category": "gameobject_finds",
+      "file": "MapChangesScript.cs",
+      "line": 97,
+      "context": "transform.Find"
+    },
+    {
+      "text": "TextIf (2)",
+      "category": "gameobject_finds",
+      "file": "MapChangesScript.cs",
+      "line": 98,
+      "context": "transform.Find"
+    },
+    {
+      "text": "TextIf (3)",
+      "category": "gameobject_finds",
+      "file": "MapChangesScript.cs",
+      "line": 99,
+      "context": "transform.Find"
+    },
+    {
+      "text": "TextIf (0)",
+      "category": "gameobject_finds",
+      "file": "MapChangesScript.cs",
+      "line": 100,
+      "context": "transform.Find"
+    },
+    {
+      "text": "If",
+      "category": "gameobject_finds",
+      "file": "MapChangesScript.cs",
+      "line": 100,
+      "context": "transform.Find"
+    },
+    {
+      "text": "TextIf (1)",
+      "category": "gameobject_finds",
+      "file": "MapChangesScript.cs",
+      "line": 101,
+      "context": "transform.Find"
+    },
+    {
+      "text": "If",
+      "category": "gameobject_finds",
+      "file": "MapChangesScript.cs",
+      "line": 101,
+      "context": "transform.Find"
+    },
+    {
+      "text": "TextIf (2)",
+      "category": "gameobject_finds",
+      "file": "MapChangesScript.cs",
+      "line": 102,
+      "context": "transform.Find"
+    },
+    {
+      "text": "If",
+      "category": "gameobject_finds",
+      "file": "MapChangesScript.cs",
+      "line": 102,
+      "context": "transform.Find"
+    },
+    {
+      "text": "TextIf (3)",
+      "category": "gameobject_finds",
+      "file": "MapChangesScript.cs",
+      "line": 103,
+      "context": "transform.Find"
+    },
+    {
+      "text": "If",
+      "category": "gameobject_finds",
+      "file": "MapChangesScript.cs",
+      "line": 103,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text (1)",
+      "category": "gameobject_finds",
+      "file": "MapChangesScript.cs",
+      "line": 104,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text_opis_country",
+      "category": "gameobject_finds",
+      "file": "MapChangesScript.cs",
+      "line": 107,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Button (2)",
+      "category": "gameobject_finds",
+      "file": "SpeedScript.cs",
+      "line": 28,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "MapChanges",
+      "category": "gameobject_finds",
+      "file": "SpeedScript.cs",
+      "line": 29,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending25.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event393.cs",
+      "line": 27,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "ElectScript.cs",
+      "line": 38,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "ElectScript.cs",
+      "line": 43,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "ElectScript.cs",
+      "line": 53,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "ElectScript.cs",
+      "line": 96,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending40.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending11.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event127.cs",
+      "line": 104,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event137.cs",
+      "line": 99,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Okoshko(Clone)",
+      "category": "gameobject_finds",
+      "file": "OknoHideScipt.cs",
+      "line": 15,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending35.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Back",
+      "category": "gameobject_finds",
+      "file": "DecisionButtonScript.cs",
+      "line": 73,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending24.cs",
+      "line": 10,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Ending41.cs",
+      "line": 134,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending10.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "GameStartScript.cs",
+      "line": 22,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending34.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Kr",
+      "category": "gameobject_finds",
+      "file": "CoopDecisionsScript.cs",
+      "line": 117,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Main Camera",
+      "category": "gameobject_finds",
+      "file": "OkoshkoScript.cs",
+      "line": 25,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Main Camera",
+      "category": "gameobject_finds",
+      "file": "OkoshkoScript.cs",
+      "line": 36,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "OkoshkoScript.cs",
+      "line": 68,
+      "context": "transform.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "OkoshkoScript.cs",
+      "line": 70,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "OkoshkoScript.cs",
+      "line": 73,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "OkoshkoScript.cs",
+      "line": 78,
+      "context": "transform.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "OkoshkoScript.cs",
+      "line": 93,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "LanguageScript.cs",
+      "line": 20,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "LanguageScript.cs",
+      "line": 22,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "LanguageScript.cs",
+      "line": 26,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "LanguageScript.cs",
+      "line": 35,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Main",
+      "category": "scene_names",
+      "file": "LanguageScript.cs",
+      "line": 37,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "LanguageScript.cs",
+      "line": 43,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "LanguageScript.cs",
+      "line": 46,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Main",
+      "category": "scene_names",
+      "file": "LanguageScript.cs",
+      "line": 57,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending14.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending20.cs",
+      "line": 15,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending30.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "EventsCoopScript.cs",
+      "line": 38,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "MapChanges",
+      "category": "gameobject_finds",
+      "file": "EventScript.cs",
+      "line": 28,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "EventScript.cs",
+      "line": 79,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "EventScript.cs",
+      "line": 100,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event132.cs",
+      "line": 35,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "LoadScript.cs",
+      "line": 75,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "LoadScript.cs",
+      "line": 94,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "_EnvMatrix",
+      "category": "material_props",
+      "file": "EnvMapAnimator.cs",
+      "line": 25,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Results_text.cs",
+      "line": 35,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Results_text.cs",
+      "line": 73,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Results_text.cs",
+      "line": 2388,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Results_text.cs",
+      "line": 10925,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "SteamManager",
+      "category": "gameobject_finds",
+      "file": "achievements.cs",
+      "line": 24,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "SteamManager",
+      "category": "gameobject_finds",
+      "file": "achievements.cs",
+      "line": 58,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "SteamManager",
+      "category": "gameobject_finds",
+      "file": "achievements.cs",
+      "line": 83,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Bearu(0)",
+      "category": "gameobject_finds",
+      "file": "Politic_Manager.cs",
+      "line": 58,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Bearu(1)",
+      "category": "gameobject_finds",
+      "file": "Politic_Manager.cs",
+      "line": 59,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Diplomacy",
+      "category": "scene_names",
+      "file": "Politic_Manager.cs",
+      "line": 67,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Politic_Manager.cs",
+      "line": 119,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Politic_Manager.cs",
+      "line": 357,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "voice_china",
+      "category": "prefs_keys",
+      "file": "GlobalScript.cs",
+      "line": 193,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "voice_china",
+      "category": "prefs_keys",
+      "file": "GlobalScript.cs",
+      "line": 195,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "our_diff_in",
+      "category": "prefs_keys",
+      "file": "GlobalScript.cs",
+      "line": 197,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "our_diff_in",
+      "category": "prefs_keys",
+      "file": "GlobalScript.cs",
+      "line": 199,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "SavePosition",
+      "category": "prefs_keys",
+      "file": "GlobalScript.cs",
+      "line": 201,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "SavePosition",
+      "category": "prefs_keys",
+      "file": "GlobalScript.cs",
+      "line": 203,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "SavePlaceNum",
+      "category": "prefs_keys",
+      "file": "GlobalScript.cs",
+      "line": 205,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "SavePlaceNum",
+      "category": "prefs_keys",
+      "file": "GlobalScript.cs",
+      "line": 207,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "voice_china",
+      "category": "prefs_keys",
+      "file": "GlobalScript.cs",
+      "line": 213,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "GlobalScript.cs",
+      "line": 218,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending27.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending13.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "iron",
+      "category": "prefs_keys",
+      "file": "SaveStorage.cs",
+      "line": 171,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "save_diff",
+      "category": "prefs_keys",
+      "file": "SaveStorage.cs",
+      "line": 172,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data14",
+      "category": "prefs_keys",
+      "file": "SaveStorage.cs",
+      "line": 173,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data19",
+      "category": "prefs_keys",
+      "file": "SaveStorage.cs",
+      "line": 174,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data20",
+      "category": "prefs_keys",
+      "file": "SaveStorage.cs",
+      "line": 175,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data21",
+      "category": "prefs_keys",
+      "file": "SaveStorage.cs",
+      "line": 176,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data14",
+      "category": "prefs_keys",
+      "file": "SaveStorage.cs",
+      "line": 297,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "save_diff",
+      "category": "prefs_keys",
+      "file": "SaveStorage.cs",
+      "line": 297,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data19",
+      "category": "prefs_keys",
+      "file": "SaveStorage.cs",
+      "line": 306,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data20",
+      "category": "prefs_keys",
+      "file": "SaveStorage.cs",
+      "line": 307,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data21",
+      "category": "prefs_keys",
+      "file": "SaveStorage.cs",
+      "line": 308,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "save_diff",
+      "category": "prefs_keys",
+      "file": "SaveStorage.cs",
+      "line": 309,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data14",
+      "category": "prefs_keys",
+      "file": "SaveStorage.cs",
+      "line": 311,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Ending42.cs",
+      "line": 134,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event372.cs",
+      "line": 73,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending37.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event381.cs",
+      "line": 34,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event150.cs",
+      "line": 131,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event150.cs",
+      "line": 144,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "authores.cs",
+      "line": 15,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "Need_save.cs",
+      "line": 15,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Need_save.cs",
+      "line": 28,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Need_save.cs",
+      "line": 75,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "SavePlaceNum",
+      "category": "prefs_keys",
+      "file": "Need_save.cs",
+      "line": 137,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "SavePosition",
+      "category": "prefs_keys",
+      "file": "Need_save.cs",
+      "line": 162,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Doctrine_script.cs",
+      "line": 38,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "ShowWhenMouseEnter.cs",
+      "line": 24,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "ShowWhenMouseEnter.cs",
+      "line": 26,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "ShowWhenMouseEnter.cs",
+      "line": 30,
+      "context": "transform.Find"
+    },
+    {
+      "text": "_M",
+      "category": "material_props",
+      "file": "ShowWhenMouseEnter.cs",
+      "line": 39,
+      "context": "shader_property"
+    },
+    {
+      "text": "_M",
+      "category": "animator_params",
+      "file": "ShowWhenMouseEnter.cs",
+      "line": 39,
+      "context": "animator_param"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending17.cs",
+      "line": 15,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ending",
+      "category": "scene_names",
+      "file": "Event303.cs",
+      "line": 34,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event303.cs",
+      "line": 58,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending23.cs",
+      "line": 15,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event144.cs",
+      "line": 106,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 56,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "Znach (0)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 72,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (0)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 75,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (0)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 76,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (0)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 80,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (0)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 81,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text_opis_country",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 87,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (0)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 97,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (1)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 98,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (2)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 99,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (3)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 100,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (4)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 101,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (5)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 102,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (0)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 106,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (0)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 112,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (0)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 118,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (0)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 124,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (1)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 130,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (1)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 138,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (1)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 144,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (1)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 151,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (1)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 157,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (1)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 163,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (1)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 173,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (1)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 179,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (1)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 186,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (1)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 190,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (2)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 195,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (2)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 201,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (2)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 207,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (2)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 213,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (2)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 219,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (2)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 225,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (2)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 239,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (3)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 244,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (3)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 250,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (4)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 255,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (4)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 261,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (4)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 267,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (4)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 273,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (5)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 281,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (5)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 287,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (5)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 294,
+      "context": "transform.Find"
+    },
+    {
+      "text": "DiploNameText",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 310,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (0)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 311,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (1)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 312,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (2)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 313,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (3)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 314,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (4)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 315,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Znach (5)",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 316,
+      "context": "transform.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "CountryScript.cs",
+      "line": 345,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "MapChanges",
+      "category": "gameobject_finds",
+      "file": "CountryScript.cs",
+      "line": 2251,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2311,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2312,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2317,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2318,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2322,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2323,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2327,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2328,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2332,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2336,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2337,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2341,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2342,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2350,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2354,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2355,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2359,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2360,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2364,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2365,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2369,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2370,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2374,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2375,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2379,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2380,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2384,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2388,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2392,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2393,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2397,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2398,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2406,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2407,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2411,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2415,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2416,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2424,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2428,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2432,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2433,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2437,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_MainColor2",
+      "category": "material_props",
+      "file": "CountryScript.cs",
+      "line": 2438,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event385.cs",
+      "line": 336,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending33.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "CreateScript.cs",
+      "line": 14,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "CreateScript.cs",
+      "line": 17,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "CreateScript.cs",
+      "line": 22,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "CreateScript.cs",
+      "line": 25,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "gamerules",
+      "category": "prefs_keys",
+      "file": "CreateScript.cs",
+      "line": 43,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules",
+      "category": "prefs_keys",
+      "file": "CreateScript.cs",
+      "line": 45,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules",
+      "category": "prefs_keys",
+      "file": "CreateScript.cs",
+      "line": 110,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "gamerules",
+      "category": "prefs_keys",
+      "file": "CreateScript.cs",
+      "line": 112,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Back",
+      "category": "gameobject_finds",
+      "file": "EmpireSceneButtonScript.cs",
+      "line": 26,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "ResolutionDialogSpawner.cs",
+      "line": 67,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "CompassScript.cs",
+      "line": 13,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending8.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "Politic_Data_Show_cel.cs",
+      "line": 11,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending16.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "LoadInScript.cs",
+      "line": 34,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data14",
+      "category": "prefs_keys",
+      "file": "LoadInScript.cs",
+      "line": 99,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "LoadInScript.cs",
+      "line": 107,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "LoadInScript.cs",
+      "line": 116,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Diplomacy",
+      "category": "scene_names",
+      "file": "LoadInScript.cs",
+      "line": 186,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending22.cs",
+      "line": 15,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Button_Pol_Script.cs",
+      "line": 707,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Button_Pol_Script.cs",
+      "line": 788,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event394.cs",
+      "line": 38,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event377.cs",
+      "line": 101,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "Politic_Data_Show_Script.cs",
+      "line": 11,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending32.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "ThisDateToScience.cs",
+      "line": 11,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "Party_ally_script.cs",
+      "line": 18,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event141.cs",
+      "line": 115,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending26.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending12.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Ending43.cs",
+      "line": 134,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "modify_choose.cs",
+      "line": 34,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event134.cs",
+      "line": 53,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending36.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event151.cs",
+      "line": 99,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Diplomacy",
+      "category": "scene_names",
+      "file": "WarsScript.cs",
+      "line": 49,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "WarsScript.cs",
+      "line": 155,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "DoctrinePlayersCoopButtons.cs",
+      "line": 17,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "MapChanges",
+      "category": "gameobject_finds",
+      "file": "DiploButtonScript.cs",
+      "line": 52,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "DiploButtonScript.cs",
+      "line": 53,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "DiploButtonScript.cs",
+      "line": 62,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "DiploButtonScript.cs",
+      "line": 72,
+      "context": "transform.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "DiploButtonScript.cs",
+      "line": 224,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "DiploButtonScript.cs",
+      "line": 5929,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "DiploButtonScript.cs",
+      "line": 6212,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "DiploButtonScript.cs",
+      "line": 6407,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "DiploButtonScript.cs",
+      "line": 6438,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "DiploButtonScript.cs",
+      "line": 6446,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "DiploButtonScript.cs",
+      "line": 6923,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "DiploButtonScript.cs",
+      "line": 7017,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "DiploButtonScript.cs",
+      "line": 7051,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "DiploButtonScript.cs",
+      "line": 7358,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "DiploButtonScript.cs",
+      "line": 7365,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "DiploButtonScript.cs",
+      "line": 7497,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "DiploButtonScript.cs",
+      "line": 7581,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "DiploButtonScript.cs",
+      "line": 7587,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "DiploButtonScript.cs",
+      "line": 7715,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "If",
+      "category": "gameobject_finds",
+      "file": "DiploButtonScript.cs",
+      "line": 8446,
+      "context": "transform.Find"
+    },
+    {
+      "text": "If",
+      "category": "gameobject_finds",
+      "file": "DiploButtonScript.cs",
+      "line": 8450,
+      "context": "transform.Find"
+    },
+    {
+      "text": "If",
+      "category": "gameobject_finds",
+      "file": "DiploButtonScript.cs",
+      "line": 8464,
+      "context": "transform.Find"
+    },
+    {
+      "text": "If",
+      "category": "gameobject_finds",
+      "file": "DiploButtonScript.cs",
+      "line": 8474,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "VoiceSciptr.cs",
+      "line": 15,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "VoiceSciptr.cs",
+      "line": 22,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "VoiceSciptr.cs",
+      "line": 24,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "VoiceSciptr.cs",
+      "line": 28,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "VoiceSciptr.cs",
+      "line": 30,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "VoiceSciptr.cs",
+      "line": 34,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "VoiceSciptr.cs",
+      "line": 39,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "VoiceSciptr.cs",
+      "line": 42,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "VoiceSciptr.cs",
+      "line": 44,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "VoiceSciptr.cs",
+      "line": 48,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "VoiceSciptr.cs",
+      "line": 50,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "VoiceSciptr.cs",
+      "line": 54,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "VoiceSciptr.cs",
+      "line": 59,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "VoiceSciptr.cs",
+      "line": 61,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "VoiceSciptr.cs",
+      "line": 62,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "VoiceSciptr.cs",
+      "line": 63,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "voice_china",
+      "category": "prefs_keys",
+      "file": "VoiceSciptr.cs",
+      "line": 63,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending19.cs",
+      "line": 15,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending7.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event402.cs",
+      "line": 162,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Back",
+      "category": "gameobject_finds",
+      "file": "FocusButtoNScript.cs",
+      "line": 89,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "_RadiusMin",
+      "category": "material_props",
+      "file": "Crushko.cs",
+      "line": 65,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_RadiusMin",
+      "category": "animator_params",
+      "file": "Crushko.cs",
+      "line": 65,
+      "context": "animator_param"
+    },
+    {
+      "text": "_RadiusMax",
+      "category": "material_props",
+      "file": "Crushko.cs",
+      "line": 66,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_RadiusMax",
+      "category": "animator_params",
+      "file": "Crushko.cs",
+      "line": 66,
+      "context": "animator_param"
+    },
+    {
+      "text": "_BorderWidthDeg",
+      "category": "material_props",
+      "file": "Crushko.cs",
+      "line": 67,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_BorderWidthDeg",
+      "category": "animator_params",
+      "file": "Crushko.cs",
+      "line": 67,
+      "context": "animator_param"
+    },
+    {
+      "text": "_RadiusBorderWidth",
+      "category": "material_props",
+      "file": "Crushko.cs",
+      "line": 68,
+      "context": "material.Set/Get"
+    },
+    {
+      "text": "_RadiusBorderWidth",
+      "category": "animator_params",
+      "file": "Crushko.cs",
+      "line": 68,
+      "context": "animator_param"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending29.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "DiffScript.cs",
+      "line": 15,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "DiffScript.cs",
+      "line": 21,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "our_diff_in",
+      "category": "prefs_keys",
+      "file": "DiffScript.cs",
+      "line": 97,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event422.cs",
+      "line": 16,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending3.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "englishimages.cs",
+      "line": 19,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "englishimages.cs",
+      "line": 21,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "englishimages.cs",
+      "line": 23,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "englishimages.cs",
+      "line": 25,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "NG1",
+      "category": "gameobject_finds",
+      "file": "englishimages.cs",
+      "line": 27,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "ZAG1",
+      "category": "gameobject_finds",
+      "file": "englishimages.cs",
+      "line": 28,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "VYH1",
+      "category": "gameobject_finds",
+      "file": "englishimages.cs",
+      "line": 29,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "AVT1",
+      "category": "gameobject_finds",
+      "file": "englishimages.cs",
+      "line": 30,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Diplomacy",
+      "category": "scene_names",
+      "file": "Science_Script.cs",
+      "line": 60,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "_M",
+      "category": "material_props",
+      "file": "Science_Script.cs",
+      "line": 130,
+      "context": "shader_property"
+    },
+    {
+      "text": "_M",
+      "category": "animator_params",
+      "file": "Science_Script.cs",
+      "line": 130,
+      "context": "animator_param"
+    },
+    {
+      "text": "_M",
+      "category": "material_props",
+      "file": "Science_Script.cs",
+      "line": 134,
+      "context": "shader_property"
+    },
+    {
+      "text": "_M",
+      "category": "animator_params",
+      "file": "Science_Script.cs",
+      "line": 134,
+      "context": "animator_param"
+    },
+    {
+      "text": "_M",
+      "category": "material_props",
+      "file": "Science_Script.cs",
+      "line": 139,
+      "context": "shader_property"
+    },
+    {
+      "text": "_M",
+      "category": "animator_params",
+      "file": "Science_Script.cs",
+      "line": 139,
+      "context": "animator_param"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Science_Script.cs",
+      "line": 159,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending39.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Diplomacy",
+      "category": "scene_names",
+      "file": "Modify_iconsScript.cs",
+      "line": 80,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending28.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "speechscript.cs",
+      "line": 14,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "speechscript.cs",
+      "line": 26,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending2.cs",
+      "line": 8,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Main Camera",
+      "category": "gameobject_finds",
+      "file": "perehodscript.cs",
+      "line": 19,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "LoadListController.cs",
+      "line": 117,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Background",
+      "category": "gameobject_finds",
+      "file": "LoadListController.cs",
+      "line": 142,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "LoadListController.cs",
+      "line": 171,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "LoadListController.cs",
+      "line": 272,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "data14",
+      "category": "prefs_keys",
+      "file": "LoadListController.cs",
+      "line": 283,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "AudioScript.cs",
+      "line": 21,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "voice_china",
+      "category": "prefs_keys",
+      "file": "AudioScript.cs",
+      "line": 50,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "voice_china",
+      "category": "animator_params",
+      "file": "AudioScript.cs",
+      "line": 50,
+      "context": "animator_param"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "in1992_script.cs",
+      "line": 38,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Text_time",
+      "category": "gameobject_finds",
+      "file": "in1992_script.cs",
+      "line": 40,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Text_time",
+      "category": "gameobject_finds",
+      "file": "in1992_script.cs",
+      "line": 46,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Button (4)",
+      "category": "gameobject_finds",
+      "file": "in1992_script.cs",
+      "line": 64,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Button (4)",
+      "category": "gameobject_finds",
+      "file": "in1992_script.cs",
+      "line": 65,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Button (4)",
+      "category": "gameobject_finds",
+      "file": "in1992_script.cs",
+      "line": 71,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Button (4)",
+      "category": "gameobject_finds",
+      "file": "in1992_script.cs",
+      "line": 72,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Button (4)",
+      "category": "gameobject_finds",
+      "file": "in1992_script.cs",
+      "line": 118,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Button (4)",
+      "category": "gameobject_finds",
+      "file": "in1992_script.cs",
+      "line": 119,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending38.cs",
+      "line": 9,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Politic_Script.cs",
+      "line": 82,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "_M",
+      "category": "material_props",
+      "file": "Politic_Script.cs",
+      "line": 104,
+      "context": "shader_property"
+    },
+    {
+      "text": "_M",
+      "category": "animator_params",
+      "file": "Politic_Script.cs",
+      "line": 104,
+      "context": "animator_param"
+    },
+    {
+      "text": "_M",
+      "category": "material_props",
+      "file": "Politic_Script.cs",
+      "line": 109,
+      "context": "shader_property"
+    },
+    {
+      "text": "_M",
+      "category": "animator_params",
+      "file": "Politic_Script.cs",
+      "line": 109,
+      "context": "animator_param"
+    },
+    {
+      "text": "_M",
+      "category": "material_props",
+      "file": "Politic_Script.cs",
+      "line": 114,
+      "context": "shader_property"
+    },
+    {
+      "text": "_M",
+      "category": "animator_params",
+      "file": "Politic_Script.cs",
+      "line": 114,
+      "context": "animator_param"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "PlayOnTouch.cs",
+      "line": 27,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "AudioSource",
+      "category": "gameobject_finds",
+      "file": "PlayOnTouch.cs",
+      "line": 27,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "PlayOnTouch.cs",
+      "line": 44,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "AudioSource",
+      "category": "gameobject_finds",
+      "file": "PlayOnTouch.cs",
+      "line": 44,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Global(Clone)",
+      "category": "gameobject_finds",
+      "file": "PlayOnTouch.cs",
+      "line": 61,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "AudioSource",
+      "category": "gameobject_finds",
+      "file": "PlayOnTouch.cs",
+      "line": 61,
+      "context": "transform.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Show_diplomacy_data_script.cs",
+      "line": 191,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Show_diplomacy_data_script.cs",
+      "line": 238,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Show_diplomacy_data_script.cs",
+      "line": 288,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Diplomacy",
+      "category": "scene_names",
+      "file": "Show_diplomacy_data_script.cs",
+      "line": 333,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Show_diplomacy_data_script.cs",
+      "line": 354,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Show_diplomacy_data_script.cs",
+      "line": 366,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Show_diplomacy_data_script.cs",
+      "line": 381,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Show_diplomacy_data_script.cs",
+      "line": 409,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Show_diplomacy_data_script.cs",
+      "line": 453,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending18.cs",
+      "line": 15,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Main Camera",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 20,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Main Camera",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 27,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 30,
+      "context": "transform.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "leading_script.cs",
+      "line": 31,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 35,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 38,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 42,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 44,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 47,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 51,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 61,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 64,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 66,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 71,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 72,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 84,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 87,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 89,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 94,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 95,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 97,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 100,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 104,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 108,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 112,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 116,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 120,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 128,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 131,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 135,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 137,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 140,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 144,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 152,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 155,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 157,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 162,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 163,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 173,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 176,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 178,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 183,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 184,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 186,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 189,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 193,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 197,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 201,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 205,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "leading_script.cs",
+      "line": 209,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Ending6.cs",
+      "line": 10,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "Doctrine_button_script.cs",
+      "line": 105,
+      "context": "transform.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Doctrine_button_script.cs",
+      "line": 110,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "Kr",
+      "category": "gameobject_finds",
+      "file": "Doctrine_button_script.cs",
+      "line": 1229,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Parties (",
+      "category": "gameobject_finds",
+      "file": "Doctrine_button_script.cs",
+      "line": 1232,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Text",
+      "category": "gameobject_finds",
+      "file": "Doctrine_button_script.cs",
+      "line": 1232,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Parties (",
+      "category": "gameobject_finds",
+      "file": "Doctrine_button_script.cs",
+      "line": 1233,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Znack",
+      "category": "gameobject_finds",
+      "file": "Doctrine_button_script.cs",
+      "line": 1233,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Parties (",
+      "category": "gameobject_finds",
+      "file": "Doctrine_button_script.cs",
+      "line": 1236,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Znakc (1)",
+      "category": "gameobject_finds",
+      "file": "Doctrine_button_script.cs",
+      "line": 1236,
+      "context": "transform.Find"
+    },
+    {
+      "text": "If",
+      "category": "gameobject_finds",
+      "file": "Doctrine_button_script.cs",
+      "line": 1242,
+      "context": "transform.Find"
+    },
+    {
+      "text": "If (1)",
+      "category": "gameobject_finds",
+      "file": "Doctrine_button_script.cs",
+      "line": 1243,
+      "context": "transform.Find"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Doctrine_button_script.cs",
+      "line": 1252,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "If",
+      "category": "gameobject_finds",
+      "file": "Doctrine_button_script.cs",
+      "line": 1490,
+      "context": "transform.Find"
+    },
+    {
+      "text": "If (1)",
+      "category": "gameobject_finds",
+      "file": "Doctrine_button_script.cs",
+      "line": 1491,
+      "context": "transform.Find"
+    },
+    {
+      "text": "If",
+      "category": "gameobject_finds",
+      "file": "Doctrine_button_script.cs",
+      "line": 1495,
+      "context": "transform.Find"
+    },
+    {
+      "text": "If (1)",
+      "category": "gameobject_finds",
+      "file": "Doctrine_button_script.cs",
+      "line": 1496,
+      "context": "transform.Find"
+    },
+    {
+      "text": "If",
+      "category": "gameobject_finds",
+      "file": "Doctrine_button_script.cs",
+      "line": 1507,
+      "context": "transform.Find"
+    },
+    {
+      "text": "If (1)",
+      "category": "gameobject_finds",
+      "file": "Doctrine_button_script.cs",
+      "line": 1508,
+      "context": "transform.Find"
+    },
+    {
+      "text": "Ach(Clone)",
+      "category": "gameobject_finds",
+      "file": "Event379.cs",
+      "line": 17,
+      "context": "GameObject.Find"
+    },
+    {
+      "text": "Event",
+      "category": "scene_names",
+      "file": "KGEvent/QueryDecisions.cs",
+      "line": 740,
+      "context": "SceneManager.LoadScene"
+    },
+    {
+      "text": "Mouse ScrollWheel",
+      "category": "input_axes",
+      "file": "TMPro.Examples/CameraController.cs",
+      "line": 126,
+      "context": "Input.GetAxis"
+    },
+    {
+      "text": "Mouse Y",
+      "category": "input_axes",
+      "file": "TMPro.Examples/CameraController.cs",
+      "line": 145,
+      "context": "Input.GetAxis"
+    },
+    {
+      "text": "Mouse X",
+      "category": "input_axes",
+      "file": "TMPro.Examples/CameraController.cs",
+      "line": 146,
+      "context": "Input.GetAxis"
+    },
+    {
+      "text": "Mouse Y",
+      "category": "input_axes",
+      "file": "TMPro.Examples/CameraController.cs",
+      "line": 218,
+      "context": "Input.GetAxis"
+    },
+    {
+      "text": "Mouse X",
+      "category": "input_axes",
+      "file": "TMPro.Examples/CameraController.cs",
+      "line": 219,
+      "context": "Input.GetAxis"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Mod/Moding.cs",
+      "line": 22,
+      "context": "PlayerPrefs"
+    },
+    {
+      "text": "language",
+      "category": "prefs_keys",
+      "file": "Mod/Moding.cs",
+      "line": 28,
+      "context": "PlayerPrefs"
+    }
+  ]
+}

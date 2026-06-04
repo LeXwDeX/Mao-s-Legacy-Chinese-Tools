@@ -1,0 +1,4 @@
+/mnt/d/mao's legacy-chinese-tools/rebuild/obj/Debug/net472/Assembly-CSharp.csproj.AssemblyReference.cache
+/mnt/d/mao's legacy-chinese-tools/rebuild/obj/Debug/net472/Assembly-CSharp.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/d/mao's legacy-chinese-tools/rebuild/obj/Debug/net472/Assembly-CSharp.csproj.CoreCompileInputs.cache
+/mnt/d/mao's legacy-chinese-tools/rebuild/obj/Debug/net472/Assembly-CSharp.sourcelink.json

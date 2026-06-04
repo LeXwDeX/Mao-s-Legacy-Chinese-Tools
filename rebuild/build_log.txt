@@ -1,0 +1,27 @@
+
+Welcome to .NET 8.0!
+---------------------
+SDK Version: 8.0.127
+
+----------------
+Installed an ASP.NET Core HTTPS development certificate.
+To trust the certificate, view the instructions: https://aka.ms/dotnet-https-linux
+
+----------------
+Write your first app: https://aka.ms/dotnet-hello-world
+Find out what's new: https://aka.ms/dotnet-whats-new
+Explore documentation: https://aka.ms/dotnet-docs
+Report issues and find source on GitHub: https://github.com/dotnet/core
+Use 'dotnet --help' to see available commands or visit: https://aka.ms/dotnet-cli
+--------------------------------------------------------------------------------------
+  Determining projects to restore...
+  Restored /mnt/d/mao's legacy-chinese-tools/rebuild/Assembly-CSharp.csproj (in 10.1 sec).
+CSC : error CS1617: Invalid option '14.0' for /langversion. Use '/langversion:?' to list supported values. [/mnt/d/mao's legacy-chinese-tools/rebuild/Assembly-CSharp.csproj]
+
+Build FAILED.
+
+CSC : error CS1617: Invalid option '14.0' for /langversion. Use '/langversion:?' to list supported values. [/mnt/d/mao's legacy-chinese-tools/rebuild/Assembly-CSharp.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:16.42
