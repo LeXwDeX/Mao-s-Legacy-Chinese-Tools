@@ -102,14 +102,14 @@ GLOBAL_PATCHES: list[tuple[str, str]] = [
     ("Science",     "科技"),       # 7B→6B,  blk=8
     ("Doctrines",   "意识形态"),   # 9B→12B, blk=12
     ("Politics",    "政治"),       # 8B→6B,  blk=8
-    ("Wars",        "战"),         # 4B→3B,  blk=4
+    # ("Wars",        "战"),      # 4B→3B, blk=4 — 单字翻译质量差，保留英文
     ("Trade",       "贸易"),       # 5B→6B,  blk=8
     ("Influence",   "影响力"),     # 9B→9B,  blk=12
     ("Territories", "所辖领土"),   # 11B→12B,blk=12
     ("Situations",  "局势状况"),   # 10B→12B,blk=12
     ("Unity",       "统一"),       # 5B→6B,  blk=8
     ("Allies",      "盟友"),       # 6B→6B,  blk=8
-    ("View",        "视"),         # 4B→3B,  blk=4
+    # ("View",        "视"),      # 4B→3B, blk=4 — 单字翻译质量差，保留英文
 ]
 
 # 文件专属翻译（只写入指定 level 文件）
@@ -121,7 +121,7 @@ FILE_PATCHES: dict[str, list[tuple[str, str]]] = {
         ("End the game",             "结束游戏"),      # 12B→12B, blk=12
         ("It's time for our Future", "是时候规划未来了"), # 24B→24B, blk=24
         ("Finish",                   "完成"),          # 6B→6B,   blk=8
-        ("Load",                     "载"),            # 4B→3B,   blk=4
+        # ("Load",                     "载"),            # 4B→3B,   blk=4 — 单字翻译质量差，保留英文
         ("Citizens",                 "公民"),          # 8B→6B,   blk=8
     ],
     "level9": [
@@ -129,8 +129,8 @@ FILE_PATCHES: dict[str, list[tuple[str, str]]] = {
         ("Agriculture",                  "农业发展"),    # 11B→12B,blk=12
         ("Services",                     "服务"),        # 8B→6B,  blk=8
         ("Corruption",                   "腐败程度"),    # 10B→12B,blk=12
-        ("Army",                         "军"),          # 4B→3B,  blk=4
-        ("MSS",                          "局"),          # 3B→3B,  blk=4
+        # ("Army",                         "军"),          # 4B→3B,  blk=4 — 单字翻译质量差，保留英文
+        # ("MSS",                          "局"),          # 3B→3B,  blk=4 — 单字翻译质量差，保留英文
         ("State mechanism",              "国家行政部"),  # 15B→15B,blk=16
         ("Envelops for|party members",   "党员信封|福利费用"), # 26B→25B,blk=28
         ("Propaganda",                   "宣传活动"),    # 10B→12B,blk=12
@@ -140,7 +140,7 @@ FILE_PATCHES: dict[str, list[tuple[str, str]]] = {
         ("Industry",            "工业"),         # 8B→6B,  blk=8
         ("Agriculture",         "农业发展"),     # 11B→12B,blk=12
         ("Services",            "服务"),         # 8B→6B,  blk=8
-        ("Army",                "军"),           # 4B→3B,  blk=4
+        # ("Army",                "军"),           # 4B→3B,  blk=4 — 单字翻译质量差，保留英文
         ("Agents",              "特工"),         # 6B→6B,  blk=8
         ("Sci points",          "科技点"),       # 10B→9B, blk=12
         ("Corruption",          "腐败程度"),     # 10B→12B,blk=12

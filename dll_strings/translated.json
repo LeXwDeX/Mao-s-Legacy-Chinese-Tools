@@ -15301,7 +15301,7 @@
     "header_size": 2,
     "available_chars": 152,
     "text": "\" is finally over. The Ministry of Foreign Affairs has taken care of everything and is now ready to give you a quick overview of the outcome of the war.",
-    "translated": "”的冲突终于结束了。\n外交部已经把一切安排妥当，现在准备向你快速汇报战争的结果。"
+    "translated": "的冲突终于结束了。\n外交部已经把一切安排妥当，现在准备向你快速汇报战争的结果。"
   },
   "0x002F490A": {
     "offset": 3098890,
@@ -15317,7 +15317,7 @@
     "header_size": 1,
     "available_chars": 16,
     "text": "\" finally ended.",
-    "translated": "”终于告终。"
+    "translated": "\"\\终于告终。"
   },
   "0x002F4984": {
     "offset": 3099012,
