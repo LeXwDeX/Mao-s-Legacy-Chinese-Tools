@@ -1,15 +1,33 @@
-# 忽略所有 .env 文件
+# === 环境 / 密钥 ===
+# 忽略所有 .env 文件（含 API Key 等敏感信息）
 *.env
+!.env.example
 
-# 忽略 upload 文件夹及其所有内容
+# === Python ===
+# 字节码缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# === 上传 / 临时文件 ===
 upload/
 uploads/
 
-# 忽略游戏原始资源（体积过大，约 946MB）
+# === 游戏原始资源 ===
+# 软链指向 Windows 游戏安装目录，体积 ~946MB
 1.8.5_Resources/
 
-# 忽略 Python 字节码缓存
-__pycache__/
-
-# 忽略任务状态台账（每次工作会话重新生成）
+# === Agent / 工具内部状态 ===
+# 任务台账（每次工作会话重新生成）
 .task_state/
+# Agent 持久记忆（hindsight plugin 数据）
+.memory/
+
+# === 系统垃圾文件 ===
+# macOS Finder 元数据
+.DS_Store
+**/.DS_Store
+# Windows 缩略图缓存
+Thumbs.db
+# Windows 桌面配置文件
+desktop.ini
