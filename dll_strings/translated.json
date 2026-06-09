@@ -17902,5 +17902,453 @@
     "available_chars": 8,
     "text": "Sprite [",
     "translated": "精灵 ["
+  },
+  "0x002C1DC7": {
+    "offset": 2891207,
+    "length": 50,
+    "header_size": 1,
+    "available_chars": 24,
+    "text": "No oligarchs\nInfluence: ",
+    "translated": "无寡头\n影响力："
+  },
+  "0x002C1E03": {
+    "offset": 2891267,
+    "length": 70,
+    "header_size": 1,
+    "available_chars": 34,
+    "text": "Emergence of Oligarchy\nInfluence: ",
+    "translated": "寡头萌芽\n影响力："
+  },
+  "0x002C1E49": {
+    "offset": 2891337,
+    "length": 76,
+    "header_size": 1,
+    "available_chars": 37,
+    "text": "Medium strength Oligarchy\nInfluence: ",
+    "translated": "中等寡头势力\n影响力："
+  },
+  "0x002C1E95": {
+    "offset": 2891413,
+    "length": 58,
+    "header_size": 1,
+    "available_chars": 28,
+    "text": "Strong Oligarchy\nInfluence: ",
+    "translated": "强势寡头\n影响力："
+  },
+  "0x002C1ECF": {
+    "offset": 2891471,
+    "length": 62,
+    "header_size": 1,
+    "available_chars": 30,
+    "text": "Oligarchy in power\nInfluence: ",
+    "translated": "寡头掌权\n影响力："
+  },
+  "0x0019379E": {
+    "offset": 1652638,
+    "length": 20,
+    "header_size": 1,
+    "available_chars": 9,
+    "text": "Relations",
+    "translated": "关系"
+  },
+  "0x001937B2": {
+    "offset": 1652658,
+    "length": 22,
+    "header_size": 1,
+    "available_chars": 10,
+    "text": "Technology",
+    "translated": "科技"
+  },
+  "0x001937C8": {
+    "offset": 1652680,
+    "length": 10,
+    "header_size": 1,
+    "available_chars": 4,
+    "text": "CMEA",
+    "translated": "经互会"
+  },
+  "0x001937D2": {
+    "offset": 1652690,
+    "length": 20,
+    "header_size": 1,
+    "available_chars": 9,
+    "text": "Associate",
+    "translated": "准会员"
+  },
+  "0x001937E6": {
+    "offset": 1652710,
+    "length": 24,
+    "header_size": 1,
+    "available_chars": 11,
+    "text": "Warsaw Pact",
+    "translated": "华约"
+  },
+  "0x001937FE": {
+    "offset": 1652734,
+    "length": 16,
+    "header_size": 1,
+    "available_chars": 7,
+    "text": "Support",
+    "translated": "援助"
+  },
+  "0x0019380E": {
+    "offset": 1652750,
+    "length": 18,
+    "header_size": 1,
+    "available_chars": 8,
+    "text": "Far-left",
+    "translated": "极左"
+  },
+  "0x00193820": {
+    "offset": 1652768,
+    "length": 12,
+    "header_size": 1,
+    "available_chars": 5,
+    "text": "Trade",
+    "translated": "贸易"
+  },
+  "0x0019384A": {
+    "offset": 1652810,
+    "length": 16,
+    "header_size": 1,
+    "available_chars": 7,
+    "text": "Unrests",
+    "translated": "动乱"
+  },
+  "0x0019385A": {
+    "offset": 1652826,
+    "length": 10,
+    "header_size": 1,
+    "available_chars": 4,
+    "text": "Coup",
+    "translated": "政变"
+  },
+  "0x00193838": {
+    "offset": 1652792,
+    "length": 18,
+    "header_size": 1,
+    "available_chars": 8,
+    "text": "Alliance",
+    "translated": "联盟"
+  },
+  "0x0019382C": {
+    "offset": 1652780,
+    "length": 12,
+    "header_size": 1,
+    "available_chars": 5,
+    "text": "Union",
+    "translated": "联合"
+  },
+  "0x00193864": {
+    "offset": 1652836,
+    "length": 20,
+    "header_size": 1,
+    "available_chars": 9,
+    "text": "Sanctions",
+    "translated": "制裁"
+  },
+  "0x00193878": {
+    "offset": 1652856,
+    "length": 8,
+    "header_size": 1,
+    "available_chars": 3,
+    "text": "War",
+    "translated": "战争"
+  },
+  "0x00193880": {
+    "offset": 1652864,
+    "length": 16,
+    "header_size": 1,
+    "available_chars": 7,
+    "text": "Weapons",
+    "translated": "军火"
+  },
+  "0x001938E6": {
+    "offset": 1652966,
+    "length": 18,
+    "header_size": 1,
+    "available_chars": 8,
+    "text": "Naxalite",
+    "translated": "纳萨尔"
+  },
+  "0x001938F8": {
+    "offset": 1652984,
+    "length": 30,
+    "header_size": 1,
+    "available_chars": 14,
+    "text": "Reinforcements",
+    "translated": "增援"
+  },
+  "0x001938B4": {
+    "offset": 1652916,
+    "length": 20,
+    "header_size": 1,
+    "available_chars": 9,
+    "text": "Agreement",
+    "translated": "协议"
+  },
+  "0x00193916": {
+    "offset": 1653014,
+    "length": 24,
+    "header_size": 1,
+    "available_chars": 11,
+    "text": "Investments",
+    "translated": "投资"
+  },
+  "0x001A2937": {
+    "offset": 1714487,
+    "length": 52,
+    "header_size": 1,
+    "available_chars": 25,
+    "text": "Soviet-type\nstate planned",
+    "translated": "苏式\n计划经济"
+  },
+  "0x001A296B": {
+    "offset": 1714539,
+    "length": 22,
+    "header_size": 1,
+    "available_chars": 10,
+    "text": "Automation",
+    "translated": "自动化"
+  },
+  "0x001A2981": {
+    "offset": 1714561,
+    "length": 52,
+    "header_size": 1,
+    "available_chars": 25,
+    "text": "State monopoly\ncapitalism",
+    "translated": "国家垄断\n资本主义"
+  },
+  "0x001A29B5": {
+    "offset": 1714613,
+    "length": 24,
+    "header_size": 1,
+    "available_chars": 11,
+    "text": "Bird's\ncage",
+    "translated": "鸟笼\n经济"
+  },
+  "0x001A29CD": {
+    "offset": 1714637,
+    "length": 28,
+    "header_size": 1,
+    "available_chars": 13,
+    "text": "Mixed\neconomy",
+    "translated": "混合\n经济"
+  },
+  "0x001A29E9": {
+    "offset": 1714665,
+    "length": 38,
+    "header_size": 1,
+    "available_chars": 18,
+    "text": "Minimum\nregulation",
+    "translated": "最低限度\n管制"
+  },
+  "0x001A2A0F": {
+    "offset": 1714703,
+    "length": 40,
+    "header_size": 1,
+    "available_chars": 19,
+    "text": "One-party\ndemocracy",
+    "translated": "一党\n民主"
+  },
+  "0x001A2A37": {
+    "offset": 1714743,
+    "length": 28,
+    "header_size": 1,
+    "available_chars": 13,
+    "text": "New\nDemocracy",
+    "translated": "新\n民主主义"
+  },
+  "0x001A2A53": {
+    "offset": 1714771,
+    "length": 38,
+    "header_size": 1,
+    "available_chars": 18,
+    "text": "Limited\nmultiparty",
+    "translated": "有限\n多党制"
+  },
+  "0x001A2A79": {
+    "offset": 1714809,
+    "length": 42,
+    "header_size": 1,
+    "available_chars": 20,
+    "text": "Multiparty\ndemocracy",
+    "translated": "多党\n民主"
+  },
+  "0x001A2AA3": {
+    "offset": 1714851,
+    "length": 34,
+    "header_size": 1,
+    "available_chars": 16,
+    "text": "Fighting\ndissent",
+    "translated": "打击\n异见"
+  },
+  "0x001A2AC5": {
+    "offset": 1714885,
+    "length": 16,
+    "header_size": 1,
+    "available_chars": 7,
+    "text": "Limited",
+    "translated": "有限"
+  },
+  "0x001A2AD5": {
+    "offset": 1714901,
+    "length": 28,
+    "header_size": 1,
+    "available_chars": 13,
+    "text": "Small control",
+    "translated": "低度管控"
+  },
+  "0x001A2AF1": {
+    "offset": 1714929,
+    "length": 40,
+    "header_size": 1,
+    "available_chars": 19,
+    "text": "Full\nliberalization",
+    "translated": "完全\n自由化"
+  },
+  "0x001A2B19": {
+    "offset": 1714969,
+    "length": 20,
+    "header_size": 1,
+    "available_chars": 9,
+    "text": "Unitarism",
+    "translated": "单一制"
+  },
+  "0x001A2B2D": {
+    "offset": 1714989,
+    "length": 22,
+    "header_size": 1,
+    "available_chars": 10,
+    "text": "Federation",
+    "translated": "联邦制"
+  },
+  "0x001A2B43": {
+    "offset": 1715011,
+    "length": 28,
+    "header_size": 1,
+    "available_chars": 13,
+    "text": "Confederation",
+    "translated": "邦联制"
+  },
+  "0x001A2B5F": {
+    "offset": 1715039,
+    "length": 40,
+    "header_size": 1,
+    "available_chars": 19,
+    "text": "Union of\nautonomies",
+    "translated": "自治体\n联盟"
+  },
+  "0x001A2B87": {
+    "offset": 1715079,
+    "length": 58,
+    "header_size": 1,
+    "available_chars": 28,
+    "text": "Fight against\ntraditionalism",
+    "translated": "反对\n传统主义"
+  },
+  "0x001A2BC1": {
+    "offset": 1715137,
+    "length": 38,
+    "header_size": 1,
+    "available_chars": 18,
+    "text": "Support\nof atheism",
+    "translated": "支持\n无神论"
+  },
+  "0x001A2BE7": {
+    "offset": 1715175,
+    "length": 46,
+    "header_size": 1,
+    "available_chars": 22,
+    "text": "Supervision of\nbeliefs",
+    "translated": "监管\n信仰"
+  },
+  "0x001A2C15": {
+    "offset": 1715221,
+    "length": 28,
+    "header_size": 1,
+    "available_chars": 13,
+    "text": "Secular state",
+    "translated": "世俗国家"
+  },
+  "0x001A2C31": {
+    "offset": 1715249,
+    "length": 46,
+    "header_size": 1,
+    "available_chars": 22,
+    "text": "Reliance on\ntraditions",
+    "translated": "依靠\n传统"
+  },
+  "0x001A2C5F": {
+    "offset": 1715295,
+    "length": 20,
+    "header_size": 1,
+    "available_chars": 9,
+    "text": "Concordat",
+    "translated": "政教协定"
+  },
+  "0x001A2C73": {
+    "offset": 1715315,
+    "length": 40,
+    "header_size": 1,
+    "available_chars": 19,
+    "text": "Full\nmilitarization",
+    "translated": "全面\n军事化"
+  },
+  "0x001A2C9B": {
+    "offset": 1715355,
+    "length": 24,
+    "header_size": 1,
+    "available_chars": 11,
+    "text": "Building up",
+    "translated": "扩军备战"
+  },
+  "0x001A2CB3": {
+    "offset": 1715379,
+    "length": 30,
+    "header_size": 1,
+    "available_chars": 14,
+    "text": "Defensive\narmy",
+    "translated": "防御型\n军队"
+  },
+  "0x001A2CD1": {
+    "offset": 1715409,
+    "length": 28,
+    "header_size": 1,
+    "available_chars": 13,
+    "text": "Contract\narmy",
+    "translated": "合同制\n军队"
+  },
+  "0x002C3C53": {
+    "offset": 2899027,
+    "length": 10,
+    "header_size": 1,
+    "available_chars": 4,
+    "text": "HUM.",
+    "translated": "人道"
+  },
+  "0x002C3C5D": {
+    "offset": 2899037,
+    "length": 12,
+    "header_size": 1,
+    "available_chars": 5,
+    "text": "SPEC.",
+    "translated": "专家"
+  },
+  "0x002C3C69": {
+    "offset": 2899049,
+    "length": 12,
+    "header_size": 1,
+    "available_chars": 5,
+    "text": "WEAP.",
+    "translated": "军火"
+  },
+  "0x002C3C75": {
+    "offset": 2899061,
+    "length": 12,
+    "header_size": 1,
+    "available_chars": 5,
+    "text": "DIPL.",
+    "translated": "外交"
   }
 }

@@ -76,6 +76,20 @@ APPROVED_OFFSETS: set[int] = {
     0x1ECAB9,   # '\nDate: '  (avail=7) → 日期：     展示用日期标签
     0x2D41B0,   # ' or in '   (avail=7) → 或者在     展示用连词
     0x355813,   # 'New old'   (avail=7) → 新的旧物   展示用名词短语
+    # ── 外交/学说/战争按钮（动态 TextMesh 文本）──────────────────────────────
+    0x1937C8,   # 'CMEA'    (avail=4) → 经互会    外交按钮
+    0x1937FE,   # 'Support' (avail=7) → 援助      外交按钮
+    0x193820,   # 'Trade'   (avail=5) → 贸易      外交按钮
+    0x19382C,   # 'Union'   (avail=5) → 联合      外交按钮
+    0x19384A,   # 'Unrests' (avail=7) → 动乱      外交按钮
+    0x19385A,   # 'Coup'    (avail=4) → 政变      外交按钮
+    0x193878,   # 'War'     (avail=3) → 战争      外交按钮
+    0x193880,   # 'Weapons' (avail=7) → 军火      外交按钮
+    0x1A2AC5,   # 'Limited' (avail=7) → 有限      学说按钮
+    0x2C3C53,   # 'HUM.'    (avail=4) → 人道      战争按钮
+    0x2C3C5D,   # 'SPEC.'   (avail=5) → 专家      战争按钮
+    0x2C3C69,   # 'WEAP.'   (avail=5) → 军火      战争按钮
+    0x2C3C75,   # 'DIPL.'   (avail=5) → 外交      战争按钮
 }
 
 

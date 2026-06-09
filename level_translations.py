@@ -263,10 +263,32 @@ LEVEL24_PATCHES: list[tuple[str, str]] = [
 ]
 
 # ──────────────────────────────────────────────────────────────────────────────
+# level3: 政策/学说面板 (Doctrines 子面板标题)
+# ──────────────────────────────────────────────────────────────────────────────
+LEVEL3_PATCHES: list[tuple[str, str]] = [
+    ("Type of Economy",          _pad_zh("经济类型", 16)),         # 15B→12B+4spc,  blk=16
+    ("Parties",                  _pad_zh("政党", 8)),              # 7B→6B+2spc,    blk=8
+    ("Civil Rights",             "公民权利"),                       # 12B→12B,       blk=12
+    ("Territorial system",       _pad_zh("行政体制", 20)),         # 18B→12B+8spc,  blk=20
+    ("Traditions and Religions", _pad_zh("传统与宗教", 24)),       # 24B→15B+9spc,  blk=24
+    ("Military power",           _pad_zh("军事力量", 16)),         # 14B→12B+4spc,  blk=16
+    ("Elections",                _pad_zh("选举", 12)),             # 9B→6B+6spc,    blk=12
+    ("Economic alliance",        _pad_zh("经济联盟", 20)),         # 17B→12B+8spc,  blk=20
+    ("Military alliance",        _pad_zh("军事联盟", 20)),         # 17B→12B+8spc,  blk=20
+    ("Family Policy",            _pad_zh("计生政策", 16)),         # 13B→12B+4spc,  blk=16
+    ("One child",                _pad_zh("独生子女", 12)),         # 9B→12B,        blk=12
+    ("Two children",             _pad_zh("二孩", 12)),             # 12B→6B+6spc,   blk=12
+    ("Unlimited",                _pad_zh("不限", 12)),             # 9B→6B+6spc,    blk=12
+    ("Congress shutdown",        _pad_zh("关闭国会", 20)),         # 17B→12B+8spc,  blk=20
+    ("People's coalition",       _pad_zh("人民联盟", 20)),         # 18B→12B+8spc,  blk=20
+]
+
+# ──────────────────────────────────────────────────────────────────────────────
 # 按 level 名索引的映射表
 # ──────────────────────────────────────────────────────────────────────────────
 ALL_LEVEL_PATCHES: dict[str, list[tuple[str, str]]] = {
     "level2":  LEVEL2_PATCHES,
+    "level3":  LEVEL3_PATCHES,
     "level5":  LEVEL5_PATCHES,
     "level11": LEVEL11_PATCHES,
     "level12": LEVEL12_PATCHES,
