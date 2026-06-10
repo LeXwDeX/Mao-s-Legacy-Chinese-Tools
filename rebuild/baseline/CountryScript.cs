@@ -9,6 +9,8 @@ public class CountryScript : MonoBehaviour
 {
 	private static Color[] colors;
 
+	private static bool _cjkWarmedUp = false;
+
 	public GlobalScript global1;
 
 	public int this_number;
@@ -307,7 +309,20 @@ public class CountryScript : MonoBehaviour
 			map1.ShowHideOcno(active: true);
 			try
 			{
-				map1.okno.transform.Find("DiploNameText").GetComponent<TextMeshPro>().text = TimeScript.GetCountryName(GlobalScript.inst, GlobalScript.inst.gameState.allcountries[this_number]);
+				var tmpComp = map1.okno.transform.Find("DiploNameText").GetComponent<TextMeshPro>();
+				if (!_cjkWarmedUp && tmpComp != null && tmpComp.font != null)
+				{
+					tmpComp.font.ClearFontAssetData();
+					try
+					{
+						string warmupPath = Path.Combine(Path.GetDirectoryName(Application.dataPath), "cjk_warmup.txt");
+						string cjkChars = File.ReadAllText(warmupPath);
+						tmpComp.font.TryAddCharacters(cjkChars);
+					}
+					catch (Exception ex2) { Debug.LogWarning("CJK warmup failed: " + ex2.Message); }
+					_cjkWarmedUp = true;
+				}
+				if (tmpComp != null) tmpComp.text = TimeScript.GetCountryName(GlobalScript.inst, GlobalScript.inst.gameState.allcountries[this_number]);
 				map1.okno.transform.Find("占星师（0）").GetComponent<OkoshkoScript>().nonono = false;
 				map1.okno.transform.Find("巫医（1）").GetComponent<OkoshkoScript>().nonono = false;
 				map1.okno.transform.Find("巫医（2）").GetComponent<OkoshkoScript>().nonono = false;
