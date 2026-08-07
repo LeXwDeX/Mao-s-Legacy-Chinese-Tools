@@ -90,6 +90,12 @@ APPROVED_OFFSETS: set[int] = {
     0x2C3C5D,   # 'SPEC.'   (avail=5) → 专家      战争按钮
     0x2C3C69,   # 'WEAP.'   (avail=5) → 军火      战争按钮
     0x2C3C75,   # 'DIPL.'   (avail=5) → 外交      战争按钮
+    # ── 存档/读档难度名与提示（Savescript/LoadInScript/DiffScript 共用）───────
+    0x1941F6,   # 'Sandbox' (avail=7) → 沙盒      难度名
+    0x194226,   # 'Easy'    (avail=4) → 简单      难度名
+    0x194230,   # 'Normal'  (avail=6) → 标准      难度名
+    0x19425E,   # 'Hard'    (avail=4) → 困难      难度名
+    0x2C0ACA,   # 'Saved.'  (avail=6) → 已保存    存档提示
 }
 
 

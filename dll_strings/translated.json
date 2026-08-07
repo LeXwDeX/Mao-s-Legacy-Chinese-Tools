@@ -18350,5 +18350,77 @@
     "available_chars": 5,
     "text": "DIPL.",
     "translated": "外交"
+  },
+  "0x0022AD53": {
+    "offset": 2272595,
+    "length": 27,
+    "header_size": 1,
+    "available_chars": 13,
+    "text": "\nDifficulty: ",
+    "translated": "\n难度："
+  },
+  "0x0022AD6F": {
+    "offset": 2272623,
+    "length": 31,
+    "header_size": 1,
+    "available_chars": 15,
+    "text": "\nAchievements: ",
+    "translated": "\n成就："
+  },
+  "0x0022AD8F": {
+    "offset": 2272655,
+    "length": 57,
+    "header_size": 1,
+    "available_chars": 28,
+    "text": "<color=red>Available</color>",
+    "translated": "<color=red>可用</color>"
+  },
+  "0x0022AE01": {
+    "offset": 2272769,
+    "length": 61,
+    "header_size": 1,
+    "available_chars": 30,
+    "text": "<color=red>Unavailable</color>",
+    "translated": "<color=red>不可用</color>"
+  },
+  "0x001941F6": {
+    "offset": 1655286,
+    "length": 15,
+    "header_size": 1,
+    "available_chars": 7,
+    "text": "Sandbox",
+    "translated": "沙盒"
+  },
+  "0x00194226": {
+    "offset": 1655334,
+    "length": 9,
+    "header_size": 1,
+    "available_chars": 4,
+    "text": "Easy",
+    "translated": "简单"
+  },
+  "0x00194230": {
+    "offset": 1655344,
+    "length": 13,
+    "header_size": 1,
+    "available_chars": 6,
+    "text": "Normal",
+    "translated": "标准"
+  },
+  "0x0019425E": {
+    "offset": 1655390,
+    "length": 9,
+    "header_size": 1,
+    "available_chars": 4,
+    "text": "Hard",
+    "translated": "困难"
+  },
+  "0x002C0ACA": {
+    "offset": 2886346,
+    "length": 13,
+    "header_size": 1,
+    "available_chars": 6,
+    "text": "Saved.",
+    "translated": "已保存"
   }
 }
