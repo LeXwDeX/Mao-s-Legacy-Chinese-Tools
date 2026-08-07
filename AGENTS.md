@@ -5,7 +5,7 @@
 **Chinese localization (汉化) for Mao's Legacy (毛泽东的遗产)** — a Unity historical strategy game.
 - **Game install path**: `C:\Program Files (x86)\Steam\steamapps\common\Mao's Legacy\`
 - **Source data path**: `1.8.5_Resources/Data/` (软链到 `China_Data/`，实际在 `C:\...\Mao's Legacy\China_Data\`)
-- **Output directory**: `1.8.5_output/` (22 patched files)
+- **Output directory**: `1.8.5_output/` (23 patched files)
 - **Game version**: 1.8.5
 - **CJK Font**: LXGW WenKai Mono v1.522 (`fonts/LXGWWenKaiMono-Regular.ttf`, 24.4 MB)
 
@@ -86,7 +86,7 @@ Extracts `*_en` JSON TextAssets from `resources.assets`, translate to `*_zh.json
 
 ## 1.8.5 汉化状态 (截至 2026-06-03 收尾)
 
-### Output 文件清单 (22 个，全部已生成)
+### Output 文件清单 (23 个，全部已生成)
 
 | 文件 | 大小 | 产出脚本 |
 |------|------|----------|
@@ -188,7 +188,7 @@ Extracts `*_en` JSON TextAssets from `resources.assets`, translate to `*_zh.json
 | `dll_strings/` | `original.json` → `translated.json` pipeline artifacts |
 | `text_assets/` | Extracted JSON TextAssets (`*_en`, `*_ru`, `*_zh` variants) |
 | `1.8.5_Resources/Data` | **软链** → `China_Data/` (游戏源数据) |
-| `1.8.5_output/` | All patched output files (22 个) — copy to game dir to deploy |
+| `1.8.5_output/` | All patched output files (23 个) — copy to game dir to deploy |
 | `fonts/` | CJK 字体源 (LXGW WenKai Mono v1.522) |
 | `1.8.5/` | Split `resources.assets` (`.original/` + `.chinese/` for v1 pipeline) |
 | `1.7.9.2/` | Legacy v1 pipeline data (old game version, 1.7.9.2) |

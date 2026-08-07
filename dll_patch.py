@@ -67,6 +67,7 @@ DENY_OFFSETS: set[int] = {
     # ── 其他可疑内部名称 ────────────────────────────────────────────────────
     0x356CC5,   # 'Sprite ['         (avail=8)  — Unity 精灵路径前缀
     0x3557CD,   # 'Start Focus'      (avail=11) — 可能是 Animator.SetTrigger 参数
+    0x2D27FD,   # 'Capture_it SDF'   (avail=14) — Resources.Load 字体资源键
 }
 
 # 经人工确认的短字符串白名单：这些 offset 对应的是展示用文本（非查找键），
